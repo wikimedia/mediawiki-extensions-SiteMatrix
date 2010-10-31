@@ -32,7 +32,7 @@ $specialPageAliases['ca'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'SiteMatrix' => array( 'Liste der Wikimedia-Wikis' ),
+	'SiteMatrix' => array( 'Liste_der_Wikimedia-Wikis' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -112,7 +112,7 @@ $specialPageAliases['hu'] = array(
 
 /** Interlingua (Interlingua) */
 $specialPageAliases['ia'] = array(
-	'SiteMatrix' => array( 'Matrice de sitos', 'Wikis Mediawiki' ),
+	'SiteMatrix' => array( 'Matrice_de_sitos', 'Wikis_Mediawiki' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
@@ -147,7 +147,7 @@ $specialPageAliases['mk'] = array(
 
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
-	'SiteMatrix' => array( 'വിക്കിമീഡിയ വിക്കികൾ' ),
+	'SiteMatrix' => array( 'വിക്കിമീഡിയ_വിക്കികൾ' ),
 );
 
 /** Marathi (मराठी) */
