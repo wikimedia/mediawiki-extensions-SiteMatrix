@@ -78,7 +78,7 @@ class SiteMatrix {
 		uasort( $this->specials, array( __CLASS__, 'sortSpecial' ) );
 
 		if( $hideEmpty ){
-			foreach( $xLanglist as $lang => $unused ){
+			foreach( $xLanglist as $lang ){
 				$empty = true;
 				foreach ( $this->sites as $site ) {
 					if( !empty( $this->matrix[$site][$lang] ) ){
