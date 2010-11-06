@@ -1882,9 +1882,10 @@ $messages['to'] = array(
 
 /** Tok Pisin (Tok Pisin)
  * @author Iketsi
+ * @author Wantok
  */
 $messages['tpi'] = array(
-	'sitematrix-language' => 'Toktok',
+	'sitematrix-language' => 'Tokples',
 );
 
 /** Turkish (Türkçe)
