@@ -155,6 +155,22 @@ $messages['ast'] = array(
 	'sitematrix-fishbowl' => 'edición restrinxida',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'sitematrix' => 'Викимедиа проекттары исемлеге',
+	'sitematrix-summary' => 'Был махсус бит Викимедианың бөтә проекттары исемлеген күрһәтә.',
+	'sitematrix-desc' => '[[Special:SiteMatrix|Викимедианың проекттары исемлеген]] күрһәтә',
+	'sitematrix-language' => 'Тел',
+	'sitematrix-project' => 'Проект исеме, проект-ара һылтанма һәм вики-ара һылтанма',
+	'sitematrix-others' => 'Викимедианың башҡа проекттары',
+	'sitematrix-total' => "'''Барыһы: $1'''",
+	'sitematrix-sitetotal' => 'Барыһы',
+	'sitematrix-private' => 'шәхси',
+	'sitematrix-fishbowl' => 'мөхәррирләү сикләнгән',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
