@@ -1198,7 +1198,7 @@ $messages['ml'] = array(
 	'sitematrix-project' => 'സം‌രംഭത്തിന്റെ പേര്‌, സഹസം‌രംഭങ്ങളിലേക്കുള്ള കണ്ണി, മറ്റ് വിക്കികളിലേക്കുള്ള കണ്ണി',
 	'sitematrix-others' => 'വിക്കിമീഡിയയുടെ മറ്റു സം‌രംഭങ്ങൾ',
 	'sitematrix-total' => "'''മൊത്തം എണ്ണം: $1'''",
-	'sitematrix-sitetotal' => 'മൊത്തം',
+	'sitematrix-sitetotal' => 'ആകെ',
 	'sitematrix-private' => 'സ്വകാര്യം',
 	'sitematrix-fishbowl' => 'തിരുത്തൽ പരിമിതപ്പെടുത്തിയിരിക്കുന്നു',
 );
