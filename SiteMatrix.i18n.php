@@ -1656,10 +1656,14 @@ $messages['sli'] = array(
 );
 
 /** Albanian (Shqip)
+ * @author Mikullovci11
  * @author לערי ריינהארט
  */
 $messages['sq'] = array(
 	'sitematrix' => 'Lista e wiki-ve të Wikimedia-s',
+	'sitematrix-language' => 'Gjuha',
+	'sitematrix-sitetotal' => 'Gjithësej',
+	'sitematrix-private' => 'privat',
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
