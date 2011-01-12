@@ -318,6 +318,14 @@ $messages['cdo'] = array(
 	'sitematrix' => 'Wikimedia wiki gì dăng-dăng',
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'sitematrix' => 'Викимедиа колламашан магIам',
+	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа колламашан магIам]]',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  * @author Li-sung
