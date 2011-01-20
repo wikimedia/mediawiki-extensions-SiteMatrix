@@ -2109,14 +2109,15 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
+ * @author Mark85296341
  */
 $messages['zh-hant'] = array(
 	'sitematrix' => '維基媒體網站清單',
-	'sitematrix-summary' => '本特殊頁面列示所有維基媒體基金會的所有MediaWiki網站。',
+	'sitematrix-summary' => '本特殊頁面列示所有維基媒體基金會的所有 MediaWiki 網站。',
 	'sitematrix-desc' => '顯示[[Special:SiteMatrix|維基媒體所有網站的清單]]',
 	'sitematrix-language' => '語言',
 	'sitematrix-project' => '計劃名稱、跨計劃連結以及跨維基連結',
-	'sitematrix-others' => '維基媒體的其它計劃',
+	'sitematrix-others' => '維基媒體的其他計畫',
 	'sitematrix-total' => "'''合計：$1'''",
 	'sitematrix-sitetotal' => '總數',
 	'sitematrix-private' => '私用',
