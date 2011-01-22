@@ -22,6 +22,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author EugeneZelenko
  * @author Jon Harald Søby
  * @author Meno25
  * @author Sanbec
@@ -32,6 +33,7 @@ $messages['qqq'] = array(
 	'sitematrix-desc' => '{{desc}}',
 	'sitematrix-language' => '{{Identical|Language}}',
 	'sitematrix-sitetotal' => '{{Identical|Total}}',
+	'sitematrix-private' => '{{Identical|Private}}',
 );
 
 /** Afrikaans (Afrikaans)
