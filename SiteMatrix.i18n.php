@@ -157,7 +157,7 @@ $messages['ast'] = array(
 	'sitematrix-fishbowl' => 'edición restrinxida',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -210,7 +210,7 @@ $messages['be'] = array(
 	'sitematrix-others' => 'Іншыя праекты Фонду Вікімедыя',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -1476,6 +1476,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Helder.wiki
  * @author Heldergeovane
  */
 $messages['pt-br'] = array(
@@ -1676,7 +1677,7 @@ $messages['sq'] = array(
 	'sitematrix-private' => 'privat',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Millosh
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -1695,7 +1696,7 @@ $messages['sr-ec'] = array(
 	'sitematrix-fishbowl' => 'забрана мењања',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  * @author לערי ריינהארט
