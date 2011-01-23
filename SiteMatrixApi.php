@@ -89,13 +89,11 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 	}
 
 	protected function getAllowedParams() {
-		return array (
-		);
+		return array ();
 	}
 
 	protected function getParamDescription() {
-		return array (
-		);
+		return array ();
 	}
 
 	protected function getDescription() {
