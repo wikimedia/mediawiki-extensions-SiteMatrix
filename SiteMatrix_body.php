@@ -21,7 +21,7 @@ class SiteMatrix {
 		$wgConf->loadFullData();
 
 		if( file_exists( $wgSiteMatrixFile ) ){
-			$this->langlist = array_map( 'trim', file( $wgSiteMatrixFile ) );
+			$this->langlist = $this->extractFile( $wgSiteMatrixFile );
 			$hideEmpty = false;
 		} else {
 			$this->langlist = array_keys( Language::getLanguageNames( false ) );
@@ -145,6 +145,8 @@ class SiteMatrix {
 		$dbname = $minor . $major;
 
 		if ( $wgSiteMatrixClosedSites === null ) {
+			// Fallback to old behavior checking read-only settings;
+			// not very reliable.
 			global $wgConf;
 
 			if( $wgConf->get( 'wgReadOnly', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) ) )
@@ -153,15 +155,11 @@ class SiteMatrix {
 			if( $readOnlyFile && file_exists( $readOnlyFile ) )
 				return true;
 			return false;
-		} elseif ( $this->closed == null ) {
-			$this->closed = array();
-			if ( is_string( $wgSiteMatrixClosedSites ) ) {
-				$this->closed = array_map( 'trim', file( $wgSiteMatrixClosedSites ) );
-			} elseif ( is_array( $wgSiteMatrixClosedSites ) ) {
-				$this->closed = $wgSiteMatrixClosedSites;
-			}
 		}
 
+		if( $this->closed == null ) {
+			$this->closed = $this->extractDbList( $wgSiteMatrixClosedSites );
+		}
 		return in_array( $dbname, $this->closed );
 	}
 
@@ -169,12 +167,7 @@ class SiteMatrix {
 		global $wgSiteMatrixPrivateSites;
 
 		if ( $this->private == null ) {
-			$this->private = array();
-			if ( is_string( $wgSiteMatrixPrivateSites ) ) {
-				$this->private = array_map( 'trim', file( $wgSiteMatrixPrivateSites ) );
-			} elseif ( is_array( $wgSiteMatrixPrivateSites ) ) {
-				$this->private = $wgSiteMatrixPrivateSites;
-			}
+			$this->private = $this->extractDbList( $wgSiteMatrixPrivateSites );
 		}
 
 		return in_array( $dbname, $this->private );
@@ -184,15 +177,37 @@ class SiteMatrix {
 		global $wgSiteMatrixFishbowlSites;
 
 		if ( $this->fishbowl == null ) {
-			$this->fishbowl = array();
-			if ( is_string( $wgSiteMatrixFishbowlSites ) ) {
-				$this->fishbowl = array_map( 'trim', file( $wgSiteMatrixFishbowlSites ) );
-			} elseif ( is_array( $wgSiteMatrixFishbowlSites ) ) {
-				$this->fishbowl = $wgSiteMatrixFishbowlSites;
-			}
+			$this->fishbowl = $this->extractDbList( $wgSiteMatrixFishbowlSites );
 		}
 
 		return in_array( $dbname, $this->fishbowl );
+	}
+
+	/**
+	 * Pull a list of dbnames from a given text file, or pass through an array.
+	 * Used for the DB list configuration settings.
+	 *
+	 * @param mixed $listOrFilename array of strings, or string with a filename
+	 * @return array
+	 */
+	private function extractDbList( $listOrFilename ) {
+		if ( is_string( $listOrFilename ) ) {
+			return $this->extractFile( $listOrFilename );
+		} elseif ( is_array( $listOrFilename ) ) {
+			return $listOrFilename;
+		} else {
+			return array();
+		}
+	}
+
+	/**
+	 * Pull a list of dbnames from a given text file.
+	 *
+	 * @param string $filename
+	 * @return array
+	 */
+	private function extractFile( $filename ) {
+		return array_map( 'trim', file( $filename ) );
 	}
 }
 
