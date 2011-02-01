@@ -1185,10 +1185,10 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'sitematrix' => 'Список на вики-проектите на Викимедија',
-	'sitematrix-summary' => 'Оваа специјална страница е список на сите вики-проекти на Викимедија.',
+	'sitematrix-summary' => 'На оваа специјална страница се наведени сите вики-проекти на Викимедија.',
 	'sitematrix-desc' => 'Прикажува [[Special:SiteMatrix|список на вики-проектите на Викимедија]]',
 	'sitematrix-language' => 'Јазик',
-	'sitematrix-project' => 'Име на проектот, меѓупроектна врска и инервики',
+	'sitematrix-project' => 'Име на проектот, меѓупроектна врска и интервики',
 	'sitematrix-others' => 'Други проекти на Викимедија',
 	'sitematrix-total' => "'''Севкупно: $1'''",
 	'sitematrix-sitetotal' => 'Вкупно',
