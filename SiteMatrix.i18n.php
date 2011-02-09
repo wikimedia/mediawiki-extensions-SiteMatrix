@@ -1416,10 +1416,10 @@ $messages['pl'] = array(
 	'sitematrix-summary' => 'Ta strona specjalna zawiera spis wszystkich wiki Wikimedia.',
 	'sitematrix-desc' => 'Pokazuje [[Special:SiteMatrix|spis wiki Fundacji Wikimedia]]',
 	'sitematrix-language' => 'Język',
-	'sitematrix-project' => 'Nazwa projektu, link do projektu i link interwiki',
+	'sitematrix-project' => 'Nazwa projektu, link do projektu oraz link interwiki',
 	'sitematrix-others' => 'Inne projekty Wikimedia',
 	'sitematrix-total' => "'''Ogólna liczba: $1'''",
-	'sitematrix-sitetotal' => 'Suma',
+	'sitematrix-sitetotal' => 'Łącznie',
 	'sitematrix-private' => 'poufny',
 	'sitematrix-fishbowl' => 'edycja ograniczona',
 );
