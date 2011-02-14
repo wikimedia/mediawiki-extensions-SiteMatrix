@@ -1668,13 +1668,20 @@ $messages['sli'] = array(
 
 /** Albanian (Shqip)
  * @author Mikullovci11
+ * @author Olsi
  * @author לערי ריינהארט
  */
 $messages['sq'] = array(
 	'sitematrix' => 'Lista e wiki-ve të Wikimedia-s',
+	'sitematrix-summary' => 'Kjo faqe speciale liston të gjithë wiki-t e Wikimedia-s.',
+	'sitematrix-desc' => 'Shfaq një [[Special:SiteMatrix|listë të wiki-ve të Wikimedia-s]]',
 	'sitematrix-language' => 'Gjuha',
+	'sitematrix-project' => 'Emri i projektit, lidhja e ndërprojektit dhe lidhja ndërwiki',
+	'sitematrix-others' => 'Projekte të tjera të Wikimedia-s',
+	'sitematrix-total' => "'''Numri total: $1'''",
 	'sitematrix-sitetotal' => 'Gjithësej',
 	'sitematrix-private' => 'privat',
+	'sitematrix-fishbowl' => 'redaktimi i kufizua',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
