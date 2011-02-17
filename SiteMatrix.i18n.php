@@ -1074,6 +1074,13 @@ $messages['ksh'] = array(
 	'sitematrix-fishbowl' => '(et Ändere is beschrängk)',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'sitematrix-sitetotal' => 'Hemû',
+);
+
 /** Latin (Latina)
  * @author SPQRobin
  * @author UV
