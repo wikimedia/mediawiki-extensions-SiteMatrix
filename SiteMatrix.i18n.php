@@ -1280,10 +1280,11 @@ $messages['myv'] = array(
 
 /** Nahuatl (Nāhuatl)
  * @author Fluence
+ * @author Teòtlalili
  */
 $messages['nah'] = array(
 	'sitematrix' => 'Mochīntīn Huiquimedia huiqui',
-	'sitematrix-language' => 'Tlahtōlli',
+	'sitematrix-language' => 'Tlâtòlli',
 	'sitematrix-sitetotal' => 'Mochīntīn',
 	'sitematrix-private' => 'ichtac',
 );
