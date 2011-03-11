@@ -1961,6 +1961,13 @@ $messages['ts'] = array(
 	'sitematrix-language' => 'Ririmi',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
+ */
+$messages['tt-cyrl'] = array(
+	'sitematrix' => 'Викимедиа проектларының исемлеге',
+);
+
 /** ئۇيغۇرچە (ئۇيغۇرچە)
  * @author Alfredie
  */
