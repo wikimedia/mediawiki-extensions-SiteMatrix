@@ -73,3 +73,4 @@ $wgSpecialPageGroups['SiteMatrix'] = 'wiki';
 $wgAutoloadClasses['ApiQuerySiteMatrix'] = $dir . 'SiteMatrixApi.php';
 $wgAPIModules['sitematrix'] = 'ApiQuerySiteMatrix';
 
+$wgHooks['APIQuerySiteInfoGeneralInfo'][] = 'SiteMatrix::APIQuerySiteInfoGeneralInfo';

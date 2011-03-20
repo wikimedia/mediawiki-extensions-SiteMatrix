@@ -149,7 +149,7 @@ class SiteMatrix {
 		return !empty( $this->matrix[$major][$minor] );
 	}
 
-		/**
+	/**
 	 * @param string $minor Language
 	 * @param string $major Site
 	 * @return bool
@@ -239,6 +239,45 @@ class SiteMatrix {
 	 */
 	private function extractFile( $filename ) {
 		return array_map( 'trim', file( $filename ) );
+	}
+
+	/**
+	 * Handler method for the APISiteInfoGeneralInfo hook
+	 *
+	 * @static
+	 * @param ApiQuerySiteinfo $module
+	 * @param array $results
+	 * @return void
+	 */
+	public static function APIQuerySiteInfoGeneralInfo( $module, $results ) {
+		global $wgDBname, $wgLanguageCode;
+
+		$matrix = new SiteMatrix();
+
+		$db = $wgDBname;
+		$lang = $wgLanguageCode;
+		if ( strpos( $wgDBname, $wgLanguageCode ) == 0 ) {
+			$db = str_replace( $wgLanguageCode, '', $wgDBname );
+			$lang = '';
+		}
+
+		if ( $matrix->isClosed( $lang, $db ) )  {
+			$results['closed'] = '';
+		}
+
+		if ( $matrix->isSpecial( $wgDBname ) )  {
+			$results['special'] = '';
+		}
+
+		if ( $matrix->isPrivate( $wgDBname ) )  {
+			$results['private'] = '';
+		}
+
+		if ( $matrix->isFishbowl( $wgDBname ) )  {
+			$results['fishbowl'] = '';
+		}
+
+		return true;
 	}
 }
 
