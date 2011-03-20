@@ -249,7 +249,7 @@ class SiteMatrix {
 	 * @param array $results
 	 * @return void
 	 */
-	public static function APIQuerySiteInfoGeneralInfo( $module, $results ) {
+	public static function APIQuerySiteInfoGeneralInfo( &$module, &$results ) {
 		global $wgDBname, $wgConf;
 
 		$matrix = new SiteMatrix();
