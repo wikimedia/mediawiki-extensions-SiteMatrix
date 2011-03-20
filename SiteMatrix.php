@@ -65,6 +65,7 @@ $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['SiteMatrix'] = $dir . 'SiteMatrix.i18n.php';
 $wgExtensionAliasesFiles['SiteMatrix'] = $dir . 'SiteMatrix.alias.php';
 
+$wgAutoloadClasses['SiteMatrix'] = $dir . 'SiteMatrix_body.php';
 $wgAutoloadClasses['SiteMatrixPage'] = $dir . 'SiteMatrix_body.php';
 $wgSpecialPages['SiteMatrix'] = 'SiteMatrixPage';
 $wgSpecialPageGroups['SiteMatrix'] = 'wiki';
