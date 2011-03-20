@@ -127,6 +127,11 @@ class SiteMatrix {
 		return 'http://' . $this->hosts[$site] . '/';
 	}
 
+	/**
+	 * @param string $minor Language
+	 * @param string $major Site
+	 * @return Mixed
+	 */
 	public function getUrl( $minor, $major ){
 		global $wgConf;
 		$dbname = $minor . $major;
@@ -135,10 +140,20 @@ class SiteMatrix {
 			array( 'lang' => $minor, 'site' => $major ) );
 	}
 
+	/**
+	 * @param string $minor Language
+	 * @param string $major Site
+	 * @return bool
+	 */
 	public function exist( $minor, $major ){
 		return !empty( $this->matrix[$major][$minor] );
 	}
 
+		/**
+	 * @param string $minor Language
+	 * @param string $major Site
+	 * @return bool
+	 */
 	public function isClosed( $minor, $major ) {
 		global $wgSiteMatrixClosedSites;
 
@@ -163,6 +178,10 @@ class SiteMatrix {
 		return in_array( $dbname, $this->closed );
 	}
 
+	/**
+	 * @param string $dbname DatabaseName
+	 * @return bool
+	 */
 	public function isPrivate( $dbname ) {
 		global $wgSiteMatrixPrivateSites;
 
@@ -173,6 +192,10 @@ class SiteMatrix {
 		return in_array( $dbname, $this->private );
 	}
 
+	/**
+	 * @param string $dbname DatabaseName
+	 * @return bool
+	 */
 	public function isFishbowl( $dbname ) {
 		global $wgSiteMatrixFishbowlSites;
 
