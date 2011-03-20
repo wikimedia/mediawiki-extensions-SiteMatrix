@@ -250,19 +250,13 @@ class SiteMatrix {
 	 * @return void
 	 */
 	public static function APIQuerySiteInfoGeneralInfo( $module, $results ) {
-		global $wgDBname, $wgLanguageCode;
+		global $wgDBname, $wgConf;
 
 		$matrix = new SiteMatrix();
 
-		$db = $wgDBname;
-		$lang = '';
-		//Strip language from DB name, if existent it should be at the start
-		if ( strpos( $wgDBname, $wgLanguageCode ) === 0 ) {
-			$db = str_replace( $wgLanguageCode, '', $wgDBname );
-			$lang = $wgLanguageCode;
-		}
+		list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );
 
-		if ( $matrix->isClosed( $lang, $db ) )  {
+		if ( $matrix->isClosed( $lang, $site ) )  {
 			$results['closed'] = '';
 		}
 
