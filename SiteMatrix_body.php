@@ -255,10 +255,11 @@ class SiteMatrix {
 		$matrix = new SiteMatrix();
 
 		$db = $wgDBname;
-		$lang = $wgLanguageCode;
-		if ( strpos( $wgDBname, $wgLanguageCode ) == 0 ) {
+		$lang = '';
+		//Strip language from DB name, if existent it should be at the start
+		if ( strpos( $wgDBname, $wgLanguageCode ) === 0 ) {
 			$db = str_replace( $wgLanguageCode, '', $wgDBname );
-			$lang = '';
+			$lang = $wgLanguageCode;
 		}
 
 		if ( $matrix->isClosed( $lang, $db ) )  {
