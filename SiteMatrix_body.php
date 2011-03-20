@@ -207,6 +207,14 @@ class SiteMatrix {
 	}
 
 	/**
+	 * @param string $dbname DatabaseName
+	 * @return bool
+	 */
+	public function isSpecial( $dbname ) {
+		return in_array( $dbname, $this->specials );
+	}
+
+	/**
 	 * Pull a list of dbnames from a given text file, or pass through an array.
 	 * Used for the DB list configuration settings.
 	 *
