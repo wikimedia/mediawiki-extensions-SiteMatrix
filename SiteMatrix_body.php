@@ -342,11 +342,10 @@ class SiteMatrixPage extends SpecialPage {
 		# Header row
 		$s = Xml::openElement( 'table', array( 'class' => 'wikitable', 'id' => 'mw-sitematrix-table' ) ) .
 			"<tr>" .
-				Xml::element( 'th', null, wfMsg( 'sitematrix-language' ) ) .
+				Xml::element( 'th', array( 'rowspan' => 2 ), wfMsg( 'sitematrix-language' ) ) .
 				Xml::element( 'th', array( 'colspan' => count( $matrix->getSites() ) ), wfMsg( 'sitematrix-project' ) ) .
 			"</tr>
-			<tr>
-				<th>&#160;</th>";
+			<tr>";
 				foreach ( $matrix->getNames() as $id => $name ) {
 					$url = $matrix->getSiteUrl( $id );
 					$s .= Xml::tags( 'th', null, "<a href=\"{$url}\">{$name}</a>" );
@@ -378,11 +377,11 @@ class SiteMatrixPage extends SpecialPage {
 		}
 
 		# Total
-		$s .= '<tr style="font-weight: bold"><td><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</td>';
+		$s .= '<tr style="font-weight: bold"><th><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
 		foreach( $matrix->getNames() as $site => $name ) {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
-			$s .= "<td><a href=\"{$url}\">{$count}</a></td>";
+			$s .= "<th><a href=\"{$url}\">{$count}</a></th>";
 		}
 		$s .= '</tr>';
 		$s .= Xml::closeElement( 'table' ) . "\n";
