@@ -346,10 +346,10 @@ class SiteMatrixPage extends SpecialPage {
 				Xml::element( 'th', array( 'colspan' => count( $matrix->getSites() ) ), wfMsg( 'sitematrix-project' ) ) .
 			"</tr>
 			<tr>";
-				foreach ( $matrix->getNames() as $id => $name ) {
-					$url = $matrix->getSiteUrl( $id );
-					$s .= Xml::tags( 'th', null, "<a href=\"{$url}\">{$name}</a>" );
- 				}
+		foreach ( $matrix->getNames() as $id => $name ) {
+			$url = $matrix->getSiteUrl( $id );
+			$s .= Xml::tags( 'th', null, "<a href=\"{$url}\">{$name}</a>" );
+		}
 		$s .= "</tr>\n";
 
 		# Bulk of table
@@ -361,7 +361,7 @@ class SiteMatrixPage extends SpecialPage {
 				$attribs['title'] = $localLanguageNames[$lang];
 			}
 			$s .= '<td>' . $anchor . Xml::element( 'strong', $attribs, $wgLanguageNames[$lang] ) . '</td>';
-			$langhost = str_replace( '_', '-', $lang );
+
 			foreach ( $matrix->getNames() as $site => $name ) {
 				$url = $matrix->getUrl( $lang, $site );
 				if ( $matrix->exist( $lang, $site ) ) {
@@ -388,7 +388,12 @@ class SiteMatrixPage extends SpecialPage {
 
 		# Specials
 		$s .= '<h2 id="mw-sitematrix-others">' . wfMsg( 'sitematrix-others' ) . '</h2>';
-		$s .= '<ul>';
+
+		$s .= Xml::openElement( 'table', array( 'class' => 'wikitable', 'id' => 'mw-sitematrix-other-table' ) ) .
+			"<tr>" .
+				Xml::element( 'th', null, wfMsg( 'sitematrix-other-projects' ) ) .
+			"</tr>";
+
 		foreach ( $matrix->getSpecials() as $special ) {
 			list( $lang, $site ) = $special;
 			$langhost = str_replace( '_', '-', $lang );
@@ -396,18 +401,24 @@ class SiteMatrixPage extends SpecialPage {
 
 			# Handle options
 			$flags = array();
-			if( $matrix->isPrivate( $lang . $site ) )
+			if( $matrix->isPrivate( $lang . $site ) ) {
 				$flags[] = wfMsgHtml( 'sitematrix-private' );
-			if( $matrix->isFishbowl( $lang . $site ) )
+			}
+			if( $matrix->isFishbowl( $lang . $site ) ) {
 				$flags[] = wfMsgHtml( 'sitematrix-fishbowl' );
+			}
 			$flagsStr = implode( ', ', $flags );
-			if( $site != 'wiki' ) $langhost .= $site;
+			if( $site != 'wiki' ) {
+				$langhost .= $site;
+			}
 			$closed = $matrix->isClosed( $lang, $site );
-			$s .= '<li>' . ( $closed ? '<del>' : '' ) .
+			$s .= '<tr><td>' . ( $closed ? '<del>' : '' ) .
 				wfSpecialList( '<a href="' . $url . '/">' . $langhost . "</a>", $flagsStr ) .
-				( $closed ? '</del>' : '' ) . "</li>\n";
+				( $closed ? '</del>' : '' ) . "</td></tr>\n";
 		}
-		$s .= '</ul>';
+
+		$s .= Xml::closeElement( 'table' ) . "\n";
+
 		$wgOut->addHTML( $s );
 		$wgOut->addWikiMsg( 'sitematrix-total', $matrix->getCount() );
 	}

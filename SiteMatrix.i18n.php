@@ -15,6 +15,7 @@ $messages['en'] = array(
 	'sitematrix-language'  => 'Language',
 	'sitematrix-project'   => 'Name of project, interproject link and interwiki link',
 	'sitematrix-others'    => 'Other projects of Wikimedia',
+	'sitematrix-other-projects' => 'Other projects',
 	'sitematrix-total'     => "'''Total count: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private'   => 'private',
