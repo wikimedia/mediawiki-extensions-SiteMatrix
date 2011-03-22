@@ -97,7 +97,18 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 	}
 
 	protected function getDescription() {
-		return 'Get Wikimedia sites list';
+		return array(
+			'Get Wikimedia sites list',
+			'The code is either the unique identifier for specials else, for languages, the project code',
+			'',
+			'Wiki types:',
+			' special  - One off, and multilingual Wikimedia projects',
+			' language - Wikimedia projects under this language code',
+			'Wiki states:',
+			' closed   - No write access, full read access',
+			' private  - Read and write restricted',
+			' fishbowl - Restricted write access, full read access',
+			);
 	}
 
 	protected function getExamples() {
