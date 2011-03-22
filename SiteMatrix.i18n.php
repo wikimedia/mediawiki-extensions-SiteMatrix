@@ -290,6 +290,7 @@ $messages['bs'] = array(
 	'sitematrix-language' => 'Jezik',
 	'sitematrix-project' => 'Naziv projekta, link ka međuprojektu i međuwiki link',
 	'sitematrix-others' => 'Ostali projekti Wikimedije',
+	'sitematrix-other-projects' => 'Drugi projekti',
 	'sitematrix-total' => "'''Ukupni zbir: $1'''",
 	'sitematrix-sitetotal' => 'Ukupno',
 	'sitematrix-private' => 'privatno',
@@ -333,6 +334,7 @@ $messages['ce'] = array(
  * @author Danny B.
  * @author Li-sung
  * @author Matěj Grabovský
+ * @author Mormegil
  * @author לערי ריינהארט
  */
 $messages['cs'] = array(
@@ -342,6 +344,7 @@ $messages['cs'] = array(
 	'sitematrix-language' => 'Jazyk',
 	'sitematrix-project' => 'Jméno projektu, meziprojektový odkaz a mezijazykový odkaz',
 	'sitematrix-others' => 'Ostatní projekty nadace Wikimedia',
+	'sitematrix-other-projects' => 'Ostatní projekty',
 	'sitematrix-total' => "'''Celkový počet: $1'''",
 	'sitematrix-sitetotal' => 'Celkem',
 	'sitematrix-private' => 'privátní',
@@ -391,16 +394,18 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Raimond Spekking
  * @author לערי ריינהארט
  */
 $messages['de'] = array(
 	'sitematrix' => 'Liste der Wikimedia-Wikis',
-	'sitematrix-summary' => 'Diese Spezialseite zeigt alle Wikis der Wikimedia Foundation.',
-	'sitematrix-desc' => 'Zeigt eine [[Special:SiteMatrix|Liste der Wikimedia-Wikis]]',
+	'sitematrix-summary' => 'Diese Spezialseite listet alle Wikis der Wikimedia Foundation auf.',
+	'sitematrix-desc' => 'Stellt eine Spezialseite mit einer [[Special:SiteMatrix|Liste der Wikimedia-Wikis]] bereit',
 	'sitematrix-language' => 'Sprache',
-	'sitematrix-project' => 'Projektname, Interprojekt-Link und Interwiki-Link',
+	'sitematrix-project' => 'Projektname, Interprojektlink und Interwikilink',
 	'sitematrix-others' => 'Weitere Wikimedia-Projekte',
+	'sitematrix-other-projects' => 'Weitere Projekte',
 	'sitematrix-total' => "'''Gesamtanzahl: $1'''",
 	'sitematrix-sitetotal' => 'Gesamt',
 	'sitematrix-private' => 'Privat',
@@ -1215,6 +1220,7 @@ $messages['ml'] = array(
 	'sitematrix-language' => 'ഭാഷ',
 	'sitematrix-project' => 'സം‌രംഭത്തിന്റെ പേര്‌, സഹസം‌രംഭങ്ങളിലേക്കുള്ള കണ്ണി, മറ്റ് വിക്കികളിലേക്കുള്ള കണ്ണി',
 	'sitematrix-others' => 'വിക്കിമീഡിയയുടെ മറ്റു സം‌രംഭങ്ങൾ',
+	'sitematrix-other-projects' => 'ഇതരപദ്ധതികൾ',
 	'sitematrix-total' => "'''മൊത്തം എണ്ണം: $1'''",
 	'sitematrix-sitetotal' => 'ആകെ',
 	'sitematrix-private' => 'സ്വകാര്യം',
@@ -1427,6 +1433,7 @@ $messages['pl'] = array(
 	'sitematrix-language' => 'Język',
 	'sitematrix-project' => 'Nazwa projektu, link do projektu oraz link interwiki',
 	'sitematrix-others' => 'Inne projekty Wikimedia',
+	'sitematrix-other-projects' => 'Inne projekty',
 	'sitematrix-total' => "'''Ogólna liczba: $1'''",
 	'sitematrix-sitetotal' => 'Łącznie',
 	'sitematrix-private' => 'poufny',
@@ -1445,6 +1452,7 @@ $messages['pms'] = array(
 	'sitematrix-language' => 'Lenga',
 	'sitematrix-project' => 'Nòm dël proget, anliura antra proget e anliura antrawiki',
 	'sitematrix-others' => 'Àutri proget ëd Wikimedia',
+	'sitematrix-other-projects' => 'Àutri proget',
 	'sitematrix-total' => "'''Total count: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privà',
@@ -1661,6 +1669,7 @@ $messages['sl'] = array(
 	'sitematrix-language' => 'Jezik',
 	'sitematrix-project' => 'Ime projekta, medprojektna povezava in povezava interwiki',
 	'sitematrix-others' => 'Drugi projekti Wikimedije',
+	'sitematrix-other-projects' => 'Drugi projekti',
 	'sitematrix-total' => "'''Skupno število: $1'''",
 	'sitematrix-sitetotal' => 'Skupaj',
 	'sitematrix-private' => 'zasebno',
