@@ -330,6 +330,21 @@ $messages['ce'] = array(
 	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа колламашан магIам]]',
 );
 
+/** Sorani (کوردی)
+ * @author Asoxor
+ */
+$messages['ckb'] = array(
+	'sitematrix' => 'لیستی ویکییەکانی ویکیمیدیا',
+	'sitematrix-summary' => 'ئەم پەڕە تایبەتە گشت ویکییەکانی ویکیمیدیای بە ڕیزکردووە.',
+	'sitematrix-desc' => '[[Special:SiteMatrix|لیستێکی ویکییەکانی ویکیمیدیا]] نیشان دەدات',
+	'sitematrix-language' => 'زمان',
+	'sitematrix-project' => 'ناوی پرۆژە، بەستەرکانی نێوانپرۆژە و بەستەرەکانی نێوانویکی',
+	'sitematrix-others' => 'پرۆژەکانی دیکەی ویکیمیدیا',
+	'sitematrix-other-projects' => 'پرۆژەکانی تر',
+	'sitematrix-total' => "'''ژمارەی سەرجەم: $1'''",
+	'sitematrix-sitetotal' => 'سەرجەم',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  * @author Li-sung
@@ -662,6 +677,7 @@ $messages['gl'] = array(
 	'sitematrix-language' => 'Lingua',
 	'sitematrix-project' => 'Nome do proxecto, ligazón entre proxectos e ligazón entre wikis',
 	'sitematrix-others' => 'Outros proxectos da Wikimedia',
+	'sitematrix-other-projects' => 'Outros proxectos',
 	'sitematrix-total' => "'''Suma total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privado',
@@ -795,6 +811,7 @@ $messages['hsb'] = array(
 	'sitematrix-language' => 'Rěč',
 	'sitematrix-project' => 'Projektowe mjeno, mjezyprojektowy wotkaz a mjezyrěčny wotkaz',
 	'sitematrix-others' => 'Dalše projekty we Wikimediji',
+	'sitematrix-other-projects' => 'Druhe projekty',
 	'sitematrix-total' => "'''Cyłkowna ličba: $1'''",
 	'sitematrix-sitetotal' => 'Dohromady',
 	'sitematrix-private' => 'priwatny',
@@ -838,6 +855,7 @@ $messages['ia'] = array(
 	'sitematrix-language' => 'Lingua',
 	'sitematrix-project' => 'Nomine del projecto, ligamine interprojecto e ligamine interwiki',
 	'sitematrix-others' => 'Altere projectos de Wikimedia',
+	'sitematrix-other-projects' => 'Altere projectos',
 	'sitematrix-total' => "'''Total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'private',
@@ -1074,6 +1092,7 @@ $messages['ksh'] = array(
 	'sitematrix-language' => 'Sproch',
 	'sitematrix-project' => 'Dem Projek singe Name, dä Lengk zwesche de Projekte, un dä Engerwiki Lengk',
 	'sitematrix-others' => 'Noch mieh Projekte vun de Wikimedia-Steftung',
+	'sitematrix-other-projects' => 'Ander Projäkter',
 	'sitematrix-total' => "Zosamme jezallt: '''$1'''",
 	'sitematrix-sitetotal' => 'Zosamme',
 	'sitematrix-private' => '(nit öffentlesch)',
@@ -1113,6 +1132,7 @@ $messages['lb'] = array(
 	'sitematrix-language' => 'Sprooch',
 	'sitematrix-project' => 'Numm vum Projet, Interprojet-Link an Interwiki-Link',
 	'sitematrix-others' => 'Aner Wikimedia-Projeten',
+	'sitematrix-other-projects' => 'Aner Projeten',
 	'sitematrix-total' => "'''Total vum Kont: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privat',
@@ -1203,6 +1223,7 @@ $messages['mk'] = array(
 	'sitematrix-language' => 'Јазик',
 	'sitematrix-project' => 'Име на проектот, меѓупроектна врска и интервики',
 	'sitematrix-others' => 'Други проекти на Викимедија',
+	'sitematrix-other-projects' => 'Други проекти',
 	'sitematrix-total' => "'''Севкупно: $1'''",
 	'sitematrix-sitetotal' => 'Вкупно',
 	'sitematrix-private' => 'приватен',
@@ -1340,6 +1361,7 @@ $messages['nl'] = array(
 	'sitematrix-language' => 'Taal',
 	'sitematrix-project' => 'Naam van het project, interprojectverwijzing en interwikiverwijzing',
 	'sitematrix-others' => 'Andere projecten van Wikimedia',
+	'sitematrix-other-projects' => 'Andere projecten',
 	'sitematrix-total' => "'''Totaal aantal: $1'''",
 	'sitematrix-sitetotal' => 'Totaal',
 	'sitematrix-private' => 'beperkte toegang',
@@ -1571,6 +1593,7 @@ $messages['ru'] = array(
 	'sitematrix-language' => 'Язык',
 	'sitematrix-project' => 'Имя проекта, межпроектная ссылка и интервики',
 	'sitematrix-others' => 'Другие проекты «Фонда Викимедиа»',
+	'sitematrix-other-projects' => 'Другие проекты',
 	'sitematrix-total' => "'''Общее количество: $1'''",
 	'sitematrix-sitetotal' => 'Всего',
 	'sitematrix-private' => 'частный',
@@ -1925,6 +1948,7 @@ $messages['tl'] = array(
 	'sitematrix-language' => 'Wika',
 	'sitematrix-project' => "Pangalan ng proyekto, kawing sa kaugnay na proyekto (inter-proyekto) at kawing sa kaugnay na wiki (''interwiki'')",
 	'sitematrix-others' => 'Iba pang mga proyekto ng Wikimedia',
+	'sitematrix-other-projects' => 'Iba pang mga proyekto',
 	'sitematrix-total' => "'''Kabuoang bilang: $1'''",
 	'sitematrix-sitetotal' => 'Kabuoan',
 	'sitematrix-private' => 'pribado (pansarili)',
@@ -2052,6 +2076,7 @@ $messages['vi'] = array(
 	'sitematrix-language' => 'Ngôn ngữ',
 	'sitematrix-project' => 'Tên dự án, tiền tố trong liên kết, và liên kết liên wiki',
 	'sitematrix-others' => 'Các dự án khác của Wikimedia',
+	'sitematrix-other-projects' => 'Các dự án khác',
 	'sitematrix-total' => "'''Tổng cộng: $1'''",
 	'sitematrix-sitetotal' => 'Tổng cộng',
 	'sitematrix-private' => 'riêng tư',
