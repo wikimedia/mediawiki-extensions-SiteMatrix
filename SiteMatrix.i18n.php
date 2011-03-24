@@ -750,6 +750,7 @@ $messages['haw'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotem Liss
  */
 $messages['he'] = array(
@@ -759,6 +760,7 @@ $messages['he'] = array(
 	'sitematrix-language' => 'שפה',
 	'sitematrix-project' => 'שם המיזם וקישורי הבינוויקי',
 	'sitematrix-others' => 'מיזמים אחרים של ויקימדיה',
+	'sitematrix-other-projects' => 'מיזמים אחרים',
 	'sitematrix-total' => "'''מספר האתרים: $1'''",
 	'sitematrix-sitetotal' => 'סך הכל',
 	'sitematrix-private' => 'פרטי',
@@ -909,6 +911,7 @@ $messages['is'] = array(
 
 /** Italian (Italiano)
  * @author .anaconda
+ * @author Beta16
  * @author BrokenArrow
  * @author Nemo bis
  * @author Pietrodn
@@ -922,6 +925,7 @@ $messages['it'] = array(
 	'sitematrix-language' => 'Lingua',
 	'sitematrix-project' => 'Nome del progetto, collegamento interprogetto e collegamento inter-wiki',
 	'sitematrix-others' => 'Altri progetti Wikimedia',
+	'sitematrix-other-projects' => 'Altri progetti',
 	'sitematrix-total' => "'''Conteggio totale: $1'''",
 	'sitematrix-sitetotal' => 'Totale',
 	'sitematrix-private' => 'privata',
@@ -933,6 +937,7 @@ $messages['it'] = array(
  * @author Fryed-peach
  * @author JtFuruhata
  * @author Muttley
+ * @author Ohgi
  * @author לערי ריינהארט
  */
 $messages['ja'] = array(
@@ -942,6 +947,7 @@ $messages['ja'] = array(
 	'sitematrix-language' => '言語',
 	'sitematrix-project' => 'プロジェクト名、プロジェクト間リンク、ウィキ間リンク',
 	'sitematrix-others' => 'ウィキメディアの他のプロジェクト',
+	'sitematrix-other-projects' => '他のプロジェクト',
 	'sitematrix-total' => "'''総計: $1'''",
 	'sitematrix-sitetotal' => '合計',
 	'sitematrix-private' => '非公開',
@@ -1507,6 +1513,7 @@ $messages['pt'] = array(
 	'sitematrix-language' => 'Língua',
 	'sitematrix-project' => 'Nome do projecto, link interprojectos e link interwikis',
 	'sitematrix-others' => 'Outros projectos da Wikimedia',
+	'sitematrix-other-projects' => 'Outros projectos',
 	'sitematrix-total' => "'''Contagem total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privado',
@@ -1515,6 +1522,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Giro720
  * @author Helder.wiki
  * @author Heldergeovane
  */
@@ -1525,6 +1533,7 @@ $messages['pt-br'] = array(
 	'sitematrix-language' => 'Idioma',
 	'sitematrix-project' => 'Nome do projeto, ligação interprojeto e ligação interwiki',
 	'sitematrix-others' => 'Outros projetos da Wikimedia',
+	'sitematrix-other-projects' => 'Outros projetos',
 	'sitematrix-total' => "'''Contagem total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privado',
