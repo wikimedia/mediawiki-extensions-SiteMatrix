@@ -6,7 +6,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 
-global $IP;
 require_once( $IP.'/languages/Names.php' );
 
 class SiteMatrix {
