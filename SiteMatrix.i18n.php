@@ -785,6 +785,7 @@ $messages['hi'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Anton008
  * @author Dalibor Bosits
  * @author Dnik
  * @author SpeedyGonsales
@@ -797,6 +798,7 @@ $messages['hr'] = array(
 	'sitematrix-language' => 'Jezik',
 	'sitematrix-project' => 'Ime projekta, poveznica među projektima i međuwiki poveznica',
 	'sitematrix-others' => 'Ostali projekti Wikimedije',
+	'sitematrix-other-projects' => 'Ostali projekti',
 	'sitematrix-total' => "'''Ukupni broj: $1'''",
 	'sitematrix-sitetotal' => 'Ukupno',
 	'sitematrix-private' => 'privatno',
@@ -1685,6 +1687,7 @@ $messages['sk'] = array(
 	'sitematrix-language' => 'Jazyk',
 	'sitematrix-project' => 'Názov projektu, medziprojektový odkaz a interwiki odkaz',
 	'sitematrix-others' => 'Iné projekty nadácie Wikimedia',
+	'sitematrix-other-projects' => 'Ďalšie projekty',
 	'sitematrix-total' => "'''Celkový počet: $1'''",
 	'sitematrix-sitetotal' => 'Celkom',
 	'sitematrix-private' => 'súkromné',
