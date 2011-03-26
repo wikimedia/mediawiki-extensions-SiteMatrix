@@ -215,6 +215,7 @@ $messages['be'] = array(
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'sitematrix' => 'Сьпіс усіх праектаў фундацыі «Вікімэдыя»',
@@ -223,6 +224,7 @@ $messages['be-tarask'] = array(
 	'sitematrix-language' => 'Мова',
 	'sitematrix-project' => 'Назва праекту, міжпраектная спасылка і спасылка інтэрвікі',
 	'sitematrix-others' => 'Іншыя праекты фундацыі «Вікімэдыя»',
+	'sitematrix-other-projects' => 'Іншыя праекты',
 	'sitematrix-total' => "'''Агульная колькасьць: $1'''",
 	'sitematrix-sitetotal' => 'Усяго',
 	'sitematrix-private' => 'прыватны',
