@@ -2167,6 +2167,7 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Alexsh
+ * @author Hydra
  */
 $messages['zh-hans'] = array(
 	'sitematrix' => '维基媒体站点列表',
@@ -2175,6 +2176,7 @@ $messages['zh-hans'] = array(
 	'sitematrix-language' => '语言',
 	'sitematrix-project' => '计划名称、跨计划链接以及跨维基链接',
 	'sitematrix-others' => '维基媒体的其它计划',
+	'sitematrix-other-projects' => '其他项目',
 	'sitematrix-total' => "'''合计：$1'''",
 	'sitematrix-sitetotal' => '总数',
 	'sitematrix-private' => '私用',
