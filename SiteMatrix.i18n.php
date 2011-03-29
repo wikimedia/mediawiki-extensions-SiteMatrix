@@ -616,6 +616,7 @@ $messages['fr'] = array(
 	'sitematrix-language' => 'Langue',
 	'sitematrix-project' => 'Nom du projet, lien interprojet et lien interwiki',
 	'sitematrix-others' => 'Autres projets de Wikimedia Foundation',
+	'sitematrix-other-projects' => 'Autres projets',
 	'sitematrix-total' => "'''Total du compte : $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privé',
