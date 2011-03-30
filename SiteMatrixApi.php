@@ -89,11 +89,11 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 	}
 
 	protected function getAllowedParams() {
-		return array ();
+		return array();
 	}
 
 	protected function getParamDescription() {
-		return array ();
+		return array();
 	}
 
 	protected function getDescription() {
@@ -112,7 +112,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 	}
 
 	protected function getExamples() {
-		return array (
+		return array(
 			'api.php?action=sitematrix',
 		);
 	}
