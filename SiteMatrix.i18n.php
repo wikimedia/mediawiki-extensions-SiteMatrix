@@ -1642,6 +1642,7 @@ $messages['sah'] = array(
 	'sitematrix-language' => 'Тыла',
 	'sitematrix-project' => 'Бырайыак аата, бырайыак ыккардынааҕы ыйынньык уонна интервики',
 	'sitematrix-others' => '«Викимедиа» атын бырайыактара',
+	'sitematrix-other-projects' => 'Атын бырайыактар',
 	'sitematrix-total' => "'''Уопсай ахсаана: $1'''",
 	'sitematrix-sitetotal' => 'Барыта',
 	'sitematrix-private' => 'приватнай/чааһынай',
