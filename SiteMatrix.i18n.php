@@ -792,6 +792,7 @@ $messages['hi'] = array(
  * @author Anton008
  * @author Dalibor Bosits
  * @author Dnik
+ * @author Ex13
  * @author SpeedyGonsales
  * @author לערי ריינהארט
  */
@@ -801,7 +802,7 @@ $messages['hr'] = array(
 	'sitematrix-desc' => 'Prikazuje [[Special:SiteMatrix|popis wikija Wikimedije]]',
 	'sitematrix-language' => 'Jezik',
 	'sitematrix-project' => 'Ime projekta, poveznica među projektima i međuwiki poveznica',
-	'sitematrix-others' => 'Ostali projekti Wikimedije',
+	'sitematrix-others' => 'Ostali Wikimedijini projekti',
 	'sitematrix-other-projects' => 'Ostali projekti',
 	'sitematrix-total' => "'''Ukupni broj: $1'''",
 	'sitematrix-sitetotal' => 'Ukupno',
