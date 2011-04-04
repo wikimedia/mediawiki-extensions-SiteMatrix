@@ -1825,6 +1825,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Ainali
  * @author Lejonel
  * @author M.M.S.
  * @author לערי ריינהארט
@@ -1836,6 +1837,7 @@ $messages['sv'] = array(
 	'sitematrix-language' => 'Språk',
 	'sitematrix-project' => 'Projektnamn, interprojektlänk och interwiki-länk',
 	'sitematrix-others' => 'Andra Wikimediaprojekt',
+	'sitematrix-other-projects' => 'Andra projekt',
 	'sitematrix-total' => "'''Totalt antal: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privat',
