@@ -168,6 +168,7 @@ $messages['ba'] = array(
 	'sitematrix-language' => 'Тел',
 	'sitematrix-project' => 'Проект исеме, проект-ара һылтанма һәм вики-ара һылтанма',
 	'sitematrix-others' => 'Викимедианың башҡа проекттары',
+	'sitematrix-other-projects' => 'Башҡа проекттар',
 	'sitematrix-total' => "'''Барыһы: $1'''",
 	'sitematrix-sitetotal' => 'Барыһы',
 	'sitematrix-private' => 'шәхси',
@@ -477,6 +478,7 @@ $messages['ee'] = array(
  * @author Badseed
  * @author Consta
  * @author Dead3y3
+ * @author Glavkos
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -487,6 +489,7 @@ $messages['el'] = array(
 	'sitematrix-language' => 'Γλώσσα',
 	'sitematrix-project' => 'Όνομα εγχειρήματος, διαεγχειρηματικός (interproject) σύνδεσμος και διαγλωσσικός (interwiki) σύνδεσμος',
 	'sitematrix-others' => 'Άλλα εγχειρήματα του Wikimedia',
+	'sitematrix-other-projects' => 'Άλλα εγχειρήματα',
 	'sitematrix-total' => "'''Συνολικός αριθμός: $1'''",
 	'sitematrix-sitetotal' => 'Συνολικά',
 	'sitematrix-private' => 'ιδιωτικό',
