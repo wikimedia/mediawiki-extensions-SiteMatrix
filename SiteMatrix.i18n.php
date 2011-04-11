@@ -302,6 +302,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Aleator
  * @author Jordi Roqué
  * @author Paucabot
  * @author SMP
@@ -315,6 +316,7 @@ $messages['ca'] = array(
 	'sitematrix-language' => 'Idioma',
 	'sitematrix-project' => 'Nom del projecte, enllaç interwiki entre projectes',
 	'sitematrix-others' => 'Altres projectes de Wikimedia',
+	'sitematrix-other-projects' => 'Altres projectes',
 	'sitematrix-total' => "'''Recompte total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privat',
@@ -508,6 +510,7 @@ $messages['eo'] = array(
 	'sitematrix-language' => 'Lingvo',
 	'sitematrix-project' => 'Nomo de projekto, interprojekta ligilo kaj intervikia ligilo',
 	'sitematrix-others' => 'Aliaj projektoj de Wikimedia',
+	'sitematrix-other-projects' => 'Aliaj projektoj',
 	'sitematrix-total' => "'''Tuta nombrado: $1'''",
 	'sitematrix-sitetotal' => 'Tuto',
 	'sitematrix-private' => 'privata',
