@@ -282,7 +282,8 @@ class SiteMatrixPage extends SpecialPage {
 	}
 
 	function execute( $par ) {
-		global $wgOut, $wgRequest, $wgLanguageNames;
+		global $wgOut, $wgRequest;
+		$langNames = Language::getLanguageNames();
 
 		$this->setHeaders();
 		$this->outputHeader();
@@ -307,7 +308,7 @@ class SiteMatrixPage extends SpecialPage {
 				$langhost = str_replace( '_', '-', $lang );
 				$attribs = array(
 					'code' => $langhost,
-					'name' => $wgLanguageNames[$lang],
+					'name' => $langNames[$lang],
 				);
 				if( isset( $localLanguageNames[$lang] ) ) {
 					$attribs['localname'] = $localLanguageNames[$lang];
@@ -360,7 +361,7 @@ class SiteMatrixPage extends SpecialPage {
 				$attribs['title'] = $localLanguageNames[$lang];
 			}
 
-			$langDisplay = $wgLanguageNames[$lang];
+			$langDisplay = $langNames[$lang];
 			if ( strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
 				$langDisplay .= ' (' . $localLanguageNames[$lang] . ')';
 			}

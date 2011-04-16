@@ -16,9 +16,9 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 	}
 
 	public function execute() {
-		global $wgLanguageNames;
 		$result = $this->getResult();
 		$matrix = new SiteMatrix();
+		$langNames = Language::getLanguageNames();
 
 		$matrix_out = array(
 			'count' => $matrix->getCount(),
@@ -35,7 +35,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			$langhost = str_replace( '_', '-', $lang );
 			$language = array(
 				'code' => $langhost,
-				'name' => $wgLanguageNames[$lang],
+				'name' => $langNames[$lang],
 				'site' => array(),
 			);
 			if( isset( $localLanguageNames[$lang] ) ) {
