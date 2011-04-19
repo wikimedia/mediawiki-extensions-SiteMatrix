@@ -144,6 +144,7 @@ $messages['arz'] = array(
 
 /** Asturian (Asturianu)
  * @author Esbardu
+ * @author Xuacu
  */
 $messages['ast'] = array(
 	'sitematrix' => 'Llista de wikis de Wikimedia',
@@ -152,6 +153,7 @@ $messages['ast'] = array(
 	'sitematrix-language' => 'Llingua',
 	'sitematrix-project' => 'Nomes del proyeutu, del enllaz interproyeutu y del enllaz interwiki',
 	'sitematrix-others' => 'Otros proyeutos de Wikimedia',
+	'sitematrix-other-projects' => 'Otros proyeutos',
 	'sitematrix-total' => "'''Númberu total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'priváu',
