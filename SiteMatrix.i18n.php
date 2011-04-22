@@ -891,6 +891,7 @@ $messages['id'] = array(
 	'sitematrix-language' => 'Bahasa',
 	'sitematrix-project' => 'Nama proyek, pranala interproyek dan pranala interwiki',
 	'sitematrix-others' => 'Proyek lain Wikimedia',
+	'sitematrix-other-projects' => 'Proyek lain',
 	'sitematrix-total' => "'''Jumlah total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privat',
