@@ -160,6 +160,15 @@ $messages['ast'] = array(
 	'sitematrix-fishbowl' => 'edición restrinxida',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'sitematrix-language' => 'Dil',
+	'sitematrix-sitetotal' => 'Ümumi',
+	'sitematrix-private' => 'xüsusi',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
