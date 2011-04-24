@@ -411,6 +411,7 @@ $messages['cy'] = array(
 /** Danish (Dansk)
  * @author Jan Friberg
  * @author Morten LJ
+ * @author Peter Alberti
  */
 $messages['da'] = array(
 	'sitematrix' => 'Alle Wikimedias wikier',
@@ -419,6 +420,7 @@ $messages['da'] = array(
 	'sitematrix-language' => 'Sprog',
 	'sitematrix-project' => 'Projektnavn, interprojektlink og interwikilink',
 	'sitematrix-others' => 'Andre projekter under Wikimedia',
+	'sitematrix-other-projects' => 'Andre projekter',
 	'sitematrix-total' => "'''I alt $1 wikier'''",
 	'sitematrix-sitetotal' => 'I alt',
 	'sitematrix-private' => 'privat',
@@ -588,6 +590,7 @@ $messages['ext'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author Wayiran
  */
 $messages['fa'] = array(
 	'sitematrix' => 'فهرست ویکی‌های ویکی‌مدیا',
@@ -596,6 +599,7 @@ $messages['fa'] = array(
 	'sitematrix-language' => 'زبان',
 	'sitematrix-project' => 'نام پروژه، پیوند میان‌پروژه و پیوند میان‌ویکی',
 	'sitematrix-others' => 'دیگر پروژه‌های ویکی‌مدیا',
+	'sitematrix-other-projects' => 'دیگر پروژه‌ها',
 	'sitematrix-total' => "'''جمع کل: $1'''",
 	'sitematrix-sitetotal' => 'کل',
 	'sitematrix-private' => 'خصوصی',
