@@ -1422,6 +1422,7 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  * @author לערי ריינהארט
  */
 $messages['no'] = array(
@@ -1431,6 +1432,7 @@ $messages['no'] = array(
 	'sitematrix-language' => 'Språk',
 	'sitematrix-project' => 'Prosjektets navn, interprosjektlenke og interwikilenke',
 	'sitematrix-others' => 'Andre Wikimedia-prosjekter',
+	'sitematrix-other-projects' => 'Andre prosjekt',
 	'sitematrix-total' => "'''Totalt antall: $1'''",
 	'sitematrix-sitetotal' => 'Totalt',
 	'sitematrix-private' => 'privat',
