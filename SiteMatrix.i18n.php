@@ -263,6 +263,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Wikitanvir
  * @author Zaheen
  */
 $messages['bn'] = array(
@@ -272,6 +273,7 @@ $messages['bn'] = array(
 	'sitematrix-language' => 'ভাষা',
 	'sitematrix-project' => 'প্রকল্পের নাম, আন্তঃপ্রকল্প সংযোগ এবং আন্তঃউইকি সংযোগ',
 	'sitematrix-others' => 'উইকিমিডিয়ার অন্যান্য প্রকল্প',
+	'sitematrix-other-projects' => 'অন্যান্য প্রকল্প',
 	'sitematrix-total' => "'''সর্বমোট: $1'''",
 	'sitematrix-sitetotal' => 'মোট',
 	'sitematrix-private' => 'প্রাইভেট',
@@ -2065,6 +2067,7 @@ $messages['ug-latn'] = array(
 
 /** Ukrainian (Українська)
  * @author Ahonc
+ * @author Тест
  */
 $messages['uk'] = array(
 	'sitematrix' => 'Список проектів Вікімедіа',
@@ -2073,6 +2076,7 @@ $messages['uk'] = array(
 	'sitematrix-language' => 'Мова',
 	'sitematrix-project' => 'Назва проекту, міжпроектне посилання та інтервікі-посилання',
 	'sitematrix-others' => 'Інші проекти Фонду «Вікімедіа»',
+	'sitematrix-other-projects' => 'Інші проекти',
 	'sitematrix-total' => "'''Загальна кількість: $1'''",
 	'sitematrix-sitetotal' => 'Усього',
 	'sitematrix-private' => 'приватний',
