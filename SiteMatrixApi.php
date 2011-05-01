@@ -31,109 +31,69 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			$localLanguageNames = array();
 		}
 
-		$params = $this->extractRequestParams();
-		$type = array_flip( $params['type'] );
-		$state = array_flip( $params['state'] );
-	
-		$allOrClosed = isset( $state['all'] ) || isset( $state['closed'] );
-		$allOrPrivate = isset( $state['all'] ) || isset( $state['private'] );
-		$allOrFishbowl = isset( $state['all'] ) || isset( $state['fishbowl'] );
-
-		if ( isset( $type['language'] ) ) {
-			foreach ( $matrix->getLangList() as $lang ) {
-				$langhost = str_replace( '_', '-', $lang );
-				$language = array(
-					'code' => $langhost,
-					'name' => $langNames[$lang],
-					'site' => array(),
-				);
-				if ( isset( $localLanguageNames[$lang] ) ) {
-					$language['localname'] = $localLanguageNames[$lang];
-				}
-
-				foreach ( $matrix->getSites() as $site ) {
-					if ( $matrix->exist( $lang, $site ) ) {
-						$url = $matrix->getUrl( $lang, $site );
-						$site_out = array(
-							'url' => $url,
-							'code' => $site,
-						);
-						if ( $allOrClosed ) {
-							if( $matrix->isClosed( $lang, $site ) ) {
-								$site_out['closed'] = '';
-							}
-						} else {
-							continue;
-						}
-						$language['site'][] = $site_out;
-					}
-				}
-
-				$result->setIndexedTagName( $language['site'], 'site' );
-				$matrix_out[] = $language;
+		foreach ( $matrix->getLangList() as $lang ) {
+			$langhost = str_replace( '_', '-', $lang );
+			$language = array(
+				'code' => $langhost,
+				'name' => $langNames[$lang],
+				'site' => array(),
+			);
+			if( isset( $localLanguageNames[$lang] ) ) {
+				$language['localname'] = $localLanguageNames[$lang];
 			}
-		}
 
+			foreach ( $matrix->getSites() as $site ) {
+				if ( $matrix->exist( $lang, $site ) ) {
+					$url = $matrix->getUrl( $lang, $site );
+					$site_out = array(
+						'url' => $url,
+						'code' => $site,
+					);
+					if( $matrix->isClosed( $lang, $site ) ) {
+						$site_out['closed'] = '';
+					}
+					$language['site'][] = $site_out;
+				}
+			}
+
+			$result->setIndexedTagName($language['site'], 'site');
+			$matrix_out[] = $language;
+		}
 		$result->setIndexedTagName($matrix_out, 'language');
 		$result->addValue(null, "sitematrix", $matrix_out);
 
-		if ( isset( $type['special'] ) ) {
-			$specials = array();
-			foreach ( $matrix->getSpecials() as $special ){
-				list( $lang, $site ) = $special;
-				$url = $matrix->getUrl( $lang, $site );
+		$specials = array();
+		foreach ( $matrix->getSpecials() as $special ){
+			list( $lang, $site ) = $special;
+			$url = $matrix->getUrl( $lang, $site );
 
-				$wiki = array();
-				$wiki['url'] = $url;
-				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
+			$wiki = array();
+			$wiki['url'] = $url;
+			$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
 
-				if( $allOrPrivate ) {
-					if ( $matrix->isPrivate( $lang . $site ) ) {
-						$wiki['private'] = '';
-					}
-				} else {
-					continue;
-				}
-				if( $allOrFishbowl ) {
-					if ( $matrix->isFishbowl( $lang . $site ) ) {
-						$wiki['fishbowl'] = '';
-					}
-				} else {
-					continue;
-				}
-				if( $allOrClosed ) {
-					if ( $matrix->isClosed( $lang, $site ) ) {
-						$wiki['closed'] = '';
-					}
-				} else {
-					continue;
-				}
-
-				$specials[] = $wiki;
+			if( $matrix->isPrivate( $lang . $site ) ) {
+				$wiki['private'] = '';
+			}
+			if( $matrix->isFishbowl( $lang . $site ) ) {
+				$wiki['fishbowl'] = '';
+			}
+			if( $matrix->isClosed( $lang, $site ) ) {
+				$wiki['closed'] = '';
 			}
 
-			$result->setIndexedTagName( $specials, 'special' );
-			$result->addValue( "sitematrix", "specials", $specials );
+			$specials[] = $wiki;
 		}
+
+		$result->setIndexedTagName($specials, 'special');
+		$result->addValue("sitematrix", "specials", $specials);
 	}
 
 	protected function getAllowedParams() {
-		return array(
-			'type' => array(
-				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => array(
-					'special',
-					'language'
-				),
-				ApiBase::PARAM_DFLT => 'special|language',
-			),
-		);
+		return array();
 	}
 
 	protected function getParamDescription() {
-		return array(
-			'type' => 'Filter the Site Matrix by wiki type',
-		);
+		return array();
 	}
 
 	protected function getDescription() {
