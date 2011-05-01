@@ -34,10 +34,11 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 		$params = $this->extractRequestParams();
 		$type = array_flip( $params['type'] );
 		$state = array_flip( $params['state'] );
-	
-		$allOrClosed = isset( $state['all'] ) || isset( $state['closed'] );
-		$allOrPrivate = isset( $state['all'] ) || isset( $state['private'] );
-		$allOrFishbowl = isset( $state['all'] ) || isset( $state['fishbowl'] );
+
+		$all = isset( $state['all'] );
+		$closed = isset( $state['closed'] );
+		$private = isset( $state['private'] );
+		$fishbowl = isset( $state['fishbowl'] );
 
 		if ( isset( $type['language'] ) ) {
 			foreach ( $matrix->getLangList() as $lang ) {
@@ -53,6 +54,12 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 
 				foreach ( $matrix->getSites() as $site ) {
 					if ( $matrix->exist( $lang, $site ) ) {
+						$skip = true;
+
+						if ( $all ) {
+							$skip = false;
+						}
+
 						$url = $matrix->getUrl( $lang, $site );
 						$site_out = array(
 							'url' => $url,
@@ -60,6 +67,13 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 						);
 						if( $matrix->isClosed( $lang, $site ) ) {
 							$site_out['closed'] = '';
+							if ( $closed ) {
+								$skip = false;
+							}
+						}
+
+						if ( $skip ) {
+							continue;
 						}
 						$language['site'][] = $site_out;
 					}
@@ -84,14 +98,35 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 				$wiki['url'] = $url;
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
 
+				$skip = true;
+
+				if ( $all ) {
+					$skip = false;
+				}
 				if ( $matrix->isPrivate( $lang . $site ) ) {
 					$wiki['private'] = '';
+
+					if ( $private ) {
+						$skip = false;
+					}
 				}
 				if ( $matrix->isFishbowl( $lang . $site ) ) {
 					$wiki['fishbowl'] = '';
+
+					if ( $fishbowl ) {
+						$skip = false;
+					}
 				}
 				if ( $matrix->isClosed( $lang, $site ) ) {
 					$wiki['closed'] = '';
+
+					if ( $closed ) {
+						$skip = false;
+					}
+				}
+
+				if ( $skip ) {
+					continue;
 				}
 
 				$specials[] = $wiki;
@@ -112,12 +147,23 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 				),
 				ApiBase::PARAM_DFLT => 'special|language',
 			),
+			'state' => array(
+				ApiBase::PARAM_ISMULTI => true,
+				ApiBase::PARAM_TYPE => array(
+					'all',
+					'closed',
+					'private',
+					'fishbowl'
+				),
+				ApiBase::PARAM_DFLT => 'all',
+			)
 		);
 	}
 
 	protected function getParamDescription() {
 		return array(
 			'type' => 'Filter the Site Matrix by type',
+			'state' => 'Filter the Site Matrix by wiki state',
 		);
 	}
 
