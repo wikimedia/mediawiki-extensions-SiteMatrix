@@ -302,8 +302,7 @@ class SiteMatrixPage extends SpecialPage {
 			$count = $matrix->getCount();
 			header( 'Content-Type: text/xml; charset=utf-8' );
 			echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
-			echo "<sitematrix>\n";
-			echo "\t<matrix size=\"{$count}\">\n";
+			echo "\t<sitematrix size=\"{$count}\">\n";
 			foreach ( $matrix->getLangList() as $lang ) {
 				$langhost = str_replace( '_', '-', $lang );
 				$attribs = array(
@@ -322,7 +321,6 @@ class SiteMatrixPage extends SpecialPage {
 				}
 				echo "\t\t</language>\n";
 			}
-			echo "\t</matrix>\n";
 			echo "\t<specials>\n";
 			foreach ( $matrix->getSpecials() as $special ) {
 				list( $lang, $site ) = $special;
@@ -333,7 +331,7 @@ class SiteMatrixPage extends SpecialPage {
 				echo "\t\t<special code=\"{$langhost}\" url=\"{$url}\" />\n";
 			}
 			echo "\t</specials>\n";
-			echo "</sitematrix>";
+			echo "\t</sitematrix>\n";
 			return;
 		}
 
