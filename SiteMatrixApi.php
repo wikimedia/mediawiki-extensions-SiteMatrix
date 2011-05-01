@@ -48,7 +48,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 					'name' => $langNames[$lang],
 					'site' => array(),
 				);
-				if( isset( $localLanguageNames[$lang] ) ) {
+				if ( isset( $localLanguageNames[$lang] ) ) {
 					$language['localname'] = $localLanguageNames[$lang];
 				}
 
@@ -63,9 +63,10 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 						$url = $matrix->getUrl( $lang, $site );
 						$site_out = array(
 							'url' => $url,
+							'dbname' => $matrix->getDBName( $lang, $site ),
 							'code' => $site,
 						);
-						if( $matrix->isClosed( $lang, $site ) ) {
+						if ( $matrix->isClosed( $lang, $site ) ) {
 							$site_out['closed'] = '';
 							if ( $closed ) {
 								$skip = false;
@@ -96,6 +97,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 
 				$wiki = array();
 				$wiki['url'] = $url;
+				$wiki['dbname'] = $matrix->getDBName( $lang, $site );
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
 
 				$skip = true;

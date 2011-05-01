@@ -133,10 +133,19 @@ class SiteMatrix {
 	 */
 	public function getUrl( $minor, $major ){
 		global $wgConf;
-		$dbname = $minor . $major;
+		$dbname = $this->getDBName( $minor, $major );
 		$minor = str_replace( '_', '-', $minor );
 		return $wgConf->get( 'wgServer', $dbname, $major,
 			array( 'lang' => $minor, 'site' => $major ) );
+	}
+
+	/**
+	 * @param $minor string
+	 * @param $major string
+	 * @return string
+	 */
+	public function getDBName( $minor, $major ) {
+		return $minor . $major;
 	}
 
 	/**
@@ -156,7 +165,7 @@ class SiteMatrix {
 	public function isClosed( $minor, $major ) {
 		global $wgSiteMatrixClosedSites;
 
-		$dbname = $minor . $major;
+		$dbname = $this->getDBName( $minor, $major );
 
 		if ( $wgSiteMatrixClosedSites === null ) {
 			// Fallback to old behavior checking read-only settings;
