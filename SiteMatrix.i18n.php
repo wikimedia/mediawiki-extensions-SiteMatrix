@@ -677,6 +677,7 @@ $messages['fur'] = array(
 	'sitematrix-summary' => 'Cheste pagjine speciâl e mostre ducj i progjets Wikimedia.',
 	'sitematrix-language' => 'Lenghe',
 	'sitematrix-others' => 'Altris progjets di Wikimedia',
+	'sitematrix-other-projects' => 'Altris progjets',
 	'sitematrix-total' => "'''Cont totâl: $1'''",
 	'sitematrix-sitetotal' => 'Totâl',
 );
