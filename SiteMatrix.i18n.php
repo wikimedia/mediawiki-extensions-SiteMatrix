@@ -314,6 +314,13 @@ $messages['bs'] = array(
 	'sitematrix-fishbowl' => 'uređivanje zabranjeno',
 );
 
+/** Буряад (Буряад)
+ * @author ОйЛ
+ */
+$messages['bxr'] = array(
+	'sitematrix-language' => 'Хэлэн',
+);
+
 /** Catalan (Català)
  * @author Aleator
  * @author Jordi Roqué
