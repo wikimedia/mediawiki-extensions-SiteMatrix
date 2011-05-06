@@ -2231,6 +2231,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
  * @author Mark85296341
+ * @author Waihorace
  */
 $messages['zh-hant'] = array(
 	'sitematrix' => '維基媒體網站清單',
@@ -2239,6 +2240,7 @@ $messages['zh-hant'] = array(
 	'sitematrix-language' => '語言',
 	'sitematrix-project' => '計劃名稱、跨計劃連結以及跨維基連結',
 	'sitematrix-others' => '維基媒體的其他計畫',
+	'sitematrix-other-projects' => '其他計劃',
 	'sitematrix-total' => "'''合計：$1'''",
 	'sitematrix-sitetotal' => '總數',
 	'sitematrix-private' => '私用',
