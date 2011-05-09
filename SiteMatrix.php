@@ -14,6 +14,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'SiteMatrix',
 	'author'         => array( 'Tim Starling', 'Brion Vibber', 'Victor Vasiliev', 'Alexandre Emsenhuber' ),
+	'version'        => '1.1',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:SiteMatrix',
 	'descriptionmsg' => 'sitematrix-desc',
 );

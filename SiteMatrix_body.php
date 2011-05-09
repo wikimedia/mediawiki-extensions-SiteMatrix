@@ -306,44 +306,6 @@ class SiteMatrixPage extends SpecialPage {
 			$localLanguageNames = array();
 		}
 
-		if( $wgRequest->getVal( 'action' ) == 'raw' ){
-			$wgOut->disable();
-			$count = $matrix->getCount();
-			header( 'Content-Type: text/xml; charset=utf-8' );
-			echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
-			echo "\t<sitematrix size=\"{$count}\">\n";
-			foreach ( $matrix->getLangList() as $lang ) {
-				$langhost = str_replace( '_', '-', $lang );
-				$attribs = array(
-					'code' => $langhost,
-					'name' => $langNames[$lang],
-				);
-				if( isset( $localLanguageNames[$lang] ) ) {
-					$attribs['localname'] = $localLanguageNames[$lang];
-				}
-				echo "\t\t" . Xml::openElement( 'language', $attribs ) . "\n";
-				foreach ( $matrix->getSites() as $site ) {
-					if ( $matrix->exist( $lang, $site ) ) {
-						$url = $matrix->getUrl( $lang, $site );
-						echo "\t\t\t<site code=\"{$site}\" url=\"{$url}\" />\n";
-					}
-				}
-				echo "\t\t</language>\n";
-			}
-			echo "\t<specials>\n";
-			foreach ( $matrix->getSpecials() as $special ) {
-				list( $lang, $site ) = $special;
-				$langhost = str_replace( '_', '-', $lang );
-				if( $site != 'wiki' ) $langhost .= $site;
-				$url = $matrix->getUrl( $lang, $site );
-
-				echo "\t\t<special code=\"{$langhost}\" url=\"{$url}\" />\n";
-			}
-			echo "\t</specials>\n";
-			echo "\t</sitematrix>\n";
-			return;
-		}
-
 		# Construct the HTML
 
 		# Header row
