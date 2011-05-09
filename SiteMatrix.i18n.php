@@ -1303,6 +1303,7 @@ $messages['mn'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Htt
  * @author Kaustubh
  * @author Mahitgar
  */
@@ -1313,6 +1314,7 @@ $messages['mr'] = array(
 	'sitematrix-language' => 'भाषा',
 	'sitematrix-project' => 'प्रकल्पाचे नाव, आंतरप्रकल्प दुवे आणि आंतरविकि दुवे',
 	'sitematrix-others' => 'विकिमीडियाचे इतर प्रकल्प',
+	'sitematrix-other-projects' => 'इतर प्रकल्प',
 	'sitematrix-total' => "'''एकूण संख्या: $1'''",
 	'sitematrix-sitetotal' => 'एकूण',
 	'sitematrix-private' => 'खासगी',
@@ -1591,6 +1593,10 @@ $messages['qu'] = array(
 	'sitematrix-language' => 'Rimay',
 	'sitematrix-project' => "Ruraykamaypa sutin, ruraykamaypura t'inki, wikipura t'inki (interwiki)",
 	'sitematrix-others' => 'Wikimediap huk ruraykamayninkuna',
+	'sitematrix-other-projects' => 'Huk ruraykamaykuna',
+	'sitematrix-total' => "'''Tukuy yupasqa: $1'''",
+	'sitematrix-sitetotal' => 'Tukuy',
+	'sitematrix-private' => 'akuna',
 );
 
 /** Romansh (Rumantsch) */
