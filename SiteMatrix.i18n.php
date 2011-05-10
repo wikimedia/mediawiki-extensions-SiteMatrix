@@ -396,9 +396,9 @@ $messages['cs'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'sitematrix' => 'Викимє́дїѩ опꙑтьствова́нии ката́логъ',
-	'sitematrix-language' => 'ѩꙁꙑ́къ',
-	'sitematrix-others' => 'дроу́ꙃи Викимє́дїѩ опꙑтьствова́ниꙗ',
+	'sitematrix' => 'Викимєдїѩ опꙑтьствовании каталогъ',
+	'sitematrix-language' => 'ѩꙁꙑкъ',
+	'sitematrix-others' => 'дроуꙃи Викимєдїѩ опꙑтьствованиꙗ',
 );
 
 /** Welsh (Cymraeg)
