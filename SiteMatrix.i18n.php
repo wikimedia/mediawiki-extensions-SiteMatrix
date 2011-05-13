@@ -1590,6 +1590,8 @@ $messages['pt-br'] = array(
  */
 $messages['qu'] = array(
 	'sitematrix' => 'Wikimediap wikinkuna',
+	'sitematrix-summary' => "Kay sapaq p'anqaqa Wikimediap tukuy wikinkunatam rikuchin.",
+	'sitematrix-desc' => '[[Special:SiteMatrix|Wikimediap wikinkunatam]] rikuchin.',
 	'sitematrix-language' => 'Rimay',
 	'sitematrix-project' => "Ruraykamaypa sutin, ruraykamaypura t'inki, wikipura t'inki (interwiki)",
 	'sitematrix-others' => 'Wikimediap huk ruraykamayninkuna',
@@ -1597,6 +1599,7 @@ $messages['qu'] = array(
 	'sitematrix-total' => "'''Tukuy yupasqa: $1'''",
 	'sitematrix-sitetotal' => 'Tukuy',
 	'sitematrix-private' => 'akuna',
+	'sitematrix-fishbowl' => "llamk'apuy saywachasqa",
 );
 
 /** Romansh (Rumantsch) */
