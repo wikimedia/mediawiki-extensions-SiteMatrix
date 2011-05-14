@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'SiteMatrix' => array( 'SiteMatrix', 'WikimediaWikis' ),
 );
@@ -67,7 +65,7 @@ $specialPageAliases['fi'] = array(
 
 /** French (Français) */
 $specialPageAliases['fr'] = array(
-	'SiteMatrix' => array( 'Matrice des sites', 'Wikis de Wikimedia' ),
+	'SiteMatrix' => array( 'Matrice_des_sites', 'Wikis_de_Wikimedia' ),
 );
 
 /** Franco-Provençal (Arpetan) */
@@ -77,7 +75,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'SiteMatrix' => array( 'Wikis Wikimedia' ),
+	'SiteMatrix' => array( 'Wikis_Wikimedia' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -102,7 +100,7 @@ $specialPageAliases['hsb'] = array(
 
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
-	'SiteMatrix' => array( 'SitMatrix' ),
+	'SiteMatrix' => array( 'MatrisSit', 'WikiNanWikimedia' ),
 );
 
 /** Hungarian (Magyar) */
@@ -207,7 +205,7 @@ $specialPageAliases['sk'] = array(
 
 /** Swedish (Svenska) */
 $specialPageAliases['sv'] = array(
-	'SiteMatrix' => array( 'Lista över Wikimedias wikier' ),
+	'SiteMatrix' => array( 'Lista_över_Wikimedias_wikier' ),
 );
 
 /** Tagalog (Tagalog) */
@@ -217,7 +215,7 @@ $specialPageAliases['tl'] = array(
 
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
-	'SiteMatrix' => array( 'SiteMatrisi' ),
+	'SiteMatrix' => array( 'SiteMatrisi', 'SiteDizeyi' ),
 );
 
 /** Simplified Chinese (‪中文(简体)‬) */
