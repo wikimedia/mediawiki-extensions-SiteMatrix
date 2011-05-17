@@ -740,6 +740,7 @@ $messages['gsw'] = array(
 	'sitematrix-language' => 'Sproch',
 	'sitematrix-project' => 'Projäktname, Interprojäkt-Gleich un Interwiki-Gleich',
 	'sitematrix-others' => 'Wyteri Wikimedia-Projäkt',
+	'sitematrix-other-projects' => 'Andri Projäkt',
 	'sitematrix-total' => "'''Gsamtaazahl: $1'''",
 	'sitematrix-sitetotal' => 'Gsamt',
 	'sitematrix-private' => 'Privat',
