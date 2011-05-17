@@ -24,12 +24,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			'count' => $matrix->getCount(),
 		);
 
-		if( class_exists( 'LanguageNames' ) ) {
-			global $wgLang;
-			$localLanguageNames = LanguageNames::getNames( $wgLang->getCode() );
-		} else {
-			$localLanguageNames = array();
-		}
+		$localLanguageNames = SiteMatrixPage::getLocalLanguageNames();
 
 		$params = $this->extractRequestParams();
 		$type = array_flip( $params['type'] );
