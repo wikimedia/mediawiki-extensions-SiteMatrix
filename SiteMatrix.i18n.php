@@ -110,6 +110,7 @@ $messages['ar'] = array(
 	'sitematrix-language' => 'اللغة',
 	'sitematrix-project' => 'اسم المشروع، وصلة المشروع الداخلية ووصلة الإنترويكي',
 	'sitematrix-others' => 'مشاريع ويكيميديا الأخرى',
+	'sitematrix-other-projects' => 'المشاريع الأخرى',
 	'sitematrix-total' => "'''إجمالي العدد: $1'''",
 	'sitematrix-sitetotal' => 'الإجمالي',
 	'sitematrix-private' => 'خاص',
