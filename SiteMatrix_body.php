@@ -337,7 +337,7 @@ class SiteMatrixPage extends SpecialPage {
 			}
 
 			$langDisplay = $langNames[$lang];
-			if ( strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
+			if ( isset( $localLanguageNames[$lang] ) && strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
 				$langDisplay .= ' (' . $localLanguageNames[$lang] . ')';
 			}
 			$s .= '<td>' . $anchor . Xml::element( 'strong', $attribs, $langDisplay ) . '</td>';
