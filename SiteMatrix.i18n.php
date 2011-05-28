@@ -671,6 +671,7 @@ $messages['frp'] = array(
 	'sitematrix-language' => 'Lengoua',
 	'sitematrix-project' => 'Nom du projèt, lim entèrprojèt et lim entèrvouiqui',
 	'sitematrix-others' => 'Ôtros projèts de la Wikimedia Foundation',
+	'sitematrix-other-projects' => 'Ôtros projèts',
 	'sitematrix-total' => "'''Soma du compto : $1'''",
 	'sitematrix-sitetotal' => 'Soma',
 	'sitematrix-private' => 'privâ',
