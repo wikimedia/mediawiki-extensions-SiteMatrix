@@ -1780,6 +1780,7 @@ $messages['sli'] = array(
 /** Albanian (Shqip)
  * @author Mikullovci11
  * @author Olsi
+ * @author Vinie007
  * @author לערי ריינהארט
  */
 $messages['sq'] = array(
@@ -1789,6 +1790,7 @@ $messages['sq'] = array(
 	'sitematrix-language' => 'Gjuha',
 	'sitematrix-project' => 'Emri i projektit, lidhja e ndërprojektit dhe lidhja ndërwiki',
 	'sitematrix-others' => 'Projekte të tjera të Wikimedia-s',
+	'sitematrix-other-projects' => 'Projekte të tjera',
 	'sitematrix-total' => "'''Numri total: $1'''",
 	'sitematrix-sitetotal' => 'Gjithësej',
 	'sitematrix-private' => 'privat',
