@@ -1098,6 +1098,7 @@ $messages['km'] = array(
 	'sitematrix-language' => 'ភាសា',
 	'sitematrix-project' => 'ឈ្មោះ​គម្រោង តំណភ្ជាប់​អន្តរគម្រោង និងតំណភ្ជាប់អន្តរវិគី',
 	'sitematrix-others' => 'គម្រោងវិគីមេឌាផ្សេងៗទៀត',
+	'sitematrix-other-projects' => 'គំរោងផ្សេងៗទៀត',
 	'sitematrix-total' => "'''សរុប: $1'''",
 	'sitematrix-sitetotal' => 'សរុប',
 	'sitematrix-private' => 'ឯកជន',
