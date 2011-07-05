@@ -412,6 +412,7 @@ $messages['cy'] = array(
 	'sitematrix-language' => 'Iaith',
 	'sitematrix-project' => "Enw'r prosiect, rhagddodiad cysylltu rhyngprosiect a rhagddodiad cysylltu rhyngwici",
 	'sitematrix-others' => 'Prosiectau eraill Wikimedia',
+	'sitematrix-other-projects' => 'Prosiectau eraill',
 	'sitematrix-total' => "'''Nifer y cwbl i gyd: $1'''",
 	'sitematrix-sitetotal' => 'Cyfanswm',
 	'sitematrix-private' => 'preifat',
