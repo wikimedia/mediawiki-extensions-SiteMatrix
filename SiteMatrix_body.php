@@ -336,7 +336,7 @@ class SiteMatrixPage extends SpecialPage {
 				$attribs['title'] = $localLanguageNames[$lang];
 			}
 
-			$langDisplay = $langNames[$lang];
+			$langDisplay = ( isset( $langNames[$lang] ) ? $langNames[$lang] : '' );
 			if ( isset( $localLanguageNames[$lang] ) && strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
 				$langDisplay .= ' (' . $localLanguageNames[$lang] . ')';
 			}
