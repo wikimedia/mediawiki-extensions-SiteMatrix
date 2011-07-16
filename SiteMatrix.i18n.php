@@ -1327,6 +1327,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aviator
  */
 $messages['ms'] = array(
@@ -1336,6 +1337,7 @@ $messages['ms'] = array(
 	'sitematrix-language' => 'Bahasa',
 	'sitematrix-project' => 'Nama projek, pautan antara projek dan pautan antara wiki',
 	'sitematrix-others' => 'Projek-projek Wikimedia lain',
+	'sitematrix-other-projects' => 'Projek lain',
 	'sitematrix-total' => "'''Jumlah bilangan: $1'''",
 	'sitematrix-sitetotal' => 'Jumlah',
 	'sitematrix-private' => 'tertutup',
