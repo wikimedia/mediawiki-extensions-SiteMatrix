@@ -1609,8 +1609,11 @@ $messages['qu'] = array(
 	'sitematrix-fishbowl' => "llamk'apuy saywachasqa",
 );
 
-/** Romansh (Rumantsch) */
+/** Romansh (Rumantsch)
+ * @author Kazu89
+ */
 $messages['rm'] = array(
+	'sitematrix' => 'Glista dals wikis da Wikimedia',
 	'sitematrix-language' => 'Linguatg',
 );
 
