@@ -1476,7 +1476,7 @@ $messages['oc'] = array(
 	'sitematrix-fishbowl' => 'modificacions limitadas',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -1689,7 +1689,7 @@ $messages['rue'] = array(
 	'sitematrix-fishbowl' => 'едітованя обмеджене',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -2036,7 +2036,7 @@ $messages['tl'] = array(
 	'sitematrix-fishbowl' => 'pinagbabawalan ang pagbago',
 );
 
-/** Tonga (lea faka-Tonga) */
+/** Tongan (lea faka-Tonga) */
 $messages['to'] = array(
 	'sitematrix' => "Ko e hokohoko ʻo e ngaahi ''wiki''",
 );
