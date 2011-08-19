@@ -1539,6 +1539,15 @@ $messages['pms'] = array(
 	'sitematrix-fishbowl' => 'modìfica riservà',
 );
 
+/** Western Punjabi (پنجابی)
+ * @author Khalid Mahmood
+ */
+$messages['pnb'] = array(
+	'sitematrix' => 'وکیمیڈیا وکی دی لسٹ',
+	'sitematrix-summary' => 'ایس حاص صفے تے سارے وکیمیڈیا مکی دی سلٹ اے۔',
+	'sitematrix-language' => 'بولی',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
