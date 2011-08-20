@@ -1546,6 +1546,9 @@ $messages['pnb'] = array(
 	'sitematrix' => 'وکیمیڈیا وکی دی لسٹ',
 	'sitematrix-summary' => 'ایس حاص صفے تے سارے وکیمیڈیا مکی دی سلٹ اے۔',
 	'sitematrix-language' => 'بولی',
+	'sitematrix-others' => 'وکیمیڈیا دے ہور ویونت',
+	'sitematrix-other-projects' => 'ہور ویونت',
+	'sitematrix-fishbowl' => 'تبدیلی ولگن چ',
 );
 
 /** Pashto (پښتو)
