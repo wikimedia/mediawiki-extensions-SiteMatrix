@@ -134,7 +134,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 		}
 	}
 
-	protected function getAllowedParams() {
+	public function getAllowedParams() {
 		return array(
 			'type' => array(
 				ApiBase::PARAM_ISMULTI => true,
@@ -157,14 +157,14 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 		);
 	}
 
-	protected function getParamDescription() {
+	public function getParamDescription() {
 		return array(
 			'type' => 'Filter the Site Matrix by type',
 			'state' => 'Filter the Site Matrix by wiki state',
 		);
 	}
 
-	protected function getDescription() {
+	public function getDescription() {
 		return array(
 			'Get Wikimedia sites list',
 			'The code is either the unique identifier for specials else, for languages, the project code',
@@ -179,7 +179,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			);
 	}
 
-	protected function getExamples() {
+	public function getExamples() {
 		return array(
 			'api.php?action=sitematrix',
 		);
