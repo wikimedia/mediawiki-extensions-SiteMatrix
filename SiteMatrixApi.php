@@ -57,7 +57,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 
 						$url = $matrix->getUrl( $lang, $site );
 						$site_out = array(
-							'url' => wfExpandUrl( $url ),
+							'url' => $url,
 							'dbname' => $matrix->getDBName( $lang, $site ),
 							'code' => $site,
 						);
@@ -91,7 +91,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 				$url = $matrix->getUrl( $lang, $site );
 
 				$wiki = array();
-				$wiki['url'] = wfExpandUrl( $url );
+				$wiki['url'] = $url;
 				$wiki['dbname'] = $matrix->getDBName( $lang, $site );
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
 
