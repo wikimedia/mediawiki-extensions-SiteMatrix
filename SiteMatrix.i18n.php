@@ -1548,6 +1548,7 @@ $messages['pnb'] = array(
 	'sitematrix-language' => 'بولی',
 	'sitematrix-others' => 'وکیمیڈیا دے ہور ویونت',
 	'sitematrix-other-projects' => 'ہور ویونت',
+	'sitematrix-sitetotal' => 'ٹوٹل',
 	'sitematrix-fishbowl' => 'تبدیلی ولگن چ',
 );
 
