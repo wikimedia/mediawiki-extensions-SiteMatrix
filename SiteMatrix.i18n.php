@@ -1476,6 +1476,14 @@ $messages['oc'] = array(
 	'sitematrix-fishbowl' => 'modificacions limitadas',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'sitematrix-sitetotal' => 'ସର୍ବମୋଟ',
+	'sitematrix-private' => 'ନିଜସ୍ବ',
+);
+
 /** Ossetic (Ирон)
  * @author Amikeco
  */
