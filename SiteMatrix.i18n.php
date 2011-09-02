@@ -50,6 +50,7 @@ $messages['af'] = array(
 	'sitematrix-language' => 'Taal',
 	'sitematrix-project' => 'Projeknaam, skakels na projekte en taalskakels',
 	'sitematrix-others' => 'Ander projekte van Wikimedia',
+	'sitematrix-other-projects' => 'Ander projekte',
 	'sitematrix-total' => "'''Totale aantal: $1'''",
 	'sitematrix-sitetotal' => 'Totaal',
 	'sitematrix-private' => 'beperkte toegang',
