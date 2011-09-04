@@ -621,6 +621,7 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Nike
+ * @author Olli
  */
 $messages['fi'] = array(
 	'sitematrix' => 'Luettelo Wikimedian wikeistä',
@@ -629,6 +630,7 @@ $messages['fi'] = array(
 	'sitematrix-language' => 'Kieli',
 	'sitematrix-project' => 'Projektin nimi, projektienvälinen linkki ja interwiki-linkki',
 	'sitematrix-others' => 'Muut Wikimedian projektit',
+	'sitematrix-other-projects' => 'Muut projektit',
 	'sitematrix-total' => "'''Wikejä yhteensä: $1'''",
 	'sitematrix-sitetotal' => 'Yhteensä',
 	'sitematrix-private' => 'yksityinen',
@@ -1238,6 +1240,7 @@ $messages['loz'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -1247,6 +1250,7 @@ $messages['lt'] = array(
 	'sitematrix-language' => 'Kalba',
 	'sitematrix-project' => 'Projekto pavadinimas, interprojektinė nuoroda ir interwiki nuoroda.',
 	'sitematrix-others' => 'Kiti Vikimedijos projektai',
+	'sitematrix-other-projects' => 'Kiti projektai',
 	'sitematrix-total' => "'''Viso: $1'''",
 	'sitematrix-sitetotal' => 'Viso',
 	'sitematrix-private' => 'privatus',
