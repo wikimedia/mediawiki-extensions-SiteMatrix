@@ -1709,6 +1709,7 @@ $messages['rue'] = array(
 	'sitematrix-language' => 'Язык',
 	'sitematrix-project' => 'Назва проєкту, міджіпроєктовый одказ і міджіязыковый одказ',
 	'sitematrix-others' => 'Іншы проєкты Фонду «Вікімедія»',
+	'sitematrix-other-projects' => 'Другы проєкты',
 	'sitematrix-total' => "'''Цілкове чісло: $1'''",
 	'sitematrix-sitetotal' => 'Цілком',
 	'sitematrix-private' => 'пріватный',
