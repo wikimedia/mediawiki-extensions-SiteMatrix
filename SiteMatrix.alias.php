@@ -70,7 +70,7 @@ $specialPageAliases['fr'] = array(
 
 /** Franco-Provençal (Arpetan) */
 $specialPageAliases['frp'] = array(
-	'SiteMatrix' => array( 'Matrice des setos', 'MatriceDesSetos', 'Vouiquis de Wikimedia', 'VouiquisDeWikimedia' ),
+	'SiteMatrix' => array( 'Matrice_des_setos', 'MatriceDesSetos', 'Vouiquis_de_Wikimedia', 'VouiquisDeWikimedia' ),
 );
 
 /** Galician (Galego) */
@@ -160,7 +160,7 @@ $specialPageAliases['ms'] = array(
 
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
-	'SiteMatrix' => array( 'Websteemetrix' ),
+	'SiteMatrix' => array( 'Websteematrix' ),
 );
 
 /** Dutch (Nederlands) */
@@ -218,6 +218,11 @@ $specialPageAliases['tr'] = array(
 	'SiteMatrix' => array( 'SiteMatrisi', 'SiteDizeyi' ),
 );
 
+/** Cantonese (粵語) */
+$specialPageAliases['yue'] = array(
+	'SiteMatrix' => array( '站點一覽' ),
+);
+
 /** Simplified Chinese (‪中文(简体)‬) */
 $specialPageAliases['zh-hans'] = array(
 	'SiteMatrix' => array( '站点矩阵' ),
@@ -225,7 +230,7 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬) */
 $specialPageAliases['zh-hant'] = array(
-	'SiteMatrix' => array( '站點矩陣' ),
+	'SiteMatrix' => array( '站點矩陣', '站點列表' ),
 );
 
 /**
