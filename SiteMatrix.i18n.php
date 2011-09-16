@@ -1485,6 +1485,7 @@ $messages['oc'] = array(
  * @author Odisha1
  */
 $messages['or'] = array(
+	'sitematrix-language' => 'ଭାଷା',
 	'sitematrix-sitetotal' => 'ସର୍ବମୋଟ',
 	'sitematrix-private' => 'ନିଜସ୍ବ',
 );
