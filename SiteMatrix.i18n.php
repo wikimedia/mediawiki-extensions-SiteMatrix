@@ -1574,6 +1574,7 @@ $messages['ps'] = array(
 	'sitematrix-language' => 'ژبه',
 	'sitematrix-project' => 'د پروژې نوم، د پروژوترمېنځ تړنه او د ويکي-ګانوترمېنځ تړنه',
 	'sitematrix-others' => 'د ويکي-رسنۍ نورې پروژې',
+	'sitematrix-other-projects' => 'نورې پروژې',
 	'sitematrix-total' => "'''ټولټال شمېر: $1'''",
 	'sitematrix-sitetotal' => 'ټولټال',
 	'sitematrix-private' => 'ځاني',
