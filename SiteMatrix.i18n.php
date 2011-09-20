@@ -1483,8 +1483,10 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
+	'sitematrix' => 'ଉଇକିମିଡ଼ିଆ ଉଇକିମାନଙ୍କର ତାଲିକା',
 	'sitematrix-language' => 'ଭାଷା',
 	'sitematrix-sitetotal' => 'ସର୍ବମୋଟ',
 	'sitematrix-private' => 'ନିଜସ୍ବ',
