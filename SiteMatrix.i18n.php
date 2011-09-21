@@ -1488,8 +1488,13 @@ $messages['oc'] = array(
 $messages['or'] = array(
 	'sitematrix' => 'ଉଇକିମିଡ଼ିଆ ଉଇକିମାନଙ୍କର ତାଲିକା',
 	'sitematrix-language' => 'ଭାଷା',
+	'sitematrix-project' => 'ପ୍ରକଳ୍ପର ନାମ, ଅନ୍ତ-ପ୍ରକଳ୍ପ ଲିଙ୍କ, ଇଣ୍ଟରଉଇକି ଲିଙ୍କ',
+	'sitematrix-others' => 'ଉଇକିମିଡ଼ିଆର ବାକି ପ୍ରକଳ୍ପ',
+	'sitematrix-other-projects' => 'ବାକି ପ୍ରକଳ୍ପସମୂହ',
+	'sitematrix-total' => "'''ମୋଟ ଗଣନା: $1'''",
 	'sitematrix-sitetotal' => 'ସର୍ବମୋଟ',
 	'sitematrix-private' => 'ନିଜସ୍ବ',
+	'sitematrix-fishbowl' => 'ବଦଳାଇବାକୁ ବାରଣ କରାଯାଇଅଛି',
 );
 
 /** Ossetic (Ирон)
