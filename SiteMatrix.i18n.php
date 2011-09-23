@@ -1487,6 +1487,8 @@ $messages['oc'] = array(
  */
 $messages['or'] = array(
 	'sitematrix' => 'ଉଇକିମିଡ଼ିଆ ଉଇକିମାନଙ୍କର ତାଲିକା',
+	'sitematrix-summary' => 'ଏହି ବିଶେଷ ପୃଷ୍ଠାଟିରେ ସବୁଯାକ ଉଇକିମିଡ଼ିଆ ଉଇକିର ତାଲିକା ଅଛି ।',
+	'sitematrix-desc' => '[[Special:SiteMatrix|ଉଇକିମିଡ଼ିଆ ଉଇକିର ତାଲିକା]] ଦେଖାଇଥାଏ',
 	'sitematrix-language' => 'ଭାଷା',
 	'sitematrix-project' => 'ପ୍ରକଳ୍ପର ନାମ, ଅନ୍ତ-ପ୍ରକଳ୍ପ ଲିଙ୍କ, ଇଣ୍ଟରଉଇକି ଲିଙ୍କ',
 	'sitematrix-others' => 'ଉଇକିମିଡ଼ିଆର ବାକି ପ୍ରକଳ୍ପ',
