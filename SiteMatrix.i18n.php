@@ -1212,6 +1212,7 @@ $messages['li'] = array(
 	'sitematrix-language' => 'Taal',
 	'sitematrix-project' => "Naam van 't perjèk, interperjèk link enne interwiki link",
 	'sitematrix-others' => 'Anger perjèkter van Wikimedia',
+	'sitematrix-other-projects' => 'Anger projekte',
 	'sitematrix-total' => "'''Totaal aantal: $1'''",
 	'sitematrix-sitetotal' => 'Totaal',
 	'sitematrix-private' => 'beperkte toegang',
@@ -1466,6 +1467,7 @@ $messages['no'] = array(
 );
 
 /** Occitan (Occitan)
+ * @author Boulaur
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1475,6 +1477,7 @@ $messages['oc'] = array(
 	'sitematrix-language' => 'Lenga',
 	'sitematrix-project' => 'Nom del projècte, ligam interprojècte e ligam interwiki',
 	'sitematrix-others' => 'Autres projèctes de Wikimedia Foundation',
+	'sitematrix-other-projects' => 'Autres projèctes',
 	'sitematrix-total' => "'''Total del compte : $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privat',
