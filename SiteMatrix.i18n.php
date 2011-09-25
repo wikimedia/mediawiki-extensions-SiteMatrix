@@ -1571,10 +1571,14 @@ $messages['pms'] = array(
 $messages['pnb'] = array(
 	'sitematrix' => 'وکیمیڈیا وکی دی لسٹ',
 	'sitematrix-summary' => 'ایس حاص صفے تے سارے وکیمیڈیا مکی دی سلٹ اے۔',
+	'sitematrix-desc' => 'وکھاندا اے اک [[خاص:سائیٹمیٹرکس|وکیمیڈیا وکی دی لسٹ]]',
 	'sitematrix-language' => 'بولی',
+	'sitematrix-project' => 'ویونت جوڑ، آپسی ویونت جوڑ تے انٹروکی جوڑ',
 	'sitematrix-others' => 'وکیمیڈیا دے ہور ویونت',
 	'sitematrix-other-projects' => 'ہور ویونت',
+	'sitematrix-total' => "'''پوری گنتی: $1'''",
 	'sitematrix-sitetotal' => 'ٹوٹل',
+	'sitematrix-private' => 'پرائیویٹ',
 	'sitematrix-fishbowl' => 'تبدیلی ولگن چ',
 );
 
