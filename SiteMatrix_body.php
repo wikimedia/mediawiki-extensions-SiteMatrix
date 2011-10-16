@@ -123,7 +123,7 @@ class SiteMatrix {
 	}
 
 	public function getSiteUrl( $site ){
-		return 'http://' . $this->hosts[$site] . '/';
+		return '//' . $this->hosts[$site] . '/';
 	}
 
 	/**
