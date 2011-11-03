@@ -484,6 +484,7 @@ $messages['dsb'] = array(
 	'sitematrix-language' => 'Rěc',
 	'sitematrix-project' => 'Projektowe mě, interprojektowy wótkaz a interwiki-wótkaz',
 	'sitematrix-others' => 'Dalšne projekty Wikimedije',
+	'sitematrix-other-projects' => 'Druge projekty',
 	'sitematrix-total' => "'''Cełkowna licba: $1'''",
 	'sitematrix-sitetotal' => 'Dogromady',
 	'sitematrix-private' => 'priwatny',
