@@ -2043,6 +2043,7 @@ $messages['th'] = array(
 	'sitematrix-language' => 'ภาษา',
 	'sitematrix-project' => 'ชื่อโครงการ ลิงก์ข้ามโครงการและลิงก์ข้ามวิกิ',
 	'sitematrix-others' => 'โครงการอื่น ๆ ของวิกิมีเดีย',
+	'sitematrix-other-projects' => 'โครงการอื่น',
 	'sitematrix-total' => "'''จำนวนทั้งหมด: $1 เว็บไซต์'''",
 	'sitematrix-sitetotal' => 'รวม',
 	'sitematrix-private' => 'ส่วนตัว',
