@@ -2284,9 +2284,10 @@ $messages['yue'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Alexsh
  * @author Hydra
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'sitematrix' => '维基媒体站点列表',
+	'sitematrix' => '维基媒体网站列表',
 	'sitematrix-summary' => '本特殊页面列示所有维基媒体基金会的所有MediaWiki网站。',
 	'sitematrix-desc' => '显示[[Special:SiteMatrix|维基媒体所有网站的列表]]',
 	'sitematrix-language' => '语言',
