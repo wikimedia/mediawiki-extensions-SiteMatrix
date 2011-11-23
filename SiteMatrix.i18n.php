@@ -1067,7 +1067,7 @@ $messages['kk-arab'] = array(
 	'sitematrix-others' => 'باسقا Wikimedia جوبالارى',
 );
 
-/** Kazakh (Cyrillic) (Қазақша (Cyrillic)) */
+/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'sitematrix' => 'Wikimedia уики тізімі',
 	'sitematrix-language' => 'Тілі',
@@ -1075,7 +1075,7 @@ $messages['kk-cyrl'] = array(
 	'sitematrix-others' => 'Басқа Wikimedia жобалары',
 );
 
-/** Kazakh (Latin) (Қазақша (Latin)) */
+/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'sitematrix' => 'Barlıq Wikimedia wïkï tizimi',
 	'sitematrix-language' => 'Tili',
@@ -1155,7 +1155,7 @@ $messages['ksh'] = array(
 	'sitematrix-fishbowl' => '(et Ändere is beschrängk)',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1850,7 +1850,7 @@ $messages['sq'] = array(
 	'sitematrix-fishbowl' => 'redaktimi i kufizua',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Millosh
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -1869,7 +1869,7 @@ $messages['sr-ec'] = array(
 	'sitematrix-fishbowl' => 'забрана мењања',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  * @author לערי ריינהארט
@@ -2000,7 +2000,7 @@ $messages['tet'] = array(
 	'sitematrix-others' => 'Projetu seluk Wikimedia nian',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2016,7 +2016,7 @@ $messages['tg-cyrl'] = array(
 	'sitematrix-fishbowl' => 'вироишкунӣ маҳдуд шудааст',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2123,21 +2123,21 @@ $messages['ts'] = array(
 	'sitematrix-language' => 'Ririmi',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
 	'sitematrix' => 'Викимедиа проектларының исемлеге',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Alfredie
  */
 $messages['ug-arab'] = array(
 	'sitematrix-language' => 'تىل',
 );
 
-/** Uighur (Latin) (ئۇيغۇرچە / Uyghurche‎ (Latin))
+/** Uyghur (Latin script) (Uyghurche‎)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
