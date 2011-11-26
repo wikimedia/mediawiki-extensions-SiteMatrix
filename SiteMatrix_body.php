@@ -356,6 +356,7 @@ class SiteMatrixPage extends SpecialPage {
 			$s .= "</tr>\n";
 		}
 
+		global $wgLang;
 		# Total
 		$totalCount = 0;
 		$s .= '<tr style="font-weight: bold"><th rowspan="2"><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
@@ -363,12 +364,14 @@ class SiteMatrixPage extends SpecialPage {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
 			$totalCount += $count;
+			$count = $wgLang->formatNum( $count );
 			$s .= "<th><a href=\"{$url}\">{$count}</a></th>";
 		}
 		$s .= '</tr>';
 
 		$s .= '<tr style="font-weight: bold">';
 		$noProjects = count( $matrix->getNames() );
+		$totalCount = $wgLang->formatNum( $totalCount );
 		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
 		$s .= '</tr>';
 
@@ -408,6 +411,6 @@ class SiteMatrixPage extends SpecialPage {
 		$s .= Xml::closeElement( 'table' ) . "\n";
 
 		$wgOut->addHTML( $s );
-		$wgOut->addWikiMsg( 'sitematrix-total', $matrix->getCount() );
+		$wgOut->addWikiMsg( 'sitematrix-total', $wgLang->formatNum( $matrix->getCount() ) );
 	}
 }
