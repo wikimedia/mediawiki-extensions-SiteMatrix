@@ -356,7 +356,7 @@ class SiteMatrixPage extends SpecialPage {
 			$s .= "</tr>\n";
 		}
 
-		global $wgLang;
+		$language = $this->getLanguage();
 		# Total
 		$totalCount = 0;
 		$s .= '<tr style="font-weight: bold"><th rowspan="2"><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
@@ -364,14 +364,14 @@ class SiteMatrixPage extends SpecialPage {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
 			$totalCount += $count;
-			$count = $wgLang->formatNum( $count );
+			$count = $language->formatNum( $count );
 			$s .= "<th><a href=\"{$url}\">{$count}</a></th>";
 		}
 		$s .= '</tr>';
 
 		$s .= '<tr style="font-weight: bold">';
 		$noProjects = count( $matrix->getNames() );
-		$totalCount = $wgLang->formatNum( $totalCount );
+		$totalCount = $language->formatNum( $totalCount );
 		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
 		$s .= '</tr>';
 
@@ -404,13 +404,13 @@ class SiteMatrixPage extends SpecialPage {
 			}
 			$closed = $matrix->isClosed( $lang, $site );
 			$s .= '<tr><td>' . ( $closed ? '<del>' : '' ) .
-				wfSpecialList( '<a href="' . $url . '/">' . $langhost . "</a>", $flagsStr ) .
+				$language->specialList( '<a href="' . $url . '/">' . $langhost . "</a>", $flagsStr ) .
 				( $closed ? '</del>' : '' ) . "</td></tr>\n";
 		}
 
 		$s .= Xml::closeElement( 'table' ) . "\n";
 
 		$wgOut->addHTML( $s );
-		$wgOut->addWikiMsg( 'sitematrix-total', $wgLang->formatNum( $matrix->getCount() ) );
+		$wgOut->addWikiMsg( 'sitematrix-total', $language->formatNum( $matrix->getCount() ) );
 	}
 }
