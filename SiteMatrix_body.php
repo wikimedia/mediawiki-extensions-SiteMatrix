@@ -255,7 +255,7 @@ class SiteMatrix {
 	 * @static
 	 * @param ApiQuerySiteinfo $module
 	 * @param array $results
-	 * @return void
+	 * @return bool
 	 */
 	public static function APIQuerySiteInfoGeneralInfo( $module, &$results ) {
 		global $wgDBname, $wgConf;
@@ -357,13 +357,21 @@ class SiteMatrixPage extends SpecialPage {
 		}
 
 		# Total
-		$s .= '<tr style="font-weight: bold"><th><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
+		$totalCount = 0;
+		$s .= '<tr style="font-weight: bold"><th rowspan="2"><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
 		foreach( $matrix->getNames() as $site => $name ) {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
+			$totalCount += $count;
 			$s .= "<th><a href=\"{$url}\">{$count}</a></th>";
 		}
 		$s .= '</tr>';
+
+		$s .= '<tr style="font-weight: bold">';
+		$noProjects = count( $matrix->getNames() );
+		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
+		$s .= '</tr>';
+
 		$s .= Xml::closeElement( 'table' ) . "\n";
 
 		# Specials
