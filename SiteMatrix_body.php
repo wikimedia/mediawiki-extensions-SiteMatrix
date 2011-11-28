@@ -359,7 +359,7 @@ class SiteMatrixPage extends SpecialPage {
 		$language = $this->getLanguage();
 		# Total
 		$totalCount = 0;
-		$s .= '<tr style="font-weight: bold"><th rowspan="2"><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
+		$s .= '<tr><th rowspan="2"><a id="total" name="total"></a>' . wfMsgHtml( 'sitematrix-sitetotal' ) . '</th>';
 		foreach( $matrix->getNames() as $site => $name ) {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
@@ -369,7 +369,7 @@ class SiteMatrixPage extends SpecialPage {
 		}
 		$s .= '</tr>';
 
-		$s .= '<tr style="font-weight: bold">';
+		$s .= '<tr>';
 		$noProjects = count( $matrix->getNames() );
 		$totalCount = $language->formatNum( $totalCount );
 		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
