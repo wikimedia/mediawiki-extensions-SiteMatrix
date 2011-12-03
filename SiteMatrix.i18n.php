@@ -1852,17 +1852,19 @@ $messages['sq'] = array(
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Millosh
+ * @author Nikola Smolenski
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
  * @author לערי ריינהארט
  */
 $messages['sr-ec'] = array(
 	'sitematrix' => 'Табела свих викија',
-	'sitematrix-summary' => 'Ова посебна страница листа све Викимедијине викије.',
+	'sitematrix-summary' => 'Ова посебна страница приказује све Викимедијине викије.',
 	'sitematrix-desc' => 'Приказује [[Special:SiteMatrix|списак Викимедијиних викија]].',
 	'sitematrix-language' => 'Језик',
 	'sitematrix-project' => 'Име пројекта, међупројекатска веза и међувики веза.',
 	'sitematrix-others' => 'Остали Викимедијини пројекти.',
+	'sitematrix-other-projects' => 'Остали пројекти',
 	'sitematrix-total' => "'''Укупан збир: $1.'''",
 	'sitematrix-sitetotal' => 'укупно',
 	'sitematrix-private' => 'приватно',
