@@ -37,6 +37,13 @@ $messages['qqq'] = array(
 	'sitematrix-private' => '{{Identical|Private}}',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'sitematrix-language' => 'Bhas',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
