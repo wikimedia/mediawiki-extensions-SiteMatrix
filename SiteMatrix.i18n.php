@@ -460,7 +460,7 @@ $messages['de'] = array(
 	'sitematrix-others' => 'Weitere Wikimedia-Projekte',
 	'sitematrix-other-projects' => 'Weitere Projekte',
 	'sitematrix-total' => "'''Gesamtanzahl: $1'''",
-	'sitematrix-sitetotal' => 'Gesamt',
+	'sitematrix-sitetotal' => 'Insgesamt',
 	'sitematrix-private' => 'Privat',
 	'sitematrix-fishbowl' => 'Bearbeitung eingeschränkt',
 );
