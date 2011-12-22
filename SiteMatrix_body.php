@@ -129,14 +129,16 @@ class SiteMatrix {
 	/**
 	 * @param string $minor Language
 	 * @param string $major Site
+	 * @param bool $canonical: true for http://, false for protocol-relative
 	 * @return Mixed
 	 */
-	public function getUrl( $minor, $major ){
+	public function getUrl( $minor, $major, $canonical = true ) {
 		global $wgConf;
 		$dbname = $this->getDBName( $minor, $major );
 		$minor = str_replace( '_', '-', $minor );
-		return $wgConf->get( 'wgCanonicalServer', $dbname, $major,
-			array( 'lang' => $minor, 'site' => $major ) );
+		return $wgConf->get( $canonical ? 'wgCanonicalServer' : 'wgServer',
+			$dbname, $major, array( 'lang' => $minor, 'site' => $major )
+		);
 	}
 
 	/**
@@ -343,7 +345,7 @@ class SiteMatrixPage extends SpecialPage {
 			$s .= '<td>' . $anchor . Xml::element( 'strong', $attribs, $langDisplay ) . '</td>';
 
 			foreach ( $matrix->getNames() as $site => $name ) {
-				$url = $matrix->getUrl( $lang, $site );
+				$url = $matrix->getUrl( $lang, $site, false );
 				if ( $matrix->exist( $lang, $site ) ) {
 					# Wiki exists
 					$closed = $matrix->isClosed( $lang, $site );
@@ -388,7 +390,7 @@ class SiteMatrixPage extends SpecialPage {
 		foreach ( $matrix->getSpecials() as $special ) {
 			list( $lang, $site ) = $special;
 			$langhost = str_replace( '_', '-', $lang );
-			$url = $matrix->getUrl( $lang, $site );
+			$url = $matrix->getUrl( $lang, $site, false );
 
 			# Handle options
 			$flags = array();
