@@ -55,7 +55,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 							$skip = false;
 						}
 
-						$url = $matrix->getUrl( $lang, $site );
+						$url = $matrix->getCanonicalUrl( $lang, $site );
 						$site_out = array(
 							'url' => $url,
 							'dbname' => $matrix->getDBName( $lang, $site ),
@@ -88,7 +88,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			$specials = array();
 			foreach ( $matrix->getSpecials() as $special ){
 				list( $lang, $site ) = $special;
-				$url = $matrix->getUrl( $lang, $site );
+				$url = $matrix->getCanonicalUrl( $lang, $site );
 
 				$wiki = array();
 				$wiki['url'] = $url;
