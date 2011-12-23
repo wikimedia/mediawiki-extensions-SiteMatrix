@@ -1890,6 +1890,7 @@ $messages['sr-el'] = array(
 	'sitematrix-language' => 'Jezik',
 	'sitematrix-project' => 'Ime projekta, međuprojekatska veza i međuviki veza.',
 	'sitematrix-others' => 'Ostali Vikimedijini projekti.',
+	'sitematrix-other-projects' => 'Ostali projekti',
 	'sitematrix-total' => "'''Ukupan zbir: $1.'''",
 	'sitematrix-sitetotal' => 'ukupno',
 	'sitematrix-private' => 'privatno',
