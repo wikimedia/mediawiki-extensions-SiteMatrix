@@ -1267,6 +1267,7 @@ $messages['lt'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author GreenZeb
  * @author Papuass
  * @author Xil
  * @author לערי ריינהארט
@@ -1275,6 +1276,7 @@ $messages['lv'] = array(
 	'sitematrix' => 'Visu Wikimedia wiki projektu uzskaitījums',
 	'sitematrix-language' => 'Valoda',
 	'sitematrix-others' => 'Citi Wikimedia projekti',
+	'sitematrix-other-projects' => 'Citi projekti',
 	'sitematrix-sitetotal' => 'Kopā',
 	'sitematrix-private' => 'privāts',
 );
@@ -1392,6 +1394,25 @@ $messages['nan'] = array(
 	'sitematrix' => 'Wikimedia wiki lia̍t-toaⁿ',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ * @author לערי ריינהארט
+ */
+$messages['nb'] = array(
+	'sitematrix' => 'Liste over Wikimedia-prosjekter',
+	'sitematrix-summary' => 'Denne spesialsiden lister opp alle Wikimedias wikier.',
+	'sitematrix-desc' => 'Viser en [[Special:SiteMatrix|liste over Wikimedia-wikier]]',
+	'sitematrix-language' => 'Språk',
+	'sitematrix-project' => 'Prosjektets navn, interprosjektlenke og interwikilenke',
+	'sitematrix-others' => 'Andre Wikimedia-prosjekter',
+	'sitematrix-other-projects' => 'Andre prosjekt',
+	'sitematrix-total' => "'''Totalt antall: $1'''",
+	'sitematrix-sitetotal' => 'Totalt',
+	'sitematrix-private' => 'privat',
+	'sitematrix-fishbowl' => 'redigering begrenset',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1453,25 +1474,6 @@ $messages['nn'] = array(
 	'sitematrix-sitetotal' => 'Totalt',
 	'sitematrix-private' => 'privat',
 	'sitematrix-fishbowl' => 'endring avgrensa',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- * @author לערי ריינהארט
- */
-$messages['nb'] = array(
-	'sitematrix' => 'Liste over Wikimedia-prosjekter',
-	'sitematrix-summary' => 'Denne spesialsiden lister opp alle Wikimedias wikier.',
-	'sitematrix-desc' => 'Viser en [[Special:SiteMatrix|liste over Wikimedia-wikier]]',
-	'sitematrix-language' => 'Språk',
-	'sitematrix-project' => 'Prosjektets navn, interprosjektlenke og interwikilenke',
-	'sitematrix-others' => 'Andre Wikimedia-prosjekter',
-	'sitematrix-other-projects' => 'Andre prosjekt',
-	'sitematrix-total' => "'''Totalt antall: $1'''",
-	'sitematrix-sitetotal' => 'Totalt',
-	'sitematrix-private' => 'privat',
-	'sitematrix-fishbowl' => 'redigering begrenset',
 );
 
 /** Occitan (Occitan)
