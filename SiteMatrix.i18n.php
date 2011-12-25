@@ -1460,7 +1460,7 @@ $messages['nn'] = array(
  * @author Nghtwlkr
  * @author לערי ריינהארט
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'sitematrix' => 'Liste over Wikimedia-prosjekter',
 	'sitematrix-summary' => 'Denne spesialsiden lister opp alle Wikimedias wikier.',
 	'sitematrix-desc' => 'Viser en [[Special:SiteMatrix|liste over Wikimedia-wikier]]',
