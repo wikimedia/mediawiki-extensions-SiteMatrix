@@ -158,6 +158,11 @@ $specialPageAliases['ms'] = array(
 	'SiteMatrix' => array( 'Wiki_Wikimedia' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'SiteMatrix' => array( 'Wikimedia-wikier' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'SiteMatrix' => array( 'Websteematrix' ),
@@ -173,11 +178,6 @@ $specialPageAliases['nn'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikiar' ),
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'SiteMatrix' => array( 'Wikimedia-wikier' ),
-);
-
 /** Occitan (Occitan) */
 $specialPageAliases['oc'] = array(
 	'SiteMatrix' => array( 'Matritz dels sites', 'Wikis de Wikimedia' ),
@@ -190,7 +190,7 @@ $specialPageAliases['pl'] = array(
 
 /** Portuguese (Português) */
 $specialPageAliases['pt'] = array(
-	'SiteMatrix' => array( 'Lista de wikis da Wikimedia' ),
+	'SiteMatrix' => array( 'Lista_de_wikis_da_Wikimedia' ),
 );
 
 /** Brazilian Portuguese (Português do Brasil) */
@@ -232,8 +232,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'SiteMatrix' => array( '站點矩陣', '站點列表' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
