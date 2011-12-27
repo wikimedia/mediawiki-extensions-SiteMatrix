@@ -551,6 +551,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Imre
  * @author Remember the dot
  * @author Sanbec
  * @author לערי ריינהארט
@@ -562,6 +563,7 @@ $messages['es'] = array(
 	'sitematrix-language' => 'Idioma',
 	'sitematrix-project' => 'Nombre del proyecto, enlace interproyecto y enlace interwiki',
 	'sitematrix-others' => 'Otros proyectos de Wikimedia',
+	'sitematrix-other-projects' => 'Otros proyectos',
 	'sitematrix-total' => "'''Cuenta total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privado',
@@ -818,6 +820,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Kaustubh
  * @author Shyam
  */
@@ -828,6 +831,7 @@ $messages['hi'] = array(
 	'sitematrix-language' => 'भाषा',
 	'sitematrix-project' => 'प्रकल्पका नाम, आंतरप्रकल्प कड़ीयाँ और आंतरविकि कड़ीयाँ',
 	'sitematrix-others' => 'विकिमीडियाके अन्य प्रकल्प',
+	'sitematrix-other-projects' => 'अन्य प्रकल्प',
 	'sitematrix-total' => "'''कुल गिनती: $1'''",
 	'sitematrix-sitetotal' => 'कुल',
 	'sitematrix-private' => 'निजी',
