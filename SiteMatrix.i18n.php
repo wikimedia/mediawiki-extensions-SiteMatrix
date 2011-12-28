@@ -467,12 +467,13 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Aspar
+ * @author Erdemaslancan
  */
 $messages['diq'] = array(
 	'sitematrix' => 'listeya wiki yê heme wikimediyayan',
 	'sitematrix-summary' => 'no pelo xas listeya wiki yê heme wikimedyayan liste keno',
 	'sitematrix-desc' => '[[Special:SiteMatrix|listeya wikiyê Wikimedyayan]] mocneno ra',
-	'sitematrix-language' => 'zıwan',
+	'sitematrix-language' => 'Zuwan',
 	'sitematrix-project' => 'nameyê projeyi, gıreyê benateyê projeyan, wikiyan',
 	'sitematrix-others' => 'Projeyê Wîkîmedyayê binî',
 	'sitematrix-total' => "'''pêro amari: $1'''",
@@ -949,6 +950,23 @@ $messages['ig'] = array(
 	'sitematrix-total' => "'''Ọgụgụ nílé: $1'''",
 	'sitematrix-sitetotal' => 'Òlé níle',
 	'sitematrix-private' => 'zonàrì ñkịtị',
+);
+
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'sitematrix' => 'Listaan dagiti Wikimedia wiki',
+	'sitematrix-summary' => 'Daytoy a naipangruna a panid ket ilista na amin dagiti Wikimedia wiki.',
+	'sitematrix-desc' => 'Agipakita ti [[Special:SiteMatrix|listaan dagiti Wikimedia wiki]]',
+	'sitematrix-language' => 'Pagsasao',
+	'sitematrix-project' => 'Nagan ti gandat, interproject a panilpo ken interwiki a panilpo',
+	'sitematrix-others' => 'Dagiti sabsabali a gandat ti Wikimedia',
+	'sitematrix-other-projects' => 'Dagiti sabsabali a gandat',
+	'sitematrix-total' => "'''Dagup a bilang: $1'''",
+	'sitematrix-sitetotal' => 'Dagup',
+	'sitematrix-private' => 'pribado',
+	'sitematrix-fishbowl' => 'maiparit ti agurnos',
 );
 
 /** Ido (Ido)
