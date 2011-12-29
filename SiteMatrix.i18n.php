@@ -1998,12 +1998,18 @@ $messages['szl'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'sitematrix' => 'விக்கிபீடியா விக்கிகளின் பட்டியல்',
 	'sitematrix-language' => 'மொழி',
+	'sitematrix-others' => 'விக்கிமீடியாவின் மற்ற திட்டங்கள்',
+	'sitematrix-other-projects' => 'மற்ற திட்டங்கள்',
+	'sitematrix-total' => "'''மொத்த எண்ணிக்கை: $1'''",
 	'sitematrix-sitetotal' => 'மொத்தம்',
 	'sitematrix-private' => 'தனிப்பட்ட',
+	'sitematrix-fishbowl' => 'திருத்துதல் தடுக்கப்பட்டது.',
 );
 
 /** Telugu (తెలుగు)
