@@ -648,6 +648,16 @@ $messages['fi'] = array(
 	'sitematrix-fishbowl' => 'muokkaaminen rajoitettu',
 );
 
+/** Faroese (Føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'sitematrix' => 'Listi yvir wikiir á Wikimedia',
+	'sitematrix-summary' => 'Henda serstaka síða hevur yvirlit yvir allar wikiir á Wikimedia',
+	'sitematrix-desc' => 'Vísir ein [[Special:SiteMatrix|lista yvir allar wikiir á Wikimedia]]',
+	'sitematrix-language' => 'Mál',
+);
+
 /** French (Français)
  * @author Grondin
  * @author IAlex
