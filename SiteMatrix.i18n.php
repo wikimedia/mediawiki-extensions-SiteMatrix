@@ -1776,6 +1776,15 @@ $messages['rue'] = array(
 	'sitematrix-fishbowl' => 'едітованя обмеджене',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Ansumang
+ */
+$messages['sa'] = array(
+	'sitematrix-language' => 'भाषा',
+	'sitematrix-sitetotal' => 'समस्त',
+	'sitematrix-private' => 'एकान्ते',
+);
+
 /** Sakha (Саха тыла)
  * @author HalanTul
  */
