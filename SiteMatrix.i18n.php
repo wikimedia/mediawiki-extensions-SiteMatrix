@@ -97,6 +97,7 @@ $messages['an'] = array(
 	'sitematrix-language' => 'Idioma',
 	'sitematrix-project' => "Nombre d'o procheuto, vinclo entre procheutos y vinclo interwiki",
 	'sitematrix-others' => 'Atros procheutos de Wikimedia',
+	'sitematrix-other-projects' => 'Atros prochectos',
 	'sitematrix-total' => "'''Total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privau',
