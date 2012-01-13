@@ -1528,6 +1528,7 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
  */
@@ -1541,7 +1542,7 @@ $messages['or'] = array(
 	'sitematrix-other-projects' => 'ବାକି ପ୍ରକଳ୍ପସମୂହ',
 	'sitematrix-total' => "'''ମୋଟ ଗଣନା: $1'''",
 	'sitematrix-sitetotal' => 'ସର୍ବମୋଟ',
-	'sitematrix-private' => 'ନିଜସ୍ବ',
+	'sitematrix-private' => 'ନିଜସ୍ଵ',
 	'sitematrix-fishbowl' => 'ବଦଳାଇବାକୁ ବାରଣ କରାଯାଇଅଛି',
 );
 
