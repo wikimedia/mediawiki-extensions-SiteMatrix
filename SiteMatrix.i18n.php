@@ -2033,6 +2033,14 @@ $messages['ta'] = array(
 	'sitematrix-fishbowl' => 'திருத்துதல் தடுக்கப்பட்டது.',
 );
 
+/** Tulu (ತುಳು)
+ * @author VASANTH S.N.
+ */
+$messages['tcy'] = array(
+	'sitematrix-language' => 'ಭಾಷೆ',
+	'sitematrix-sitetotal' => 'ಒಟ್ಟು',
+);
+
 /** Telugu (తెలుగు)
  * @author Mpradeep
  * @author Veeven
