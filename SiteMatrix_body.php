@@ -156,7 +156,7 @@ class SiteMatrix {
 	 * @return string
 	 */
 	public function getDBName( $minor, $major ) {
-		return $minor . $major;
+		return str_replace( '-', '_', $minor ) . $major;
 	}
 
 	/**
@@ -183,11 +183,13 @@ class SiteMatrix {
 			// not very reliable.
 			global $wgConf;
 
-			if( $wgConf->get( 'wgReadOnly', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) ) )
+			if( $wgConf->get( 'wgReadOnly', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) ) ) {
 				return true;
+			}
 			$readOnlyFile = $wgConf->get( 'wgReadOnlyFile', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) );
-			if( $readOnlyFile && file_exists( $readOnlyFile ) )
+			if( $readOnlyFile && file_exists( $readOnlyFile ) ) {
 				return true;
+			}
 			return false;
 		}
 
