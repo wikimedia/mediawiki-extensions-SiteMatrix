@@ -778,6 +778,7 @@ $messages['gsw'] = array(
 /** Gujarati (ગુજરાતી)
  * @author Ashok modhvadia
  * @author Dsvyas
+ * @author KartikMistry
  */
 $messages['gu'] = array(
 	'sitematrix' => 'વિકિમીડીયા વિકિઓની યાદી',
@@ -786,6 +787,7 @@ $messages['gu'] = array(
 	'sitematrix-language' => 'ભાષા',
 	'sitematrix-project' => 'પરિયોજનાનું નામ, આંતરપરિયોજનાની કડી અને આંતરવિકિની કડી',
 	'sitematrix-others' => 'વિકિમીડીયાની અન્ય પરિયોજનાઓ',
+	'sitematrix-other-projects' => 'બીજાં પ્રોજેક્ટ્સ',
 	'sitematrix-total' => "'''કુલ સંખ્યા: $1'''",
 	'sitematrix-sitetotal' => 'કુલ',
 	'sitematrix-private' => 'અંગત',
