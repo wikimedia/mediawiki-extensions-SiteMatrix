@@ -196,6 +196,23 @@ $messages['ba'] = array(
 	'sitematrix-fishbowl' => 'мөхәррирләү сикләнгән',
 );
 
+/** Bavarian (Boarisch)
+ * @author Mucalexx
+ */
+$messages['bar'] = array(
+	'sitematrix' => 'Listen voh dé Wikimedia-Wikis',
+	'sitematrix-summary' => 'Dé Speziaalseiten do listt oj Wikis voh da Wikimedia Foundation auf.',
+	'sitematrix-desc' => "Stöd a Speziaalseiten mid aner [[Special:SiteMatrix|Listen voh d' Wikimedia-Wikis]] bereit",
+	'sitematrix-language' => 'Sprooch',
+	'sitematrix-project' => 'Prójektnåm, Interprójektlink und Interwikilink',
+	'sitematrix-others' => 'Weiderne Wikimedia-Prójektt',
+	'sitematrix-other-projects' => 'Weiderne Prójektt',
+	'sitematrix-total' => "'''Gsåmtåzoi: $1'''",
+	'sitematrix-sitetotal' => 'Insgsåmmt',
+	'sitematrix-private' => 'Privaat',
+	'sitematrix-fishbowl' => 'Beorweitung eihgschränkd',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
