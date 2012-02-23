@@ -472,7 +472,7 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'sitematrix' => 'Liste der Wikimedia-Wikis',
 	'sitematrix-summary' => 'Diese Spezialseite listet alle Wikis der Wikimedia Foundation auf.',
-	'sitematrix-desc' => 'Stellt eine Spezialseite mit einer [[Special:SiteMatrix|Liste der Wikimedia-Wikis]] bereit',
+	'sitematrix-desc' => 'Ergänzt eine [[Special:SiteMatrix|Spezialseite]] mit einer Liste der Wikimedia-Wikis',
 	'sitematrix-language' => 'Sprache',
 	'sitematrix-project' => 'Projektname, Interprojektlink und Interwikilink',
 	'sitematrix-others' => 'Weitere Wikimedia-Projekte',
@@ -599,6 +599,7 @@ $messages['et'] = array(
 	'sitematrix-language' => 'Keel',
 	'sitematrix-project' => 'Projekti nimi, sõsarprojekti link ja interviki link',
 	'sitematrix-others' => 'Muud Wikimedia projektid',
+	'sitematrix-other-projects' => 'Muud projektid',
 	'sitematrix-total' => "'''Vikisid kokku: $1'''",
 	'sitematrix-sitetotal' => 'Kokku',
 	'sitematrix-private' => 'eraviisiline',
@@ -2271,13 +2272,15 @@ $messages['vec'] = array(
 	'sitematrix-fishbowl' => 'modifiche limità',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel')
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
+	'sitematrix' => 'Vikimedii-vikiden nimikirjutez',
 	'sitematrix-language' => 'Kel’',
 	'sitematrix-others' => 'Wikimedian toižed projektad',
+	'sitematrix-other-projects' => 'Toižed projektad',
 	'sitematrix-sitetotal' => 'Kaiked',
 	'sitematrix-private' => 'privatine',
 	'sitematrix-fishbowl' => 'redaktiruind om kaidetud',
