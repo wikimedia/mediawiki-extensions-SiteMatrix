@@ -2190,6 +2190,7 @@ $messages['tpi'] = array(
  * @author Joseph
  * @author Mach
  * @author Runningfridgesrule
+ * @author Suelnur
  * @author לערי ריינהארט
  */
 $messages['tr'] = array(
@@ -2199,6 +2200,7 @@ $messages['tr'] = array(
 	'sitematrix-language' => 'Dil',
 	'sitematrix-project' => 'Projenin adı, projelerarası bağlantısı ve vikilerarası bağlantısı',
 	'sitematrix-others' => 'Diğer Wikimedia projeleri',
+	'sitematrix-other-projects' => 'Diğer projeler',
 	'sitematrix-total' => "'''Toplam sayı: $1'''",
 	'sitematrix-sitetotal' => 'Toplam',
 	'sitematrix-private' => 'mahrem',
