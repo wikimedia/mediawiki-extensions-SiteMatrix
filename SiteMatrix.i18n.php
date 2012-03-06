@@ -1093,6 +1093,7 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  * @author Malafaya
  * @author Sopho
  */
@@ -1103,6 +1104,7 @@ $messages['ka'] = array(
 	'sitematrix-language' => 'ენა',
 	'sitematrix-project' => 'პროექტის სახელი, ინტერპროექტის ბმული და ინტერვიკები',
 	'sitematrix-others' => 'ვიკიმედიას სხვა პროექტები',
+	'sitematrix-other-projects' => 'სხვა პროექტები',
 	'sitematrix-total' => "'''საერთო რაოდენობა: $1'''",
 	'sitematrix-sitetotal' => 'სულ',
 	'sitematrix-private' => 'კერძო',
