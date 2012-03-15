@@ -44,6 +44,13 @@ $messages['gom-latn'] = array(
 	'sitematrix-language' => 'Bhas',
 );
 
+/** Ṫuroyo (Ṫuroyo)
+ * @author Ariyo
+ */
+$messages['tru'] = array(
+	'sitematrix-language' => 'Leşono',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
