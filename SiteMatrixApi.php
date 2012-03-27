@@ -60,6 +60,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 							'url' => $url,
 							'dbname' => $matrix->getDBName( $lang, $site ),
 							'code' => $site,
+							'sitename' => $matrix->getSitename( $lang, $site ),
 						);
 						if ( $matrix->isClosed( $lang, $site ) ) {
 							$site_out['closed'] = '';

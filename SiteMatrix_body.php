@@ -155,6 +155,17 @@ class SiteMatrix {
 	 * @param $major string
 	 * @return string
 	 */
+	public function getSitename( $minor, $major ) {
+		global $wgConf;
+		$dbname = $this->getDBName( $minor, $major );
+		return $wgConf->get( 'wgServer', $dbname );
+	}
+
+	/**
+	 * @param $minor string
+	 * @param $major string
+	 * @return string
+	 */
 	public function getDBName( $minor, $major ) {
 		return str_replace( '-', '_', $minor ) . $major;
 	}
