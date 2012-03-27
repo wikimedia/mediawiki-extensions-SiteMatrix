@@ -11,14 +11,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  */
 class ApiQuerySiteMatrix extends ApiQueryBase {
 
-	public function __construct($query, $moduleName) {
-		parent :: __construct($query, $moduleName, 'sm');
+	public function __construct( $query, $moduleName ) {
+		parent :: __construct( $query, $moduleName, 'sm' );
 	}
 
 	public function execute() {
 		$result = $this->getResult();
 		$matrix = new SiteMatrix();
-		$langNames = Language::getLanguageNames();
+		$langNames = Language::fetchLanguageNames();
 
 		$matrix_out = array(
 			'count' => $matrix->getCount(),

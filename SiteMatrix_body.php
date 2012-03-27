@@ -10,7 +10,22 @@ require_once( $IP.'/languages/Names.php' );
 
 class SiteMatrix {
 	protected $langlist, $sites, $names, $hosts;
-	protected $private = null, $fishbowl = null, $closed = null;
+
+	/**
+	 * @var array|null
+	 */
+	protected $private = null;
+
+	/**
+	 * @var array|null
+	 */
+	protected $fishbowl = null;
+
+	/**
+	 * @var array|null
+	 */
+	protected $closed = null;
+
 	protected $specials, $matrix, $count, $countPerSite;
 
 	public function __construct(){
@@ -23,7 +38,7 @@ class SiteMatrix {
 			$this->langlist = $this->extractFile( $wgSiteMatrixFile );
 			$hideEmpty = false;
 		} else {
-			$this->langlist = array_keys( Language::getLanguageNames( false ) );
+			$this->langlist = array_keys( Language::fetchLanguageNames( false ) );
 			$hideEmpty = true;
 		}
 
@@ -94,34 +109,62 @@ class SiteMatrix {
 		$this->count = count( $wgLocalDatabases );
 	}
 
+	/**
+	 * @param $a1 array
+	 * @param $a2 array
+	 * @return int
+	 */
 	public static function sortSpecial( $a1, $a2 ){
 		return strcmp( $a1[0], $a2[0] );
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getLangList(){
 		return $this->langlist;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getNames(){
 		return $this->names;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getSites(){
 		return $this->sites;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getSpecials(){
 		return $this->specials;
 	}
 
+	/**
+	 * @return int
+	 */
 	public function getCount(){
 		return $this->count;
 	}
 
+	/**
+	 * @param $site string
+	 * @return int
+	 */
 	public function getCountPerSite( $site ){
 		return $this->countPerSite[$site];
 	}
 
+	/**
+	 * @param $site string
+	 * @return string
+	 */
 	public function getSiteUrl( $site ){
 		return '//' . $this->hosts[$site] . '/';
 	}
@@ -276,7 +319,6 @@ class SiteMatrix {
 	/**
 	 * Handler method for the APISiteInfoGeneralInfo hook
 	 *
-	 * @static
 	 * @param ApiQuerySiteinfo $module
 	 * @param array $results
 	 * @return bool
@@ -327,7 +369,7 @@ class SiteMatrixPage extends SpecialPage {
 
 	function execute( $par ) {
 		global $wgOut;
-		$langNames = Language::getLanguageNames();
+		$langNames = Language::fetchLanguageNames();
 
 		$this->setHeaders();
 		$this->outputHeader();
