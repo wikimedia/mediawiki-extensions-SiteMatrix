@@ -501,6 +501,7 @@ $messages['diq'] = array(
 	'sitematrix-language' => 'Zuwan',
 	'sitematrix-project' => 'nameyê projeyi, gıreyê benateyê projeyan, wikiyan',
 	'sitematrix-others' => 'Projeyê Wîkîmedyayê binî',
+	'sitematrix-other-projects' => 'Procey bini',
 	'sitematrix-total' => "'''pêro amari: $1'''",
 	'sitematrix-sitetotal' => 'pêro piya',
 	'sitematrix-private' => 'mehrem',
