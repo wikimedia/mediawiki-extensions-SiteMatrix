@@ -1054,12 +1054,13 @@ $messages['it'] = array(
  * @author JtFuruhata
  * @author Muttley
  * @author Ohgi
+ * @author Shirayuki
  * @author לערי ריינהארט
  */
 $messages['ja'] = array(
 	'sitematrix' => 'ウィキメディアのウィキ一覧',
 	'sitematrix-summary' => 'この特別ページではウィキメディアのすべてのウィキを表示しています。',
-	'sitematrix-desc' => '[[Special:SiteMatrix|ウィキメディアのウィキ一覧]]を表示する',
+	'sitematrix-desc' => '[[Special:SiteMatrix|ウィキメディアのウィキ一覧]]を表示します',
 	'sitematrix-language' => '言語',
 	'sitematrix-project' => 'プロジェクト名、プロジェクト間リンク、ウィキ間リンク',
 	'sitematrix-others' => 'ウィキメディアの他のプロジェクト',
