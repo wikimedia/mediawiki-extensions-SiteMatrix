@@ -201,7 +201,7 @@ class SiteMatrix {
 	public function getSitename( $minor, $major ) {
 		global $wgConf;
 		$dbname = $this->getDBName( $minor, $major );
-		return $wgConf->get( 'wgServer', $dbname );
+		return $wgConf->get( 'wgSitename', $dbname );
 	}
 
 	/**
