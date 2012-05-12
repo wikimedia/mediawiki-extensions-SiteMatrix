@@ -785,6 +785,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -792,7 +793,7 @@ $messages['gsw'] = array(
 	'sitematrix-summary' => 'Die Spezialsyte zeigt alli Wiki vu dr Wikimedia Foundation.',
 	'sitematrix-desc' => 'Zeigt e [[Special:SiteMatrix|Lischt vu dr Wikimedia-Wiki]]',
 	'sitematrix-language' => 'Sproch',
-	'sitematrix-project' => 'Projäktname, Interprojäkt-Gleich un Interwiki-Gleich',
+	'sitematrix-project' => 'Projäktname, Interprojäkt-Link un Interwiki-Link',
 	'sitematrix-others' => 'Wyteri Wikimedia-Projäkt',
 	'sitematrix-other-projects' => 'Andri Projäkt',
 	'sitematrix-total' => "'''Gsamtaazahl: $1'''",
@@ -1353,7 +1354,7 @@ $messages['mk'] = array(
 	'sitematrix-summary' => 'На оваа специјална страница се наведени сите вики-проекти на Викимедија.',
 	'sitematrix-desc' => 'Прикажува [[Special:SiteMatrix|список на вики-проектите на Викимедија]]',
 	'sitematrix-language' => 'Јазик',
-	'sitematrix-project' => 'Име на проектот, меѓупроектна врска и интервики',
+	'sitematrix-project' => 'Име на проектот, меѓупроектна врска и меѓувики-врска',
 	'sitematrix-others' => 'Други проекти на Викимедија',
 	'sitematrix-other-projects' => 'Други проекти',
 	'sitematrix-total' => "'''Севкупно: $1'''",
@@ -1526,6 +1527,7 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'sitematrix' => 'Liste over wikiar frå Wikimedia',
@@ -1601,6 +1603,14 @@ $messages['pdc'] = array(
 	'sitematrix' => 'Lischt vun Wikimedia-Wikis',
 	'sitematrix-language' => 'Schprooch',
 	'sitematrix-private' => 'private',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'sitematrix-language' => 'Schbrooch',
+	'sitematrix-private' => 'Briwad',
 );
 
 /** Polish (Polski)
@@ -1840,6 +1850,13 @@ $messages['sah'] = array(
  */
 $messages['sc'] = array(
 	'sitematrix-language' => 'Limba',
+);
+
+/** Sicilian (Sicilianu)
+ * @author Gmelfi
+ */
+$messages['scn'] = array(
+	'sitematrix-language' => 'Lingua',
 );
 
 /** Samogitian (Žemaitėška)
@@ -2116,7 +2133,7 @@ $messages['tg-cyrl'] = array(
 	'sitematrix-fishbowl' => 'вироишкунӣ маҳдуд шудааст',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2239,7 +2256,7 @@ $messages['ug-arab'] = array(
 	'sitematrix-language' => 'تىل',
 );
 
-/** Uyghur (Latin script) (Uyghurche‎)
+/** Uyghur (Latin script) (Uyghurche)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
@@ -2285,7 +2302,7 @@ $messages['vec'] = array(
 	'sitematrix-fishbowl' => 'modifiche limità',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */
