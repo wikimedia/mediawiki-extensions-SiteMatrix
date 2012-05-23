@@ -25,7 +25,7 @@ $specialPageAliases['arz'] = array(
 
 /** Catalan (Català) */
 $specialPageAliases['ca'] = array(
-	'SiteMatrix' => array( 'Projectes Wikimedia', 'Wikis Wikimedia' ),
+	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
 );
 
 /** German (Deutsch) */
@@ -80,12 +80,17 @@ $specialPageAliases['gl'] = array(
 
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
-	'SiteMatrix' => array( 'Lischt vu dr Wikimedia-Wikis' ),
+	'SiteMatrix' => array( 'Lischt_vu_dr_Wikimedia-Wikis' ),
 );
 
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'SiteMatrix' => array( 'רשימת_אתרים', 'אתרי_ויקימדיה' ),
+);
+
+/** Hindi (हिन्दी) */
+$specialPageAliases['hi'] = array(
+	'SiteMatrix' => array( 'विकिमीडिया_विकि', 'साइट_सारणी' ),
 );
 
 /** Croatian (Hrvatski) */
@@ -195,7 +200,7 @@ $specialPageAliases['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil) */
 $specialPageAliases['pt-br'] = array(
-	'SiteMatrix' => array( 'Lista de wikis da Wikimedia' ),
+	'SiteMatrix' => array( 'Lista_de_wikis_da_Wikimedia' ),
 );
 
 /** Slovak (Slovenčina) */
