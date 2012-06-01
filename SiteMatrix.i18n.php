@@ -1786,11 +1786,12 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Kaganer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'sitematrix' => 'Список проектов Викимедиа',
-	'sitematrix-summary' => 'Эта служебная страница перечисляет все вики-проекты Викимедиа.',
+	'sitematrix-summary' => 'На этой служебной странице перечислены все вики-проекты Викимедиа.',
 	'sitematrix-desc' => 'Показывает [[Special:SiteMatrix|список проектов Викимедиа]]',
 	'sitematrix-language' => 'Язык',
 	'sitematrix-project' => 'Имя проекта, межпроектная ссылка и интервики',
