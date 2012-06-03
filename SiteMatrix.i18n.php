@@ -169,8 +169,12 @@ $messages['as'] = array(
 	'sitematrix-desc' => '[[Special:SiteMatrix|ৱিকিমিডিয়া ৱিকিৰ এখন তালিকা]] প্ৰদৰ্শন কৰে',
 	'sitematrix-language' => 'ভাষা',
 	'sitematrix-project' => 'প্ৰকল্পৰ নাম, আন্তঃপ্ৰকল্প সংযোগ আৰু আন্তঃৱিকি সংযোগ',
+	'sitematrix-others' => 'ৱিকিমিডিয়াৰ আন প্ৰকল্পসমূহ',
+	'sitematrix-other-projects' => 'আন প্ৰকল্পসমূহ',
+	'sitematrix-total' => "'''সৰ্বমুঠ: $1'''",
 	'sitematrix-sitetotal' => 'মুঠ',
 	'sitematrix-private' => 'ব্যক্তিগত',
+	'sitematrix-fishbowl' => 'সম্পাদনা নিষেধ কৰা হৈছে',
 );
 
 /** Asturian (Asturianu)
@@ -1799,7 +1803,7 @@ $messages['roa-tara'] = array(
 	'sitematrix-fishbowl' => 'cangiaminde limitate',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Kaganer
  * @author Александр Сигачёв
  */
