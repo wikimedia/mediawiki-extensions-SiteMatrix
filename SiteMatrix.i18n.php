@@ -159,6 +159,20 @@ $messages['arz'] = array(
 	'sitematrix-fishbowl' => 'التعديل متحدد',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ * @author Gitartha.bordoloi
+ */
+$messages['as'] = array(
+	'sitematrix' => 'ৱিকিমিডিয়া ৱিকিসমূহৰ তালিকা',
+	'sitematrix-summary' => 'এই বিশেষ পৃষ্ঠাখনত সকলো ৱিকিমিডিয়া ৱিকিৰ তালিকা আছে।',
+	'sitematrix-desc' => '[[Special:SiteMatrix|ৱিকিমিডিয়া ৱিকিৰ এখন তালিকা]] প্ৰদৰ্শন কৰে',
+	'sitematrix-language' => 'ভাষা',
+	'sitematrix-project' => 'প্ৰকল্পৰ নাম, আন্তঃপ্ৰকল্প সংযোগ আৰু আন্তঃৱিকি সংযোগ',
+	'sitematrix-sitetotal' => 'মুঠ',
+	'sitematrix-private' => 'ব্যক্তিগত',
+);
+
 /** Asturian (Asturianu)
  * @author Esbardu
  * @author Xuacu
