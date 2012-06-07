@@ -2370,16 +2370,22 @@ $messages['vo'] = array(
 	'sitematrix-fishbowl' => 'redakam pemiedükon',
 );
 
-/** Walloon (Walon)
+/** Walloon (walon)
  * @author Srtxg
  * @author לערי ריינהארט
  */
 $messages['wa'] = array(
 	'sitematrix' => 'Djivêye des wikis Wikimedia',
 	'sitematrix-summary' => 'Cisse pådje especiåle ci mostere tos les "Wikis" del Fondåcion Wikimedia.',
+	'sitematrix-desc' => 'Håynêye ene [[Special:SiteMatrix|djivêye des wikis del Fondåcion Wikimedia]]',
 	'sitematrix-language' => 'Lingaedje',
 	'sitematrix-project' => 'No do pordjet, loyén eterpordjet eyet loyén eterwiki',
 	'sitematrix-others' => 'Ôtes pordjes Wikimedia',
+	'sitematrix-other-projects' => 'Ôtes pordjets',
+	'sitematrix-total' => "'''Contaedje totå: $1'''",
+	'sitematrix-sitetotal' => 'Totå',
+	'sitematrix-private' => 'privé',
+	'sitematrix-fishbowl' => 'candjmints limités',
 );
 
 /** Wu (吴语) */
