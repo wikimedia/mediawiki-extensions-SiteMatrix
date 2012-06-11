@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'SiteMatrix' => array( 'Matrix_السايت', 'ويكيهات_ويكيميديا' ),
 );
 
-/** Catalan (Català) */
+/** Catalan (català) */
 $specialPageAliases['ca'] = array(
 	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
 );
@@ -31,6 +31,11 @@ $specialPageAliases['ca'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'SiteMatrix' => array( 'Liste_der_Wikimedia-Wikis' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'SiteMatrix' => array( 'MatrisêSita', 'WikimediaWikiy' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -43,12 +48,12 @@ $specialPageAliases['el'] = array(
 	'SiteMatrix' => array( 'ΠίνακαςΤόπων' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'SiteMatrix' => array( 'Todos_los_Wikis_de_Wikimedia', 'Todos_los_wikis_de_Wikimedia' ),
 );
 
-/** Estonian (Eesti) */
+/** Estonian (eesti) */
 $specialPageAliases['et'] = array(
 	'SiteMatrix' => array( 'Wikimedia_vikid' ),
 );
@@ -58,17 +63,17 @@ $specialPageAliases['fa'] = array(
 	'SiteMatrix' => array( 'ماتریس_وبگاه' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'SiteMatrix' => array( 'Sivumatriisi' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'SiteMatrix' => array( 'Matrice_des_sites', 'Wikis_de_Wikimedia' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'SiteMatrix' => array( 'Matrice_des_setos', 'MatriceDesSetos', 'Vouiquis_de_Wikimedia', 'VouiquisDeWikimedia' ),
 );
@@ -93,7 +98,7 @@ $specialPageAliases['hi'] = array(
 	'SiteMatrix' => array( 'विकिमीडिया_विकि', 'साइट_सारणी' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'SiteMatrix' => array( 'Wikimedijini_projekti' ),
 );
@@ -108,12 +113,12 @@ $specialPageAliases['ht'] = array(
 	'SiteMatrix' => array( 'MatrisSit', 'WikiNanWikimedia' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'SiteMatrix' => array( 'Honlaptáblázat' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'SiteMatrix' => array( 'Matrice_de_sitos', 'Wikis_Mediawiki' ),
 );
@@ -123,7 +128,7 @@ $specialPageAliases['id'] = array(
 	'SiteMatrix' => array( 'Matriks_situs', 'MatriksSitus' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'SiteMatrix' => array( 'ProgettiWikimedia' ),
 );
@@ -131,6 +136,11 @@ $specialPageAliases['it'] = array(
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'SiteMatrix' => array( 'ウィキメディアのウィキ一覧', 'Wikimediaのウィキ一覧' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'SiteMatrix' => array( '사이트배열', '위키미디어위키' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -143,7 +153,7 @@ $specialPageAliases['lb'] = array(
 	'SiteMatrix' => array( 'Lëscht_vun_de_Wikimedia-Wikien' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'SiteMatrix' => array( 'ВикимедијаВикија', 'МатрицаНаВикија' ),
 );
@@ -163,7 +173,7 @@ $specialPageAliases['ms'] = array(
 	'SiteMatrix' => array( 'Wiki_Wikimedia' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikier' ),
 );
@@ -178,37 +188,42 @@ $specialPageAliases['nl'] = array(
 	'SiteMatrix' => array( 'WebsiteMatrix' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikiar' ),
 );
 
-/** Occitan (Occitan) */
+/** Occitan (occitan) */
 $specialPageAliases['oc'] = array(
 	'SiteMatrix' => array( 'Matritz dels sites', 'Wikis de Wikimedia' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'SiteMatrix' => array( 'Lista_projektów' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'SiteMatrix' => array( 'Lista_de_wikis_da_Wikimedia' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'SiteMatrix' => array( 'Lista_de_wikis_da_Wikimedia' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'SiteMatrix' => array( 'Матрица_сайта', 'Вики_Викимедиа' ),
+);
+
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'SiteMatrix' => array( 'MaticaLokalít' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'SiteMatrix' => array( 'Lista_över_Wikimedias_wikier' ),
 );
@@ -228,12 +243,12 @@ $specialPageAliases['yue'] = array(
 	'SiteMatrix' => array( '站點一覽' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'SiteMatrix' => array( '站点矩阵' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'SiteMatrix' => array( '站點矩陣', '站點列表' ),
 );
