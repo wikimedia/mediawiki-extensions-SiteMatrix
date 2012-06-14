@@ -177,7 +177,7 @@ $messages['as'] = array(
 	'sitematrix-fishbowl' => 'সম্পাদনা নিষেধ কৰা হৈছে',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  * @author Xuacu
  */
@@ -195,7 +195,7 @@ $messages['ast'] = array(
 	'sitematrix-fishbowl' => 'edición restrinxida',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -264,7 +264,7 @@ $messages['bcl'] = array(
 	'sitematrix-others' => 'Ibang mga proyekto kan Wikimedia',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Yury Tarasievich
  * @author לערי ריינהארט
  */
@@ -295,7 +295,7 @@ $messages['be-tarask'] = array(
 	'sitematrix-fishbowl' => 'рэдагаваньне абмежавана',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  * @author Turin
@@ -332,7 +332,7 @@ $messages['bn'] = array(
 	'sitematrix-fishbowl' => 'সম্পাদনায় নিষেধাজ্ঞা রয়েছে',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -349,7 +349,7 @@ $messages['br'] = array(
 	'sitematrix-fishbowl' => "Bevennet eo ar c'hemmañ",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -373,7 +373,7 @@ $messages['bxr'] = array(
 	'sitematrix-language' => 'Хэлэн',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Aleator
  * @author Jordi Roqué
  * @author Paucabot
@@ -408,7 +408,7 @@ $messages['ce'] = array(
 	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа колламашан магIам]]',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
 $messages['ckb'] = array(
@@ -423,7 +423,7 @@ $messages['ckb'] = array(
 	'sitematrix-sitetotal' => 'سەرجەم',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Li-sung
  * @author Matěj Grabovský
@@ -470,7 +470,7 @@ $messages['cy'] = array(
 	'sitematrix-fishbowl' => 'cyfyngiadau ar olygu',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Jan Friberg
  * @author Morten LJ
  * @author Peter Alberti
@@ -543,7 +543,7 @@ $messages['dsb'] = array(
 	'sitematrix-fishbowl' => 'wobźěłowanje wobgranicowane',
 );
 
-/** Ewe (Eʋegbe)
+/** Ewe (eʋegbe)
  * @author Natsubee
  */
 $messages['ee'] = array(
@@ -595,7 +595,7 @@ $messages['eo'] = array(
 	'sitematrix-fishbowl' => 'redaktado estas limigita',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Imre
  * @author Remember the dot
  * @author Sanbec
@@ -615,7 +615,7 @@ $messages['es'] = array(
 	'sitematrix-fishbowl' => 'edición restringida',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -632,7 +632,7 @@ $messages['et'] = array(
 	'sitematrix-fishbowl' => 'muutmine piiratud',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -646,7 +646,7 @@ $messages['eu'] = array(
 	'sitematrix-fishbowl' => 'aldatzea mugatua',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -674,7 +674,7 @@ $messages['fa'] = array(
 	'sitematrix-fishbowl' => 'دارای محدودیت ویرایش',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  * @author Olli
@@ -693,7 +693,7 @@ $messages['fi'] = array(
 	'sitematrix-fishbowl' => 'muokkaaminen rajoitettu',
 );
 
-/** Faroese (Føroyskt)
+/** Faroese (føroyskt)
  * @author EileenSanda
  */
 $messages['fo'] = array(
@@ -703,7 +703,7 @@ $messages['fo'] = array(
 	'sitematrix-language' => 'Mál',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author Seb35
@@ -724,14 +724,14 @@ $messages['fr'] = array(
 	'sitematrix-fishbowl' => 'modifications restreintes',
 );
 
-/** Cajun French (Français cadien)
+/** Cajun French (français cadien)
  * @author JeanVoisin
  */
 $messages['frc'] = array(
 	'sitematrix' => 'Liste de wikis à Wikimedia',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -748,7 +748,7 @@ $messages['frp'] = array(
 	'sitematrix-fishbowl' => 'changements rètrents',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -897,7 +897,7 @@ $messages['hi'] = array(
 	'sitematrix-fishbowl' => 'संपादन प्रतिबंधित',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Anton008
  * @author Dalibor Bosits
  * @author Dnik
@@ -936,7 +936,7 @@ $messages['hsb'] = array(
 	'sitematrix-fishbowl' => 'wobdźěłowanje wobmjezowane',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -963,7 +963,7 @@ $messages['hy'] = array(
 	'sitematrix-others' => 'Վիքիմեդիայի այլ նախագծեր',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author Malafaya
  * @author McDutchie
  */
@@ -1038,13 +1038,13 @@ $messages['io'] = array(
 	'sitematrix-private' => 'privata',
 );
 
-/** Icelandic (Íslenska) */
+/** Icelandic (íslenska) */
 $messages['is'] = array(
 	'sitematrix' => 'Listi yfir Wikimedia verkefni',
 	'sitematrix-language' => 'Tungumál',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author .anaconda
  * @author Beta16
  * @author BrokenArrow
@@ -1090,7 +1090,7 @@ $messages['ja'] = array(
 	'sitematrix-fishbowl' => '編集は制限されています',
 );
 
-/** Jutish (Jysk)
+/** Jutish (jysk)
  * @author Huslåke
  */
 $messages['jut'] = array(
@@ -1173,7 +1173,7 @@ $messages['kk-latn'] = array(
 	'sitematrix-others' => 'Basqa Wikimedia jobaları',
 );
 
-/** Kalaallisut (Kalaallisut)
+/** Kalaallisut (kalaallisut)
  * @author Qaqqalik
  */
 $messages['kl'] = array(
@@ -1311,7 +1311,7 @@ $messages['li'] = array(
 	'sitematrix-fishbowl' => 'beperk bewerke',
 );
 
-/** Lumbaart (Lumbaart)
+/** lumbaart (lumbaart)
  * @author Dakrismeno
  */
 $messages['lmo'] = array(
@@ -1332,7 +1332,7 @@ $messages['loz'] = array(
 	'sitematrix' => 'Mukoloko di wiki di Wikimedia',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
  */
@@ -1350,7 +1350,7 @@ $messages['lt'] = array(
 	'sitematrix-fishbowl' => 'redagavimas apribotas',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  * @author Papuass
  * @author Xil
@@ -1365,7 +1365,7 @@ $messages['lv'] = array(
 	'sitematrix-private' => 'privāts',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1400,7 +1400,7 @@ $messages['ml'] = array(
 	'sitematrix-fishbowl' => 'തിരുത്തൽ പരിമിതപ്പെടുത്തിയിരിക്കുന്നു',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1543,7 +1543,7 @@ $messages['nl'] = array(
 	'sitematrix-fishbowl' => 'beperkt bewerken',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Harald Khan
  * @author Njardarlogar
@@ -1561,7 +1561,7 @@ $messages['nn'] = array(
 	'sitematrix-fishbowl' => 'endring avgrensa',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Boulaur
  * @author Cedric31
  */
@@ -1632,7 +1632,7 @@ $messages['pfl'] = array(
 	'sitematrix-private' => 'Briwad',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Sp5uhe
  */
@@ -1700,7 +1700,7 @@ $messages['ps'] = array(
 	'sitematrix-private' => 'ځاني',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
  * @author Malafaya
@@ -1720,7 +1720,7 @@ $messages['pt'] = array(
 	'sitematrix-fishbowl' => 'edição restricta',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  * @author Helder.wiki
@@ -1757,7 +1757,7 @@ $messages['qu'] = array(
 	'sitematrix-fishbowl' => "llamk'apuy saywachasqa",
 );
 
-/** Romansh (Rumantsch)
+/** Romansh (rumantsch)
  * @author Kazu89
  */
 $messages['rm'] = array(
@@ -1765,7 +1765,7 @@ $messages['rm'] = array(
 	'sitematrix-language' => 'Linguatg',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author AdiJapan
  * @author Cin
  * @author KlaudiuMihaila
@@ -1787,7 +1787,7 @@ $messages['ro'] = array(
 	'sitematrix-fishbowl' => 'modificare restricționată',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1848,7 +1848,7 @@ $messages['sa'] = array(
 	'sitematrix-private' => 'एकान्ते',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1865,14 +1865,14 @@ $messages['sah'] = array(
 	'sitematrix-fishbowl' => 'көннөрүү хааччахтаммыт',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Andria
  */
 $messages['sc'] = array(
 	'sitematrix-language' => 'Limba',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Gmelfi
  */
 $messages['scn'] = array(
@@ -1908,7 +1908,7 @@ $messages['si'] = array(
 	'sitematrix-fishbowl' => 'සංස්කරණය කෙරුම පරිසීමාකෙරිණි',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1925,7 +1925,7 @@ $messages['sk'] = array(
 	'sitematrix-fishbowl' => 'úpravy obmedzené',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1950,7 +1950,7 @@ $messages['sli'] = array(
 	'sitematrix-private' => 'Privat',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Mikullovci11
  * @author Olsi
  * @author Vinie007
@@ -1970,7 +1970,7 @@ $messages['sq'] = array(
 	'sitematrix-fishbowl' => 'redaktimi i kufizua',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Millosh
  * @author Nikola Smolenski
  * @author Sasa Stefanovic
@@ -1991,7 +1991,7 @@ $messages['sr-ec'] = array(
 	'sitematrix-fishbowl' => 'забрана мењања',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  * @author לערי ריינהארט
@@ -2053,7 +2053,7 @@ $messages['su'] = array(
 	'sitematrix-fishbowl' => 'ngédit teu di idinan',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Lejonel
  * @author M.M.S.
@@ -2127,7 +2127,7 @@ $messages['te'] = array(
 	'sitematrix-fishbowl' => 'మార్చడం నియంత్రించాం',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -2137,7 +2137,7 @@ $messages['tet'] = array(
 	'sitematrix-others' => 'Projetu seluk Wikimedia nian',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2153,7 +2153,7 @@ $messages['tg-cyrl'] = array(
 	'sitematrix-fishbowl' => 'вироишкунӣ маҳдуд шудааст',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2262,7 +2262,7 @@ $messages['ts'] = array(
 	'sitematrix-language' => 'Ririmi',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -2283,7 +2283,7 @@ $messages['ug-latn'] = array(
 	'sitematrix-language' => 'Til',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ahonc
  * @author Тест
  */
@@ -2306,7 +2306,7 @@ $messages['ur'] = array(
 	'sitematrix' => 'فہرست وکی میڈیا کے دیگر وکییوں کی',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -2428,7 +2428,7 @@ $messages['yue'] = array(
 	'sitematrix-fishbowl' => '編輯限制',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Alexsh
  * @author Hydra
  * @author Xiaomingyan
@@ -2447,7 +2447,7 @@ $messages['zh-hans'] = array(
 	'sitematrix-fishbowl' => '编辑限制',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Alexsh
  * @author Mark85296341
  * @author Waihorace
