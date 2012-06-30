@@ -38,7 +38,7 @@ $specialPageAliases['diq'] = array(
 	'SiteMatrix' => array( 'MatrisêSita', 'WikimediaWikiy' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'SiteMatrix' => array( 'Lisćina projektow Wikimedije' ),
 );
@@ -78,7 +78,7 @@ $specialPageAliases['frp'] = array(
 	'SiteMatrix' => array( 'Matrice_des_setos', 'MatriceDesSetos', 'Vouiquis_de_Wikimedia', 'VouiquisDeWikimedia' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'SiteMatrix' => array( 'Wikis_Wikimedia' ),
 );
@@ -103,7 +103,7 @@ $specialPageAliases['hr'] = array(
 	'SiteMatrix' => array( 'Wikimedijini_projekti' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'SiteMatrix' => array( 'Lisćina projektow Wikimedije' ),
 );
