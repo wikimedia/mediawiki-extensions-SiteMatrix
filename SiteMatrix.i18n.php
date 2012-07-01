@@ -94,7 +94,7 @@ $messages['am'] = array(
 	'sitematrix-language' => 'ቋንቋ',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -275,7 +275,7 @@ $messages['be'] = array(
 	'sitematrix-others' => 'Іншыя праекты Фонду Вікімедыя',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -444,7 +444,7 @@ $messages['cs'] = array(
 	'sitematrix-fishbowl' => 'editování omezeno',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -526,7 +526,7 @@ $messages['diq'] = array(
 	'sitematrix-fishbowl' => 'vuriyayişi qedexe bı',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -772,7 +772,7 @@ $messages['ga'] = array(
 	'sitematrix-others' => 'Tionscadail eile ar Vicíméid',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -919,7 +919,7 @@ $messages['hr'] = array(
 	'sitematrix-fishbowl' => 'uređivanje ograničeno',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1235,7 +1235,7 @@ $messages['ksh'] = array(
 	'sitematrix' => 'Lėß med alle Wikkimedija Wikiß',
 	'sitematrix-summary' => 'De <span class="plainlinks">[http://www.wikimedia.org/ WikkiMedija Shtefftong]</span> hälld_enne Houfe Wikkis am loufe. Hee sen se all em Övverbleck ze sinn.',
 	'sitematrix-desc' => 'Zeish en [[Special:SiteMatrix|{{int:Sitematrix}}]].',
-	'sitematrix-language' => 'Sproch',
+	'sitematrix-language' => 'Schprooch',
 	'sitematrix-project' => 'Dem Projek singe Name, dä Lengk zwesche de Projekte, un dä Engerwiki Lengk',
 	'sitematrix-others' => 'Noch mieh Projekte vun de Wikimedia-Steftung',
 	'sitematrix-other-projects' => 'Ander Projäkter',
@@ -1822,7 +1822,7 @@ $messages['ru'] = array(
 	'sitematrix-fishbowl' => 'редактирование ограничено',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -1879,7 +1879,7 @@ $messages['scn'] = array(
 	'sitematrix-language' => 'Lingua',
 );
 
-/** Samogitian (Žemaitėška)
+/** Samogitian (žemaitėška)
  * @author Hugo.arg
  */
 $messages['sgs'] = array(
@@ -2078,7 +2078,7 @@ $messages['sw'] = array(
 	'sitematrix-language' => 'Lugha',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Herr Kriss
  */
 $messages['szl'] = array(
