@@ -1249,6 +1249,7 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'sitematrix-language' => 'Ziman',
 	'sitematrix-other-projects' => 'Projeyên din',
 	'sitematrix-sitetotal' => 'Hemû',
 );
