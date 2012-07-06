@@ -826,12 +826,12 @@ $messages['gsw'] = array(
  * @author KartikMistry
  */
 $messages['gu'] = array(
-	'sitematrix' => 'વિકિમીડીયા વિકિઓની યાદી',
+	'sitematrix' => 'વિકિમીડિયા વિકિઓની યાદી',
 	'sitematrix-summary' => 'આ ખાસ પાનું તમામ વિકિમીડિયા વિકિઓની યાદિ દર્શાવે છે.',
-	'sitematrix-desc' => '[[Special:SiteMatrix|વિકિમીડીયા વિકિઓની યાદી]] દર્શાવે છે',
+	'sitematrix-desc' => '[[Special:SiteMatrix|વિકિમીડિયા વિકિઓની યાદી]] દર્શાવે છે',
 	'sitematrix-language' => 'ભાષા',
 	'sitematrix-project' => 'પરિયોજનાનું નામ, આંતરપરિયોજનાની કડી અને આંતરવિકિની કડી',
-	'sitematrix-others' => 'વિકિમીડીયાની અન્ય પરિયોજનાઓ',
+	'sitematrix-others' => 'વિકિમીડિયાની અન્ય પરિયોજનાઓ',
 	'sitematrix-other-projects' => 'બીજાં પ્રોજેક્ટ્સ',
 	'sitematrix-total' => "'''કુલ સંખ્યા: $1'''",
 	'sitematrix-sitetotal' => 'કુલ',
