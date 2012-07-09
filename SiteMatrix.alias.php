@@ -230,7 +230,7 @@ $specialPageAliases['sv'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'SiteMatrix' => array( 'Matris ng sayt', 'Mga wiki ng Wikimedia' ),
+	'SiteMatrix' => array( 'Matris_ng_sayt', 'Mga_wiki_ng_Wikimedia' ),
 );
 
 /** Turkish (Türkçe) */
