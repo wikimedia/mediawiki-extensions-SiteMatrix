@@ -204,7 +204,7 @@ $messages['az'] = array(
 	'sitematrix-private' => 'xüsusi',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -366,7 +366,7 @@ $messages['bs'] = array(
 	'sitematrix-fishbowl' => 'uređivanje zabranjeno',
 );
 
-/** Буряад (Буряад)
+/** буряад (буряад)
  * @author ОйЛ
  */
 $messages['bxr'] = array(
@@ -400,7 +400,7 @@ $messages['cdo'] = array(
 	'sitematrix' => 'Wikimedia wiki gì dăng-dăng',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1157,7 +1157,7 @@ $messages['kk-arab'] = array(
 	'sitematrix-others' => 'باسقا Wikimedia جوبالارى',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'sitematrix' => 'Wikimedia уики тізімі',
 	'sitematrix-language' => 'Тілі',
@@ -1165,7 +1165,7 @@ $messages['kk-cyrl'] = array(
 	'sitematrix-others' => 'Басқа Wikimedia жобалары',
 );
 
-/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'sitematrix' => 'Barlıq Wikimedia wïkï tizimi',
 	'sitematrix-language' => 'Tili',
@@ -1213,11 +1213,12 @@ $messages['kn'] = array(
  * @author Kwj2772
  * @author ToePeu
  * @author לערי ריינהארט
+ * @author 아라
  */
 $messages['ko'] = array(
 	'sitematrix' => '위키미디어 위키 목록',
 	'sitematrix-summary' => '모든 위키미디어 위키의 목록입니다.',
-	'sitematrix-desc' => '[[Special:SiteMatrix|위키미디어 위키 목록]]을 보여준다.',
+	'sitematrix-desc' => '[[Special:SiteMatrix|위키미디어 위키 목록]]을 표시함',
 	'sitematrix-language' => '언어',
 	'sitematrix-project' => '프로젝트 이름, 각 프로젝트 간의 인터위키',
 	'sitematrix-others' => '다른 위키미디어 프로젝트 목록',
@@ -1452,7 +1453,7 @@ $messages['mt'] = array(
 	'sitematrix-language' => 'Lingwa',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Amdf
  * @author Botuzhaleny-sodamo
  */
@@ -1479,8 +1480,7 @@ $messages['nan'] = array(
 	'sitematrix' => 'Wikimedia wiki lia̍t-toaⁿ',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  * @author לערי ריינהארט
  */
@@ -2323,7 +2323,7 @@ $messages['vec'] = array(
 	'sitematrix-fishbowl' => 'modifiche limità',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */
