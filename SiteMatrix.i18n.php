@@ -628,7 +628,7 @@ $messages['et'] = array(
 	'sitematrix-other-projects' => 'Muud projektid',
 	'sitematrix-total' => "'''Vikisid kokku: $1'''",
 	'sitematrix-sitetotal' => 'Kokku',
-	'sitematrix-private' => 'eraviisiline',
+	'sitematrix-private' => 'eraviki',
 	'sitematrix-fishbowl' => 'muutmine piiratud',
 );
 
