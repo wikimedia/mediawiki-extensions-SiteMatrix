@@ -2122,6 +2122,7 @@ $messages['te'] = array(
 	'sitematrix-language' => 'భాష',
 	'sitematrix-project' => 'ప్రాజెక్టు పేరు, అంతర్‌ప్రాజెక్టు లింకు మరియు అంతర్వికీ లింకు',
 	'sitematrix-others' => 'వికీమీడియాలోని ఇతర ప్రాజెక్టులు',
+	'sitematrix-other-projects' => 'ఇతర ప్రాజెక్టులు',
 	'sitematrix-total' => "'''మొత్తం సంఖ్య: $1'''",
 	'sitematrix-sitetotal' => 'మొత్తం',
 	'sitematrix-private' => 'అంతరంగిక',
