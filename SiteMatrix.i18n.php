@@ -44,7 +44,7 @@ $messages['gom-latn'] = array(
 	'sitematrix-language' => 'Bhas',
 );
 
-/** Ṫuroyo (Ṫuroyo)
+/** Turoyo (Ṫuroyo)
  * @author Ariyo
  */
 $messages['tru'] = array(
