@@ -1853,8 +1853,10 @@ $messages['rue'] = array(
 
 /** Sanskrit (संस्कृतम्)
  * @author Ansumang
+ * @author Shubha
  */
 $messages['sa'] = array(
+	'sitematrix' => 'विकिमाध्यमस्य वीकीनां सूची',
 	'sitematrix-language' => 'भाषा',
 	'sitematrix-sitetotal' => 'समस्त',
 	'sitematrix-private' => 'एकान्ते',
@@ -2085,9 +2087,16 @@ $messages['sv'] = array(
 	'sitematrix-fishbowl' => 'redigering begränsad',
 );
 
-/** Swahili (Kiswahili) */
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
 $messages['sw'] = array(
 	'sitematrix-language' => 'Lugha',
+	'sitematrix-others' => 'Miradi mingine ya Wikimedia',
+	'sitematrix-other-projects' => 'Miradi mingine',
+	'sitematrix-sitetotal' => 'Jumla',
+	'sitematrix-private' => 'binafsi',
+	'sitematrix-fishbowl' => 'kuhariri kumezuiwa',
 );
 
 /** Silesian (ślůnski)
