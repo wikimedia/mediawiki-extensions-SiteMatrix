@@ -897,6 +897,13 @@ $messages['hi'] = array(
 	'sitematrix-fishbowl' => 'संपादन प्रतिबंधित',
 );
 
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Karthi.dr
+ */
+$messages['hif-latn'] = array(
+	'sitematrix-language' => 'Bhasa',
+);
+
 /** Croatian (hrvatski)
  * @author Anton008
  * @author Dalibor Bosits
@@ -2422,8 +2429,13 @@ $messages['wuu'] = array(
  */
 $messages['yi'] = array(
 	'sitematrix' => 'רשימה פֿון וויקימעדיע וויקיס',
+	'sitematrix-summary' => 'דער באזונדערער בלאט איז א רשימה פון אלע וויקימעדיע וויקיס.',
+	'sitematrix-desc' => 'ווײַזט א [[Special:SiteMatrix|רשימה פון וויקימעדיע וויקיס]]',
 	'sitematrix-language' => 'שפראַך',
 	'sitematrix-others' => 'אַנדערע פראיעקטן פֿון וויקימעדיע',
+	'sitematrix-sitetotal' => 'סה"כ',
+	'sitematrix-private' => 'פריוואַט',
+	'sitematrix-fishbowl' => 'רעדאקטירן באגרענעצט',
 );
 
 /** Yoruba (Yorùbá)
