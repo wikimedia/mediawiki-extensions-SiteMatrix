@@ -1864,9 +1864,16 @@ $messages['rue'] = array(
  */
 $messages['sa'] = array(
 	'sitematrix' => 'विकिमाध्यमस्य वीकीनां सूची',
+	'sitematrix-summary' => 'इदं विशेषपृष्ठं वीकीमाध्यमस्य सर्वाः वीकीः सूचयति ।',
+	'sitematrix-desc' => '[[Special:SiteMatrix|विकिमाध्यमस्य विकीनां सूची]] दर्श्यते',
 	'sitematrix-language' => 'भाषा',
+	'sitematrix-project' => 'प्रकल्पस्य नाम, अन्तर्प्रकल्पस्य अनुबन्धः, अन्तर्वीक्यनुबन्धश्च',
+	'sitematrix-others' => 'विकिमाध्यमस्य अन्ये प्रकल्पाः',
+	'sitematrix-other-projects' => 'अन्ये प्रकल्पाः',
+	'sitematrix-total' => "'''समग्रगणना: $1'''",
 	'sitematrix-sitetotal' => 'समस्त',
 	'sitematrix-private' => 'एकान्ते',
+	'sitematrix-fishbowl' => 'सम्पादनम् अवरुद्धम्',
 );
 
 /** Sakha (саха тыла)
@@ -2115,11 +2122,13 @@ $messages['szl'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
 	'sitematrix' => 'விக்கிபீடியா விக்கிகளின் பட்டியல்',
+	'sitematrix-summary' => 'இந்தச் சிறப்புப் பக்கம் எல்லா மீடியாவிக்கி விக்கிகளையும் பட்டியலிடுகிறது.',
 	'sitematrix-language' => 'மொழி',
 	'sitematrix-others' => 'விக்கிமீடியாவின் மற்ற திட்டங்கள்',
 	'sitematrix-other-projects' => 'மற்ற திட்டங்கள்',
