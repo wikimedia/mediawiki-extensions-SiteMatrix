@@ -137,6 +137,7 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
+	'sitematrix' => 'ܡܟܬܒܘܬܐ ܕܘܝܩܝ̈ܐ ܕܘܝܩܝܡܝܕܝܐ',
 	'sitematrix-language' => 'ܠܫܢܐ',
 	'sitematrix-private' => 'ܦܪܨܘܦܝܐ',
 );
@@ -1112,6 +1113,7 @@ $messages['jut'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author NoiX180
  */
 $messages['jv'] = array(
 	'sitematrix' => 'Daftar wiki Wikimedia',
@@ -1120,6 +1122,7 @@ $messages['jv'] = array(
 	'sitematrix-language' => 'Basa',
 	'sitematrix-project' => 'Jeneng proyèk, pranala interproyèk lan pranala interwiki',
 	'sitematrix-others' => 'Proyèk-proyèk liya Wikimedia',
+	'sitematrix-other-projects' => 'Proyèk liya',
 	'sitematrix-total' => "'''Gunggungé cacahé: $1'''",
 	'sitematrix-sitetotal' => 'Gunggungé',
 	'sitematrix-private' => 'pribadi',
@@ -2102,9 +2105,12 @@ $messages['sv'] = array(
 );
 
 /** Swahili (Kiswahili)
+ * @author Kwisha
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
+	'sitematrix' => 'Orodha ya wiki za Wikimedia',
+	'sitematrix-summary' => 'Ukurasa huu spesheli unaorodhesha Wiki zote za Wikimedia.',
 	'sitematrix-language' => 'Lugha',
 	'sitematrix-others' => 'Miradi mingine ya Wikimedia',
 	'sitematrix-other-projects' => 'Miradi mingine',
@@ -2125,10 +2131,12 @@ $messages['szl'] = array(
  * @author Karthi.dr
  * @author Shanmugamp7
  * @author TRYPPN
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'sitematrix' => 'விக்கிபீடியா விக்கிகளின் பட்டியல்',
 	'sitematrix-summary' => 'இந்தச் சிறப்புப் பக்கம் எல்லா மீடியாவிக்கி விக்கிகளையும் பட்டியலிடுகிறது.',
+	'sitematrix-desc' => '[[Special:SiteMatrix|விக்கிமீடியா விக்கிகளின் பட்டியல்]] ஒன்றைக் காட்டும்',
 	'sitematrix-language' => 'மொழி',
 	'sitematrix-others' => 'விக்கிமீடியாவின் மற்ற திட்டங்கள்',
 	'sitematrix-other-projects' => 'மற்ற திட்டங்கள்',
