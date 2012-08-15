@@ -522,7 +522,7 @@ $messages['diq'] = array(
 	'sitematrix-others' => 'Projeyê Wîkîmedyayê binî',
 	'sitematrix-other-projects' => 'Procey bini',
 	'sitematrix-total' => "'''pêro amari: $1'''",
-	'sitematrix-sitetotal' => 'pêro piya',
+	'sitematrix-sitetotal' => 'Pêro piya',
 	'sitematrix-private' => 'mehrem',
 	'sitematrix-fishbowl' => 'vuriyayişi qedexe bı',
 );
