@@ -2347,9 +2347,17 @@ $messages['uk'] = array(
 	'sitematrix-fishbowl' => 'редагування обмежене',
 );
 
-/** Urdu (اردو) */
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
 $messages['ur'] = array(
 	'sitematrix' => 'فہرست وکی میڈیا کے دیگر وکییوں کی',
+	'sitematrix-summary' => 'اس خصوصی صفحے کی فہرست سب ویکیوں.',
+	'sitematrix-language' => 'زبان',
+	'sitematrix-others' => 'وکی میڈیا کی دیگر منصوبوں',
+	'sitematrix-other-projects' => 'دیگر منصوبوں',
+	'sitematrix-sitetotal' => 'کل',
+	'sitematrix-private' => 'پرائیویٹ',
 );
 
 /** vèneto (vèneto)
