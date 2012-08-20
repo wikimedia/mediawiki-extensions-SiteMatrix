@@ -411,6 +411,7 @@ $messages['ce'] = array(
 
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
+ * @author Muhammed taha
  */
 $messages['ckb'] = array(
 	'sitematrix' => 'لیستی ویکییەکانی ویکیمیدیا',
@@ -422,6 +423,8 @@ $messages['ckb'] = array(
 	'sitematrix-other-projects' => 'پرۆژەکانی تر',
 	'sitematrix-total' => "'''ژمارەی سەرجەم: $1'''",
 	'sitematrix-sitetotal' => 'سەرجەم',
+	'sitematrix-private' => 'تایبەت',
+	'sitematrix-fishbowl' => 'دەستکاریکردنی سنووردار',
 );
 
 /** Czech (česky)
