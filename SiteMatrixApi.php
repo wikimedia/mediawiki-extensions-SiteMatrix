@@ -1,8 +1,8 @@
 <?php
 
 if ( !defined( 'MEDIAWIKI' ) ) {
-    echo "SiteMatrix extension\n";
-    exit( 1 );
+	echo "SiteMatrix extension\n";
+	exit( 1 );
 }
 
 /**
@@ -108,7 +108,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 
 		if ( isset( $type['special'] ) && $count < $limit ) {
 			$specials = array();
-			foreach ( $matrix->getSpecials() as $special ){
+			foreach ( $matrix->getSpecials() as $special ) {
 				list( $lang, $site ) = $special;
 				$dbName = $matrix->getDBName( $lang, $site );
 				if ( $continue[0] == 'special' && $dbName < $continue[1] ) {
@@ -254,7 +254,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 		return array(
 			'Get Wikimedia sites list',
 			'The code is either the unique identifier for specials else, for languages, the project code',
-			);
+		);
 	}
 
 	public function getExamples() {
