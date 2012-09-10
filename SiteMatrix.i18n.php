@@ -1716,6 +1716,7 @@ $messages['pnb'] = array(
  */
 $messages['ps'] = array(
 	'sitematrix' => 'د ويکي-رسنۍ د ويکي-ګانو لړليک',
+	'sitematrix-summary' => 'دا ځانګړی مخ د ويکيمېډيا د ټولو ويکي ګانو لړليک ښکاره کوي.',
 	'sitematrix-language' => 'ژبه',
 	'sitematrix-project' => 'د پروژې نوم، د پروژوترمېنځ تړنه او د ويکي-ګانوترمېنځ تړنه',
 	'sitematrix-others' => 'د ويکي-رسنۍ نورې پروژې',
