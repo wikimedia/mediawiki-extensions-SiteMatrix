@@ -173,7 +173,7 @@ $specialPageAliases['ms'] = array(
 	'SiteMatrix' => array( 'Wiki_Wikimedia' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikier' ),
 );
@@ -188,7 +188,7 @@ $specialPageAliases['nl'] = array(
 	'SiteMatrix' => array( 'WebsiteMatrix' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $specialPageAliases['nn'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikiar' ),
 );
@@ -243,12 +243,12 @@ $specialPageAliases['yue'] = array(
 	'SiteMatrix' => array( '站點一覽' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'SiteMatrix' => array( '站点矩阵' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'SiteMatrix' => array( '站點矩陣', '站點列表' ),
 );
