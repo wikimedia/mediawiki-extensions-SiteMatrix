@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'SiteMatrix' => array( 'Matrix_السايت', 'ويكيهات_ويكيميديا' ),
 );
 
+/** Bashkir (башҡортса) */
+$specialPageAliases['ba'] = array(
+	'SiteMatrix' => array( 'SiteMatrix' ),
+);
+
 /** Catalan (català) */
 $specialPageAliases['ca'] = array(
 	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
