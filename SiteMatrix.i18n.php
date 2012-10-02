@@ -276,7 +276,7 @@ $messages['be'] = array(
 	'sitematrix-others' => 'Іншыя праекты Фонду Вікімедыя',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -1162,7 +1162,7 @@ $messages['kaa'] = array(
 	'sitematrix-others' => 'Basqa Wikimedia proektleri',
 );
 
-/** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬) */
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏) */
 $messages['kk-arab'] = array(
 	'sitematrix' => 'بارلىق Wikimedia ۋيكي تٸزٸمٸ',
 	'sitematrix-language' => 'تٸلٸ',
@@ -1170,7 +1170,7 @@ $messages['kk-arab'] = array(
 	'sitematrix-others' => 'باسقا Wikimedia جوبالارى',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
 $messages['kk-cyrl'] = array(
 	'sitematrix' => 'Wikimedia уики тізімі',
 	'sitematrix-language' => 'Тілі',
@@ -1178,7 +1178,7 @@ $messages['kk-cyrl'] = array(
 	'sitematrix-others' => 'Басқа Wikimedia жобалары',
 );
 
-/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎) */
 $messages['kk-latn'] = array(
 	'sitematrix' => 'Barlıq Wikimedia wïkï tizimi',
 	'sitematrix-language' => 'Tili',
@@ -1259,7 +1259,7 @@ $messages['ksh'] = array(
 	'sitematrix-fishbowl' => '(et Ändere is beschrängk)',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1504,7 +1504,7 @@ $messages['nan'] = array(
 	'sitematrix' => 'Wikimedia wiki lia̍t-toaⁿ',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  * @author לערי ריינהארט
  */
@@ -1568,7 +1568,7 @@ $messages['nl'] = array(
 	'sitematrix-fishbowl' => 'beperkt bewerken',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Eirik
  * @author Harald Khan
  * @author Njardarlogar
@@ -2005,7 +2005,7 @@ $messages['sq'] = array(
 	'sitematrix-fishbowl' => 'redaktimi i kufizua',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Millosh
  * @author Nikola Smolenski
  * @author Sasa Stefanovic
@@ -2026,7 +2026,7 @@ $messages['sr-ec'] = array(
 	'sitematrix-fishbowl' => 'забрана мењања',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Жељко Тодоровић
  * @author לערי ריינהארט
@@ -2491,7 +2491,7 @@ $messages['yue'] = array(
 	'sitematrix-fishbowl' => '編輯限制',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Alexsh
  * @author Hydra
  * @author Xiaomingyan
@@ -2510,7 +2510,7 @@ $messages['zh-hans'] = array(
 	'sitematrix-fishbowl' => '编辑限制',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Alexsh
  * @author Mark85296341
  * @author Waihorace
