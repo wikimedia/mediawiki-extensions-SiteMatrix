@@ -14,7 +14,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'SiteMatrix',
 	'author'         => array( 'Tim Starling', 'Brion Vibber', 'Victor Vasiliev', 'Alexandre Emsenhuber' ),
-	'version'        => '1.1',
+	'version'        => '1.2',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SiteMatrix',
 	'descriptionmsg' => 'sitematrix-desc',
 );
@@ -55,6 +55,11 @@ $wgSiteMatrixSites = array(
 		'name' => 'Wikiversity',
 		'host' => 'www.wikiversity.org',
 		'prefix' => 'v',
+	),
+	'wikivoyage' => array(
+		'name' => 'Wikivoyage',
+		'host' => 'www.wikivoyage.org',
+		'prefix' => 'y',
 	)
 );
 $wgSiteMatrixPrivateSites = null;
