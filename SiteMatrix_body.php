@@ -456,6 +456,12 @@ class SiteMatrixPage extends SpecialPage {
 
 		foreach ( $matrix->getSpecials() as $special ) {
 			list( $lang, $site ) = $special;
+
+			// sanity check
+			if ( !$lang && !$site ) {
+				continue;
+			}
+
 			$langhost = str_replace( '_', '-', $lang );
 			$url = $matrix->getUrl( $lang, $site );
 
