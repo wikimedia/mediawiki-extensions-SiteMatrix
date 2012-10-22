@@ -37,20 +37,6 @@ $messages['qqq'] = array(
 	'sitematrix-private' => '{{Identical|Private}}',
 );
 
-/** Goan Konkani (Latin script) (Konknni)
- * @author The Discoverer
- */
-$messages['gom-latn'] = array(
-	'sitematrix-language' => 'Bhas',
-);
-
-/** Turoyo (Ṫuroyo)
- * @author Ariyo
- */
-$messages['tru'] = array(
-	'sitematrix-language' => 'Leşono',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -111,7 +97,8 @@ $messages['an'] = array(
 	'sitematrix-fishbowl' => 'edición restrinchita',
 );
 
-/** Old English (Ænglisc) */
+/** Old English (Ænglisc)
+ */
 $messages['ang'] = array(
 	'sitematrix-language' => 'Sprǣc',
 );
@@ -396,7 +383,8 @@ $messages['ca'] = array(
 	'sitematrix-fishbowl' => 'modificacions restringides',
 );
 
-/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄)
+ */
 $messages['cdo'] = array(
 	'sitematrix' => 'Wikimedia wiki gì dăng-dăng',
 );
@@ -795,6 +783,13 @@ $messages['gl'] = array(
 	'sitematrix-fishbowl' => 'edición restrinxida',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'sitematrix-language' => 'Bhas',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author LeighvsOptimvsMaximvs
  * @author Omnipaedista
@@ -1049,7 +1044,8 @@ $messages['io'] = array(
 	'sitematrix-private' => 'privata',
 );
 
-/** Icelandic (íslenska) */
+/** Icelandic (íslenska)
+ */
 $messages['is'] = array(
 	'sitematrix' => 'Listi yfir Wikimedia verkefni',
 	'sitematrix-language' => 'Tungumál',
@@ -1162,7 +1158,8 @@ $messages['kaa'] = array(
 	'sitematrix-others' => 'Basqa Wikimedia proektleri',
 );
 
-/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏) */
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏)
+ */
 $messages['kk-arab'] = array(
 	'sitematrix' => 'بارلىق Wikimedia ۋيكي تٸزٸمٸ',
 	'sitematrix-language' => 'تٸلٸ',
@@ -1170,7 +1167,8 @@ $messages['kk-arab'] = array(
 	'sitematrix-others' => 'باسقا Wikimedia جوبالارى',
 );
 
-/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ */
 $messages['kk-cyrl'] = array(
 	'sitematrix' => 'Wikimedia уики тізімі',
 	'sitematrix-language' => 'Тілі',
@@ -1178,7 +1176,8 @@ $messages['kk-cyrl'] = array(
 	'sitematrix-others' => 'Басқа Wikimedia жобалары',
 );
 
-/** Kazakh (Latin script) (qazaqşa (latın)‎) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎)
+ */
 $messages['kk-latn'] = array(
 	'sitematrix' => 'Barlıq Wikimedia wïkï tizimi',
 	'sitematrix-language' => 'Tili',
@@ -1335,7 +1334,8 @@ $messages['lmo'] = array(
 	'sitematrix-language' => 'Lengua',
 );
 
-/** Lao (ລາວ) */
+/** Lao (ລາວ)
+ */
 $messages['lo'] = array(
 	'sitematrix' => 'ລາຍການ wiki ໃນ Wikimedia',
 );
@@ -1499,7 +1499,8 @@ $messages['nah'] = array(
 	'sitematrix-private' => 'ichtac',
 );
 
-/** Min Nan Chinese (Bân-lâm-gú) */
+/** Min Nan Chinese (Bân-lâm-gú)
+ */
 $messages['nan'] = array(
 	'sitematrix' => 'Wikimedia wiki lia̍t-toaⁿ',
 );
@@ -1635,7 +1636,8 @@ $messages['os'] = array(
 	'sitematrix-sitetotal' => 'Æдæппæт',
 );
 
-/** Pangasinan (Pangasinan) */
+/** Pangasinan (Pangasinan)
+ */
 $messages['pag'] = array(
 	'sitematrix' => 'Listaan na saray Wikimedia wiki',
 );
@@ -2270,7 +2272,8 @@ $messages['tl'] = array(
 	'sitematrix-fishbowl' => 'pinagbabawalan ang pagbago',
 );
 
-/** Tongan (lea faka-Tonga) */
+/** Tongan (lea faka-Tonga)
+ */
 $messages['to'] = array(
 	'sitematrix' => "Ko e hokohoko ʻo e ngaahi ''wiki''",
 );
@@ -2303,6 +2306,13 @@ $messages['tr'] = array(
 	'sitematrix-sitetotal' => 'Toplam',
 	'sitematrix-private' => 'mahrem',
 	'sitematrix-fishbowl' => 'değiştirmek engellendi',
+);
+
+/** Turoyo (Ṫuroyo)
+ * @author Ariyo
+ */
+$messages['tru'] = array(
+	'sitematrix-language' => 'Leşono',
 );
 
 /** Tsonga (Xitsonga)
@@ -2447,7 +2457,8 @@ $messages['wa'] = array(
 	'sitematrix-fishbowl' => 'candjmints limités',
 );
 
-/** Wu (吴语) */
+/** Wu (吴语)
+ */
 $messages['wuu'] = array(
 	'sitematrix' => '维基媒体基金会维基列表',
 	'sitematrix-language' => '闲话',
@@ -2536,4 +2547,3 @@ $messages['zh-tw'] = array(
 	'sitematrix-project' => '計畫名稱、跨計畫連結以及跨維基連結',
 	'sitematrix-others' => '維基媒體的其它計畫',
 );
-
