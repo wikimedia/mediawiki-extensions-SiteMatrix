@@ -2329,6 +2329,13 @@ $messages['tt-cyrl'] = array(
 	'sitematrix' => 'Викимедиа проектларының исемлеге',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'sitematrix-language' => 'ⵜⵓⵜⵍⴰⵢⵜ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Alfredie
  */
