@@ -59,7 +59,7 @@ $wgSiteMatrixSites = array(
 	'wikivoyage' => array(
 		'name' => 'Wikivoyage',
 		'host' => 'www.wikivoyage.org',
-		'prefix' => 'y',
+		'prefix' => 'voy',
 	)
 );
 $wgSiteMatrixPrivateSites = null;
