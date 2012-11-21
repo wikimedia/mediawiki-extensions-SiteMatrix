@@ -405,11 +405,12 @@ class SiteMatrixPage extends SpecialPage {
 				$attribs['title'] = $localLanguageNames[$lang];
 			}
 
-			$langDisplay = ( isset( $langNames[$lang] ) ? $langNames[$lang] : '' );
+			$langDisplay = ( isset( $langNames[$lang] ) ? Html::rawElement( 'span', array( 'lang' => htmlspecialchars( $lang ) ), $langNames[$lang] ) : '' );
 			if ( isset( $localLanguageNames[$lang] ) && strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
-				$langDisplay .= ' (' . $localLanguageNames[$lang] . ')';
+				$langDisplay .= $this->msg( 'word-separator' )->text() .
+						 $this->msg( 'parentheses', $localLanguageNames[$lang] )->text();
 			}
-			$s .= '<td>' . $anchor . Xml::element( 'strong', $attribs, $langDisplay ) . '</td>';
+			$s .= '<td>' . $anchor . Html::rawElement( 'strong', $attribs, $langDisplay ) . '</td>';
 
 			foreach ( $matrix->getNames() as $site => $name ) {
 				$url = $matrix->getUrl( $lang, $site );
