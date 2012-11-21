@@ -1643,6 +1643,13 @@ $messages['pag'] = array(
 	'sitematrix' => 'Listaan na saray Wikimedia wiki',
 );
 
+/** Picard (Picard)
+ * @author Geoleplubo
+ */
+$messages['pcd'] = array(
+	'sitematrix' => "Lisse des wikis d'Wikimédia",
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
