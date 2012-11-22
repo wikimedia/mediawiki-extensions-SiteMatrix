@@ -223,6 +223,11 @@ $specialPageAliases['ru'] = array(
 	'SiteMatrix' => array( 'Матрица_сайта', 'Вики_Викимедиа' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'SiteMatrix' => array( 'ProgettiWikimedia' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'SiteMatrix' => array( 'MaticaLokalít' ),
