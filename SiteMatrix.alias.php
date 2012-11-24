@@ -248,6 +248,11 @@ $specialPageAliases['tr'] = array(
 	'SiteMatrix' => array( 'SiteMatrisi', 'SiteDizeyi' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'SiteMatrix' => array( 'Матриця_сайту', 'Вікі_Вікімедіа' ),
+);
+
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = array(
 	'SiteMatrix' => array( '站點一覽' ),
