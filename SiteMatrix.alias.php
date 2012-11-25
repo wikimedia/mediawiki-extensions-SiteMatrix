@@ -203,6 +203,11 @@ $specialPageAliases['oc'] = array(
 	'SiteMatrix' => array( 'Matritz dels sites', 'Wikis de Wikimedia' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'SiteMatrix' => array( 'ਵਿਕੀਮੀਡੀਆ_ਵਿਕੀਆਂ' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'SiteMatrix' => array( 'Lista_projektów' ),
