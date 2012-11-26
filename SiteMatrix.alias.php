@@ -205,7 +205,7 @@ $specialPageAliases['oc'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ) */
 $specialPageAliases['pa'] = array(
-	'SiteMatrix' => array( 'ਵਿਕੀਮੀਡੀਆ_ਵਿਕੀਆਂ' ),
+	'SiteMatrix' => array( 'ਵਿਕੀਮੀਡੀਆ_ਵਿਕੀ' ),
 );
 
 /** Polish (polski) */

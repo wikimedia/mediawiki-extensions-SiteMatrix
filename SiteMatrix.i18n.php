@@ -287,6 +287,7 @@ $messages['be-tarask'] = array(
 /** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
+ * @author Stanqo
  * @author Turin
  * @author לערי ריינהארט
  */
@@ -297,6 +298,7 @@ $messages['bg'] = array(
 	'sitematrix-language' => 'Език',
 	'sitematrix-project' => 'Име на проекта, междупроектна препратка и междууики',
 	'sitematrix-others' => 'Други проекти на Уикимедия',
+	'sitematrix-other-projects' => 'Други проекти',
 	'sitematrix-total' => "'''Общ брой: $1'''",
 	'sitematrix-sitetotal' => 'Общо',
 	'sitematrix-fishbowl' => 'редактирането е ограничено',
