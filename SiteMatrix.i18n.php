@@ -193,6 +193,15 @@ $messages['az'] = array(
 	'sitematrix-private' => 'xüsusi',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'sitematrix-language' => 'دیل',
+	'sitematrix-sitetotal' => 'عمومی',
+	'sitematrix-private' => 'خصوصی',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  */
