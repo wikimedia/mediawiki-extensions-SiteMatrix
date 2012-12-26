@@ -411,10 +411,11 @@ $messages['ce'] = array(
 
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
+ * @author Calak
  * @author Muhammed taha
  */
 $messages['ckb'] = array(
-	'sitematrix' => 'لیستی ویکییەکانی ویکیمیدیا',
+	'sitematrix' => 'پێرستی ویکییەکانی ویکیمیدیا',
 	'sitematrix-summary' => 'ئەم پەڕە تایبەتە گشت ویکییەکانی ویکیمیدیای بە ڕیزکردووە.',
 	'sitematrix-desc' => '[[Special:SiteMatrix|لیستێکی ویکییەکانی ویکیمیدیا]] نیشان دەدات',
 	'sitematrix-language' => 'زمان',
