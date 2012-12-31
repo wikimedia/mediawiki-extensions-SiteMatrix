@@ -1573,7 +1573,7 @@ $messages['nl'] = array(
 	'sitematrix-summary' => "Deze speciale pagina geeft een overzicht van alle wiki's van Wikimedia.",
 	'sitematrix-desc' => "Een [[Special:SiteMatrix|lijst van Wikimedia-wiki's]]",
 	'sitematrix-language' => 'Taal',
-	'sitematrix-project' => 'Naam van het project, interprojectverwijzing en interwikiverwijzing',
+	'sitematrix-project' => 'Naam van het project, interprojectkoppeling en interwikikoppeling',
 	'sitematrix-others' => 'Andere projecten van Wikimedia',
 	'sitematrix-other-projects' => 'Andere projecten',
 	'sitematrix-total' => "'''Totaal aantal: $1'''",
@@ -2358,9 +2358,11 @@ $messages['tzm'] = array(
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Alfredie
+ * @author Sahran
  */
 $messages['ug-arab'] = array(
 	'sitematrix-language' => 'تىل',
+	'sitematrix-sitetotal' => 'جەمئى',
 );
 
 /** Uyghur (Latin script) (Uyghurche)
