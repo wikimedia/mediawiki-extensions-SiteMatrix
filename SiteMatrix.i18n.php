@@ -195,10 +195,11 @@ $messages['az'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author Amir a57
+ * @author Mousa
  */
 $messages['azb'] = array(
 	'sitematrix-language' => 'دیل',
-	'sitematrix-sitetotal' => 'عمومی',
+	'sitematrix-sitetotal' => 'توپلام',
 	'sitematrix-private' => 'خصوصی',
 );
 
@@ -2405,6 +2406,7 @@ $messages['ur'] = array(
 
 /** vèneto (vèneto)
  * @author Candalua
+ * @author GatoSelvadego
  */
 $messages['vec'] = array(
 	'sitematrix' => 'Ełenco de tuti i projeti Wikimedia ne le varie lengoe',
@@ -2413,6 +2415,7 @@ $messages['vec'] = array(
 	'sitematrix-language' => 'Lengua',
 	'sitematrix-project' => 'Nome del progeto, colegamento interprogeto e colegamento inter-wiki',
 	'sitematrix-others' => 'Altri progeti Wikimedia',
+	'sitematrix-other-projects' => 'Altri projeti',
 	'sitematrix-total' => "'''Contegio total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privato',
