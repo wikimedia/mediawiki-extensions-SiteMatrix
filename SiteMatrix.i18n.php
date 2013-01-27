@@ -1553,7 +1553,7 @@ $messages['nds'] = array(
 	'sitematrix-fishbowl' => 'Ännern is inschränkt',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
