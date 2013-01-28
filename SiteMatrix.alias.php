@@ -183,7 +183,7 @@ $specialPageAliases['nb'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikier' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'SiteMatrix' => array( 'Websteematrix' ),
 );
