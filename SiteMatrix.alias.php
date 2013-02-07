@@ -178,7 +178,7 @@ $specialPageAliases['ms'] = array(
 	'SiteMatrix' => array( 'Wiki_Wikimedia' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikier' ),
 );
@@ -193,7 +193,7 @@ $specialPageAliases['nl'] = array(
 	'SiteMatrix' => array( 'WebsiteMatrix' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $specialPageAliases['nn'] = array(
 	'SiteMatrix' => array( 'Wikimedia-wikiar' ),
 );
