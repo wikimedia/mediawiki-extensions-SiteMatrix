@@ -641,9 +641,10 @@ $messages['et'] = array(
 /** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
-	'sitematrix' => 'Wikimediako beste hizkuntzatako proiektuen zerrenda',
+	'sitematrix' => 'Wikimedia Fundazioaren wiki guztien zerrenda',
 	'sitematrix-summary' => 'Orrialde berezi honek Wikimedia wiki guztiak zerrendatzen ditu.',
 	'sitematrix-language' => 'Hizkuntza',
 	'sitematrix-others' => 'Wikimediaren beste proiektuak',
