@@ -34,6 +34,8 @@ $messages['qqq'] = array(
 	'sitematrix-summary' => 'Text for the Wikimedia sites special page "Special:SiteMatrix"',
 	'sitematrix-desc' => '{{desc|name=Site Metrics|url=http://www.mediawiki.org/wiki/Extension:SiteMetrics}}',
 	'sitematrix-language' => '{{Identical|Language}}',
+	'sitematrix-total' => 'Parameters:
+* $1 - number of databases (count of the array <code>$wgLocalDatabases</code>)',
 	'sitematrix-sitetotal' => '{{Identical|Total}}',
 	'sitematrix-private' => '{{Identical|Private}}',
 );
