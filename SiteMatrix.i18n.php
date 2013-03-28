@@ -1559,6 +1559,7 @@ $messages['nb'] = array(
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
@@ -1568,6 +1569,7 @@ $messages['nds'] = array(
 	'sitematrix-language' => 'Spraak',
 	'sitematrix-project' => 'Naam vun dat Projekt, Interprojekt-Lenk un Interwiki-Lenk',
 	'sitematrix-others' => 'Annere Projekten vun Wikimedia',
+	'sitematrix-other-projects' => 'Annere Projekten',
 	'sitematrix-total' => "'''Alltohoop: $1'''",
 	'sitematrix-sitetotal' => 'Alltohoop',
 	'sitematrix-private' => 'privat',
