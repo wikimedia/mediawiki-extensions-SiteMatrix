@@ -49,6 +49,10 @@ class SpecialSiteMatrix extends SpecialPage {
 
 		# Bulk of table
 		foreach ( $matrix->getLangList() as $lang ) {
+			if ( in_array( $lang, array( 'cz', 'dk', 'epo', 'jp', 'minnan', 'nan', 'nb', 'zh-cfr' ) ) ) {
+				continue;
+			}
+
 			$anchor = strtolower( '<a id="' . htmlspecialchars( $lang ) . '" name="' . htmlspecialchars( $lang ) . '"></a>' );
 			$s .= '<tr>';
 			$attribs = array();
