@@ -72,8 +72,9 @@ $wgExtensionMessagesFiles['SiteMatrix'] = $dir . 'SiteMatrix.i18n.php';
 $wgExtensionMessagesFiles['SiteMatrixAlias'] = $dir . 'SiteMatrix.alias.php';
 
 $wgAutoloadClasses['SiteMatrix'] = $dir . 'SiteMatrix_body.php';
-$wgAutoloadClasses['SiteMatrixPage'] = $dir . 'SiteMatrix_body.php';
-$wgSpecialPages['SiteMatrix'] = 'SiteMatrixPage';
+
+$wgAutoloadClasses['SpecialSiteMatrix'] = $dir . 'SpecialSiteMatrix.php';
+$wgSpecialPages['SiteMatrix'] = 'SpecialSiteMatrix';
 $wgSpecialPageGroups['SiteMatrix'] = 'wiki';
 
 $wgAutoloadClasses['ApiQuerySiteMatrix'] = $dir . 'SiteMatrixApi.php';

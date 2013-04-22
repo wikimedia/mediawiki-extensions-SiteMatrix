@@ -24,7 +24,7 @@ class ApiQuerySiteMatrix extends ApiQueryBase {
 			'count' => $matrix->getCount(),
 		);
 
-		$localLanguageNames = SiteMatrixPage::getLocalLanguageNames();
+		$localLanguageNames = SpecialSiteMatrix::getLocalLanguageNames();
 
 		$params = $this->extractRequestParams();
 		$type = array_flip( $params['type'] );
