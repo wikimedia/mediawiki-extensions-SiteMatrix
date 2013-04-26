@@ -1402,9 +1402,9 @@ $messages['lv'] = array(
  * @author Iwan Novirion
  */
 $messages['min'] = array(
-	'sitematrix' => 'Dafta wiki Wikimedia',
-	'sitematrix-summary' => 'Laman istimewa ko mamuek dafta kasado wiki Wikimedia.',
-	'sitematrix-desc' => 'Manampilkan [[Special:SiteMatrix|dafta proyek-proyek wiki Wikimedia]]',
+	'sitematrix' => 'Daftar wiki Wikimedia',
+	'sitematrix-summary' => 'Laman istimewa ko mamuek daftar kasado wiki Wikimedia.',
+	'sitematrix-desc' => 'Manampilan [[Special:SiteMatrix|daftar proyek wiki Wikimedia]]',
 	'sitematrix-language' => 'Bahaso',
 	'sitematrix-project' => 'Namo proyek, pautan interproyek jo pautan interwiki',
 	'sitematrix-others' => 'Proyek lain Wikimedia',
