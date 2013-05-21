@@ -258,6 +258,11 @@ $specialPageAliases['uk'] = array(
 	'SiteMatrix' => array( 'Матриця_сайту', 'Вікі_Вікімедіа' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'SiteMatrix' => array( 'Ma_trận_trang' ),
+);
+
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = array(
 	'SiteMatrix' => array( '站點一覽' ),
