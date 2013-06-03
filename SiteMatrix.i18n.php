@@ -151,7 +151,7 @@ $messages['arz'] = array(
 	'sitematrix-fishbowl' => 'التعديل متحدد',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Gitartha.bordoloi
  */
@@ -1542,7 +1542,7 @@ $messages['nan'] = array(
 	'sitematrix' => 'Wikimedia wiki lia̍t-toaⁿ',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  * @author לערי ריינהארט
  */
@@ -1578,7 +1578,7 @@ $messages['nds'] = array(
 	'sitematrix-fishbowl' => 'Ännern is inschränkt',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -1608,7 +1608,7 @@ $messages['nl'] = array(
 	'sitematrix-fishbowl' => 'beperkt bewerken',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Harald Khan
  * @author Njardarlogar
@@ -1644,7 +1644,7 @@ $messages['oc'] = array(
 	'sitematrix-fishbowl' => 'modificacions limitadas',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
