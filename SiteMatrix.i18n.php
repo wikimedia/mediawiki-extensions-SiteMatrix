@@ -407,10 +407,12 @@ $messages['cdo'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'sitematrix' => 'Викимедиа колламашан магIам',
 	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа колламашан магIам]]',
+	'sitematrix-language' => 'Мотт',
 );
 
 /** Sorani Kurdish (کوردی)
