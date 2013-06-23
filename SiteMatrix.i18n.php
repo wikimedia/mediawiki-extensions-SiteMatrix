@@ -501,13 +501,14 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Kghbln
  * @author Raimond Spekking
  * @author לערי ריינהארט
  */
 $messages['de'] = array(
 	'sitematrix' => 'Liste der Wikimedia-Wikis',
-	'sitematrix-summary' => 'Diese Spezialseite listet alle Wikis der Wikimedia Foundation auf.',
+	'sitematrix-summary' => 'Diese Spezialseite listet alle Wikimedia-Wikis auf.',
 	'sitematrix-desc' => 'Ergänzt eine [[Special:SiteMatrix|Spezialseite]] mit einer Liste der Wikimedia-Wikis',
 	'sitematrix-language' => 'Sprache',
 	'sitematrix-project' => 'Projektname, Interprojektlink und Interwikilink',
