@@ -40,7 +40,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'SiteMatrix' => array( 'MatrisêSita', 'WikimediaWikiy' ),
+	'SiteMatrix' => array( 'MatriséSita', 'WikimediaWikiy' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
