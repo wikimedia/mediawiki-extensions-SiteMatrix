@@ -400,9 +400,10 @@ $messages['ca'] = array(
 );
 
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄)
+ * @author Yejianfei
  */
 $messages['cdo'] = array(
-	'sitematrix' => 'Wikimedia wiki gì dăng-dăng',
+	'sitematrix' => '維基媒體其維基其單單',
 );
 
 /** Chechen (нохчийн)
