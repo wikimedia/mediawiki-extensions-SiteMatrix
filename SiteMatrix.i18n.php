@@ -258,12 +258,20 @@ $messages['bcc'] = array(
 
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
+ * @author Geopoet
  */
 $messages['bcl'] = array(
 	'sitematrix' => 'Lista kan mga Wikimedia wiki',
+	'sitematrix-summary' => 'Ining espesyal na pahina minalista kan gabos na mga Wikimedia wikis.',
+	'sitematrix-desc' => 'Minapahiling nin sarong [[Special:SiteMatrix|listahan kan Wikimedia wikis]]',
 	'sitematrix-language' => 'Tataramon',
 	'sitematrix-project' => 'Pangaran kan proyekto, interproject link asin interwiki link',
 	'sitematrix-others' => 'Ibang mga proyekto kan Wikimedia',
+	'sitematrix-other-projects' => 'Ibang mga proyekto',
+	'sitematrix-total' => "'''Kabilogang bilang: $1'''",
+	'sitematrix-sitetotal' => 'Kabilogan',
+	'sitematrix-private' => 'pribado',
+	'sitematrix-fishbowl' => 'pagliliwat restriktado',
 );
 
 /** Belarusian (беларуская)
