@@ -1317,7 +1317,7 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'sitematrix' => 'Lëscht vun de Wikimedia-Wikiën',
+	'sitematrix' => 'Lëscht vun de Wikimedia-Wikien',
 	'sitematrix-summary' => 'Op dëser Spezialsäit stinn all Wikimedia Wikien.',
 	'sitematrix-desc' => 'Weis eng  [[Special:SiteMatrix|Lëscht vun de Wikimedia-Wikien]]',
 	'sitematrix-language' => 'Sprooch',
