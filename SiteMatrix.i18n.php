@@ -1787,6 +1787,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  * @author לערי ריינהארט
  */
@@ -1796,8 +1797,8 @@ $messages['pt'] = array(
 	'sitematrix-desc' => 'Apresenta uma [[Special:SiteMatrix|lista de wikis Wikimedia]]',
 	'sitematrix-language' => 'Língua',
 	'sitematrix-project' => 'Nome do projecto, link interprojectos e link interwikis',
-	'sitematrix-others' => 'Outros projectos da Wikimedia',
-	'sitematrix-other-projects' => 'Outros projectos',
+	'sitematrix-others' => 'Outros projetos da Wikimedia',
+	'sitematrix-other-projects' => 'Outros projetos',
 	'sitematrix-total' => "'''Contagem total: $1'''",
 	'sitematrix-sitetotal' => 'Total',
 	'sitematrix-private' => 'privado',

@@ -33,6 +33,11 @@ $specialPageAliases['ca'] = array(
 	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'SiteMatrix' => array( 'Сайтан_матрица' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'SiteMatrix' => array( 'Liste_der_Wikimedia-Wikis' ),
