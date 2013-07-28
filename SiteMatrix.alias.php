@@ -275,7 +275,7 @@ $specialPageAliases['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'SiteMatrix' => array( '站点矩阵' ),
+	'SiteMatrix' => array( '网站方阵' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
