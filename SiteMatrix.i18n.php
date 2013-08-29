@@ -1593,11 +1593,16 @@ $messages['nds'] = array(
  */
 $messages['nds-nl'] = array(
 	'sitematrix' => "Lieste van Wikimedia-wiki's",
+	'sitematrix-summary' => "Disse spesiale zied gif n overzichte van alle wiki's van Wikimedia.",
+	'sitematrix-desc' => "n [[Special:SiteMatrix|Lieste van Wikimedia-wiki's]]",
 	'sitematrix-language' => 'Taal',
 	'sitematrix-project' => 'Naam van t projekt, interprojektverwiezing en interwikiverwiezing',
 	'sitematrix-others' => 'Aandere projekten van Wikimedia',
+	'sitematrix-other-projects' => 'Aanere projekten',
+	'sitematrix-total' => "'''Totaal antal: $1'''",
 	'sitematrix-sitetotal' => 'Alles samen',
 	'sitematrix-private' => 'beteunde toegang',
+	'sitematrix-fishbowl' => 'bewarken beteund',
 );
 
 /** Dutch (Nederlands)
