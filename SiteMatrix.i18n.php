@@ -1778,7 +1778,7 @@ $messages['pnb'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'sitematrix' => 'د ويکي-رسنۍ د ويکي-ګانو لړليک',
+	'sitematrix' => 'د ويکي-رسنۍ د ويکي-گانو لړليک',
 	'sitematrix-summary' => 'دا ځانگړی مخ د ويکيمېډيا د ټولو ويکي گانو لړليک ښکاره کوي.',
 	'sitematrix-language' => 'ژبه',
 	'sitematrix-project' => 'د پروژې نوم، د پروژوترمېنځ تړنه او د ويکي-ګانوترمېنځ تړنه',
