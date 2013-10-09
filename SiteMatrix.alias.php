@@ -91,7 +91,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (galego) */
 $specialPageAliases['gl'] = array(
-	'SiteMatrix' => array( 'Wikis_Wikimedia' ),
+	'SiteMatrix' => array( 'Wikis_da_Wikimedia', 'Wikis_Wikimedia' ),
 );
 
 /** Swiss German (Alemannisch) */
