@@ -422,6 +422,7 @@ $messages['ce'] = array(
 	'sitematrix' => 'Викимедиа проекташан магIам',
 	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа проекташан магIам]]',
 	'sitematrix-language' => 'Мотт',
+	'sitematrix-other-projects' => 'Кхин проекташ',
 );
 
 /** Sorani Kurdish (کوردی)
