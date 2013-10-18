@@ -912,14 +912,15 @@ $messages['he'] = array(
  * @author Ansumang
  * @author Kaustubh
  * @author Shyam
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'sitematrix' => 'विकिमीडियाके विकियोंकी सूची',
-	'sitematrix-summary' => 'यह विशेष पृष्ठ विकिमीडिया विकियोंकी सूची दर्शाता हैं।',
-	'sitematrix-desc' => '[[Special:SiteMatrix|विकिमीडिया विकिंयोंकी सूची]] दर्शाता हैं',
+	'sitematrix' => 'विकिमीडिया विकियों की सूची',
+	'sitematrix-summary' => 'यह विशेष पृष्ठ विकिमीडिया विकियों की सूची दर्शाता है।',
+	'sitematrix-desc' => '[[Special:SiteMatrix|विकिमीडिया विकियों की सूची]] दर्शाता है',
 	'sitematrix-language' => 'भाषा',
-	'sitematrix-project' => 'प्रकल्पका नाम, आंतरप्रकल्प कड़ीयाँ और आंतरविकि कड़ीयाँ',
-	'sitematrix-others' => 'विकिमीडियाके अन्य प्रकल्प',
+	'sitematrix-project' => 'प्रकल्प का नाम, अंतरप्रकल्प कड़ी और अंतरविकि कड़ी',
+	'sitematrix-others' => 'विकिमीडिया के अन्य प्रकल्प',
 	'sitematrix-other-projects' => 'अन्य प्रकल्प',
 	'sitematrix-total' => "'''कुल गिनती: $1'''",
 	'sitematrix-sitetotal' => 'कुल',
