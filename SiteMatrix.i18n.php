@@ -420,9 +420,16 @@ $messages['cdo'] = array(
  */
 $messages['ce'] = array(
 	'sitematrix' => 'Викимедиа проекташан магIам',
+	'sitematrix-summary' => 'ХӀокху белхан агӀона чохь гойту Викимедиан массо вики-проекташ.',
 	'sitematrix-desc' => 'Гойту [[Special:SiteMatrix|Викимедиа проекташан магIам]]',
 	'sitematrix-language' => 'Мотт',
+	'sitematrix-project' => 'Проектан цӀе, проектийн юккъер хьажораш а юкъарвикеш а',
+	'sitematrix-others' => '«Викимедиан фондан» кхин проекташ',
 	'sitematrix-other-projects' => 'Кхин проекташ',
+	'sitematrix-total' => "'''Юккъера дукхалла: $1'''",
+	'sitematrix-sitetotal' => 'Ерриг',
+	'sitematrix-private' => 'долара',
+	'sitematrix-fishbowl' => 'тадарна доза тоьхна',
 );
 
 /** Sorani Kurdish (کوردی)
