@@ -540,6 +540,7 @@ $messages['de'] = array(
 /** Zazaki (Zazaki)
  * @author Aspar
  * @author Erdemaslancan
+ * @author Marmase
  */
 $messages['diq'] = array(
 	'sitematrix' => 'listeya wiki yê heme wikimediyayan',
@@ -551,7 +552,7 @@ $messages['diq'] = array(
 	'sitematrix-other-projects' => 'Procey bini',
 	'sitematrix-total' => "'''pêro amari: $1'''",
 	'sitematrix-sitetotal' => 'Pêro piya',
-	'sitematrix-private' => 'mehrem',
+	'sitematrix-private' => 'Bağse',
 	'sitematrix-fishbowl' => 'vuriyayişi qedexe bı',
 );
 
