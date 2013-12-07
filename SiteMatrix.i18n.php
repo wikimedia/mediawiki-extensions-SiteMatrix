@@ -451,7 +451,7 @@ $messages['ckb'] = array(
 	'sitematrix-fishbowl' => 'دەستکاریکردنی سنووردار',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Li-sung
  * @author Matěj Grabovský
@@ -472,7 +472,7 @@ $messages['cs'] = array(
 	'sitematrix-fishbowl' => 'editování omezeno',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
