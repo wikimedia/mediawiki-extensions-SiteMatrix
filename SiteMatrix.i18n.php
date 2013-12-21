@@ -900,6 +900,7 @@ $messages['haw'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn2
  * @author Rotem Liss
  */
 $messages['he'] = array(
@@ -911,7 +912,7 @@ $messages['he'] = array(
 	'sitematrix-others' => 'מיזמים אחרים של ויקימדיה',
 	'sitematrix-other-projects' => 'מיזמים אחרים',
 	'sitematrix-total' => "'''מספר האתרים: $1'''",
-	'sitematrix-sitetotal' => 'סך הכל',
+	'sitematrix-sitetotal' => 'סך הכול',
 	'sitematrix-private' => 'פרטי',
 	'sitematrix-fishbowl' => 'העריכה מוגבלת',
 );
