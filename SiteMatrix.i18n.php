@@ -1323,6 +1323,13 @@ $messages['la'] = array(
 	'sitematrix-sitetotal' => 'Numerus',
 );
 
+/** Ladino (Ladino)
+ * @author Menachem.Moreira
+ */
+$messages['lad'] = array(
+	'sitematrix-language' => 'Lengua',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
