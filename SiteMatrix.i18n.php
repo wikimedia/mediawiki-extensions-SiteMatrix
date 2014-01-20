@@ -1395,6 +1395,13 @@ $messages['loz'] = array(
 	'sitematrix' => 'Mukoloko di wiki di Wikimedia',
 );
 
+/** لوری (لوری)
+ * @author Bonevarluri
+ */
+$messages['lrc'] = array(
+	'sitematrix-language' => 'زون',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
