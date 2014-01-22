@@ -1839,7 +1839,6 @@ $messages['pt'] = array(
  * @author Eduardo.mps
  * @author Giro720
  * @author Helder.wiki
- * @author Heldergeovane
  */
 $messages['pt-br'] = array(
 	'sitematrix' => 'Lista de wikis da Wikimedia',
