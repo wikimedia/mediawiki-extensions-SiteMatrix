@@ -1401,6 +1401,9 @@ $messages['loz'] = array(
  */
 $messages['lrc'] = array(
 	'sitematrix-language' => 'زون',
+	'sitematrix-project' => 'نوم پروجه، هوم پیوند مین پروجه ای و هوم پیوند مین ویکی',
+	'sitematrix-others' => 'پروجه یا هنی ویکی رسانه',
+	'sitematrix-other-projects' => 'پروجه یا هنی',
 );
 
 /** Lithuanian (lietuvių)
