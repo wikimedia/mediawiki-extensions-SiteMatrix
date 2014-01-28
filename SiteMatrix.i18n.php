@@ -2016,6 +2016,23 @@ $messages['sgs'] = array(
 	'sitematrix-private' => 'nūsavs',
 );
 
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
+ */
+$messages['sh'] = array(
+	'sitematrix' => 'Spisak svih wikija',
+	'sitematrix-summary' => 'Ova posebna strana navodi sve Wikimedijine wikije.',
+	'sitematrix-desc' => 'Prikazuje spisak [[Special:SiteMatrix|svih Wikimedijinih wikija]]',
+	'sitematrix-language' => 'Jezik',
+	'sitematrix-project' => 'Naziv projekta, međuprojektna veza i interwiki veza',
+	'sitematrix-others' => 'Drugi Wikimedijini projekti',
+	'sitematrix-other-projects' => 'Ostali projekti',
+	'sitematrix-total' => "'''Ukupno projekata: $1'''",
+	'sitematrix-sitetotal' => 'Ukupno',
+	'sitematrix-private' => 'privatno',
+	'sitematrix-fishbowl' => 'uređivanje zabranjeno',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author දසනැබළයෝ
