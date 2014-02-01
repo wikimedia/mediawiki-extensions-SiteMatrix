@@ -1400,6 +1400,9 @@ $messages['loz'] = array(
  * @author Bonevarluri
  */
 $messages['lrc'] = array(
+	'sitematrix' => 'نوم گه ویکی یا ویکی مدیا',
+	'sitematrix-summary' => 'ای نوم گه یا بلگه ویجه همه ویکی یا ویکی مدیا هئ',
+	'sitematrix-desc' => 'نشو دئن یه گل [[ویجه:سیلجا ماتریس|سیائه ویکی یا ویکی مدیا]]', # Fuzzy
 	'sitematrix-language' => 'زون',
 	'sitematrix-project' => 'نوم پروجه، هوم پیوند مین پروجه ای و هوم پیوند مین ویکی',
 	'sitematrix-others' => 'پروجه یا هنی ویکی رسانه',
