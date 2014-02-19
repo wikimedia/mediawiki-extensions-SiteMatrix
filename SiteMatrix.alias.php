@@ -276,7 +276,7 @@ $specialPageAliases['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'SiteMatrix' => array( '网站方阵' ),
+	'SiteMatrix' => array( '网站方阵', '维基媒体wiki' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
