@@ -1472,7 +1472,7 @@ $messages['mk'] = array(
 	'sitematrix-other-projects' => 'Други проекти',
 	'sitematrix-total' => "'''Севкупно: $1'''",
 	'sitematrix-sitetotal' => 'Вкупно',
-	'sitematrix-private' => 'приватен',
+	'sitematrix-private' => 'личен',
 	'sitematrix-fishbowl' => 'ограничено уредување',
 );
 
