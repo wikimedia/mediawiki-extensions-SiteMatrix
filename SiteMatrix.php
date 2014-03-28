@@ -14,7 +14,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'SiteMatrix',
 	'author'         => array( 'Tim Starling', 'Brion Vibber', 'Victor Vasiliev', 'Alexandre Emsenhuber' ),
-	'version'        => '1.2',
+	'version'        => '1.3.0',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SiteMatrix',
 	'descriptionmsg' => 'sitematrix-desc',
 );
@@ -68,6 +68,7 @@ $wgSiteMatrixClosedSites = null;
 
 $dir = __DIR__ . '/';
 
+$wgMessagesDirs['SiteMatrix'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SiteMatrix'] = $dir . 'SiteMatrix.i18n.php';
 $wgExtensionMessagesFiles['SiteMatrixAlias'] = $dir . 'SiteMatrix.alias.php';
 
