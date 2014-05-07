@@ -269,6 +269,11 @@ $specialPageAliases['vi'] = array(
 	'SiteMatrix' => array( 'Ma_trận_trang' ),
 );
 
+/** Yiddish (ייִדיש) */
+$specialPageAliases['yi'] = array(
+	'SiteMatrix' => array( 'וויקימעדיע_וויקיס' ),
+);
+
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = array(
 	'SiteMatrix' => array( '站點一覽' ),
