@@ -9,10 +9,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * Query module to get site matrix
  * @ingroup API
  */
-class ApiQuerySiteMatrix extends ApiQueryBase {
+class ApiQuerySiteMatrix extends ApiBase {
 
-	public function __construct( $query, $moduleName ) {
-		parent :: __construct( $query, $moduleName, 'sm' );
+	public function __construct( ApiMain $main, $moduleName ) {
+		parent :: __construct( $main, $moduleName, 'sm' );
 	}
 
 	public function execute() {
