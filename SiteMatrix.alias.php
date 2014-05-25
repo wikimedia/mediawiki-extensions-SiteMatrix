@@ -171,7 +171,7 @@ $specialPageAliases['mk'] = array(
 
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
-	'SiteMatrix' => array( 'വിക്കിമീഡിയ_വിക്കികൾ' ),
+	'SiteMatrix' => array( 'സൈറ്റ്‌മട്രിക്സ്', 'വിക്കിമീഡിയ_വിക്കികൾ' ),
 );
 
 /** Marathi (मराठी) */
