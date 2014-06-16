@@ -116,7 +116,7 @@ $specialPageAliases['hr'] = array(
 
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
-	'SiteMatrix' => array( 'Lisćina projektow Wikimedije' ),
+	'SiteMatrix' => array( 'Lisćina_projektow_Wikimedije' ),
 );
 
 /** Haitian (Kreyòl ayisyen) */
