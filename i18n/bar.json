@@ -7,7 +7,7 @@
 	},
 	"sitematrix": "Listn vo de Wikimedia-Wikis",
 	"sitematrix-summary": "De Spezialseiten do lisdt olle Wikis vo da Wikimedia Foundation af.",
-	"sitematrix-desc": "Stöd a Speziaalseiten mid aner [[Special:SiteMatrix|Listen voh d' Wikimedia-Wikis]] bereit",
+	"sitematrix-desc": "Eagenzt a [[Special:SiteMatrix|Spezialseitn]] mid ana Listn vo Wikimedia-Wikis",
 	"sitematrix-language": "Sproch",
 	"sitematrix-project": "Projektnama, Interprojektlink und Interwikilink",
 	"sitematrix-others": "Weidane Wikimedia-Projektt",
@@ -15,5 +15,5 @@
 	"sitematrix-total": "'''Gsamtozoi: $1'''",
 	"sitematrix-sitetotal": "Insgsamt",
 	"sitematrix-private": "Privat",
-	"sitematrix-fishbowl": "Beorweitung eihgschränkd"
+	"sitematrix-fishbowl": "Beorbatung eigschrenkt"
 }
