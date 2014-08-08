@@ -168,9 +168,7 @@ class ApiSiteMatrix extends ApiBase {
 		$paramName = $this->encodeParamName( $paramName );
 		$msg = array( $paramName => $paramValue );
 		$result = $this->getResult();
-		$result->disableSizeCheck();
-		$result->addValue( 'query-continue', $this->getModuleName(), $msg );
-		$result->enableSizeCheck();
+		$result->addValue( 'query-continue', $this->getModuleName(), $msg, ApiResult::NO_SIZE_CHECK );
 	}
 
 	public function getAllowedParams() {
