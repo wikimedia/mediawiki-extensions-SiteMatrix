@@ -57,7 +57,7 @@ class ApiSiteMatrix extends ApiBase {
 				}
 				$language = array(
 					'code' => $langhost,
-					'name' => $langNames[$lang],
+					'name' => isset( $langNames[$lang] ) ? $langNames[$lang] : null,
 					'site' => array(),
 				);
 				if ( isset( $localLanguageNames[$lang] ) ) {
