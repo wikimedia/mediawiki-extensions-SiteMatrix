@@ -3,7 +3,8 @@
 		"authors": [
 			"Crt",
 			"Nike",
-			"Olli"
+			"Olli",
+			"Stryn"
 		]
 	},
 	"sitematrix": "Luettelo Wikimedian wikeistä",
@@ -11,7 +12,7 @@
 	"sitematrix-desc": "Näyttää [[Special:SiteMatrix|luettelon Wikimedian wikeistä]].",
 	"sitematrix-language": "Kieli",
 	"sitematrix-project": "Projektin nimi, projektienvälinen linkki ja interwiki-linkki",
-	"sitematrix-others": "Muut Wikimedian projektit",
+	"sitematrix-others": "Muut Wikimedia-projektit",
 	"sitematrix-other-projects": "Muut projektit",
 	"sitematrix-total": "'''Wikejä yhteensä: $1'''",
 	"sitematrix-sitetotal": "Yhteensä",
