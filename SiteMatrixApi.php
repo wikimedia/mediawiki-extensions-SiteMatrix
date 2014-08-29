@@ -242,12 +242,6 @@ class ApiSiteMatrix extends ApiBase {
 		);
 	}
 
-	public function getPossibleErrors() {
-		return array_merge( parent::getPossibleErrors(), array(
-			array( 'code' => 'badcontinue', 'info' => 'Invalid continue param. You should pass the original value returned by the previous query' ),
-		) );
-	}
-
 	public function getDescription() {
 		return array(
 			'Get Wikimedia sites list',
