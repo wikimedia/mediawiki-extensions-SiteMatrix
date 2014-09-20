@@ -3,14 +3,15 @@
 		"authors": [
 			"Eduardo.mps",
 			"Giro720",
-			"Helder.wiki"
+			"Helder.wiki",
+			"Dianakc"
 		]
 	},
 	"sitematrix": "Lista de wikis da Wikimedia",
 	"sitematrix-summary": "Esta página especial lista todos os wikis Wikimedia.",
 	"sitematrix-desc": "Apresenta uma [[Special:SiteMatrix|lista de wikis Wikimedia]]",
 	"sitematrix-language": "Idioma",
-	"sitematrix-project": "Nome do projeto, ligação interprojeto e ligação interwiki",
+	"sitematrix-project": "Nome do projeto, link de interprojeto e link interwiki",
 	"sitematrix-others": "Outros projetos da Wikimedia",
 	"sitematrix-other-projects": "Outros projetos",
 	"sitematrix-total": "'''Contagem total: $1'''",
