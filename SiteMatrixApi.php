@@ -218,10 +218,16 @@ class ApiSiteMatrix extends ApiBase {
 				ApiBase::PARAM_MAX => 5000,
 				ApiBase::PARAM_MAX2 => 5000,
 			),
-			'continue' => null,
+			'continue' => array(
+				/** @todo Once support for MediaWiki < 1.25 is dropped, just use ApiBase::PARAM_HELP_MSG directly */
+				constant( 'ApiBase::PARAM_HELP_MSG' ) ?: '' => 'api-help-param-continue',
+			),
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'type' => array(
@@ -242,6 +248,9 @@ class ApiSiteMatrix extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return array(
 			'Get Wikimedia sites list',
@@ -249,13 +258,22 @@ class ApiSiteMatrix extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getExamples() {
 		return array(
 			'api.php?action=sitematrix',
 		);
 	}
 
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
+	/**
+	 * @see ApiBase::getExamplesMessages()
+	 */
+	protected function getExamplesMessages() {
+		return array(
+			'action=sitematrix'
+				=> 'apihelp-sitematrix-example-1',
+		);
 	}
 }

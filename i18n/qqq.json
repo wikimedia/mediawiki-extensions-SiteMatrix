@@ -16,5 +16,12 @@
 	"sitematrix-other-projects": "{{Identical|Other project}}",
 	"sitematrix-total": "Parameters:\n* $1 - number of databases (count of the array <code>$wgLocalDatabases</code>)",
 	"sitematrix-sitetotal": "{{Identical|Total}}",
-	"sitematrix-private": "{{Identical|Private}}"
+	"sitematrix-private": "{{Identical|Private}}",
+	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
+	"apihelp-sitematrix-param-type": "{{doc-apihelp-param|sitematrix|type}}",
+	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}",
+	"apihelp-sitematrix-param-langprop": "{{doc-apihelp-param|sitematrix|langprop}}",
+	"apihelp-sitematrix-param-siteprop": "{{doc-apihelp-param|sitematrix|siteprop}}",
+	"apihelp-sitematrix-param-limit": "{{doc-apihelp-param|sitematrix|limit}}",
+	"apihelp-sitematrix-example-1": "{{doc-apihelp-example|sitematrix}}"
 }
