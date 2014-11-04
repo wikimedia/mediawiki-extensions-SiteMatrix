@@ -3,7 +3,8 @@
 		"authors": [
 			"Alexsh",
 			"Hydra",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Liuxinyu970226"
 		]
 	},
 	"sitematrix": "维基媒体网站列表",
@@ -16,5 +17,6 @@
 	"sitematrix-total": "'''合计：$1'''",
 	"sitematrix-sitetotal": "总数",
 	"sitematrix-private": "私用",
-	"sitematrix-fishbowl": "编辑限制"
+	"sitematrix-fishbowl": "编辑限制",
+	"apihelp-sitematrix-example-1": "显示网站矩阵"
 }
