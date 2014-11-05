@@ -18,5 +18,6 @@
 	"sitematrix-sitetotal": "总数",
 	"sitematrix-private": "私用",
 	"sitematrix-fishbowl": "编辑限制",
+	"apihelp-sitematrix-param-limit": "结果的最大值。",
 	"apihelp-sitematrix-example-1": "显示网站矩阵"
 }
