@@ -16,5 +16,9 @@
 	"sitematrix-total": "'''מספר האתרים: $1'''",
 	"sitematrix-sitetotal": "סך הכול",
 	"sitematrix-private": "פרטי",
-	"sitematrix-fishbowl": "העריכה מוגבלת"
+	"sitematrix-fishbowl": "העריכה מוגבלת",
+	"apihelp-sitematrix-param-langprop": "איזה מידע על שפה להחזיר.",
+	"apihelp-sitematrix-param-siteprop": "איזה מידע על אתר להחזיר.",
+	"apihelp-sitematrix-param-limit": "מספר מרבי של תוצאות.",
+	"apihelp-sitematrix-example-1": "להציג את מטריצת האתרים"
 }
