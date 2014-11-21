@@ -18,6 +18,7 @@
 	"sitematrix-sitetotal": "总数",
 	"sitematrix-private": "私用",
 	"sitematrix-fishbowl": "编辑限制",
+	"apihelp-sitematrix-description": "获取维基媒体网站列表。代码是特殊网站的唯一标识符，或对于语言版本则是项目代码。",
 	"apihelp-sitematrix-param-langprop": "要返回的关于一种语言的信息。",
 	"apihelp-sitematrix-param-siteprop": "要返回的关于一个网站的信息。",
 	"apihelp-sitematrix-param-limit": "结果的最大值。",
