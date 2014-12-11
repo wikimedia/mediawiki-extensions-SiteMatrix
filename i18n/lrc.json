@@ -13,5 +13,8 @@
 	"sitematrix-others": "پروجه یا هنی ویکی رسانه",
 	"sitematrix-other-projects": "پروجه یا هنی",
 	"sitematrix-sitetotal": "همه",
-	"sitematrix-private": "شخصی"
+	"sitematrix-private": "شخصی",
+	"apihelp-sitematrix-param-langprop": "کوم دونسمنی دباره زون واس ؤرئرده.",
+	"apihelp-sitematrix-param-siteprop": "کوم دونسمنی دباره دیارگه واس ؤرئرده.",
+	"apihelp-sitematrix-param-limit": "انازه بیشترونه نتیجه یا."
 }
