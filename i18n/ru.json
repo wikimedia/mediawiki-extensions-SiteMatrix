@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kaganer",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"sitematrix": "Список проектов Викимедиа",
@@ -15,5 +16,9 @@
 	"sitematrix-total": "'''Общее количество: $1'''",
 	"sitematrix-sitetotal": "Всего",
 	"sitematrix-private": "частный",
-	"sitematrix-fishbowl": "редактирование ограничено"
+	"sitematrix-fishbowl": "редактирование ограничено",
+	"apihelp-sitematrix-param-langprop": "Какую информацию о языке возвращать.",
+	"apihelp-sitematrix-param-siteprop": "Какую информацию о сайте возвращать.",
+	"apihelp-sitematrix-param-limit": "Максимальное количество результатов.",
+	"apihelp-sitematrix-example-1": "Показать матрицу сайтов"
 }
