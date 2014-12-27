@@ -15,5 +15,6 @@
 	"sitematrix-total": "'''Total vum Kont: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "ännere limitéiert"
+	"sitematrix-fishbowl": "ännere limitéiert",
+	"apihelp-sitematrix-param-limit": "Maximal Zuel vu Resultater."
 }
