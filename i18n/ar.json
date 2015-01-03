@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"Abanima"
 		]
 	},
 	"sitematrix": "قائمة ويكيات ويكيميديا",
@@ -14,5 +15,6 @@
 	"sitematrix-total": "'''إجمالي العدد: $1'''",
 	"sitematrix-sitetotal": "الإجمالي",
 	"sitematrix-private": "خاص",
-	"sitematrix-fishbowl": "التعديل محدد"
+	"sitematrix-fishbowl": "التعديل محدد",
+	"apihelp-sitematrix-param-limit": "العدد الأقصى للنتائج."
 }
