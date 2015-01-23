@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'SiteMatrix' => array( 'Matrix_السايت', 'ويكيهات_ويكيميديا' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'SiteMatrix' => array( 'Матрица_сайта', 'Вики_Викимедиа' ),
+);
+
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = array(
 	'SiteMatrix' => array( 'SiteMatrix' ),
