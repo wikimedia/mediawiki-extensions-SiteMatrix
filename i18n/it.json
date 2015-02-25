@@ -20,5 +20,6 @@
 	"sitematrix-total": "'''Conteggio totale: $1'''",
 	"sitematrix-sitetotal": "Totale",
 	"sitematrix-private": "privata",
-	"sitematrix-fishbowl": "modifica ristretta"
+	"sitematrix-fishbowl": "modifica ristretta",
+	"apihelp-sitematrix-param-limit": "Numero massimo di risultati."
 }
