@@ -6,7 +6,8 @@
 			"Meno25",
 			"Sanbec",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Purodha"
 		]
 	},
 	"sitematrix": "{{doc-special|SiteMatrix}}",
@@ -19,7 +20,7 @@
 	"sitematrix-private": "{{Identical|Private}}",
 	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
 	"apihelp-sitematrix-param-type": "{{doc-apihelp-param|sitematrix|type}}",
-	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}",
+	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}\n\nDo not translate:\n closed\n private\n fishbowl",
 	"apihelp-sitematrix-param-langprop": "{{doc-apihelp-param|sitematrix|langprop}}",
 	"apihelp-sitematrix-param-siteprop": "{{doc-apihelp-param|sitematrix|siteprop}}",
 	"apihelp-sitematrix-param-limit": "{{doc-apihelp-param|sitematrix|limit}}",
