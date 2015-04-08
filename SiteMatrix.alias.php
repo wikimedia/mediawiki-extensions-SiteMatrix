@@ -34,6 +34,11 @@ $specialPageAliases['ba'] = array(
 	'SiteMatrix' => array( 'SiteMatrix' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'SiteMatrix' => array( 'ویب_سایٹ_ئی_ماتریس' ),
+);
+
 /** Catalan (català) */
 $specialPageAliases['ca'] = array(
 	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
