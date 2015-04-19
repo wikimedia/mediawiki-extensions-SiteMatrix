@@ -3,7 +3,8 @@
 		"authors": [
 			"Bellayet",
 			"Wikitanvir",
-			"Zaheen"
+			"Zaheen",
+			"Aftabuzzaman"
 		]
 	},
 	"sitematrix": "উইকিমিডিয়া উইকিগুলির তালিকা",
@@ -15,6 +16,6 @@
 	"sitematrix-other-projects": "অন্যান্য প্রকল্প",
 	"sitematrix-total": "'''সর্বমোট: $1'''",
 	"sitematrix-sitetotal": "মোট",
-	"sitematrix-private": "প্রাইভেট",
+	"sitematrix-private": "ব্যক্তিগত",
 	"sitematrix-fishbowl": "সম্পাদনায় নিষেধাজ্ঞা রয়েছে"
 }
