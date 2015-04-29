@@ -4,7 +4,8 @@
 			"Alma",
 			"Toliño",
 			"Xosé",
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
 	"sitematrix": "Lista dos wikis da Wikimedia",
@@ -18,6 +19,8 @@
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privado",
 	"sitematrix-fishbowl": "edición restrinxida",
+	"apihelp-sitematrix-param-langprop": "Que información devolver sobre un idioma.",
+	"apihelp-sitematrix-param-siteprop": "Que información devolver sobre un sitio.",
 	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
 	"apihelp-sitematrix-example-1": "Amosar a matriz de sitios"
 }
