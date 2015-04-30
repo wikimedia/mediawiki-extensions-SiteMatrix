@@ -19,6 +19,7 @@
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privado",
 	"sitematrix-fishbowl": "edición restrinxida",
+	"apihelp-sitematrix-description": "Retornar a lista de sistios Wikimedia.\n\nO código é o identificador único para especiais, ou para linguas, o código do proxecto.",
 	"apihelp-sitematrix-param-langprop": "Que información devolver sobre un idioma.",
 	"apihelp-sitematrix-param-siteprop": "Que información devolver sobre un sitio.",
 	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
