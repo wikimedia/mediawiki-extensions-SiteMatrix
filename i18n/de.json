@@ -4,7 +4,8 @@
 			"Geitost",
 			"Kghbln",
 			"Raimond Spekking",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Metalhead64"
 		]
 	},
 	"sitematrix": "Liste der Wikimedia-Wikis",
@@ -17,5 +18,6 @@
 	"sitematrix-total": "'''Gesamtanzahl: $1'''",
 	"sitematrix-sitetotal": "Insgesamt",
 	"sitematrix-private": "Privat",
-	"sitematrix-fishbowl": "Bearbeitung eingeschränkt"
+	"sitematrix-fishbowl": "Bearbeitung eingeschränkt",
+	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse."
 }
