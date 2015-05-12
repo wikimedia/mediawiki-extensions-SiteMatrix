@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'SiteMatrix' => array( 'مصفوفة_الموقع', 'ويكيات_ويكيميديا' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'SiteMatrix' => array( 'Matrix_السايت', 'ويكيهات_ويكيميديا' ),
 );
@@ -94,7 +94,7 @@ $specialPageAliases['fr'] = array(
 	'SiteMatrix' => array( 'Matrice_des_sites', 'Wikis_de_Wikimedia' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'SiteMatrix' => array( 'Matrice_des_setos', 'MatriceDesSetos', 'Vouiquis_de_Wikimedia', 'VouiquisDeWikimedia' ),
 );
