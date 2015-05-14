@@ -8,7 +8,8 @@
 			"Shirayuki",
 			"The Evil IP address",
 			"Purodha",
-			"Umherirrender"
+			"Umherirrender",
+			"Nemo bis"
 		]
 	},
 	"sitematrix": "{{doc-special|SiteMatrix}}",
@@ -20,7 +21,7 @@
 	"sitematrix-sitetotal": "{{Identical|Total}}",
 	"sitematrix-private": "{{Identical|Private}}",
 	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
-	"apihelp-sitematrix-param-type": "{{doc-apihelp-param|sitematrix|type}}",
+	"apihelp-sitematrix-param-type": "\"One off\" means a wiki with a very specialised or short-term purpose.\n----\n{{doc-apihelp-param|sitematrix|type}}",
 	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}\n\nDo not translate:\n closed\n private\n fishbowl",
 	"apihelp-sitematrix-param-langprop": "{{doc-apihelp-param|sitematrix|langprop}}",
 	"apihelp-sitematrix-param-siteprop": "{{doc-apihelp-param|sitematrix|siteprop}}",
