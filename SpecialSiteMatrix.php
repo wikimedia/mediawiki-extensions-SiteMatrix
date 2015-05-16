@@ -144,4 +144,8 @@ class SpecialSiteMatrix extends SpecialPage {
 		$this->getOutput()->addHTML( $s );
 		$this->getOutput()->addWikiMsg( 'sitematrix-total', $language->formatNum( $matrix->getCount() ) );
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
