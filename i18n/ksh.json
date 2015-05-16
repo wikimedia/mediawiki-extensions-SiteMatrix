@@ -16,7 +16,7 @@
 	"sitematrix-private": "(nit öffentlesch)",
 	"sitematrix-fishbowl": "(et Ändere is beschrängk)",
 	"apihelp-sitematrix-description": "Jangk op de Leß met de Wikkis vun de Wikkimeedija Schtefftong.\n\nEt Köözel för enzejävve es äntweeder at Köözel för de Schprohch mem Köözel för Projägg derhenger udder söns de Ongerdomain un de Houpdomain, alldemohlde der ohne Zweschereum.",
-	"apihelp-sitematrix-param-type": "Donn de Zoot Wikis zom Zeije aanjävve:\n;special:One off and multilingual Wikkimehdija projects.\n;language:Blohß Wikkis met däm Schprohche_Köözel.\n<!--\nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-sitematrix-param-type/ksh\nhttps://translatewiki.net/wiki/Thread:Support/About_MediaWiki:Apihelp-sitematrix-param-type/ksh_(2)\n-->",
+	"apihelp-sitematrix-param-type": "Donn de Zoot Wikis zom Zeije aanjävve:\n;special:De Wikkimehdija Schtefftog ier Projäkte, doh dronger och de Extrahne un blohß för en koote Zigg aktihve.\n;language:Blohß Wikkis met däm Schprohche_Köözel.",
 	"apihelp-sitematrix-param-state": "Donn der Zohschtad von de Wikkis zom Zeije aanjävve:\n;<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">closed</code>:Kam_mer nit dren schrihve, ävver alles lässe.\n;<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">private</code>:Lässe un Schrihve beschrängk.\n;<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">fishbowl</code>:Schrihve beschrängk, alles ze lässe.",
 	"apihelp-sitematrix-param-langprop": "Wat övver en Schprohch jezeisch wähde sull.",
 	"apihelp-sitematrix-param-siteprop": "Wadd övver de Wikkis jezeisch wähde sull.",
