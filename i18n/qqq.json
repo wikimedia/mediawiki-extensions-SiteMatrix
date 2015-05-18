@@ -9,7 +9,8 @@
 			"The Evil IP address",
 			"Purodha",
 			"Umherirrender",
-			"Nemo bis"
+			"Nemo bis",
+			"Legoktm"
 		]
 	},
 	"sitematrix": "{{doc-special|SiteMatrix}}",
@@ -20,6 +21,7 @@
 	"sitematrix-total": "Parameters:\n* $1 - number of databases (count of the array <code>$wgLocalDatabases</code>)",
 	"sitematrix-sitetotal": "{{Identical|Total}}",
 	"sitematrix-private": "{{Identical|Private}}",
+	"sitematrix-fishbowl": "Comment for wikis where only some approved users are allowed to edit the wiki",
 	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
 	"apihelp-sitematrix-param-type": "\"One off\" means a wiki with a very specialised or short-term purpose.\n----\n{{doc-apihelp-param|sitematrix|type}}",
 	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}\n\nDo not translate:\n closed\n private\n fishbowl",

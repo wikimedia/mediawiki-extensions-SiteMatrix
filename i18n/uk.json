@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Ahonc",
-			"Тест"
+			"Тест",
+			"Ата"
 		]
 	},
 	"sitematrix": "Список проектів Вікімедіа",
-	"sitematrix-summary": "Ця спеціальна сторінка показує всі проекти Фонду «Вікімедіа»",
+	"sitematrix-summary": "Ця спеціальна сторінка показує всі вікіпроекти Вікімедіа.",
 	"sitematrix-desc": "Показує [[Special:SiteMatrix|список проектів Вікімедіа]]",
 	"sitematrix-language": "Мова",
 	"sitematrix-project": "Назва проекту, міжпроектне посилання та інтервікі-посилання",
-	"sitematrix-others": "Інші проекти Фонду «Вікімедіа»",
+	"sitematrix-others": "Інші проекти Вікімедіа",
 	"sitematrix-other-projects": "Інші проекти",
 	"sitematrix-total": "'''Загальна кількість: $1'''",
 	"sitematrix-sitetotal": "Усього",
