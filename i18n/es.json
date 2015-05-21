@@ -4,7 +4,8 @@
 			"Imre",
 			"Remember the dot",
 			"Sanbec",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Macofe"
 		]
 	},
 	"sitematrix": "Lista de wikis de Wikimedia",
@@ -17,5 +18,9 @@
 	"sitematrix-total": "'''Cuenta total: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privado",
-	"sitematrix-fishbowl": "edición restringida"
+	"sitematrix-fishbowl": "edición restringida",
+	"apihelp-sitematrix-param-langprop": "Qué información devolver sobre un idioma.",
+	"apihelp-sitematrix-param-siteprop": "Qué información devolver sobre un sitio.",
+	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
+	"apihelp-sitematrix-example-1": "Mostrar la matriz del sitio"
 }
