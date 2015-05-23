@@ -15,7 +15,7 @@
 	"sitematrix-sitetotal": "Kokku",
 	"sitematrix-private": "eraviki",
 	"sitematrix-fishbowl": "muutmine piiratud",
-	"apihelp-sitematrix-description": "Wikimedia vikide nimekirja hankimine.\n\nKood (code) on kas eriviki ainuline identifikaator või keeleversiooni projektikood.\n\nKood on",
+	"apihelp-sitematrix-description": "Wikimedia vikide nimekirja hankimine.\n\nKood (code) on kas eriviki ainuline identifikaator või keeleversiooni projektikood.",
 	"apihelp-sitematrix-param-type": "Vikide nimekirja tüübifilter:\n;special: Üksikprojektid või mitmekeelsed Wikimedia projektid.\n;language: Selle keelekoodiga Wikimedia projektid.",
 	"apihelp-sitematrix-param-state": "Vikide nimekirja olekufilter:\n;closed: Kirjutamine keelatud, lugemine piiramata.\n;private: Lugemine ja kirjutamine piiratud.\n;fishbowl: Kirjutamine piiratud, lugemine piiramata.",
 	"apihelp-sitematrix-param-langprop": "Milline teave keele kohta tagastada.",
