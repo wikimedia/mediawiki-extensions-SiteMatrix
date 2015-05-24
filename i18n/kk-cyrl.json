@@ -1,7 +1,16 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
 	"sitematrix": "Wikimedia уики тізімі",
 	"sitematrix-language": "Тілі",
 	"sitematrix-project": "Жоба атауы, жоба аралық сілтемесі және уики аралық сілтемесі",
-	"sitematrix-others": "Басқа Wikimedia жобалары"
+	"sitematrix-others": "Басқа Wikimedia жобалары",
+	"sitematrix-other-projects": "Басқа жобалар",
+	"sitematrix-sitetotal": "Барлығы",
+	"sitematrix-private": "жеке",
+	"apihelp-sitematrix-param-limit": "Нәтижелердің максимум саны.",
+	"apihelp-sitematrix-example-1": "Сайт матриксін көрсету"
 }
