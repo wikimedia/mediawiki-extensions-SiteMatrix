@@ -69,7 +69,6 @@ $wgSiteMatrixClosedSites = null;
 $dir = __DIR__ . '/';
 
 $wgMessagesDirs['SiteMatrix'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SiteMatrix'] = $dir . 'SiteMatrix.i18n.php';
 $wgExtensionMessagesFiles['SiteMatrixAlias'] = $dir . 'SiteMatrix.alias.php';
 
 $wgAutoloadClasses['SiteMatrix'] = $dir . 'SiteMatrix_body.php';
