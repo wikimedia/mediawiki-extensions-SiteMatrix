@@ -16,5 +16,12 @@
 	"sitematrix-total": "'''Загальна кількість: $1'''",
 	"sitematrix-sitetotal": "Усього",
 	"sitematrix-private": "приватний",
-	"sitematrix-fishbowl": "редагування обмежене"
+	"sitematrix-fishbowl": "редагування обмежене",
+	"apihelp-sitematrix-description": "Отримати список сайтів Вікімедіа.\n\nКод (технічно dbname/wikiid) — це або мовний код + код проекту для контент-проектів, або піддомен + основний домен для всіх інших.",
+	"apihelp-sitematrix-param-type": "Фільтрувати матрицю сайтів за типом:\n;special:Окремі і багатомовні проекти Вікімедіа.\n;language:Проекти Вікімедіа із цим кодом мови.",
+	"apihelp-sitematrix-param-state": "Фільтрувати матрицю сайтів за станом вікі:\n;closed:Без доступу до редагування, повний доступ до читання.\n;private:Обмежені читання і редагуваня.\n;fishbowl:Обмежений доступ до редагування, повний доступ до читання.",
+	"apihelp-sitematrix-param-langprop": "Яку інформацію про мову виводити.",
+	"apihelp-sitematrix-param-siteprop": "Яку інформацію про сайт виводити.",
+	"apihelp-sitematrix-param-limit": "Максимальна кількість результатів.",
+	"apihelp-sitematrix-example-1": "Показати матрицю сайтів"
 }
