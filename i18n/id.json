@@ -3,10 +3,11 @@
 		"authors": [
 			"IvanLanin",
 			"Rex",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Bennylin"
 		]
 	},
-	"sitematrix": "Daftar wiki Wikimedia",
+	"sitematrix": "Daftar wiki Wikimedia (Matriks situs)",
 	"sitematrix-summary": "Halaman istimewa ini memuat daftar dari seluruh wiki Wikimedia.",
 	"sitematrix-desc": "Menampilkan [[Special:SiteMatrix|daftar proyek-proyek wiki Wikimedia]]",
 	"sitematrix-language": "Bahasa",
