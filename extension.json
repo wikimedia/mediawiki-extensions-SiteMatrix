@@ -81,5 +81,6 @@
 		"SiteMatrixPrivateSites": null,
 		"SiteMatrixFishbowlSites": null,
 		"SiteMatrixClosedSites": null
-	}
+	},
+	"manifest_version": 1
 }
