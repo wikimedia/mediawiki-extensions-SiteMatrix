@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Derbeth",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Chrumps"
 		]
 	},
 	"sitematrix": "Lista projektów Wikimedia",
@@ -15,5 +16,6 @@
 	"sitematrix-total": "'''Ogólna liczba: $1'''",
 	"sitematrix-sitetotal": "Łącznie",
 	"sitematrix-private": "poufny",
-	"sitematrix-fishbowl": "edycja ograniczona"
+	"sitematrix-fishbowl": "edycja ograniczona",
+	"apihelp-sitematrix-param-limit": "Maksymalna liczba wyników."
 }
