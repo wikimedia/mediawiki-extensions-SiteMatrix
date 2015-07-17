@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Matasg"
+			"Matasg",
+			"Albertas"
 		]
 	},
 	"sitematrix": "Wikimedia projektų sąrašas",
@@ -15,5 +16,12 @@
 	"sitematrix-total": "'''Viso: $1'''",
 	"sitematrix-sitetotal": "Viso",
 	"sitematrix-private": "privatus",
-	"sitematrix-fishbowl": "redagavimas apribotas"
+	"sitematrix-fishbowl": "redagavimas apribotas",
+	"apihelp-sitematrix-description": "Gauti Vikimedijos tinklapių sąrašą.\n\nKodas (techniškai dbname/wikiid) yra arba kalbos kodas + turinio projekto kodas arba subdomenas + pagrindinis domenas visiems kitiems.",
+	"apihelp-sitematrix-param-type": "Filtruoti tinklapio matricą pagal tipą\n;special:Vienkartiniams ir daugiakalbiams Vikimedijos projektams.\n;language:Vikimedijos projektams su šiuo kalbos kodu.",
+	"apihelp-sitematrix-param-state": "Filtruoti tinklapio matricą pagal vikio būseną:\n;closed:Nėra rašymo prieigos, bet yra pilna skaitymo prieiga.\n;private:Skaitymas ir rašymas yra apriboti.\n;fishbowl:Apribota rašymo prieiga, bet yra pilna skaitymo prieiga.",
+	"apihelp-sitematrix-param-langprop": "Kurią informaciją apie kalbą grąžinti.",
+	"apihelp-sitematrix-param-siteprop": "Kurią informaciją apie tinklapį grąžinti.",
+	"apihelp-sitematrix-param-limit": "Maksimalus rezultatų skaičius.",
+	"apihelp-sitematrix-example-1": "Rodyti tinklapio matricą"
 }
