@@ -1,4 +1,8 @@
 <?php
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Not an entry point.' );
+}
+
 if ( function_exists( 'wfLoadExtension' ) ) {
 	wfLoadExtension( 'SiteMatrix' );
 	// Keep i18n globals so mergeMessageFileList.php doesn't break

@@ -1,10 +1,5 @@
 <?php
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo "SiteMatrix extension\n";
-	exit( 1 );
-}
-
 class SiteMatrix {
 	protected $langlist, $sites, $names, $hosts;
 
