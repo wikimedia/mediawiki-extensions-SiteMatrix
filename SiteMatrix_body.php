@@ -173,11 +173,10 @@ class SiteMatrix {
 	 * @return Mixed
 	 */
 	public function getUrl( $minor, $major, $canonical = false ) {
-		global $wgConf;
-		$dbname = $this->getDBName( $minor, $major );
-		$minor = str_replace( '_', '-', $minor );
-		return $wgConf->get( $canonical ? 'wgCanonicalServer' : 'wgServer',
-			$dbname, $major, array( 'lang' => $minor, 'site' => $major )
+		return $this->getSetting(
+			$canonical ? 'wgCanonicalServer' : 'wgServer',
+			$minor,
+			$major
 		);
 	}
 
@@ -187,7 +186,7 @@ class SiteMatrix {
 	 * @return Mixed
 	 */
 	public function getCanonicalUrl( $minor, $major ) {
-		return $this->getUrl( $minor, $major, true );
+		return $this->getSetting( 'wgCanonicalServer', $minor, $major );
 	}
 
 	/**
@@ -196,9 +195,30 @@ class SiteMatrix {
 	 * @return string
 	 */
 	public function getSitename( $minor, $major ) {
+		return $this->getSetting( 'wgSitename', $minor, $major );
+	}
+
+	/**
+	 * @param string $setting setting name
+	 * @param string $lang language subdomain
+	 * @param string $dbSuffix e.g. 'wiki' for 'enwiki' or 'wikisource' for 'enwikisource'
+	 *
+	 * @return mixed
+	 */
+	private function getSetting( $setting, $lang, $dbSuffix ) {
 		global $wgConf;
-		$dbname = $this->getDBName( $minor, $major );
-		return $wgConf->get( 'wgSitename', $dbname );
+
+		$dbname = $this->getDBName( $lang, $dbSuffix );
+
+		list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
+		$minor = str_replace( '_', '-', $minor );
+
+		return $wgConf->get(
+			$setting,
+			$dbname,
+			$major,
+			array( 'lang' => $minor, 'site' => $major )
+		);
 	}
 
 	/**
@@ -233,6 +253,8 @@ class SiteMatrix {
 			// Fallback to old behavior checking read-only settings;
 			// not very reliable.
 			global $wgConf;
+
+			list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
 
 			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) ) ) {
 				return true;
