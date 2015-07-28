@@ -124,6 +124,7 @@ class ApiSiteMatrix extends ApiBase {
 				$wiki['url'] = $url;
 				$wiki['dbname'] = $dbName;
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
+				$wiki['sitename'] = $matrix->getSitename( $lang, $site );
 
 				$skip = true;
 
