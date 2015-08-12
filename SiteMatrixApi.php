@@ -38,6 +38,7 @@ class ApiSiteMatrix extends ApiBase {
 		$closed = isset( $state['closed'] );
 		$private = isset( $state['private'] );
 		$fishbowl = isset( $state['fishbowl'] );
+		$nonglobal = isset( $state['nonglobal'] );
 
 		$count = 0;
 		if ( isset( $type['language'] ) && $continue[0] == 'language' ) {
@@ -140,6 +141,13 @@ class ApiSiteMatrix extends ApiBase {
 						$skip = false;
 					}
 				}
+				if ( $matrix->isNonGlobal( $lang . $site ) ) {
+					$wiki['nonglobal'] = '';
+
+					if ( $nonglobal ) {
+						$skip = false;
+					}
+				}
 				if ( $matrix->isClosed( $lang, $site ) ) {
 					$wiki['closed'] = '';
 
@@ -183,7 +191,8 @@ class ApiSiteMatrix extends ApiBase {
 					'all',
 					'closed',
 					'private',
-					'fishbowl'
+					'fishbowl',
+					'nonglobal',
 				),
 				ApiBase::PARAM_DFLT => 'all',
 			),
@@ -236,6 +245,7 @@ class ApiSiteMatrix extends ApiBase {
 				' closed   - No write access, full read access',
 				' private  - Read and write restricted',
 				' fishbowl - Restricted write access, full read access',
+				' nonglobal - Public but requires registration',
 			),
 			'langprop' => 'Which information about a language to return',
 			'siteprop' => 'Which information about a site to return',
