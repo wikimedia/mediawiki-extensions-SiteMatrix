@@ -19,5 +19,6 @@
 	"sitematrix-sitetotal": "Insgesamt",
 	"sitematrix-private": "Privat",
 	"sitematrix-fishbowl": "Bearbeitung eingeschränkt",
-	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse."
+	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse.",
+	"apihelp-sitematrix-example-1": "Zeigt die Wiki-Matrix an"
 }
