@@ -4,5 +4,20 @@
 			"C.R."
 		]
 	},
-	"apihelp-sitematrix-description": "Piglia l'elenco 'e site Wikimedia.\n\n'O codece (tecnicamente dbname/wikiid) è (una e ddoje) 'o codece 'e lengua + codece 'e pruggetto pe' pruggette 'e cuntenute o domminio + domminio prencepale pe' tuttuquante ll'ate"
+	"sitematrix": "Elenco 'e wiki Wikimedia",
+	"sitematrix-summary": "Sta paggena speciale elenca tutt' 'e wiki Wikimedia.",
+	"sitematrix-desc": "Fà vedé 'n'[[Special:SiteMatrix|elenco 'e wiki Wikimedia]]",
+	"sitematrix-language": "Lengua",
+	"sitematrix-project": "Nomme d' 'o proggetto, cullegamiente nfra interpruggette e cullegamiente nfra interwiki",
+	"sitematrix-others": "N'ati pruggiette Wikimedia",
+	"sitematrix-other-projects": "Ati pruggette",
+	"sitematrix-total": "'''Cunteggio sano sano: $1'''",
+	"sitematrix-sitetotal": "Totale",
+	"sitematrix-private": "privata",
+	"sitematrix-fishbowl": "cagnamento limitato",
+	"apihelp-sitematrix-description": "Piglia l'elenco 'e site Wikimedia.\n\n'O codece (tecnicamente dbname/wikiid) è (una e ddoje) 'o codece 'e lengua + codece 'e pruggetto pe' pruggette 'e cuntenute o domminio + domminio prencepale pe' tuttuquante ll'ate",
+	"apihelp-sitematrix-param-langprop": "Quale nfurmaziune ncopp'a na lengua s'avess'a turnà.",
+	"apihelp-sitematrix-param-siteprop": "Quala nfurmaziona ncopp' 'o sito s'avess'a turnà.",
+	"apihelp-sitematrix-param-limit": "Nummero massimo 'e risultate.",
+	"apihelp-sitematrix-example-1": "Fà vedè 'a matrice d' 'o sito"
 }
