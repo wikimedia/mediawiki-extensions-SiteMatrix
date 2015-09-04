@@ -7,7 +7,8 @@
 			"Muttley",
 			"Ohgi",
 			"Shirayuki",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Otokoume"
 		]
 	},
 	"sitematrix": "ウィキメディアのウィキ一覧",
@@ -20,5 +21,7 @@
 	"sitematrix-total": "'''総計: $1'''",
 	"sitematrix-sitetotal": "合計",
 	"sitematrix-private": "非公開",
-	"sitematrix-fishbowl": "編集は制限されています"
+	"sitematrix-fishbowl": "編集は制限されています",
+	"apihelp-sitematrix-param-limit": "結果の最大数。",
+	"apihelp-sitematrix-example-1": "サイトのマトリックスを表示"
 }
