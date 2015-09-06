@@ -7,17 +7,6 @@ class SpecialSiteMatrix extends SpecialPage {
 		parent::__construct( 'SiteMatrix' );
 	}
 
-	/**
-	 * @return array
-	 */
-	public static function getLocalLanguageNames() {
-		if ( class_exists( 'LanguageNames' ) ) {
-			global $wgLang;
-			return LanguageNames::getNames( $wgLang->getCode() );
-		}
-		return array();
-	}
-
 	function execute( $par ) {
 		$langNames = Language::fetchLanguageNames();
 
@@ -26,7 +15,7 @@ class SpecialSiteMatrix extends SpecialPage {
 
 		$matrix = new SiteMatrix();
 
-		$localLanguageNames = self::getLocalLanguageNames();
+		$localLanguageNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
 
 		# Construct the HTML
 
