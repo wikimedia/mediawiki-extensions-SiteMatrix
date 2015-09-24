@@ -21,5 +21,7 @@
 	"sitematrix-sitetotal": "Totale",
 	"sitematrix-private": "privata",
 	"sitematrix-fishbowl": "modifica ristretta",
+	"apihelp-sitematrix-param-langprop": "Quali informazioni restituire su una lingua.",
+	"apihelp-sitematrix-param-siteprop": "Quali informazioni restituire su un sito.",
 	"apihelp-sitematrix-param-limit": "Numero massimo di risultati."
 }
