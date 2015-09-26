@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shinjiman"
+			"Shinjiman",
+			"Ktchankt"
 		]
 	},
 	"sitematrix": "Wikimedia嘅wiki一覽",
@@ -10,6 +11,7 @@
 	"sitematrix-language": "語言",
 	"sitematrix-project": "計劃名、跨計劃連結同埋跨維基連結",
 	"sitematrix-others": "Wikimedia嘅其它計劃",
+	"sitematrix-other-projects": "第啲項目",
 	"sitematrix-total": "'''總計: $1'''",
 	"sitematrix-sitetotal": "總數",
 	"sitematrix-private": "私用",
