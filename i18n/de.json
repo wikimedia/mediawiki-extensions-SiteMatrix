@@ -19,6 +19,7 @@
 	"sitematrix-sitetotal": "Insgesamt",
 	"sitematrix-private": "Privat",
 	"sitematrix-fishbowl": "Bearbeitung eingeschränkt",
+	"apihelp-sitematrix-param-langprop": "Welche Informationen über eine Sprache zurückgegeben werden sollen.",
 	"apihelp-sitematrix-param-siteprop": "Welche Information über eine Website zurückgegeben werden soll.",
 	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse.",
 	"apihelp-sitematrix-example-1": "Zeigt die Wiki-Matrix an"
