@@ -5,7 +5,8 @@
 			"Kghbln",
 			"Raimond Spekking",
 			"לערי ריינהארט",
-			"Metalhead64"
+			"Metalhead64",
+			"Predatorix"
 		]
 	},
 	"sitematrix": "Liste der Wikimedia-Wikis",
@@ -19,6 +20,7 @@
 	"sitematrix-sitetotal": "Insgesamt",
 	"sitematrix-private": "Privat",
 	"sitematrix-fishbowl": "Bearbeitung eingeschränkt",
+	"apihelp-sitematrix-description": "Rufe eine Liste von Wikimedia-Portalen ab.",
 	"apihelp-sitematrix-param-langprop": "Welche Informationen über eine Sprache zurückgegeben werden sollen.",
 	"apihelp-sitematrix-param-siteprop": "Welche Information über eine Website zurückgegeben werden soll.",
 	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse.",
