@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"sitematrix": "Lijst met Wikimedia-wiki's",
@@ -15,5 +16,6 @@
 	"sitematrix-total": "'''Totaal aantal: $1'''",
 	"sitematrix-sitetotal": "Totaal",
 	"sitematrix-private": "beperkte toegang",
-	"sitematrix-fishbowl": "beperkt bewerken"
+	"sitematrix-fishbowl": "beperkt bewerken",
+	"apihelp-sitematrix-param-limit": "Maximum aantal resultaten."
 }
