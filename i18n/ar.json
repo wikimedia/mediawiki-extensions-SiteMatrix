@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
-			"Abanima"
+			"Abanima",
+			"Maroen1990"
 		]
 	},
 	"sitematrix": "قائمة ويكيات ويكيميديا",
@@ -16,5 +17,8 @@
 	"sitematrix-sitetotal": "الإجمالي",
 	"sitematrix-private": "خاص",
 	"sitematrix-fishbowl": "التعديل محدد",
-	"apihelp-sitematrix-param-limit": "العدد الأقصى للنتائج."
+	"apihelp-sitematrix-param-langprop": "ما هي المعلومات حول اللغة للعودة.",
+	"apihelp-sitematrix-param-siteprop": "ما هي المعلومات حول موقع للعودة.",
+	"apihelp-sitematrix-param-limit": "العدد الأقصى للنتائج.",
+	"apihelp-sitematrix-example-1": "عرض مصفوفة الموقع"
 }
