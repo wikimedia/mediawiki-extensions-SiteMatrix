@@ -76,7 +76,8 @@
 				"name": "Wikivoyage",
 				"host": "www.wikivoyage.org",
 				"prefix": "voy"
-			}
+			},
+			"_merge_strategy": "array_plus_2d"
 		},
 		"SiteMatrixPrivateSites": null,
 		"SiteMatrixFishbowlSites": null,
