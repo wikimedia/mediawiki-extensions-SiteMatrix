@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Assele"
+			"Assele",
+			"Янмурза Баки"
 		]
 	},
 	"sitematrix": "Викимедиа проекттары исемлеге",
@@ -14,5 +15,8 @@
 	"sitematrix-total": "'''Барыһы: $1'''",
 	"sitematrix-sitetotal": "Барыһы",
 	"sitematrix-private": "шәхси",
-	"sitematrix-fishbowl": "мөхәррирләү сикләнгән"
+	"sitematrix-fishbowl": "мөхәррирләү сикләнгән",
+	"apihelp-sitematrix-param-langprop": "Тел тураһында ҡайһы һүҙҙе кире алырға?",
+	"apihelp-sitematrix-param-siteprop": "Сайт тураһында ҡайһы мәғлүмәтте кире алырға?",
+	"apihelp-sitematrix-example-1": "Сайттар матрицаһын күрһәтергә?"
 }

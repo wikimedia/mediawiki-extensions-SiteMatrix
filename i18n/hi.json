@@ -4,7 +4,8 @@
 			"Ansumang",
 			"Kaustubh",
 			"Shyam",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"Sfic"
 		]
 	},
 	"sitematrix": "विकिमीडिया विकियों की सूची",
@@ -17,5 +18,6 @@
 	"sitematrix-total": "'''कुल गिनती: $1'''",
 	"sitematrix-sitetotal": "कुल",
 	"sitematrix-private": "निजी",
-	"sitematrix-fishbowl": "संपादन प्रतिबंधित"
+	"sitematrix-fishbowl": "संपादन प्रतिबंधित",
+	"apihelp-sitematrix-param-limit": "परिणाम दिखाने की अधिकतम सीमा।"
 }
