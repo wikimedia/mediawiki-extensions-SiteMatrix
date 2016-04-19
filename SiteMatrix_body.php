@@ -18,6 +18,11 @@ class SiteMatrix {
 	 */
 	protected $closed = null;
 
+	/**
+	 * @var array|null
+	 */
+	protected $nonglobal = null;
+
 	protected $specials, $matrix, $count, $countPerSite;
 
 	public function __construct() {
@@ -299,6 +304,20 @@ class SiteMatrix {
 	 * @param string $dbname DatabaseName
 	 * @return bool
 	 */
+	public function isNonGlobal( $dbname ) {
+		global $wgSiteMatrixNonGlobalSites;
+
+		if ( $this->nonglobal == null ) {
+			$this->nonglobal = $this->extractDbList( $wgSiteMatrixNonGlobalSites );
+		}
+
+		return in_array( $dbname, $this->nonglobal );
+	}
+
+	/**
+	 * @param string $dbname DatabaseName
+	 * @return bool
+	 */
 	public function isSpecial( $dbname ) {
 		return in_array( $dbname, $this->specials );
 	}
@@ -358,6 +377,10 @@ class SiteMatrix {
 
 		if ( $matrix->isFishbowl( $wgDBname ) ) {
 			$results['fishbowl'] = '';
+		}
+
+		if ( $matrix->isNonGlobal( $wgDBname ) ) {
+			$results['nonglobal'] = '';
 		}
 
 		return true;

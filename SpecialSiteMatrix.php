@@ -118,6 +118,9 @@ class SpecialSiteMatrix extends SpecialPage {
 			if ( $matrix->isFishbowl( $lang . $site ) ) {
 				$flags[] = $this->msg( 'sitematrix-fishbowl' )->escaped();
 			}
+			if ( $matrix->isNonGlobal( $lang . $site ) ) {
+				$flags[] = $this->msg( 'sitematrix-nonglobal' )->escaped();
+			}
 			$flagsStr = implode( ', ', $flags );
 			if ( $site != 'wiki' ) {
 				$langhost .= $site;
