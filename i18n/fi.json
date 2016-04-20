@@ -16,6 +16,8 @@
 	"sitematrix-other-projects": "Muut projektit",
 	"sitematrix-total": "'''Wikejä yhteensä: $1'''",
 	"sitematrix-sitetotal": "Yhteensä",
-	"sitematrix-private": "yksityinen",
-	"sitematrix-fishbowl": "muokkaaminen rajoitettu"
+	"sitematrix-closed": "ei kirjoitusoikeutta, täysi lukuoikeus",
+	"sitematrix-private": "luku- ja kirjoitusoikeuksia rajoitettu",
+	"sitematrix-fishbowl": "kirjoitusoikeutta rajoitettu, täysi lukuoikeus",
+	"sitematrix-nonglobal": "julkinen, mutta vaatii rekisteröitymisen"
 }

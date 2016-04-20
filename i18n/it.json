@@ -19,8 +19,10 @@
 	"sitematrix-other-projects": "Altri progetti",
 	"sitematrix-total": "'''Conteggio totale: $1'''",
 	"sitematrix-sitetotal": "Totale",
-	"sitematrix-private": "privata",
-	"sitematrix-fishbowl": "modifica ristretta",
+	"sitematrix-closed": "nessun accesso in scrittura, completo in lettura",
+	"sitematrix-private": "accesso in lettura e scrittura limitato",
+	"sitematrix-fishbowl": "accesso limitato in scrittura, completo in lettura",
+	"sitematrix-nonglobal": "pubblico, ma è richiesta la registrazione",
 	"apihelp-sitematrix-param-langprop": "Quali informazioni restituire su una lingua.",
 	"apihelp-sitematrix-param-siteprop": "Quali informazioni restituire su un sito.",
 	"apihelp-sitematrix-param-limit": "Numero massimo di risultati."

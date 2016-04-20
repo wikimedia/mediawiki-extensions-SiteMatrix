@@ -14,7 +14,8 @@
 	"sitematrix-other-projects": "Aner Projeten",
 	"sitematrix-total": "'''Total vum Kont: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "ännere limitéiert",
+	"sitematrix-closed": "keng Schreiwrechter, komplett Liesrechter",
+	"sitematrix-private": "limitéiert Lies- a Schreiwrechter",
+	"sitematrix-fishbowl": "limitéiert Schreiwrechter, komplett Liesrechter",
 	"apihelp-sitematrix-param-limit": "Maximal Zuel vu Resultater."
 }
