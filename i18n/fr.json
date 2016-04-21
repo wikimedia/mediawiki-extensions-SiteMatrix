@@ -7,7 +7,8 @@
 			"Sherbrooke",
 			"Verdy p",
 			"Framafan",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"sitematrix": "Liste des wikis de Wikimedia Foundation",
@@ -19,13 +20,13 @@
 	"sitematrix-other-projects": "Autres projets",
 	"sitematrix-total": "'''Total du compte : $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-closed": "aucun accès en écriture, accès complet en lecture",
+	"sitematrix-closed": "pas d'accès en écriture, accès total en lecture",
 	"sitematrix-private": "accès restreint en lecture et écriture",
 	"sitematrix-fishbowl": "accès restreint en écriture, accès complet en lecture",
 	"sitematrix-nonglobal": "public, mais inscription obligatoire",
 	"apihelp-sitematrix-description": "Obtenir la liste des sites de Wikimédia.\n\nLe code (techniquement dbname/wikiid) est soit le code de langue + le code projet pour les projets de contenu ou le sous-domaine + le domaine principal pour tous les autres.",
 	"apihelp-sitematrix-param-type": "Filtrer la Matrice de site par type :\n;special:Projets Wikimédia spécifiques ou multilingues.\n;language:Projets Wikimédia sous ce code de langue.",
-	"apihelp-sitematrix-param-state": "Filtrer la Matrice de site par état de wiki :",
+	"apihelp-sitematrix-param-state": "Filtrer la matrice de site selon l'état du wiki :",
 	"apihelp-sitematrix-param-langprop": "Quelle information renvoyer sur une langue.",
 	"apihelp-sitematrix-param-siteprop": "Quelle information renvoyer sur un site.",
 	"apihelp-sitematrix-param-limit": "Nombre maximum de résultats.",
