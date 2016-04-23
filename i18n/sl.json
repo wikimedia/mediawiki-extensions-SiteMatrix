@@ -13,6 +13,6 @@
 	"sitematrix-other-projects": "Drugi projekti",
 	"sitematrix-total": "'''Skupno število: $1'''",
 	"sitematrix-sitetotal": "Skupaj",
-	"sitematrix-private": "zasebno",
-	"sitematrix-fishbowl": "urejanje omejeno"
+	"sitematrix-private": "omejen dostop do branja in pisanja",
+	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja"
 }
