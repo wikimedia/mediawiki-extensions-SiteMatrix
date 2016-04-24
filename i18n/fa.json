@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Huji",
-			"Wayiran"
+			"Wayiran",
+			"Ebraminio"
 		]
 	},
 	"sitematrix": "فهرست ویکی‌های ویکی‌مدیا",
@@ -14,6 +15,7 @@
 	"sitematrix-other-projects": "دیگر پروژه‌ها",
 	"sitematrix-total": "'''جمع کل: $1'''",
 	"sitematrix-sitetotal": "کل",
-	"sitematrix-private": "خصوصی",
-	"sitematrix-fishbowl": "دارای محدودیت ویرایش"
+	"sitematrix-closed": "بدون دسترسی نوشتن، دسترسی کامل خواندن",
+	"sitematrix-private": "دسترسی خواندن و نوشتن محدود شده است",
+	"sitematrix-fishbowl": "دارای محدودیت ویرایش، مجدودیت کامل خواندن"
 }
