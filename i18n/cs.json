@@ -17,6 +17,8 @@
 	"sitematrix-other-projects": "Ostatní projekty",
 	"sitematrix-total": "'''Celkový počet: $1'''",
 	"sitematrix-sitetotal": "Celkem",
-	"sitematrix-private": "privátní",
-	"sitematrix-fishbowl": "editování omezeno"
+	"sitematrix-closed": "bez přístupu k editaci, plný přístup ke čtení",
+	"sitematrix-private": "čtení i editace omezeno",
+	"sitematrix-fishbowl": "editování omezeno, plný přístup ke čtení",
+	"sitematrix-nonglobal": "veřejná, ale vyžadována registrace"
 }
