@@ -17,6 +17,6 @@
 	"sitematrix-other-projects": "다른 프로젝트",
 	"sitematrix-total": "'''총 합계: $1'''",
 	"sitematrix-sitetotal": "합계",
-	"sitematrix-private": "비공개",
+	"sitematrix-private": "읽기 및 쓰기 권한 제한",
 	"sitematrix-fishbowl": "편집이 제한됨"
 }
