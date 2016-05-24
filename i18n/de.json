@@ -23,6 +23,7 @@
 	"sitematrix-fishbowl": "Beschränkter Schreibzugriff, voller Lesezugriff",
 	"sitematrix-nonglobal": "Öffentlich, aber Registrierung erforderlich",
 	"apihelp-sitematrix-description": "Rufe eine Liste von Wikimedia-Portalen ab.",
+	"apihelp-sitematrix-param-state": "Sortiert die Wiki-Matrix nach Wiki-Status:",
 	"apihelp-sitematrix-param-langprop": "Welche Informationen über eine Sprache zurückgegeben werden sollen.",
 	"apihelp-sitematrix-param-siteprop": "Welche Information über eine Website zurückgegeben werden soll.",
 	"apihelp-sitematrix-param-limit": "Maximale Anzahl der Ergebnisse.",
