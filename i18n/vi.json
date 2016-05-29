@@ -14,6 +14,8 @@
 	"sitematrix-other-projects": "Các dự án khác",
 	"sitematrix-total": "'''Tổng cộng: $1'''",
 	"sitematrix-sitetotal": "Tổng cộng",
-	"sitematrix-private": "riêng tư",
-	"sitematrix-fishbowl": "hạn chế sửa đổi"
+	"sitematrix-closed": "cấm sửa đổi, hoàn toàn cho phép đọc",
+	"sitematrix-private": "hạn chế sửa đổi và đọc",
+	"sitematrix-fishbowl": "hạn chế sửa đổi, hoàn toàn cho phép đọc",
+	"sitematrix-nonglobal": "công khai, bắt phải đăng nhập"
 }
