@@ -3,7 +3,8 @@
 		"authors": [
 			"Kaganer",
 			"Александр Сигачёв",
-			"Okras"
+			"Okras",
+			"Mailman"
 		]
 	},
 	"sitematrix": "Список проектов Викимедиа",
@@ -15,6 +16,7 @@
 	"sitematrix-other-projects": "Другие проекты",
 	"sitematrix-total": "'''Общее количество: $1'''",
 	"sitematrix-sitetotal": "Всего",
+	"sitematrix-closed": "нет доступа на запись, полный доступ на чтение",
 	"sitematrix-private": "доступ на чтение и запись ограничен",
 	"sitematrix-fishbowl": "доступ на запись ограничен, полный доступ на чтение",
 	"apihelp-sitematrix-param-langprop": "Какую информацию о языке возвращать.",
