@@ -23,7 +23,8 @@
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"SiteMatrixAlias": "SiteMatrix.alias.php"
+		"SiteMatrixAlias": "SiteMatrix.alias.php",
+		"SiteMatrixMagic": "SiteMatrix.i18n.magic.php"
 	},
 	"AutoloadClasses": {
 		"SiteMatrix": "SiteMatrix_body.php",
@@ -33,6 +34,12 @@
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": [
 			"SiteMatrix::APIQuerySiteInfoGeneralInfo"
+		],
+		"ParserGetVariableValueSwitch": [
+			"SiteMatrix::onParserGetVariableValueSwitch"
+		],
+		"MagicWordwgVariableIDs": [
+			"SiteMatrix::onMagicWordwgVariableIDs"
 		]
 	},
 	"config": {
