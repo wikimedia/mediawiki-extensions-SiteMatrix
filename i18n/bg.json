@@ -5,7 +5,8 @@
 			"Spiritia",
 			"Stanqo",
 			"Turin",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"StanProg"
 		]
 	},
 	"sitematrix": "Списък на уикитата на Уикимедия",
@@ -17,5 +18,5 @@
 	"sitematrix-other-projects": "Други проекти",
 	"sitematrix-total": "'''Общ брой: $1'''",
 	"sitematrix-sitetotal": "Общо",
-	"sitematrix-fishbowl": "редактирането е ограничено"
+	"sitematrix-fishbowl": "ограничен достъп за запис, пълен достъп за четене"
 }
