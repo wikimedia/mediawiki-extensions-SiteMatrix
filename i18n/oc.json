@@ -14,6 +14,6 @@
 	"sitematrix-other-projects": "Autres projèctes",
 	"sitematrix-total": "'''Total del compte : $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "modificacions limitadas"
+	"sitematrix-private": "accès restrent en lectura e escritura",
+	"sitematrix-fishbowl": "accès restrent en escritura, accès complet en lectura"
 }
