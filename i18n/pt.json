@@ -5,7 +5,8 @@
 			"Hamilton Abreu",
 			"Luckas",
 			"Malafaya",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Fúlvio"
 		]
 	},
 	"sitematrix": "Lista de wikis da Wikimedia",
@@ -17,6 +18,6 @@
 	"sitematrix-other-projects": "Outros projetos",
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "privado",
-	"sitematrix-fishbowl": "edição restricta"
+	"sitematrix-private": "acesso restrito para leitura e edição",
+	"sitematrix-fishbowl": "acesso restrito à edição, acesso total à leitura"
 }
