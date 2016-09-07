@@ -3,7 +3,8 @@
 		"authors": [
 			"Meno25",
 			"Abanima",
-			"Maroen1990"
+			"Maroen1990",
+			"بدارين"
 		]
 	},
 	"sitematrix": "قائمة ويكيات ويكيميديا",
@@ -17,6 +18,7 @@
 	"sitematrix-sitetotal": "الإجمالي",
 	"sitematrix-private": "صلاحية القراءة والكتابة مقيدة",
 	"sitematrix-fishbowl": "صلاحية الكتابة مقيدة، صلاحية القراءة كاملة",
+	"sitematrix-nonglobal": "عام ، لكن التسجيل مطلوب",
 	"apihelp-sitematrix-param-langprop": "ما هي المعلومات حول اللغة للعودة.",
 	"apihelp-sitematrix-param-siteprop": "ما هي المعلومات حول موقع للعودة.",
 	"apihelp-sitematrix-param-limit": "العدد الأقصى للنتائج.",
