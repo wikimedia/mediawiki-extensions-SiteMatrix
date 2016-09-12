@@ -6,7 +6,8 @@
 			"Luckas",
 			"Malafaya",
 			"לערי ריינהארט",
-			"Fúlvio"
+			"Fúlvio",
+			"Mansil"
 		]
 	},
 	"sitematrix": "Lista de wikis da Wikimedia",
@@ -18,6 +19,6 @@
 	"sitematrix-other-projects": "Outros projetos",
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "acesso restrito para leitura e edição",
-	"sitematrix-fishbowl": "acesso restrito à edição, acesso total à leitura"
+	"sitematrix-private": "acesso de leitura e gravação restrito",
+	"sitematrix-fishbowl": "acesso de leitura restrito, acesso de leitura completo"
 }
