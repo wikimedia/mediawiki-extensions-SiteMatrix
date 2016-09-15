@@ -20,6 +20,7 @@
 	"sitematrix-private": "صلاحية القراءة والكتابة مقيدة",
 	"sitematrix-fishbowl": "صلاحية الكتابة مقيدة، صلاحية القراءة كاملة",
 	"sitematrix-nonglobal": "عام ، لكن التسجيل مطلوب",
+	"apihelp-sitematrix-description": "الحصول على قائمة مواقع ويكيميديا.\n\nالكود (تقنيا dbname/wikiid) هو إما كود اللغة + كود المشروع لمشاريع المحتوى أو النطاق الفرعي + النطاق الرئيسي لكل المشاريع الأخرى.",
 	"apihelp-sitematrix-param-type": "فلتر مصفوفة الموقع حسب النوع:\n;special:مشاريع ويكيميديا متعددة اللغات والمتخصصة.\n;language:مشاريع ويكيميديا تحت كود اللغة هذا.",
 	"apihelp-sitematrix-param-state": "فلتر مصفوفة الموقع حسب حالة الويكي:",
 	"apihelp-sitematrix-param-langprop": "ما هي المعلومات حول اللغة للعودة.",
