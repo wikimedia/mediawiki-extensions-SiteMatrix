@@ -224,52 +224,8 @@ class ApiSiteMatrix extends ApiBase {
 				ApiBase::PARAM_MAX2 => 5000,
 			),
 			'continue' => array(
-				/** @todo Once support for MediaWiki < 1.25 is dropped, just use ApiBase::PARAM_HELP_MSG directly */
-				constant( 'ApiBase::PARAM_HELP_MSG' ) ?: '' => 'api-help-param-continue',
+				ApiBase::PARAM_HELP_MSG => 'api-help-param-continue',
 			),
-		);
-	}
-
-	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getParamDescription() {
-		return array(
-			'type' => array(
-				'Filter the Site Matrix by type',
-				' special  - One off, and multilingual Wikimedia projects',
-				' language - Wikimedia projects under this language code',
-			),
-			'state' => array(
-				'Filter the Site Matrix by wiki state',
-				' closed   - No write access, full read access',
-				' private  - Read and write restricted',
-				' fishbowl - Restricted write access, full read access',
-				' nonglobal - Public but requires registration',
-			),
-			'langprop' => 'Which information about a language to return',
-			'siteprop' => 'Which information about a site to return',
-			'limit' => 'Maximum number of results',
-			'continue' => 'When more results are available, use this to continue',
-		);
-	}
-
-	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getDescription() {
-		return array(
-			'Get Wikimedia sites list',
-			'The code is either the unique identifier for specials else, for languages, the project code',
-		);
-	}
-
-	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getExamples() {
-		return array(
-			'api.php?action=sitematrix',
 		);
 	}
 
