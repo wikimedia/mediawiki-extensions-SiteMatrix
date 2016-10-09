@@ -19,6 +19,7 @@
 	"sitematrix-other-projects": "Outros projetos",
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
+	"sitematrix-closed": "sem acesso de escrita, acesso de leitura completo",
 	"sitematrix-private": "acesso de leitura e gravação restrito",
 	"sitematrix-fishbowl": "acesso de leitura restrito, acesso de leitura completo"
 }
