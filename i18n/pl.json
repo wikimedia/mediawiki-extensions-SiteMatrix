@@ -16,6 +16,7 @@
 	"sitematrix-other-projects": "Inne projekty",
 	"sitematrix-total": "'''Ogólna liczba: $1'''",
 	"sitematrix-sitetotal": "Łącznie",
+	"sitematrix-closed": "brak dostępu do zapisu, pełny dostęp do odczytu",
 	"sitematrix-private": "dostęp do odczytu i zapisu jest ograniczony",
 	"sitematrix-fishbowl": "dostęp do zapisu ograniczony, pełny dostęp do odczytu",
 	"apihelp-sitematrix-param-limit": "Maksymalna liczba wyników."
