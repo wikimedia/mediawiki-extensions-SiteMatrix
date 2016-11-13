@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nghtwlkr",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Jon Harald Søby"
 		]
 	},
 	"sitematrix": "Liste over Wikimedia-prosjekter",
@@ -14,6 +15,15 @@
 	"sitematrix-other-projects": "Andre prosjekt",
 	"sitematrix-total": "'''Totalt antall: $1'''",
 	"sitematrix-sitetotal": "Totalt",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "redigering begrenset"
+	"sitematrix-closed": "ingen skrivetilgang, full lesetilgang",
+	"sitematrix-private": "lese- og skrivetilgang begrenset",
+	"sitematrix-fishbowl": "begrenset skrivetilgang, full lesetilgang",
+	"sitematrix-nonglobal": "offentlig, men registrering påkrevd",
+	"apihelp-sitematrix-description": "Få Wikimedia-sideliste.\n\nKoden (teknisk sett dbname/wikiid) er enten språkkode + prosjektkode for innholdsprosjekter eller underdomenet + hoveddomene for alle andre wikier.",
+	"apihelp-sitematrix-param-type": "Filtrer sidematrisen etter type:\n;special:Spesielle og flerspråklige Wikimedia-prosjekter.\n;language:Wikimedia-prosjekter med denne språkkoden.",
+	"apihelp-sitematrix-param-state": "Filtrer sidematrisen etter wikiens tilstand:",
+	"apihelp-sitematrix-param-langprop": "Hvilken informasjon om et språk som skal returneres.",
+	"apihelp-sitematrix-param-siteprop": "Hvilken informasjon om en side som skal returneres.",
+	"apihelp-sitematrix-param-limit": "Maksimalt antall resultater.",
+	"apihelp-sitematrix-example-1": "Vis sidematrisen"
 }
