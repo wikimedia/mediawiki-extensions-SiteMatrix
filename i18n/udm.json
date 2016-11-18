@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irus"
+			"Irus",
+			"Wadorgurt"
 		]
 	},
 	"sitematrix": "Викимедиа проектъёс гожъян",
 	"sitematrix-summary": "Вань та бамам нимзэ вератэк служебной вики-викимедиа проектъёсын.",
 	"sitematrix-desc": "Возьматоно [[Special:SiteMatrix|список викимедиа проектъёсын]]",
 	"sitematrix-others": "Мукет викимедиа проектъёсын",
-	"sitematrix-other-projects": "Мукетыз проект",
+	"sitematrix-other-projects": "Мукет проектъёс",
 	"sitematrix-closed": "гожтоно кариськи-а ӧвӧл-а, трос лыдӟиськем-а пыремын",
 	"sitematrix-private": "лыдӟон книгае пырем но палдурес",
 	"sitematrix-fishbowl": "сюбегатэм гожтоно кариськи, трос лыдӟиськыны пыремын"
