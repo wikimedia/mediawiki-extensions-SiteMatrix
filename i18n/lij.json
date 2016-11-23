@@ -4,5 +4,10 @@
 			"Giromin Cangiaxo"
 		]
 	},
-	"sitematrix": "Lista de tutte e wiki de Wikimedia"
+	"sitematrix": "Lista de tutte e wiki de Wikimedia",
+	"sitematrix-summary": "Questa paggina speciale a l'elenca tutti i progetti Wikimedia",
+	"sitematrix-project": "Nomme do progetto, ingancio inter-progetto e ingancio inter-wiki",
+	"sitematrix-closed": "nesciun accesso in scrittua, completo in lettua",
+	"sitematrix-private": "accesso in lettua e scrittua limitou",
+	"sitematrix-fishbowl": "accesso limitou in scrittua, completo in lettua"
 }
