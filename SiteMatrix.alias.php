@@ -271,7 +271,7 @@ $specialPageAliases['tr'] = array(
 
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
-	'SiteMatrix' => array( 'Матриця_сайту', 'Вікі_Вікімедіа' ),
+	'SiteMatrix' => array( 'Матриця_сайту', 'Вікі_Вікімедіа', 'Матрица_сайта', 'Вики_Викимедиа' ),
 );
 
 /** Vietnamese (Tiếng Việt) */
