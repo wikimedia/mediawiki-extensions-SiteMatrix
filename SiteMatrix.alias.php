@@ -39,6 +39,11 @@ $specialPageAliases['bgn'] = array(
 	'SiteMatrix' => array( 'ویب_سایٹ_ئی_ماتریس' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'SiteMatrix' => array( 'সাইটের_ম্যাট্রিক্স', 'উইকিমিডিয়ার_উইকিসমূহ', 'সাইট_ম্যাট্রিক্স' ),
+);
+
 /** Catalan (català) */
 $specialPageAliases['ca'] = array(
 	'SiteMatrix' => array( 'Projectes_Wikimedia', 'Wikis_Wikimedia' ),
