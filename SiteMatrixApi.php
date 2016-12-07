@@ -30,9 +30,7 @@ class ApiSiteMatrix extends ApiBase {
 		$continue = isset( $params['continue'] )
 			? explode( '|', $params['continue'] )
 			: array( 'language', '' );
-		if ( count( $continue ) != 2 ) {
-			$this->dieUsage( 'Invalid continue param. You should pass the original value returned by the previous query', 'badcontinue' );
-		}
+		$this->dieContinueUsageIf( count( $continue ) != 2 );
 
 		$all = isset( $state['all'] );
 		$closed = isset( $state['closed'] );
