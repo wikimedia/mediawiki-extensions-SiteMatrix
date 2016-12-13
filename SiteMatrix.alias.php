@@ -41,7 +41,7 @@ $specialPageAliases['bgn'] = array(
 
 /** Bengali (বাংলা) */
 $specialPageAliases['bn'] = array(
-	'SiteMatrix' => array( 'সাইটের_ম্যাট্রিক্স', 'উইকিমিডিয়ার_উইকিসমূহ', 'সাইট_ম্যাট্রিক্স' ),
+	'SiteMatrix' => array( 'সাইটের_ম্যাট্রিক্স', 'উইকিমিডিয়ার_উইকিসমূহ', 'সাইট_ম্যাট্রিক্স' ),
 );
 
 /** Catalan (català) */
