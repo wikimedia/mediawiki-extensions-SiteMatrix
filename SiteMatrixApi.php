@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Query module to get site matrix
+ * Module to get site matrix
  * @ingroup API
  */
 class ApiSiteMatrix extends ApiBase {
@@ -75,7 +75,7 @@ class ApiSiteMatrix extends ApiBase {
 							];
 							$site_out = array_intersect_key( $site_out, $siteProp );
 							if ( $matrix->isClosed( $lang, $site ) ) {
-								$site_out['closed'] = '';
+								$site_out['closed'] = true;
 								if ( $closed ) {
 									$skip = false;
 								}
@@ -124,28 +124,28 @@ class ApiSiteMatrix extends ApiBase {
 					$skip = false;
 				}
 				if ( $matrix->isPrivate( $lang . $site ) ) {
-					$wiki['private'] = '';
+					$wiki['private'] = true;
 
 					if ( $private ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isFishbowl( $lang . $site ) ) {
-					$wiki['fishbowl'] = '';
+					$wiki['fishbowl'] = true;
 
 					if ( $fishbowl ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isNonGlobal( $lang . $site ) ) {
-					$wiki['nonglobal'] = '';
+					$wiki['nonglobal'] = true;
 
 					if ( $nonglobal ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isClosed( $lang, $site ) ) {
-					$wiki['closed'] = '';
+					$wiki['closed'] = true;
 
 					if ( $closed ) {
 						$skip = false;
