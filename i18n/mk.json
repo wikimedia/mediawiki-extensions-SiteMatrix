@@ -22,6 +22,6 @@
 	"apihelp-sitematrix-param-state": "Филтрирај ја матрицата на викито по неговата состојба:",
 	"apihelp-sitematrix-param-langprop": "Кои информации за даден јазик да се дадат.",
 	"apihelp-sitematrix-param-siteprop": "Кои информации за дадено вики да се дадат.",
-	"apihelp-sitematrix-param-limit": "Макс. број на резултати.",
+	"apihelp-sitematrix-param-limit": "Највеќе ставки во исходот.",
 	"apihelp-sitematrix-example-1": "Прикажи ја матрицата на викито"
 }
