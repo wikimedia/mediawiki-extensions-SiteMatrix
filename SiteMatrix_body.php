@@ -107,8 +107,8 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param $a1 array
-	 * @param $a2 array
+	 * @param array $a1
+	 * @param array $a2
 	 * @return int
 	 */
 	public static function sortSpecial( $a1, $a2 ) {
@@ -151,7 +151,7 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param $site string
+	 * @param string $site
 	 * @return int
 	 */
 	public function getCountPerSite( $site ) {
@@ -159,7 +159,7 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param $site string
+	 * @param string $site
 	 * @return string
 	 */
 	public function getSiteUrl( $site ) {
@@ -190,8 +190,8 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param $minor string
-	 * @param $major string
+	 * @param string $minor
+	 * @param string $major
 	 * @return string
 	 */
 	public function getSitename( $minor, $major ) {
@@ -222,8 +222,8 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param $minor string
-	 * @param $major string
+	 * @param string $minor
+	 * @param string $major
 	 * @return string
 	 */
 	public function getDBName( $minor, $major ) {
