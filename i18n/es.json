@@ -5,7 +5,8 @@
 			"Remember the dot",
 			"Sanbec",
 			"לערי ריינהארט",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
 	"sitematrix": "Lista de wikis de Wikimedia",
@@ -19,6 +20,7 @@
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "acceso restringido de lectura y escritura",
 	"sitematrix-fishbowl": "acceso restringido de escritura, acceso total de lectura",
+	"sitematrix-nonglobal": "público, pero requiere registro",
 	"apihelp-sitematrix-param-langprop": "Qué información devolver sobre un idioma.",
 	"apihelp-sitematrix-param-siteprop": "Qué información devolver sobre un sitio.",
 	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
