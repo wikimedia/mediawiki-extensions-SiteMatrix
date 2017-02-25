@@ -6,11 +6,12 @@
 			"Dnik",
 			"Ex13",
 			"SpeedyGonsales",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Bugoslav"
 		]
 	},
 	"sitematrix": "Tablica Wikimedijinih projekata",
-	"sitematrix-summary": "Ova posebna stranica pokazuje popis svih Wikimedijinih wikija.",
+	"sitematrix-summary": "Ova posebna stranica prikazuje popis svih Wikimedijinih wikija.",
 	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|popis wikija Wikimedije]]",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Ime projekta, poveznica među projektima i međuwiki poveznica",

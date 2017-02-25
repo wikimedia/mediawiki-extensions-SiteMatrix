@@ -5,7 +5,8 @@
 			"Nikola Smolenski",
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Сербијана"
 		]
 	},
 	"sitematrix": "Табела свих викија",
@@ -17,6 +18,6 @@
 	"sitematrix-other-projects": "Остали пројекти",
 	"sitematrix-total": "'''Укупан збир: $1.'''",
 	"sitematrix-sitetotal": "укупно",
-	"sitematrix-private": "приватно",
-	"sitematrix-fishbowl": "забрана мењања"
+	"sitematrix-private": "ограничен приступ за читање и писање",
+	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање"
 }
