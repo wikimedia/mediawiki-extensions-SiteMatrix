@@ -15,9 +15,7 @@ class ApiSiteMatrix extends ApiBase {
 		$matrix = new SiteMatrix();
 		$langNames = Language::fetchLanguageNames();
 
-		$matrix_out = array(
-			'count' => $matrix->getCount(),
-		);
+		$matrix_out = [ 'count' => $matrix->getCount() ];
 
 		$localLanguageNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
 

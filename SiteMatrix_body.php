@@ -42,9 +42,9 @@ class SiteMatrix {
 		sort( $this->langlist );
 		$xLanglist = array_flip( $this->langlist );
 
-		$this->sites = array();
-		$this->names = array();
-		$this->hosts = array();
+		$this->sites = [];
+		$this->names = [];
+		$this->hosts = [];
 
 		foreach ( $wgSiteMatrixSites as $site => $conf ) {
 			$this->sites[] = $site;
@@ -54,19 +54,19 @@ class SiteMatrix {
 		}
 
 		# Initialize $countPerSite
-		$this->countPerSite = array();
+		$this->countPerSite = [];
 		foreach ( $this->sites as $site ) {
 			$this->countPerSite[$site] = 0;
 		}
 
 		# Tabulate the matrix
-		$this->specials = array();
-		$this->matrix = array();
+		$this->specials = [];
+		$this->matrix = [];
 		foreach ( $wgLocalDatabases as $db ) {
 			# Find suffix
 			$found = false;
 			foreach ( $this->sites as $site ) {
-				$m = array();
+				$m = [];
 				if ( preg_match( "/(.*)$site\$/", $db, $m ) ) {
 					$lang = $m[1];
 					$langhost = str_replace( '_', '-', $lang );
@@ -74,7 +74,7 @@ class SiteMatrix {
 						$this->matrix[$site][$langhost] = 1;
 						$this->countPerSite[$site]++;
 					} else {
-						$this->specials[] = array( $lang, $site );
+						$this->specials[] = [ $lang, $site ];
 					}
 					$found = true;
 					break;
@@ -82,11 +82,11 @@ class SiteMatrix {
 			}
 			if ( !$found ) {
 				list( $major, $minor ) = $wgConf->siteFromDB( $db );
-				$this->specials[] = array( str_replace( '-', '_', $minor ), $major );
+				$this->specials[] = [ str_replace( '-', '_', $minor ), $major ];
 			}
 		}
 
-		uasort( $this->specials, array( __CLASS__, 'sortSpecial' ) );
+		uasort( $this->specials, [ __CLASS__, 'sortSpecial' ] );
 
 		if ( $hideEmpty ) {
 			foreach ( $xLanglist as $lang => $unused ) {
@@ -217,7 +217,7 @@ class SiteMatrix {
 			$setting,
 			$dbname,
 			$major,
-			array( 'lang' => $minor, 'site' => $major )
+			[ 'lang' => $minor, 'site' => $major ]
 		);
 	}
 
@@ -256,10 +256,14 @@ class SiteMatrix {
 
 			list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
 
-			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) ) ) {
+			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, [ 'site' => $major, 'lang' => $minor ] ) ) {
 				return true;
 			}
-			$readOnlyFile = $wgConf->get( 'wgReadOnlyFile', $dbname, $major, array( 'site' => $major, 'lang' => $minor ) );
+			$readOnlyFile = $wgConf->get( 'wgReadOnlyFile',
+				$dbname,
+				$major,
+				[ 'site' => $major, 'lang' => $minor ]
+			);
 			if ( $readOnlyFile && file_exists( $readOnlyFile ) ) {
 				return true;
 			}
@@ -335,7 +339,7 @@ class SiteMatrix {
 		} elseif ( is_array( $listOrFilename ) ) {
 			return $listOrFilename;
 		} else {
-			return array();
+			return [];
 		}
 	}
 
@@ -394,7 +398,13 @@ class SiteMatrix {
 	 * @param PPFrame $frame
 	 * @return bool true
 	 */
-	public static function onParserGetVariableValueSwitch( Parser &$parser, &$cache, &$magicWordId, &$ret, $frame = null ) {
+	public static function onParserGetVariableValueSwitch(
+								Parser &$parser,
+								&$cache,
+								&$magicWordId,
+								&$ret,
+								$frame = null ) {
+
 		if ( $magicWordId == 'numberofwikis' ) {
 			global $wgLocalDatabases;
 			$ret = count( $wgLocalDatabases );

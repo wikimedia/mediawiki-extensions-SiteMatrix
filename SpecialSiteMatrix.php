@@ -1,6 +1,5 @@
 <?php
 
-
 class SpecialSiteMatrix extends SpecialPage {
 
 	function __construct() {
@@ -20,13 +19,13 @@ class SpecialSiteMatrix extends SpecialPage {
 		# Construct the HTML
 
 		# Header row
-		$s = Xml::openElement( 'table', array( 'class' => 'wikitable', 'id' => 'mw-sitematrix-table' ) ) .
+		$s = Xml::openElement( 'table', [ 'class' => 'wikitable', 'id' => 'mw-sitematrix-table' ] ) .
 			"<tr>" .
 			Xml::element( 'th',
-				array( 'rowspan' => 2 ),
+				[ 'rowspan' => 2 ],
 				$this->msg( 'sitematrix-language' )->text() ) .
 			Xml::element( 'th',
-				array( 'colspan' => count( $matrix->getSites() ) ),
+				[ 'colspan' => count( $matrix->getSites() ) ],
 				$this->msg( 'sitematrix-project' )->text() ) .
 			"</tr>
 			<tr>";
@@ -38,19 +37,30 @@ class SpecialSiteMatrix extends SpecialPage {
 
 		# Bulk of table
 		foreach ( $matrix->getLangList() as $lang ) {
-			if ( in_array( $lang, array( 'cz', 'dk', 'epo', 'jp', 'minnan', 'nan', 'nb', 'zh-cfr' ) ) ) {
+			if ( in_array( $lang, [ 'cz', 'dk', 'epo', 'jp', 'minnan', 'nan', 'nb', 'zh-cfr' ] ) ) {
 				continue;
 			}
 
-			$anchor = strtolower( '<a id="' . htmlspecialchars( $lang ) . '" name="' . htmlspecialchars( $lang ) . '"></a>' );
+			$escapedLang = htmlspecialchars( $lang );
+			$anchor = strtolower( '<a id="' . $escapedLang . '" name="' . $escapedLang . '"></a>' );
 			$s .= '<tr>';
-			$attribs = array();
+			$attribs = [];
 			if ( isset( $localLanguageNames[$lang] ) ) {
 				$attribs['title'] = $localLanguageNames[$lang];
 			}
 
-			$langDisplay = ( isset( $langNames[$lang] ) ? Html::rawElement( 'span', array( 'lang' => htmlspecialchars( $lang ) ), $langNames[$lang] ) : '' );
-			if ( isset( $localLanguageNames[$lang] ) && strlen( $localLanguageNames[$lang] ) && $langDisplay != $localLanguageNames[$lang] ) {
+			if ( isset( $langNames[$lang] ) ) {
+				$langDisplay = Html::rawElement( 'span',
+								 [ 'lang' => htmlspecialchars( $lang ) ],
+								 $langNames[$lang] );
+			} else {
+				$langDisplay = '';
+			}
+
+			if ( isset( $localLanguageNames[$lang] ) &&
+				strlen( $localLanguageNames[$lang] ) &&
+				$langDisplay != $localLanguageNames[$lang] ) {
+
 				$langDisplay .= $this->msg( 'word-separator' )->text() .
 						 $this->msg( 'parentheses', $localLanguageNames[$lang] )->text();
 			}
@@ -61,7 +71,8 @@ class SpecialSiteMatrix extends SpecialPage {
 				if ( $matrix->exist( $lang, $site ) ) {
 					# Wiki exists
 					$closed = $matrix->isClosed( $lang, $site );
-					$s .= "<td>" . ( $closed ? "<del>" : '' ) . "<a href=\"{$url}\">{$lang}</a>" . ( $closed ? "</del>" : '' ) . '</td>';
+					$s .="<td>" . ( $closed ? "<del>" : '' ) .
+						"<a href=\"{$url}\">{$lang}</a>" . ( $closed ? "</del>" : '' ) . '</td>';
 				} else {
 					# Non-existent wiki
 					$s .= "<td><a href=\"{$url}\" class=\"new\">{$lang}</a></td>";
@@ -73,7 +84,8 @@ class SpecialSiteMatrix extends SpecialPage {
 		$language = $this->getLanguage();
 		# Total
 		$totalCount = 0;
-		$s .= '<tr><th rowspan="2"><a id="total" name="total"></a>' . $this->msg( 'sitematrix-sitetotal' )->escaped() . '</th>';
+		$s .= '<tr><th rowspan="2"><a id="total" name="total"></a>' .
+			$this->msg( 'sitematrix-sitetotal' )->escaped() . '</th>';
 		foreach ( $matrix->getNames() as $site => $name ) {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
@@ -94,7 +106,8 @@ class SpecialSiteMatrix extends SpecialPage {
 		# Specials
 		$s .= '<h2 id="mw-sitematrix-others">' . $this->msg( 'sitematrix-others' )->escaped() . '</h2>';
 
-		$s .= Xml::openElement( 'table', array( 'class' => 'wikitable', 'id' => 'mw-sitematrix-other-table' ) ) .
+		$s .= Xml::openElement( 'table',
+			[ 'class' => 'wikitable', 'id' => 'mw-sitematrix-other-table' ] ) .
 			"<tr>" .
 			Xml::element( 'th', null, $this->msg( 'sitematrix-other-projects' )->text() ) .
 			"</tr>";
@@ -111,7 +124,7 @@ class SpecialSiteMatrix extends SpecialPage {
 			$url = $matrix->getUrl( $lang, $site );
 
 			# Handle options
-			$flags = array();
+			$flags = [];
 			if ( $matrix->isPrivate( $lang . $site ) ) {
 				$flags[] = $this->msg( 'sitematrix-private' )->escaped();
 			}
