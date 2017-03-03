@@ -29,7 +29,7 @@ class ApiSiteMatrix extends ApiBase {
 		$limit = $params['limit'];
 		$continue = isset( $params['continue'] )
 			? explode( '|', $params['continue'] )
-			: array( 'language', '' );
+			: [ 'language', '' ];
 		$this->dieContinueUsageIf( count( $continue ) != 2 );
 
 		$all = isset( $state['all'] );
@@ -49,11 +49,11 @@ class ApiSiteMatrix extends ApiBase {
 					$this->setContinueEnumParameter( 'continue', "language|$langhost" );
 					break;
 				}
-				$language = array(
+				$language = [
 					'code' => $langhost,
 					'name' => isset( $langNames[$lang] ) ? $langNames[$lang] : null,
-					'site' => array(),
-				);
+					'site' => [],
+				];
 				if ( isset( $localLanguageNames[$lang] ) ) {
 					$language['localname'] = $localLanguageNames[$lang];
 				}
@@ -69,12 +69,12 @@ class ApiSiteMatrix extends ApiBase {
 							}
 
 							$url = $matrix->getCanonicalUrl( $lang, $site );
-							$site_out = array(
+							$site_out = [
 								'url' => $url,
 								'dbname' => $matrix->getDBName( $lang, $site ),
 								'code' => $site,
 								'sitename' => $matrix->getSitename( $lang, $site ),
-							);
+							];
 							$site_out = array_intersect_key( $site_out, $siteProp );
 							if ( $matrix->isClosed( $lang, $site ) ) {
 								$site_out['closed'] = '';
@@ -101,7 +101,7 @@ class ApiSiteMatrix extends ApiBase {
 		$result->addValue( null, "sitematrix", $matrix_out );
 
 		if ( isset( $type['special'] ) && $count < $limit ) {
-			$specials = array();
+			$specials = [];
 			foreach ( $matrix->getSpecials() as $special ) {
 				list( $lang, $site ) = $special;
 				$dbName = $matrix->getDBName( $lang, $site );
@@ -114,7 +114,7 @@ class ApiSiteMatrix extends ApiBase {
 				}
 				$url = $matrix->getCanonicalUrl( $lang, $site );
 
-				$wiki = array();
+				$wiki = [];
 				$wiki['url'] = $url;
 				$wiki['dbname'] = $dbName;
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
@@ -168,72 +168,69 @@ class ApiSiteMatrix extends ApiBase {
 
 	protected function setContinueEnumParameter( $paramName, $paramValue ) {
 		$paramName = $this->encodeParamName( $paramName );
-		$msg = array( $paramName => $paramValue );
+		$msg = [ $paramName => $paramValue ];
 		$result = $this->getResult();
 		$result->addValue( 'query-continue', $this->getModuleName(), $msg, ApiResult::NO_SIZE_CHECK );
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'type' => array(
+		return [
+			'type' => [
 				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => array(
+				ApiBase::PARAM_TYPE => [
 					'special',
 					'language'
-				),
+				],
 				ApiBase::PARAM_DFLT => 'special|language',
-			),
-			'state' => array(
+			],
+			'state' => [
 				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => array(
+				ApiBase::PARAM_TYPE => [
 					'all',
 					'closed',
 					'private',
 					'fishbowl',
 					'nonglobal',
-				),
+				],
 				ApiBase::PARAM_DFLT => 'all',
-			),
-			'langprop' => array(
+			],
+			'langprop' => [
 				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => array(
+				ApiBase::PARAM_TYPE => [
 					'code',
 					'name',
 					'site',
 					'localname',
-				),
+				],
 				ApiBase::PARAM_DFLT => 'code|name|site|localname',
-			),
-			'siteprop' => array(
+			],
+			'siteprop' => [
 				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => array(
+				ApiBase::PARAM_TYPE => [
 					'url',
 					'dbname',
 					'code',
 					'sitename',
-				),
+				],
 				ApiBase::PARAM_DFLT => 'url|dbname|code|sitename',
-			),
-			'limit' => array(
+			],
+			'limit' => [
 				ApiBase::PARAM_DFLT => 5000,
 				ApiBase::PARAM_TYPE => 'limit',
 				ApiBase::PARAM_MIN => 1,
 				ApiBase::PARAM_MAX => 5000,
 				ApiBase::PARAM_MAX2 => 5000,
-			),
-			'continue' => array(
+			],
+			'continue' => [
 				ApiBase::PARAM_HELP_MSG => 'api-help-param-continue',
-			),
-		);
+			],
+		];
 	}
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
-		return array(
-			'action=sitematrix'
-				=> 'apihelp-sitematrix-example-1',
-		);
+		return [ 'action=sitematrix' => 'apihelp-sitematrix-example-1', ];
 	}
 }
