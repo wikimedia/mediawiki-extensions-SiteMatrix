@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
-	"sitematrix": "Spisak Wikimedia wikija",
+	"sitematrix": "Spisak Wikimedijinih wikija",
 	"sitematrix-summary": "Ova posebna stranica prikazuje sve Wikimedia wikije.",
 	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|spisak Wikimedia wikija]]",
 	"sitematrix-language": "Jezik",
