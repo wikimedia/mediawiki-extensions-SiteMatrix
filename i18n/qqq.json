@@ -10,7 +10,8 @@
 			"Purodha",
 			"Umherirrender",
 			"Nemo bis",
-			"Legoktm"
+			"Legoktm",
+			"Liuxinyu970226"
 		]
 	},
 	"sitematrix": "{{doc-special|SiteMatrix}}",
@@ -28,7 +29,7 @@
 	"sitematrix-nonglobal": "Comment for public wikis where registration is required",
 	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
 	"apihelp-sitematrix-param-type": "\"One off\" means a wiki with a very specialised or short-term purpose.\n----\n{{doc-apihelp-param|sitematrix|type}}",
-	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}\n;closed:{{doc-sitematrix-closed}}.\n;private:{{doc-sitematrix-private}}.\n;fishbowl:{{doc-sitematrix-fishbowl}}.\n;nonglobal:{{doc-sitematrix-nonglobal}}.\n\nDo not translate:\n closed\n private\n fishbowl\n nonglobal",
+	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}",
 	"apihelp-sitematrix-param-langprop": "{{doc-apihelp-param|sitematrix|langprop}}",
 	"apihelp-sitematrix-param-siteprop": "{{doc-apihelp-param|sitematrix|siteprop}}",
 	"apihelp-sitematrix-param-limit": "{{doc-apihelp-param|sitematrix|limit}}",
