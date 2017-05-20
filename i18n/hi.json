@@ -19,5 +19,6 @@
 	"sitematrix-sitetotal": "कुल",
 	"sitematrix-private": "लिखने और पढ़ने की अनुमति नहीं है।",
 	"sitematrix-fishbowl": "पढ़ने की पूर्ण अनुमति है, लेकिन अनुमति प्राप्त सदस्य ही लिख सकते हैं",
-	"apihelp-sitematrix-param-limit": "परिणाम दिखाने की अधिकतम सीमा।"
+	"apihelp-sitematrix-param-limit": "परिणाम दिखाने की अधिकतम सीमा।",
+	"apihelp-sitematrix-example-1": "साइट आव्यूह दिखाएँ"
 }
