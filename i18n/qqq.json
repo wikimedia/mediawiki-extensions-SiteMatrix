@@ -28,6 +28,8 @@
 	"sitematrix-fishbowl": "Comment for wikis where only some approved users are allowed to edit the wiki",
 	"sitematrix-nonglobal": "Comment for public wikis where registration is required",
 	"apihelp-sitematrix-description": "{{doc-apihelp-description|sitematrix}}",
+	"apihelp-sitematrix-summary": "{{doc-apihelp-summary|sitematrix}}",
+	"apihelp-sitematrix-extended-description": "{{doc-apihelp-extended-description|sitematrix}}",
 	"apihelp-sitematrix-param-type": "\"One off\" means a wiki with a very specialised or short-term purpose.\n----\n{{doc-apihelp-param|sitematrix|type}}",
 	"apihelp-sitematrix-param-state": "{{doc-apihelp-param|sitematrix|state}}",
 	"apihelp-sitematrix-param-langprop": "{{doc-apihelp-param|sitematrix|langprop}}",
