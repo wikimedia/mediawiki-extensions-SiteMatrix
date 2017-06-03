@@ -20,5 +20,6 @@
 	"sitematrix-total": "'''Ukupni broj: $1'''",
 	"sitematrix-sitetotal": "Ukupno",
 	"sitematrix-private": "ograničen pristup za pregled i uređivanje",
-	"sitematrix-fishbowl": "pristup za uređivanje ograničen, omogućeno pregledavanje"
+	"sitematrix-fishbowl": "pristup za uređivanje ograničen, omogućeno pregledavanje",
+	"sitematrix-nonglobal": "javno, ali se traži registracija"
 }

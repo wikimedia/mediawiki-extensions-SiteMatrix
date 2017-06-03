@@ -15,5 +15,6 @@
 	"sitematrix-total": "'''Ukupni zbir: $1'''",
 	"sitematrix-sitetotal": "Ukupno",
 	"sitematrix-private": "ograničen pristup za čitanje i pisanje",
-	"sitematrix-fishbowl": "ograničen pristup za pisanje, puni pristup za čitanje"
+	"sitematrix-fishbowl": "ograničen pristup za pisanje, puni pristup za čitanje",
+	"sitematrix-nonglobal": "javno, ali se treba registrirati"
 }
