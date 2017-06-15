@@ -5,7 +5,8 @@
 			"Kwj2772",
 			"ToePeu",
 			"לערי ריינהארט",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"sitematrix": "위키미디어 위키 목록",
@@ -18,5 +19,6 @@
 	"sitematrix-total": "'''총 합계: $1'''",
 	"sitematrix-sitetotal": "합계",
 	"sitematrix-private": "읽기 및 쓰기 권한 제한",
-	"sitematrix-fishbowl": "편집이 제한됨"
+	"sitematrix-fishbowl": "편집이 제한됨",
+	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다."
 }
