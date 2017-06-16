@@ -24,6 +24,8 @@
 	"sitematrix-fishbowl": "acesso restrito de escrita, acesso completo de leitura",
 	"sitematrix-nonglobal": "público, mas registo necessário",
 	"apihelp-sitematrix-description": "Obter a lista de sites Wikimedia.\n\nO código (em linguagem técnica o ''dbname'' ou ''wikiid'') é um dos valores \"código de língua + código do projeto\" para projetos de conteúdo, ou \"subdomínio + domínio principal\" para os restantes.",
+	"apihelp-sitematrix-summary": "Obter a lista de sites Wikimedia.",
+	"apihelp-sitematrix-extended-description": "O código (em linguagem técnica o ''dbname'' ou ''wikiid'') é um dos valores \"código de língua + código do projeto\" para projetos de conteúdo, ou \"subdomínio + domínio principal\" para os restantes.",
 	"apihelp-sitematrix-param-type": "Filtrar a lista de wikis por tipo:\n;special:Projetos Wikimedia específicos e multilingues.\n;language:Projetos Wikimedia com este código de língua.",
 	"apihelp-sitematrix-param-state": "Filtrar a lista de wikis por estado:",
 	"apihelp-sitematrix-param-langprop": "A informação a devolver sobre uma língua.",
