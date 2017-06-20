@@ -51,18 +51,18 @@ class SpecialSiteMatrix extends SpecialPage {
 
 			if ( isset( $langNames[$lang] ) ) {
 				$langDisplay = Html::rawElement( 'span',
-								 [ 'lang' => htmlspecialchars( $lang ) ],
-								 $langNames[$lang] );
+					[ 'lang' => htmlspecialchars( $lang ) ],
+					$langNames[$lang] );
 			} else {
 				$langDisplay = '';
 			}
 
 			if ( isset( $localLanguageNames[$lang] ) &&
 				strlen( $localLanguageNames[$lang] ) &&
-				$langDisplay != $localLanguageNames[$lang] ) {
-
+				$langDisplay != $localLanguageNames[$lang]
+			) {
 				$langDisplay .= $this->msg( 'word-separator' )->text() .
-						 $this->msg( 'parentheses', $localLanguageNames[$lang] )->text();
+					$this->msg( 'parentheses', $localLanguageNames[$lang] )->text();
 			}
 			$s .= '<td>' . $anchor . Html::rawElement( 'strong', $attribs, $langDisplay ) . '</td>';
 

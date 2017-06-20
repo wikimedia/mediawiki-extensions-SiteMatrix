@@ -404,7 +404,6 @@ class SiteMatrix {
 								&$magicWordId,
 								&$ret,
 								$frame = null ) {
-
 		if ( $magicWordId == 'numberofwikis' ) {
 			global $wgLocalDatabases;
 			$ret = count( $wgLocalDatabases );
