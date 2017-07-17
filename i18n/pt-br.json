@@ -5,7 +5,8 @@
 			"Giro720",
 			"Helder.wiki",
 			"Dianakc",
-			"He7d3r"
+			"He7d3r",
+			"Felipe L. Ewald"
 		]
 	},
 	"sitematrix": "Lista de wikis da Wikimedia",
@@ -18,5 +19,5 @@
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "acesso restrito para ler e escrever",
-	"sitematrix-fishbowl": "edição restrita"
+	"sitematrix-fishbowl": "acesso de escrita restrito, acesso completo de leitura"
 }
