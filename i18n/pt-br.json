@@ -20,5 +20,7 @@
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "acesso restrito para ler e escrever",
 	"sitematrix-fishbowl": "acesso de escrita restrito, acesso completo de leitura",
+	"apihelp-sitematrix-summary": "Obter lista de sites da Wikimedia.",
+	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
 	"apihelp-sitematrix-example-1": "Mostrar a matriz do site"
 }
