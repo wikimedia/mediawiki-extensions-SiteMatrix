@@ -7,7 +7,7 @@
 class ApiSiteMatrix extends ApiBase {
 
 	public function __construct( ApiMain $main, $moduleName ) {
-		parent :: __construct( $main, $moduleName, 'sm' );
+		parent::__construct( $main, $moduleName, 'sm' );
 	}
 
 	public function execute() {
