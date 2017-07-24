@@ -18,6 +18,8 @@
 	"sitematrix-fishbowl": "accesse limitate pa scretture, comblete pa letture",
 	"sitematrix-nonglobal": "pubbleche, ma ce vole 'a reggistrazzione",
 	"apihelp-sitematrix-summary": "Pigghie l'elenghe de le site de Uicchimedie",
+	"apihelp-sitematrix-param-state": "Filtre 'a Matrice de le Site pe state de le uicchi:",
+	"apihelp-sitematrix-param-langprop": "Ce 'mbormaziune onna essere date da 'na lènghe.",
 	"apihelp-sitematrix-param-limit": "Numere massime de resultate.",
 	"apihelp-sitematrix-example-1": "Fà vedè 'a matrice d'u site"
 }
