@@ -71,7 +71,7 @@ class SpecialSiteMatrix extends SpecialPage {
 				if ( $matrix->exist( $lang, $site ) ) {
 					# Wiki exists
 					$closed = $matrix->isClosed( $lang, $site );
-					$s .="<td>" . ( $closed ? "<del>" : '' ) .
+					$s .= "<td>" . ( $closed ? "<del>" : '' ) .
 						"<a href=\"{$url}\">{$lang}</a>" . ( $closed ? "</del>" : '' ) . '</td>';
 				} else {
 					# Non-existent wiki

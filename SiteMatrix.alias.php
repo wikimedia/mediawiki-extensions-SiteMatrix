@@ -18,7 +18,7 @@ $specialPageAliases['ar'] = [ 'SiteMatrix' => [ 'مصفوفة_الموقع', 'و
 $specialPageAliases['arz'] = [ 'SiteMatrix' => [ 'Matrix_السايت', 'ويكيهات_ويكيميديا' ], ];
 
 /** Avaric (авар) */
-$specialPageAliases['av'] =  [ 'SiteMatrix' => [ 'Матрица_сайта', 'Вики_Викимедиа' ], ];
+$specialPageAliases['av'] = [ 'SiteMatrix' => [ 'Матрица_сайта', 'Вики_Викимедиа' ], ];
 
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = [ 'SiteMatrix' => [ 'SiteMatrix' ], ];
