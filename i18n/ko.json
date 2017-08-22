@@ -20,5 +20,7 @@
 	"sitematrix-sitetotal": "합계",
 	"sitematrix-private": "읽기 및 쓰기 권한 제한",
 	"sitematrix-fishbowl": "편집이 제한됨",
-	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다."
+	"sitematrix-nonglobal": "공용이지만 가입이 필요합니다",
+	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다.",
+	"apihelp-sitematrix-param-limit": "최대 결과 수입니다."
 }
