@@ -169,7 +169,7 @@ class SiteMatrix {
 	/**
 	 * @param string $minor Language
 	 * @param string $major Site
-	 * @param bool $canonical: use getCanonicalUrl()
+	 * @param bool $canonical use getCanonicalUrl()
 	 * @return Mixed
 	 */
 	public function getUrl( $minor, $major, $canonical = false ) {
