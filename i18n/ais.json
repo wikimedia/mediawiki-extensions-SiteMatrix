@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bunukwiki"
+			"Bunukwiki",
+			"Benel"
 		]
 	},
-	"sitematrix-language": "kamu"
+	"sitematrix-language": "kamu",
+	"sitematrix-other-projects": "zuma a cwanan"
 }
