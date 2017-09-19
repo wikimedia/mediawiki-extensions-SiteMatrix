@@ -6,7 +6,10 @@
 		]
 	},
 	"sitematrix-language": "kamu",
+	"sitematrix-others": "zuma cwanan nu Wiki myiti",
 	"sitematrix-other-projects": "zuma a cwanan",
+	"apihelp-sitematrix-param-langprop": "atatikuay a cesyun nu kamu.",
+	"apihelp-sitematrix-param-siteprop": "atatikuay a calay-kakacawan(wangcan cesyun)",
 	"apihelp-sitematrix-param-limit": "sakatabakiay a sausi nu heci.",
 	"apihelp-sitematrix-example-1": "paazih calay-kakacawan(wangcan) E-matrix"
 }
