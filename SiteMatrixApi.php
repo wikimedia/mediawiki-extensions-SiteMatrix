@@ -51,6 +51,7 @@ class ApiSiteMatrix extends ApiBase {
 					'code' => $langhost,
 					'name' => isset( $langNames[$lang] ) ? $langNames[$lang] : null,
 					'site' => [],
+					'dir' => Language::factory( $langhost )->getDir()
 				];
 				if ( isset( $localLanguageNames[$lang] ) ) {
 					$language['localname'] = $localLanguageNames[$lang];
@@ -198,9 +199,10 @@ class ApiSiteMatrix extends ApiBase {
 					'code',
 					'name',
 					'site',
+					'dir',
 					'localname',
 				],
-				ApiBase::PARAM_DFLT => 'code|name|site|localname',
+				ApiBase::PARAM_DFLT => 'code|name|site|dir|localname',
 			],
 			'siteprop' => [
 				ApiBase::PARAM_ISMULTI => true,
