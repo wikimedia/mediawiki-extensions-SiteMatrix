@@ -3,7 +3,8 @@
 		"authors": [
 			"Huji",
 			"Wayiran",
-			"Ebraminio"
+			"Ebraminio",
+			"Ladsgroup"
 		]
 	},
 	"sitematrix": "فهرست ویکی‌های ویکی‌مدیا",
@@ -17,5 +18,7 @@
 	"sitematrix-sitetotal": "کل",
 	"sitematrix-closed": "بدون دسترسی نوشتن، دسترسی کامل خواندن",
 	"sitematrix-private": "دسترسی خواندن و نوشتن محدود شده است",
-	"sitematrix-fishbowl": "دارای محدودیت ویرایش، مجدودیت کامل خواندن"
+	"sitematrix-fishbowl": "دارای محدودیت ویرایش، مجدودیت کامل خواندن",
+	"sitematrix-nonglobal": "عمومی ولی عضویت نیاز است",
+	"apihelp-sitematrix-param-limit": "حداکثر تعداد نتایج"
 }
