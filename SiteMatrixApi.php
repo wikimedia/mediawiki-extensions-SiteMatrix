@@ -229,6 +229,7 @@ class ApiSiteMatrix extends ApiBase {
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
+	 * @return array
 	 */
 	protected function getExamplesMessages() {
 		return [ 'action=sitematrix' => 'apihelp-sitematrix-example-1', ];

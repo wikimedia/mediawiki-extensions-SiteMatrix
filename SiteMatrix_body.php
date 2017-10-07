@@ -357,7 +357,7 @@ class SiteMatrix {
 	 * Handler method for the APISiteInfoGeneralInfo hook
 	 *
 	 * @param ApiQuerySiteinfo $module
-	 * @param array $results
+	 * @param array &$results
 	 * @return bool
 	 */
 	public static function APIQuerySiteInfoGeneralInfo( $module, &$results ) {
@@ -391,10 +391,10 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param Parser $parser
-	 * @param array $cache
-	 * @param string $magicWordId
-	 * @param string $ret
+	 * @param Parser &$parser
+	 * @param array &$cache
+	 * @param string &$magicWordId
+	 * @param string &$ret
 	 * @param PPFrame $frame
 	 * @return bool true
 	 */
@@ -412,7 +412,7 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param array $customVariableIds
+	 * @param array &$customVariableIds
 	 * @return bool true
 	 */
 	public static function onMagicWordwgVariableIDs( &$customVariableIds ) {
