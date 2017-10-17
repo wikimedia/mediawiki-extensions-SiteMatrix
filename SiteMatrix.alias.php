@@ -180,6 +180,9 @@ $specialPageAliases['uk'] = [ 'SiteMatrix' =>
 	[ 'Матриця_сайту', 'Вікі_Вікімедіа', 'Матрица_сайта', 'Вики_Викимедиа' ],
 ];
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [ 'SiteMatrix' => [ 'ویکیوں_کی_فہرست', 'سائٹ_میٹرکس' ], ];
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = [ 'SiteMatrix' => [ 'Ma_trận_trang' ], ];
 
