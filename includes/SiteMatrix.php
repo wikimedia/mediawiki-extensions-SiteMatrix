@@ -86,7 +86,9 @@ class SiteMatrix {
 			}
 		}
 
-		uasort( $this->specials, [ __CLASS__, 'sortSpecial' ] );
+		uasort( $this->specials, function ( $a1, $a2 ) {
+			return strcmp( $a1[0], $a2[0] );
+		} );
 
 		if ( $hideEmpty ) {
 			foreach ( $xLanglist as $lang => $unused ) {
@@ -104,15 +106,6 @@ class SiteMatrix {
 		}
 
 		$this->count = count( $wgLocalDatabases );
-	}
-
-	/**
-	 * @param array $a1
-	 * @param array $a2
-	 * @return int
-	 */
-	public static function sortSpecial( $a1, $a2 ) {
-		return strcmp( $a1[0], $a2[0] );
 	}
 
 	/**
