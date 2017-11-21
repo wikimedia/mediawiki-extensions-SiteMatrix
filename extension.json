@@ -28,19 +28,21 @@
 		"SiteMatrixMagic": "SiteMatrix.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"SiteMatrix": "SiteMatrix_body.php",
-		"SpecialSiteMatrix": "SpecialSiteMatrix.php",
-		"ApiSiteMatrix": "SiteMatrixApi.php"
+		"SiteMatrix": "includes/SiteMatrix.php",
+		"SpecialSiteMatrix": "includes/SpecialSiteMatrix.php",
+		"ApiSiteMatrix": "includes/ApiSiteMatrix.php",
+		"SiteMatrixHooks": "includes/SiteMatrixHooks.php"
+
 	},
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": [
-			"SiteMatrix::APIQuerySiteInfoGeneralInfo"
+			"SiteMatrixHooks::APIQuerySiteInfoGeneralInfo"
 		],
 		"ParserGetVariableValueSwitch": [
-			"SiteMatrix::onParserGetVariableValueSwitch"
+			"SiteMatrixHooks::onParserGetVariableValueSwitch"
 		],
 		"MagicWordwgVariableIDs": [
-			"SiteMatrix::onMagicWordwgVariableIDs"
+			"SiteMatrixHooks::onMagicWordwgVariableIDs"
 		]
 	},
 	"config": {
