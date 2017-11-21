@@ -1,30 +1,74 @@
 <?php
 
+/**
+ * Service to access
+ */
 class SiteMatrix {
-	protected $langlist, $sites, $names, $hosts;
+	/** @var string[] Language codes used by this wikifarm, sorted alphabetically. */
+	protected $langlist;
 
 	/**
-	 * @var array|null
+	 * Sites (aka project families) used by this wikifarm. These will be things like 'wiktionary'.
+	 * @var string[]
+	 * @see $wgSiteMatrixSites
 	 */
-	protected $private = null;
+	protected $sites;
 
 	/**
-	 * @var array|null
+	 * Human-readable site names. (Except they aren't...)
+	 * @var string[] site => name<br/>iw-prefix
+	 * @see $wgSiteMatrixSites
 	 */
-	protected $fishbowl = null;
+	protected $names;
 
 	/**
-	 * @var array|null
+	 * Wiki family domain names.
+	 * @var string[] site => host
+	 * @see $wgSiteMatrixSites
 	 */
-	protected $closed = null;
+	protected $hosts;
+
+	/** @var string[]|null Lazy-loaded dbname list of private wikis. */
+	protected $private;
+
+	/** @var string[]|null Lazy-loaded dbname list of fishbowl wikis. */
+	protected $fishbowl;
+
+	/** @var string[]|null Lazy-loaded dbname list of closed wikis. */
+	protected $closed;
+
+	/** @var string[]|null Lazy-loaded dbname list of non-SUL wikis. */
+	protected $nonglobal;
 
 	/**
-	 * @var array|null
+	 * Special wikis (which are multilingual or otherwise not split by language),
+	 * partially sorted by language.
+	 * Language codes use _ instead of -.
+	 * @var array[] [ <language code>, <family> ]
 	 */
-	protected $nonglobal = null;
+	protected $specials;
 
-	protected $specials, $matrix, $count, $countPerSite;
+	/**
+	 * A matrix of which wikis exist in which language.
+	 * Language codes use _ instead of -.
+	 * @var array[] site => language => 1
+	 */
+	protected $matrix;
 
+	/** @var int Total number of wikis. */
+	protected $count;
+
+	/**
+	 * The number of wikis in each wiki family.
+	 * @var int[] site => count
+	 */
+	protected $countPerSite;
+
+	/**
+	 * Create and load the site matrix.
+	 * Goes through $wgLocalDatabases and uses a bunch of $wgSiteMatrix* settings to
+	 * sort it into project families and special projects.
+	 */
 	public function __construct() {
 		global $wgSiteMatrixFile, $wgSiteMatrixSites;
 		global $wgLocalDatabases, $wgConf;
@@ -91,7 +135,7 @@ class SiteMatrix {
 		} );
 
 		if ( $hideEmpty ) {
-			foreach ( $xLanglist as $lang => $unused ) {
+			foreach ( $xLanglist as $lang => $_ ) {
 				$empty = true;
 				foreach ( $this->sites as $site ) {
 					if ( !empty( $this->matrix[$site][$lang] ) ) {
@@ -109,34 +153,41 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @return array
+	 * Get language codes used by this wikifarm (sorted alphabetically).
+	 * @return string[]
 	 */
 	public function getLangList() {
 		return $this->langlist;
 	}
 
 	/**
-	 * @return array
+	 * Get family names in an almost-human-readable format (will be something like 'Wikipedia<br/>w').
+	 * @return string[] family => name
 	 */
 	public function getNames() {
 		return $this->names;
 	}
 
 	/**
-	 * @return array
+	 * Get the list of project families used by this wikifarm.
+	 * @return string[]
 	 */
 	public function getSites() {
 		return $this->sites;
 	}
 
 	/**
-	 * @return array
+	 * Get list of special wikis (which are multilingual or otherwise not split by language),
+	 * partially sorted by language.
+	 * Language codes use _ instead of -.
+	 * @return array[] [ <language code>, <family> ]
 	 */
 	public function getSpecials() {
 		return $this->specials;
 	}
 
 	/**
+	 * Get the total number of wikis.
 	 * @return int
 	 */
 	public function getCount() {
@@ -144,6 +195,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Get the total number of wikis in a wiki family.
 	 * @param string $site
 	 * @return int
 	 */
@@ -152,6 +204,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Get the base URL of a wiki family (e.g. '//www.wikipedia.org/') with trailing /.
 	 * @param string $site
 	 * @return string
 	 */
@@ -160,9 +213,10 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Get the base URL of a wiki (as in $wgServer / $wgCanonicalServer).
 	 * @param string $minor Language
 	 * @param string $major Site
-	 * @param bool $canonical use getCanonicalUrl()
+	 * @param bool $canonical use canonical url.
 	 * @return Mixed
 	 */
 	public function getUrl( $minor, $major, $canonical = false ) {
@@ -174,6 +228,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Shortcut for getUrl( $minor, $major, true ).
 	 * @param string $minor Language
 	 * @param string $major Site
 	 * @return Mixed
@@ -183,6 +238,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Get human-readable name of a wiki.
 	 * @param string $minor
 	 * @param string $major
 	 * @return string
@@ -195,7 +251,6 @@ class SiteMatrix {
 	 * @param string $setting setting name
 	 * @param string $lang language subdomain
 	 * @param string $dbSuffix e.g. 'wiki' for 'enwiki' or 'wikisource' for 'enwikisource'
-	 *
 	 * @return mixed
 	 */
 	private function getSetting( $setting, $lang, $dbSuffix ) {
@@ -224,6 +279,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki exists.
 	 * @param string $minor Language
 	 * @param string $major Site
 	 * @return bool
@@ -233,6 +289,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki is closed (not editable).
 	 * @param string $minor Language
 	 * @param string $major Site
 	 * @return bool
@@ -270,6 +327,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki is private (not publicly readable).
 	 * @param string $dbname DatabaseName
 	 * @return bool
 	 */
@@ -284,6 +342,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki is a fishbowl (publicly readable but not publicly editable).
 	 * @param string $dbname DatabaseName
 	 * @return bool
 	 */
@@ -298,6 +357,7 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki is non-global (not using single sign-on).
 	 * @param string $dbname DatabaseName
 	 * @return bool
 	 */
@@ -312,6 +372,8 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Check whether a wiki is special (the only wiki in its wiki family; typically this means
+	 * a multilingual wiki).
 	 * @param string $dbname DatabaseName
 	 * @return bool
 	 */
