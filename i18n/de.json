@@ -6,7 +6,8 @@
 			"Raimond Spekking",
 			"לערי ריינהארט",
 			"Metalhead64",
-			"Predatorix"
+			"Predatorix",
+			"Debenben"
 		]
 	},
 	"sitematrix": "Liste der Wikimedia-Wikis",
@@ -24,6 +25,7 @@
 	"sitematrix-nonglobal": "Öffentlich, aber Registrierung erforderlich",
 	"apihelp-sitematrix-description": "Rufe eine Liste von Wikimedia-Portalen ab.",
 	"apihelp-sitematrix-summary": "Ruft eine Liste der Wikimedia-Wikis ab.",
+	"apihelp-sitematrix-param-type": "Filtere die Seiten-Matrix nach Typ:\n;Spezial: Eine von und mehrsprachige Wikimedia-Projekte.\n;Sprache: Wikimedia-Projekte mit diesem Sprach-Code",
 	"apihelp-sitematrix-param-state": "Sortiert die Wiki-Matrix nach Wiki-Status:",
 	"apihelp-sitematrix-param-langprop": "Welche Informationen über eine Sprache zurückgegeben werden sollen.",
 	"apihelp-sitematrix-param-siteprop": "Welche Information über eine Website zurückgegeben werden soll.",
