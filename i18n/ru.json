@@ -4,7 +4,8 @@
 			"Kaganer",
 			"Александр Сигачёв",
 			"Okras",
-			"Mailman"
+			"Mailman",
+			"Mouse21"
 		]
 	},
 	"sitematrix": "Список проектов Викимедиа",
@@ -19,6 +20,12 @@
 	"sitematrix-closed": "нет доступа на запись, полный доступ на чтение",
 	"sitematrix-private": "доступ на чтение и запись ограничен",
 	"sitematrix-fishbowl": "доступ на запись ограничен, полный доступ на чтение",
+	"sitematrix-nonglobal": "общественности, но требуется регистрация",
+	"apihelp-sitematrix-description": "Получить список Викимедиа.\n\nКод (технически dbname/wikiid) код языка + код проекта для проектов контента или субдомен + основной домен для всех остальных.",
+	"apihelp-sitematrix-summary": "Получить список Викимедиа.",
+	"apihelp-sitematrix-extended-description": "Код (технически dbname/wikiid) код языка + код проекта для проектов контента или субдомен + основной домен для всех остальных.",
+	"apihelp-sitematrix-param-type": "Отфильтруйте матрицу сайта по типу:\n;special:Один и многоязычные проекты Викимедиа.\n;language:Проекты Викимедиа в рамках этого языкового кода.",
+	"apihelp-sitematrix-param-state": "Отфильтруйте матрицу сайта по вики-состоянию:",
 	"apihelp-sitematrix-param-langprop": "Какую информацию о языке возвращать.",
 	"apihelp-sitematrix-param-siteprop": "Какую информацию о сайте возвращать.",
 	"apihelp-sitematrix-param-limit": "Максимальное количество результатов.",
