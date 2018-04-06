@@ -6,7 +6,8 @@
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
 			"לערי ריינהארט",
-			"Сербијана"
+			"Сербијана",
+			"BadDog"
 		]
 	},
 	"sitematrix": "Табела свих викија",
@@ -14,8 +15,8 @@
 	"sitematrix-desc": "Приказује [[Special:SiteMatrix|списак Викимедијиних викија]].",
 	"sitematrix-language": "Језик",
 	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
-	"sitematrix-others": "Остали Викимедијини пројекти.",
-	"sitematrix-other-projects": "Остали пројекти",
+	"sitematrix-others": "Други Викимедијини пројекти.",
+	"sitematrix-other-projects": "Други пројекти",
 	"sitematrix-total": "'''Укупан збир: $1.'''",
 	"sitematrix-sitetotal": "укупно",
 	"sitematrix-private": "ограничен приступ за читање и писање",
