@@ -46,7 +46,7 @@ class SiteMatrixHooks {
 	 * @param array &$cache
 	 * @param string &$magicWordId
 	 * @param string &$ret
-	 * @param PPFrame $frame
+	 * @param PPFrame|null $frame
 	 * @return bool true
 	 */
 	public static function onParserGetVariableValueSwitch(
