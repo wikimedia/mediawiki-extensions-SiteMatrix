@@ -18,9 +18,12 @@
 	"sitematrix-other-projects": "다른 프로젝트",
 	"sitematrix-total": "'''총 합계: $1'''",
 	"sitematrix-sitetotal": "합계",
+	"sitematrix-closed": "쓰기 권한 없음, 전체 읽기 권한",
 	"sitematrix-private": "읽기 및 쓰기 권한 제한",
-	"sitematrix-fishbowl": "편집이 제한됨",
+	"sitematrix-fishbowl": "제한된 쓰기 권한, 전체 읽기 권한",
 	"sitematrix-nonglobal": "공용이지만 가입이 필요합니다",
+	"apihelp-sitematrix-description": "위키미디어 사이트 목록을 가져옵니다.\n\n코드(기술적으로 dbname/wikiid)는 콘텐츠 프로젝트의 경우 언어 코드 + 프로젝트 코드이며 그 밖의 경우 서브도메인 + 주 도메인입니다.",
 	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다.",
+	"apihelp-sitematrix-extended-description": "코드(기술적으로 dbname/wikiid)는 콘텐츠 프로젝트의 경우 언어 코드 + 프로젝트 코드이며 그 밖의 경우 서브도메인 + 주 도메인입니다.",
 	"apihelp-sitematrix-param-limit": "최대 결과 수입니다."
 }
