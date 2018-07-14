@@ -6,7 +6,8 @@
 			"Waihorace",
 			"Cwlin0416",
 			"Wwycheuk",
-			"Hello903hello"
+			"Hello903hello",
+			"Kly"
 		]
 	},
 	"sitematrix": "維基媒體的 Wiki 清單",
@@ -21,6 +22,7 @@
 	"sitematrix-closed": "不能寫入，但能完整讀取",
 	"sitematrix-private": "讀寫權限被限制",
 	"sitematrix-fishbowl": "限制寫入，但能完整讀取",
+	"sitematrix-nonglobal": "公開；但需註冊",
 	"apihelp-sitematrix-param-state": "依 wiki 狀態過濾網站矩陣：",
 	"apihelp-sitematrix-param-langprop": "要回傳的語言資訊。",
 	"apihelp-sitematrix-param-siteprop": "要回傳的網站資訊。",
