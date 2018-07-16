@@ -7,7 +7,8 @@
 			"לערי ריינהארט",
 			"Macofe",
 			"Dgstranz",
-			"Fitoschido"
+			"Fitoschido",
+			"MarcoAurelio"
 		]
 	},
 	"sitematrix": "Lista de wikis de Wikimedia",
@@ -19,6 +20,7 @@
 	"sitematrix-other-projects": "Otros proyectos",
 	"sitematrix-total": "'''Cuenta total: $1'''",
 	"sitematrix-sitetotal": "Total",
+	"sitematrix-closed": "edición restringida, lectura sin restricciones",
 	"sitematrix-private": "acceso restringido de lectura y escritura",
 	"sitematrix-fishbowl": "acceso restringido de escritura, acceso total de lectura",
 	"sitematrix-nonglobal": "público, pero requiere registro",
