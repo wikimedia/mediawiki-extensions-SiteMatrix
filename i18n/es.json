@@ -8,7 +8,8 @@
 			"Macofe",
 			"Dgstranz",
 			"Fitoschido",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Jelou"
 		]
 	},
 	"sitematrix": "Lista de wikis de Wikimedia",
@@ -20,7 +21,7 @@
 	"sitematrix-other-projects": "Otros proyectos",
 	"sitematrix-total": "'''Cuenta total: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-closed": "edición restringida, lectura sin restricciones",
+	"sitematrix-closed": "sin acceso de escritura, acceso de lectura completo",
 	"sitematrix-private": "acceso restringido de lectura y escritura",
 	"sitematrix-fishbowl": "acceso restringido de escritura, acceso total de lectura",
 	"sitematrix-nonglobal": "público, pero requiere registro",
