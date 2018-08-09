@@ -50,8 +50,8 @@ class SpecialSiteMatrix extends SpecialPage {
 			}
 
 			if ( isset( $langNames[$lang] ) ) {
-				$langDisplay = Html::rawElement( 'span',
-					[ 'lang' => htmlspecialchars( $lang ) ],
+				$langDisplay = Html::element( 'span',
+					[ 'lang' => $lang ],
 					$langNames[$lang] );
 			} else {
 				$langDisplay = '';
@@ -61,8 +61,8 @@ class SpecialSiteMatrix extends SpecialPage {
 				strlen( $localLanguageNames[$lang] ) &&
 				$langDisplay != $localLanguageNames[$lang]
 			) {
-				$langDisplay .= $this->msg( 'word-separator' )->text() .
-					$this->msg( 'parentheses', $localLanguageNames[$lang] )->text();
+				$langDisplay .= $this->msg( 'word-separator' )->escaped() .
+					$this->msg( 'parentheses', $localLanguageNames[$lang] )->escaped();
 			}
 			$s .= '<td>' . $anchor . Html::rawElement( 'strong', $attribs, $langDisplay ) . '</td>';
 
