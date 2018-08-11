@@ -385,8 +385,8 @@ class SiteMatrix {
 	 * Pull a list of dbnames from a given text file, or pass through an array.
 	 * Used for the DB list configuration settings.
 	 *
-	 * @param mixed $listOrFilename array of strings, or string with a filename
-	 * @return array
+	 * @param string[]|string $listOrFilename Array of strings, or string with a filename
+	 * @return string[]
 	 */
 	private function extractDbList( $listOrFilename ) {
 		if ( is_string( $listOrFilename ) ) {
@@ -402,7 +402,7 @@ class SiteMatrix {
 	 * Pull a list of dbnames from a given text file.
 	 *
 	 * @param string $filename
-	 * @return array
+	 * @return string[]
 	 */
 	private function extractFile( $filename ) {
 		return array_map( 'trim', file( $filename ) );
