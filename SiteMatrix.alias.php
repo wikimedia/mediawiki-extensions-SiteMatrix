@@ -166,6 +166,12 @@ $specialPageAliases['scn'] = [ 'SiteMatrix' => [ 'ProgettiWikimedia' ], ];
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = [ 'SiteMatrix' => [ 'MaticaLokalít' ], ];
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+$specialPageAliases['sr-ec'] = [ 'SiteMatrix' => [ 'Табела_свих_викија', 'Матрица_сајта' ], ];
+
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [ 'SiteMatrix' => [ 'Tabela_svih_vikija', 'Matrica_sajta' ], ];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [ 'SiteMatrix' => [ 'Lista_över_Wikimedias_wikier' ], ];
 
