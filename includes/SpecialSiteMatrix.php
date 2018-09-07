@@ -110,6 +110,7 @@ class SpecialSiteMatrix extends SpecialPage {
 			[ 'class' => 'wikitable', 'id' => 'mw-sitematrix-other-table' ] ) .
 			"<tr>" .
 			Xml::element( 'th', null, $this->msg( 'sitematrix-other-projects' )->text() ) .
+			Xml::element( 'th', null, $this->msg( 'sitematrix-other-projects-language' )->text() ) .
 			"</tr>";
 
 		foreach ( $matrix->getSpecials() as $special ) {
@@ -141,7 +142,9 @@ class SpecialSiteMatrix extends SpecialPage {
 			$closed = $matrix->isClosed( $lang, $site );
 			$s .= '<tr><td>' . ( $closed ? '<del>' : '' ) .
 				$language->specialList( '<a href="' . $url . '/">' . $langhost . "</a>", $flagsStr ) .
-				( $closed ? '</del>' : '' ) . "</td></tr>\n";
+				( $closed ? '</del>' : '' ) . '</td>';
+			$s .= '<td>' . $matrix->getLanguageCode( $lang, $site ) . '</td>';
+			$s .= "</tr>\n";
 		}
 
 		$s .= Xml::closeElement( 'table' ) . "\n";

@@ -248,6 +248,17 @@ class SiteMatrix {
 	}
 
 	/**
+	 * Get the normalised IETF language tag.
+	 *
+	 * @param string $minor
+	 * @param string $major
+	 * @return string
+	 */
+	public function getLanguageCode( $minor, $major ) {
+		return LanguageCode::bcp47( $this->getSetting( 'wgLanguageCode', $minor, $major ) );
+	}
+
+	/**
 	 * @param string $setting setting name
 	 * @param string $lang language subdomain
 	 * @param string $dbSuffix e.g. 'wiki' for 'enwiki' or 'wikisource' for 'enwikisource'
