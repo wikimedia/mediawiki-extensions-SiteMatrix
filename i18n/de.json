@@ -7,7 +7,8 @@
 			"לערי ריינהארט",
 			"Metalhead64",
 			"Predatorix",
-			"Debenben"
+			"Debenben",
+			"Creepario"
 		]
 	},
 	"sitematrix": "Liste der Wikimedia-Wikis",
@@ -25,6 +26,7 @@
 	"sitematrix-nonglobal": "Öffentlich, aber Registrierung erforderlich",
 	"apihelp-sitematrix-description": "Rufe eine Liste von Wikimedia-Portalen ab.",
 	"apihelp-sitematrix-summary": "Ruft eine Liste der Wikimedia-Wikis ab.",
+	"apihelp-sitematrix-extended-description": "Der Code (genau genommen, dbname/wikiid) ist entweder der Sprachcode + Projektcode für Inhalts-Projekte oder die Subdomain + Hauptdomain für alle anderen.",
 	"apihelp-sitematrix-param-type": "Filtere die Seiten-Matrix nach Typ:\n;Spezial: Eine von und mehrsprachige Wikimedia-Projekte.\n;Sprache: Wikimedia-Projekte mit diesem Sprach-Code",
 	"apihelp-sitematrix-param-state": "Sortiert die Wiki-Matrix nach Wiki-Status:",
 	"apihelp-sitematrix-param-langprop": "Welche Informationen über eine Sprache zurückgegeben werden sollen.",
