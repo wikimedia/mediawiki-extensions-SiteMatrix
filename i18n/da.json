@@ -3,7 +3,8 @@
 		"authors": [
 			"Jan Friberg",
 			"Morten LJ",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
 	"sitematrix": "Alle Wikimedias wikier",
@@ -15,6 +16,7 @@
 	"sitematrix-other-projects": "Andre projekter",
 	"sitematrix-total": "'''I alt $1 wikier'''",
 	"sitematrix-sitetotal": "I alt",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "redigering begrænset"
+	"sitematrix-private": "læse- og skriveadgang begrænset",
+	"sitematrix-fishbowl": "redigering begrænset",
+	"apihelp-sitematrix-param-limit": "Højeste antal resultater."
 }
