@@ -72,6 +72,7 @@ class ApiSiteMatrix extends ApiBase {
 								'url' => $url,
 								'dbname' => $matrix->getDBName( $lang, $site ),
 								'code' => $site,
+								'lang' => $matrix->getLanguageCode( $lang, $site ),
 								'sitename' => $matrix->getSitename( $lang, $site ),
 							];
 							$site_out = array_intersect_key( $site_out, $siteProp );
@@ -117,6 +118,7 @@ class ApiSiteMatrix extends ApiBase {
 				$wiki['url'] = $url;
 				$wiki['dbname'] = $dbName;
 				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
+				$wiki['lang'] = $matrix->getLanguageCode( $lang, $site );
 				$wiki['sitename'] = $matrix->getSitename( $lang, $site );
 
 				$skip = true;
@@ -210,6 +212,7 @@ class ApiSiteMatrix extends ApiBase {
 					'url',
 					'dbname',
 					'code',
+					'lang',
 					'sitename',
 				],
 				ApiBase::PARAM_DFLT => 'url|dbname|code|sitename',

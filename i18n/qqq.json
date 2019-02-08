@@ -21,6 +21,7 @@
 	"sitematrix-project": "Used as table header on [[wikipedia:meta:Special:SiteMatrix|Special:SiteMatrix]]",
 	"sitematrix-others": "Used as header on [[wikipedia:meta:Special:SiteMatrix|Special:SiteMatrix]]",
 	"sitematrix-other-projects": "{{Identical|Other project}}",
+	"sitematrix-other-projects-language": "{{Identical|Language}}",
 	"sitematrix-total": "Parameters:\n* $1 - number of databases (count of the array <code>$wgLocalDatabases</code>)",
 	"sitematrix-sitetotal": "{{Identical|Total}}",
 	"sitematrix-closed": "Comment for wikis with no write access, but full read access",
