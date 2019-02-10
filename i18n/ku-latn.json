@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Bikarhêner"
+			"Bikarhêner",
+			"Mirzali"
 		]
 	},
 	"sitematrix-language": "Ziman",
 	"sitematrix-others": "Projeyên din yên Wîkîmediyayê",
 	"sitematrix-other-projects": "Projeyên din",
+	"sitematrix-other-projects-language": "Ziman",
 	"sitematrix-sitetotal": "Hemû"
 }

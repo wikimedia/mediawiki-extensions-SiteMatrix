@@ -4,7 +4,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Mainframe98"
+			"Mainframe98",
+			"Optilete"
 		]
 	},
 	"sitematrix": "Lijst met Wikimedia-wiki's",
@@ -14,6 +15,7 @@
 	"sitematrix-project": "Naam van het project, interprojectkoppeling en interwikikoppeling",
 	"sitematrix-others": "Andere projecten van Wikimedia",
 	"sitematrix-other-projects": "Andere projecten",
+	"sitematrix-other-projects-language": "Taal",
 	"sitematrix-total": "'''Totaal aantal: $1'''",
 	"sitematrix-sitetotal": "Totaal",
 	"sitematrix-closed": "geen schrijftoegang, volledige leestoegang",

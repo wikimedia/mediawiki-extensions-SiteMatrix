@@ -6,7 +6,8 @@
 			"Helder.wiki",
 			"Dianakc",
 			"He7d3r",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"WikiUser22222"
 		]
 	},
 	"sitematrix": "Lista de wikis da Wikimedia",
@@ -16,6 +17,7 @@
 	"sitematrix-project": "Nome do projeto, link de interprojeto e link interwiki",
 	"sitematrix-others": "Outros projetos da Wikimedia",
 	"sitematrix-other-projects": "Outros projetos",
+	"sitematrix-other-projects-language": "Idioma",
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-closed": "sem acesso de gravação, acesso completo de leitura",

@@ -16,6 +16,7 @@
 	"sitematrix-project": "프로젝트 이름, 각 프로젝트 간의 링크 및 인터위키 링크",
 	"sitematrix-others": "다른 위키미디어 프로젝트 목록",
 	"sitematrix-other-projects": "다른 프로젝트",
+	"sitematrix-other-projects-language": "언어",
 	"sitematrix-total": "'''총 합계: $1'''",
 	"sitematrix-sitetotal": "합계",
 	"sitematrix-closed": "쓰기 권한 없음, 전체 읽기 권한",

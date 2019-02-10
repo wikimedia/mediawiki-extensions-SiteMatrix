@@ -4,7 +4,8 @@
 			"Meno25",
 			"Abanima",
 			"Maroen1990",
-			"بدارين"
+			"بدارين",
+			"ديفيد"
 		]
 	},
 	"sitematrix": "قائمة ويكيات ويكيميديا",
@@ -14,6 +15,7 @@
 	"sitematrix-project": "اسم المشروع، وصلة المشروع الداخلية ووصلة الإنترويكي",
 	"sitematrix-others": "مشاريع ويكيميديا الأخرى",
 	"sitematrix-other-projects": "المشاريع الأخرى",
+	"sitematrix-other-projects-language": "اللغة",
 	"sitematrix-total": "'''إجمالي العدد: $1'''",
 	"sitematrix-sitetotal": "الإجمالي",
 	"sitematrix-closed": "لا صلاحية كتابة، صلاحية قراءة كاملة",

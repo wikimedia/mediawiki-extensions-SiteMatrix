@@ -6,7 +6,8 @@
 			"Stanqo",
 			"Turin",
 			"לערי ריינהארט",
-			"StanProg"
+			"StanProg",
+			"Vlad5250"
 		]
 	},
 	"sitematrix": "Списък на уикитата на Уикимедия",
@@ -16,6 +17,7 @@
 	"sitematrix-project": "Име на проекта, междупроектна препратка и междууики",
 	"sitematrix-others": "Други проекти на Уикимедия",
 	"sitematrix-other-projects": "Други проекти",
+	"sitematrix-other-projects-language": "Език",
 	"sitematrix-total": "'''Общ брой: $1'''",
 	"sitematrix-sitetotal": "Общо",
 	"sitematrix-fishbowl": "ограничен достъп за запис, пълен достъп за четене"

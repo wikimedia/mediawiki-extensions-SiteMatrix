@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Ravi Mundkur"
 		]
 	},
 	"sitematrix-language": "ಭಾಷೆ",
+	"sitematrix-other-projects-language": "ಭಾಷೆ",
 	"sitematrix-sitetotal": "ಒಟ್ಟು"
 }
