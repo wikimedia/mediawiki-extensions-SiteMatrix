@@ -49,8 +49,6 @@ class SpecialSiteMatrix extends SpecialPage {
 				continue;
 			}
 
-			$escapedLang = htmlspecialchars( $lang );
-			$anchor = strtolower( '<a id="' . $escapedLang . '" name="' . $escapedLang . '"></a>' );
 			$s .= '<tr>';
 			$attribs = [];
 			if ( isset( $localLanguageNames[$lang] ) ) {
@@ -72,7 +70,10 @@ class SpecialSiteMatrix extends SpecialPage {
 				$langDisplay .= $this->msg( 'word-separator' )->escaped() .
 					$this->msg( 'parentheses', $localLanguageNames[$lang] )->escaped();
 			}
-			$s .= '<td>' . $anchor . Html::rawElement( 'strong', $attribs, $langDisplay ) . '</td>';
+			$s .= Html::rawElement( 'td',
+				[ 'id' => $lang ],
+				Html::rawElement( 'strong', $attribs, $langDisplay )
+			);
 
 			foreach ( $matrix->getNames() as $site => $name ) {
 				$url = $matrix->getUrl( $lang, $site );
@@ -92,7 +93,7 @@ class SpecialSiteMatrix extends SpecialPage {
 		$language = $this->getLanguage();
 		# Total
 		$totalCount = 0;
-		$s .= '<tr><th rowspan="2"><a id="total" name="total"></a>' .
+		$s .= '<tr><th rowspan="2" id="total">' .
 			$this->msg( 'sitematrix-sitetotal' )->escaped() . '</th>';
 		foreach ( $matrix->getNames() as $site => $name ) {
 			$url = $matrix->getSiteUrl( $site );
