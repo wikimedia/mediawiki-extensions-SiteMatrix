@@ -5,7 +5,8 @@
 			"Lejonel",
 			"M.M.S.",
 			"לערי ריינהארט",
-			"Lokal Profil"
+			"Lokal Profil",
+			"WikiPhoenix"
 		]
 	},
 	"sitematrix": "Lista över Wikimedias wikier",
@@ -15,6 +16,7 @@
 	"sitematrix-project": "Projektnamn, interprojektlänk och interwiki-länk",
 	"sitematrix-others": "Andra Wikimediaprojekt",
 	"sitematrix-other-projects": "Andra projekt",
+	"sitematrix-other-projects-language": "Språk",
 	"sitematrix-total": "'''Totalt antal: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privat",
