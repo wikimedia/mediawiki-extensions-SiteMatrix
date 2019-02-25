@@ -5,7 +5,8 @@
 			"Тест",
 			"Ата",
 			"Base",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"sitematrix": "Список проектів Вікімедіа",
@@ -15,6 +16,7 @@
 	"sitematrix-project": "Назва проекту, міжпроектне посилання та інтервікі-посилання",
 	"sitematrix-others": "Інші проекти Вікімедіа",
 	"sitematrix-other-projects": "Інші проекти",
+	"sitematrix-other-projects-language": "Мова",
 	"sitematrix-total": "'''Загальна кількість: $1'''",
 	"sitematrix-sitetotal": "Усього",
 	"sitematrix-closed": "немає доступу для запису, повний доступ для читання",

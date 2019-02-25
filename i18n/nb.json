@@ -3,7 +3,8 @@
 		"authors": [
 			"Nghtwlkr",
 			"לערי ריינהארט",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Kingu"
 		]
 	},
 	"sitematrix": "Liste over Wikimedia-prosjekter",
@@ -13,6 +14,7 @@
 	"sitematrix-project": "Prosjektets navn, interprosjektlenke og interwikilenke",
 	"sitematrix-others": "Andre Wikimedia-prosjekter",
 	"sitematrix-other-projects": "Andre prosjekt",
+	"sitematrix-other-projects-language": "Språk",
 	"sitematrix-total": "'''Totalt antall: $1'''",
 	"sitematrix-sitetotal": "Totalt",
 	"sitematrix-closed": "ingen skrivetilgang, full lesetilgang",
