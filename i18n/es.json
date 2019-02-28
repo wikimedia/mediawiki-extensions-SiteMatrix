@@ -19,6 +19,7 @@
 	"sitematrix-project": "Nombre del proyecto, enlace interproyecto y enlace interwiki",
 	"sitematrix-others": "Otros proyectos de Wikimedia",
 	"sitematrix-other-projects": "Otros proyectos",
+	"sitematrix-other-projects-language": "Idioma",
 	"sitematrix-total": "'''Cuenta total: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-closed": "sin acceso de escritura, acceso de lectura completo",
