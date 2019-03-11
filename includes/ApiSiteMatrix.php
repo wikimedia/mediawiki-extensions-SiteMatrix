@@ -49,7 +49,7 @@ class ApiSiteMatrix extends ApiBase {
 				}
 				$language = [
 					'code' => $langhost,
-					'name' => isset( $langNames[$lang] ) ? $langNames[$lang] : null,
+					'name' => $langNames[$lang] ?? null,
 					'site' => [],
 					'dir' => Language::factory( $langhost )->getDir()
 				];
