@@ -79,7 +79,7 @@ class SiteMatrix {
 			$this->langlist = $this->extractFile( $wgSiteMatrixFile );
 			$hideEmpty = false;
 		} else {
-			$this->langlist = array_keys( Language::fetchLanguageNames( false ) );
+			$this->langlist = array_keys( Language::fetchLanguageNames() );
 			$hideEmpty = true;
 		}
 
