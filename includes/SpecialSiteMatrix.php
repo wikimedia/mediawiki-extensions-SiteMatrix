@@ -51,7 +51,7 @@ class SpecialSiteMatrix extends SpecialPage {
 
 			if ( isset( $langNames[$lang] ) ) {
 				$langDisplay = Html::element( 'span',
-					[ 'lang' => $lang ],
+					[ 'lang' => LanguageCode::bcp47( $lang ) ],
 					$langNames[$lang] );
 			} else {
 				$langDisplay = '';
