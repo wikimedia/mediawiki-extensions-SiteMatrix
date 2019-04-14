@@ -15,9 +15,8 @@ class Hooks {
 	 *
 	 * @param ApiQuerySiteinfo $module
 	 * @param array &$results
-	 * @return bool
 	 */
-	public static function APIQuerySiteInfoGeneralInfo( $module, &$results ) {
+	public static function onAPIQuerySiteInfoGeneralInfo( $module, &$results ) {
 		global $wgDBname, $wgConf;
 
 		$matrix = new SiteMatrix();
@@ -43,8 +42,6 @@ class Hooks {
 		if ( $matrix->isNonGlobal( $wgDBname ) ) {
 			$results['nonglobal'] = '';
 		}
-
-		return true;
 	}
 
 	/**
@@ -53,7 +50,6 @@ class Hooks {
 	 * @param string &$magicWordId
 	 * @param string &$ret
 	 * @param PPFrame|null $frame
-	 * @return bool true
 	 */
 	public static function onParserGetVariableValueSwitch(
 		Parser &$parser,
@@ -65,15 +61,12 @@ class Hooks {
 			global $wgLocalDatabases;
 			$ret = count( $wgLocalDatabases );
 		}
-		return true;
 	}
 
 	/**
-	 * @param array &$customVariableIds
-	 * @return bool true
+	 * @param string[] &$customVariableIds
 	 */
 	public static function onMagicWordwgVariableIDs( &$customVariableIds ) {
 		$customVariableIds[] = 'numberofwikis';
-		return true;
 	}
 }
