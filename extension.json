@@ -1,6 +1,6 @@
 {
 	"name": "SiteMatrix",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"author": [
 		"Tim Starling",
 		"Brion Vibber",
@@ -12,11 +12,14 @@
 	"descriptionmsg": "sitematrix-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
 	"SpecialPages": {
-		"SiteMatrix": "SpecialSiteMatrix"
+		"SiteMatrix": "MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix"
 	},
 	"APIModules": {
-		"sitematrix": "ApiSiteMatrix"
+		"sitematrix": "MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix"
 	},
 	"MessagesDirs": {
 		"SiteMatrix": [
@@ -29,20 +32,20 @@
 	},
 	"AutoloadClasses": {
 		"SiteMatrix": "includes/SiteMatrix.php",
-		"SpecialSiteMatrix": "includes/SpecialSiteMatrix.php",
-		"ApiSiteMatrix": "includes/ApiSiteMatrix.php",
-		"SiteMatrixHooks": "includes/SiteMatrixHooks.php"
-
+		"MediaWiki\\Extension\\SiteMatrix\\SiteMatrix": "includes/SiteMatrix.php",
+		"MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix": "includes/SpecialSiteMatrix.php",
+		"MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix": "includes/ApiSiteMatrix.php",
+		"MediaWiki\\Extension\\SiteMatrix\\Hooks": "includes/Hooks.php"
 	},
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": [
-			"SiteMatrixHooks::APIQuerySiteInfoGeneralInfo"
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::APIQuerySiteInfoGeneralInfo"
 		],
 		"ParserGetVariableValueSwitch": [
-			"SiteMatrixHooks::onParserGetVariableValueSwitch"
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onParserGetVariableValueSwitch"
 		],
 		"MagicWordwgVariableIDs": [
-			"SiteMatrixHooks::onMagicWordwgVariableIDs"
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onMagicWordwgVariableIDs"
 		]
 	},
 	"config": {

@@ -1,5 +1,10 @@
 <?php
 
+namespace MediaWiki\Extension\SiteMatrix;
+
+use Language;
+use LanguageCode;
+
 /**
  * Service to access
  */
@@ -419,3 +424,8 @@ class SiteMatrix {
 		return array_map( 'trim', file( $filename ) );
 	}
 }
+
+/**
+ * @deprecated Alias for backwards compatibility, will be removed shortly
+ */
+class_alias( SiteMatrix::class, 'SiteMatrix' );

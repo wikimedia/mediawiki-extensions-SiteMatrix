@@ -1,9 +1,15 @@
 <?php
 
+namespace MediaWiki\Extension\SiteMatrix;
+
+use ApiQuerySiteinfo;
+use Parser;
+use PPFrame;
+
 /**
  * Hook handlers
  */
-class SiteMatrixHooks {
+class Hooks {
 	/**
 	 * Handler method for the APISiteInfoGeneralInfo hook
 	 *
