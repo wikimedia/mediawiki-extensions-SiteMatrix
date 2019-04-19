@@ -37,6 +37,9 @@ $specialPageAliases['ca'] = [ 'SiteMatrix' => [ 'Projectes_Wikimedia', 'Wikis_Wi
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = [ 'SiteMatrix' => [ 'Сайтан_матрица' ], ];
 
+/** Czech (čeština) */
+$specialPageAliases['cs'] = [ 'SiteMatrix' => [ 'Seznam_projektů_Wikimedia' ], ];
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = [ 'SiteMatrix' => [ 'Liste_der_Wikimedia-Wikis' ], ];
 
