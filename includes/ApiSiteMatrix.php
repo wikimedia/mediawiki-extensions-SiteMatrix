@@ -1,5 +1,12 @@
 <?php
 
+namespace MediaWiki\Extension\SiteMatrix;
+
+use ApiBase;
+use ApiMain;
+use ApiResult;
+use Language;
+
 /**
  * Module to get site matrix
  * @ingroup API

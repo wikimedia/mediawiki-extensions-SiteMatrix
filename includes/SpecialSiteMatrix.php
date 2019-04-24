@@ -1,5 +1,13 @@
 <?php
 
+namespace MediaWiki\Extension\SiteMatrix;
+
+use Html;
+use Language;
+use LanguageCode;
+use SpecialPage;
+use Xml;
+
 class SpecialSiteMatrix extends SpecialPage {
 
 	public function __construct() {
