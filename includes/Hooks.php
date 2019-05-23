@@ -46,18 +46,19 @@ class Hooks {
 
 	/**
 	 * @param Parser $parser
-	 * @param array &$cache
-	 * @param string &$magicWordId
+	 * @param array $variableCache
+	 * @param string $magicWordId
 	 * @param string &$ret
-	 * @param PPFrame|null $frame
+	 * @param PPFrame $frame
 	 */
 	public static function onParserGetVariableValueSwitch(
-		Parser $parser,
-		&$cache,
-		&$magicWordId,
+		$parser,
+		$variableCache,
+		$magicWordId,
 		&$ret,
-		$frame = null ) {
-		if ( $magicWordId == 'numberofwikis' ) {
+		$frame
+	) {
+		if ( $magicWordId === 'numberofwikis' ) {
 			global $wgLocalDatabases;
 			$ret = count( $wgLocalDatabases );
 		}
