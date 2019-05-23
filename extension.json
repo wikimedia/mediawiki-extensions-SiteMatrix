@@ -39,7 +39,7 @@
 	},
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": [
-			"MediaWiki\\Extension\\SiteMatrix\\Hooks::APIQuerySiteInfoGeneralInfo"
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onAPIQuerySiteInfoGeneralInfo"
 		],
 		"ParserGetVariableValueSwitch": [
 			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onParserGetVariableValueSwitch"
