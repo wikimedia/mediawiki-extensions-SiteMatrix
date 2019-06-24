@@ -6,7 +6,8 @@
 			"Okras",
 			"Mailman",
 			"Mouse21",
-			"Movses"
+			"Movses",
+			"Vlad5250"
 		]
 	},
 	"sitematrix": "Список проектов Викимедиа",
@@ -22,7 +23,7 @@
 	"sitematrix-closed": "нет доступа на запись, полный доступ на чтение",
 	"sitematrix-private": "доступ на чтение и запись ограничен",
 	"sitematrix-fishbowl": "доступ на запись ограничен, полный доступ на чтение",
-	"sitematrix-nonglobal": "общественности, но требуется регистрация",
+	"sitematrix-nonglobal": "публичная, но требуется регистрация",
 	"apihelp-sitematrix-description": "Получить список Викимедиа.\n\nКод (технически dbname/wikiid) код языка + код проекта для проектов контента или субдомен + основной домен для всех остальных.",
 	"apihelp-sitematrix-summary": "Получить список Викимедиа.",
 	"apihelp-sitematrix-extended-description": "Код (технически dbname/wikiid) код языка + код проекта для проектов контента или субдомен + основной домен для всех остальных.",

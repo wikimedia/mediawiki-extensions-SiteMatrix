@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
 	"sitematrix": "Listo di wiki-i Wikimedia",
 	"sitematrix-language": "Linguo",
-	"sitematrix-others": "Altra projekti di Wikimedia",
+	"sitematrix-others": "Altra projeti di Wikimedia",
 	"sitematrix-sitetotal": "Sumo",
 	"sitematrix-private": "privata"
 }
