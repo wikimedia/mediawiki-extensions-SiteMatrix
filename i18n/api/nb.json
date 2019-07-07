@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-sitematrix-description": "Få Wikimedia-sideliste.\n\nKoden (teknisk sett dbname/wikiid) er enten språkkode + prosjektkode for innholdsprosjekter eller underdomenet + hoveddomene for alle andre wikier.",
+	"apihelp-sitematrix-summary": "Hent liste over Wikimedia-sider.",
+	"apihelp-sitematrix-extended-description": "Koden (teknisk sett dbname/wikiid) er enten språkkode + prosjektkode for innholdsprosjekter, eller underdomenet + hoveddomene for alle andre.",
+	"apihelp-sitematrix-param-type": "Filtrer sidematrisen etter type:\n;special:Spesielle og flerspråklige Wikimedia-prosjekter.\n;language:Wikimedia-prosjekter med denne språkkoden.",
+	"apihelp-sitematrix-param-state": "Filtrer sidematrisen etter wikiens tilstand:",
+	"apihelp-sitematrix-param-langprop": "Hvilken informasjon om et språk som skal returneres.",
+	"apihelp-sitematrix-param-siteprop": "Hvilken informasjon om en side som skal returneres.",
+	"apihelp-sitematrix-param-limit": "Maksimalt antall resultater.",
+	"apihelp-sitematrix-example-1": "Vis sidematrisen"
+}

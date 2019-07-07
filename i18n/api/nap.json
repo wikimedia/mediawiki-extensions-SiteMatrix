@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"apihelp-sitematrix-description": "Piglia l'elenco 'e site Wikimedia.\n\n'O codece (tecnicamente dbname/wikiid) è (una e ddoje) 'o codece 'e lengua + codece 'e pruggetto pe' pruggette 'e cuntenute o domminio + domminio prencepale pe' tuttuquante ll'ate",
+	"apihelp-sitematrix-param-type": "Filtra 'o Site Matrix pe tipo:\n;special:Uno-particolare e pruggette multilingue 'e Wikimedia.\n;lengua:Pruggette wikimedia pe' stu codece 'e lengua.",
+	"apihelp-sitematrix-param-state": "Passa 'o ssetaccio a 'o Site Matrix p' 'o stato wiki:\n;closed:Nisciune accesse 'e scrittura, tuttuquante accesse 'e lettura.\n;private:Liegge e scrive cu restriziona.\n;fishbowl:Restringe l'acciesso 'e scrittura, tuttuquante dritte d'acciesso.",
+	"apihelp-sitematrix-param-langprop": "Quale nfurmaziune ncopp'a na lengua s'avess'a turnà.",
+	"apihelp-sitematrix-param-siteprop": "Quala nfurmaziona ncopp' 'o sito s'avess'a turnà.",
+	"apihelp-sitematrix-param-limit": "Nummero massimo 'e risultate.",
+	"apihelp-sitematrix-example-1": "Fà vedè 'a matrice d' 'o sito"
+}

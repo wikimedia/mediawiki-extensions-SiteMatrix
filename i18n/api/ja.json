@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"apihelp-sitematrix-param-limit": "結果の最大数。",
+	"apihelp-sitematrix-example-1": "サイトのマトリックスを表示"
+}

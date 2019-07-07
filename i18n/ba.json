@@ -16,8 +16,5 @@
 	"sitematrix-total": "'''Барыһы: $1'''",
 	"sitematrix-sitetotal": "Барыһы",
 	"sitematrix-private": "уҡыу һәм яҙыу мөмкинлеге сикләнгән",
-	"sitematrix-fishbowl": "яҙыу сикләнгән, уҡып була",
-	"apihelp-sitematrix-param-langprop": "Тел тураһында ҡайһы һүҙҙе кире алырға?",
-	"apihelp-sitematrix-param-siteprop": "Сайт тураһында ҡайһы мәғлүмәтте кире алырға?",
-	"apihelp-sitematrix-example-1": "Сайттар матрицаһын күрһәтергә?"
+	"sitematrix-fishbowl": "яҙыу сикләнгән, уҡып була"
 }

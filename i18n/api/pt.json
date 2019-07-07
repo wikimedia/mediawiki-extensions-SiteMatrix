@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-sitematrix-description": "Obter a lista de sítios Wikimedia.\n\nO código (em linguagem técnica o ''dbname'' ou ''wikiid'') é um dos valores \"código de língua + código do projeto\" para projetos de conteúdo, ou \"subdomínio + domínio principal\" para os restantes.",
+	"apihelp-sitematrix-summary": "Obter a lista de sítios Wikimedia.",
+	"apihelp-sitematrix-extended-description": "O código (em linguagem técnica o ''dbname'' ou ''wikiid'') é um dos valores \"código de língua + código do projeto\" para projetos de conteúdo, ou \"subdomínio + domínio principal\" para os restantes.",
+	"apihelp-sitematrix-param-type": "Filtrar a lista de wikis por tipo:\n;special:Projetos Wikimedia específicos e multilingues.\n;language:Projetos Wikimedia com este código de língua.",
+	"apihelp-sitematrix-param-state": "Filtrar a lista de wikis por estado:",
+	"apihelp-sitematrix-param-langprop": "A informação a devolver sobre uma língua.",
+	"apihelp-sitematrix-param-siteprop": "A informação a devolver sobre um sítio.",
+	"apihelp-sitematrix-param-limit": "O número máximo de resultados.",
+	"apihelp-sitematrix-example-1": "Mostrar a lista de wikis"
+}

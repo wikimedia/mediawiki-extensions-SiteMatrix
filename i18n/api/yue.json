@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt",
+			"Yueman"
+		]
+	},
+	"apihelp-sitematrix-description": "攞維基媒體網站一覽。\n\n代碼（技術上係dbname/wikiid）一係會係響內容項目用到嘅 語言代碼 + 項目代碼，或者響其他項目用到嘅 子域名 + 主域名。",
+	"apihelp-sitematrix-summary": "攞維基媒體網站一覽。",
+	"apihelp-sitematrix-extended-description": "代碼（技術上係dbname/wikiid）一係會係響內容項目用到嘅 語言代碼 + 項目代碼，或者響其他項目用到嘅 子域名 + 主域名。",
+	"apihelp-sitematrix-param-type": "跟類型過濾網站矩陣：\n;special：一次性同多語言嘅維基媒體項目。\n;language：呢個語言代碼下面嘅維基媒體項目。",
+	"apihelp-sitematrix-param-state": "跟狀態過濾網站矩陣：",
+	"apihelp-sitematrix-param-langprop": "要返嚟嘅語言資訊。",
+	"apihelp-sitematrix-param-siteprop": "要返嚟嘅網站資訊。",
+	"apihelp-sitematrix-param-limit": "結果數量嘅上限。",
+	"apihelp-sitematrix-example-1": "顯示網站矩陣"
+}

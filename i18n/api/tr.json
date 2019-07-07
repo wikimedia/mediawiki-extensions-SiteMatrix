@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Watermelon juice"
+		]
+	},
+	"apihelp-sitematrix-description": "Wikimedia siteleri listesi.N!\nKod (teknik olarak dbname/wikiid) ya da içerik projeler için dil kodu + proje kodu veya diğerleri için alt + ana etki alanı.",
+	"apihelp-sitematrix-param-state": "Filtre Site wiki devlet tarafından Matrix:\n;kapalı:yazma erişimi, tam okuma erişimi.N!;özel:Okumak ve yazmak yasak.\n;akvaryum:Kısıtlı yazma erişimi, tam okuma erişimi.",
+	"apihelp-sitematrix-param-langprop": "Geri dönmek için bir dil hakkında bilgisi olan.",
+	"apihelp-sitematrix-param-siteprop": "Geri dönmek için bir site hakkında bilgi.",
+	"apihelp-sitematrix-param-limit": "Maksimum sonuç sayısı.",
+	"apihelp-sitematrix-example-1": "Haritayı site matris"
+}

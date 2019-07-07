@@ -18,12 +18,5 @@
 	"sitematrix-sitetotal": "Viso",
 	"sitematrix-private": "skaitymas ir rašymas apriboti",
 	"sitematrix-fishbowl": "redagavimas apribotas",
-	"sitematrix-nonglobal": "vieša, bet reikalinga registracija",
-	"apihelp-sitematrix-description": "Gauti Vikimedijos tinklapių sąrašą.\n\nKodas (techniškai dbname/wikiid) yra arba kalbos kodas + turinio projekto kodas arba subdomenas + pagrindinis domenas visiems kitiems.",
-	"apihelp-sitematrix-param-type": "Filtruoti tinklapio matricą pagal tipą\n;special:Vienkartiniams ir daugiakalbiams Vikimedijos projektams.\n;language:Vikimedijos projektams su šiuo kalbos kodu.",
-	"apihelp-sitematrix-param-state": "Filtruoti Tinklapio Matricą pagal viki būseną:",
-	"apihelp-sitematrix-param-langprop": "Kurią informaciją apie kalbą grąžinti.",
-	"apihelp-sitematrix-param-siteprop": "Kurią informaciją apie tinklapį grąžinti.",
-	"apihelp-sitematrix-param-limit": "Maksimalus rezultatų skaičius.",
-	"apihelp-sitematrix-example-1": "Rodyti tinklapio matricą"
+	"sitematrix-nonglobal": "vieša, bet reikalinga registracija"
 }

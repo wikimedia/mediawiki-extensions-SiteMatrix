@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-sitematrix-description": "Дај список на Викимедиините викија.\n\nКодот (технички dbname/wikiid) се состои или од јазичниот код + проектниот код (за содржински проекти) или од поддомен + главен домен (за сите останати).",
+	"apihelp-sitematrix-summary": "Дава список на Викимедиини викија.",
+	"apihelp-sitematrix-extended-description": "Кодот (технички, dbname/wikiid) е или јазичниот код + проектниот код за содржински проекти или поддоменот + главниот домен за сите останати.",
+	"apihelp-sitematrix-param-type": "Филтрирај ја матрицата на викито по тип:\n;special: Посебни и повеќејазични Викимедиини проекти.\n;language: Викимедиини проекти под овој јазичен код.",
+	"apihelp-sitematrix-param-state": "Филтрирај ја матрицата на викито по неговата состојба:",
+	"apihelp-sitematrix-param-langprop": "Кои информации за даден јазик да се дадат.",
+	"apihelp-sitematrix-param-siteprop": "Кои информации за дадено вики да се дадат.",
+	"apihelp-sitematrix-param-limit": "Највеќе ставки во исходот.",
+	"apihelp-sitematrix-example-1": "Прикажи ја матрицата на викито"
+}

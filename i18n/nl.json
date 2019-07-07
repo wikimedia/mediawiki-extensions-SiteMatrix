@@ -21,6 +21,5 @@
 	"sitematrix-closed": "geen schrijftoegang, volledige leestoegang",
 	"sitematrix-private": "lees- en schrijftoegang is beperkt",
 	"sitematrix-fishbowl": "beperkte schrijftoegang, volledige leestoegang",
-	"sitematrix-nonglobal": "openbaar, maar registratie is vereist",
-	"apihelp-sitematrix-param-limit": "Maximum aantal resultaten."
+	"sitematrix-nonglobal": "openbaar, maar registratie is vereist"
 }

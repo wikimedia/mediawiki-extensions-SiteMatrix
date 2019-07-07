@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"apihelp-sitematrix-description": "Obtener la lista de sitios de Wikimedia.\n\nEl código (técnicamente, dbname/wikiid) es bien el código de idioma más el código de proyecto (en proyectos de contenido) o bien el subdominio más el dominio principal (en el resto de los sitios).",
+	"apihelp-sitematrix-summary": "Obtener la lista de sitios de Wikimedia.",
+	"apihelp-sitematrix-param-langprop": "Qué información devolver sobre un idioma.",
+	"apihelp-sitematrix-param-siteprop": "Qué información devolver sobre un sitio.",
+	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
+	"apihelp-sitematrix-example-1": "Mostrar la matriz del sitio"
+}

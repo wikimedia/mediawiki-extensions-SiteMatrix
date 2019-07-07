@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"apihelp-sitematrix-description": "گرفتن فهرست وب‌گاه‌های ویکی‌مدیا",
+	"apihelp-sitematrix-summary": "گرفتن فهرست وب‌گاه‌های ویکی‌مدیا",
+	"apihelp-sitematrix-param-limit": "حداکثر تعداد نتایج",
+	"apihelp-sitematrix-example-1": "نمایش ماتریس وب‌گاه"
+}

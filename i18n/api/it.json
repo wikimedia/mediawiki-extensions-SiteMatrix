@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-sitematrix-param-state": "Filtra la matrice dei siti per stato wiki:",
+	"apihelp-sitematrix-param-langprop": "Quali informazioni restituire su una lingua.",
+	"apihelp-sitematrix-param-siteprop": "Quali informazioni restituire su un sito.",
+	"apihelp-sitematrix-param-limit": "Numero massimo di risultati."
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"apihelp-sitematrix-description": "Retornar a lista de sistios Wikimedia.\n\nO código (technically dbname/wikiid)  é o código de lingua + o código de proxecto para proxectos de contido ou o subdominio + o dominio principal para o resto.",
+	"apihelp-sitematrix-summary": "Obter a lista dos sitios Wikimedia.",
+	"apihelp-sitematrix-extended-description": "O código (en linguaxe técnica o ''dbname'' ou ''wikiid'') é un dos valores \"código de lingua + código de proxecto\" para proxectos de contido, ou \"subdominio + dominio principal\" para os restantes.",
+	"apihelp-sitematrix-param-type": "Filtrar a Matriz do Sitio por tipo:\n;special:O único e proxectos Wikimedia multilingües.\n;language:Proxectos Wikimedia baixo este código de lingua.",
+	"apihelp-sitematrix-param-state": "Filtrar a Matriz do Sitio por estado wiki:",
+	"apihelp-sitematrix-param-langprop": "Que información devolver sobre un idioma.",
+	"apihelp-sitematrix-param-siteprop": "Que información devolver sobre un sitio.",
+	"apihelp-sitematrix-param-limit": "Número máximo de resultados.",
+	"apihelp-sitematrix-example-1": "Amosar a matriz de sitios"
+}

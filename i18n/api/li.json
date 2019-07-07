@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"apihelp-sitematrix-description": "Haol Wikimedia-siteslies op.\n\nDe code (technisch dbname/wikiid) is of 'n spraokcode + projekcode veur inhawdsprojekte of subdemien + houfdemien veur alle angere.",
+	"apihelp-sitematrix-summary": "Haol de Wikimedia-siteslies op.",
+	"apihelp-sitematrix-extended-description": "De code (technisch dbname/wikiid) is of 'n spraokcode + projekcode veur inhawdsprojekte of subdemien + houfdemien veur alle angere.",
+	"apihelp-sitematrix-param-type": "Filtjer de Sitematrix bie saort:\n;special:Uitzunjerlike en mieëspraokige Wikimediaprojekte.\n;language:Wikimedia-projekte ónger dees spraokcode.",
+	"apihelp-sitematrix-param-state": "Filtjer de Sitematrix bie wikistaot:",
+	"apihelp-sitematrix-param-langprop": "Welke trögk te gaeve spraokinfermasie.",
+	"apihelp-sitematrix-param-siteprop": "Welke trögk te gaeve site-infermasie.",
+	"apihelp-sitematrix-param-limit": "Maximaal aantaal rizzeltaote.",
+	"apihelp-sitematrix-example-1": "Tuin de sitematrix"
+}

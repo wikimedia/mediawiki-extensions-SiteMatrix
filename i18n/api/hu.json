@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-sitematrix-description": "Wikimédia-wikik listájának lekérése.\n\nA kód (technikailag adatbázisnév/wikiazonosító) nyelvkód + projektkód (egynyelvű wikik, mint a Wikipédia) vagy altartomány + fő tartomány (többnyelvű wikik, mint a Commons)."
+}

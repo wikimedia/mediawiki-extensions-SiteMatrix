@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-sitematrix-description": "위키미디어 사이트 목록을 가져옵니다.\n\n코드(기술적으로 dbname/wikiid)는 콘텐츠 프로젝트의 경우 언어 코드 + 프로젝트 코드이며 그 밖의 경우 서브도메인 + 주 도메인입니다.",
+	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다.",
+	"apihelp-sitematrix-extended-description": "코드(기술적으로 dbname/wikiid)는 콘텐츠 프로젝트의 경우 언어 코드 + 프로젝트 코드이며 그 밖의 경우 서브도메인 + 주 도메인입니다.",
+	"apihelp-sitematrix-param-langprop": "반환할 언어에 관한 정보입니다.",
+	"apihelp-sitematrix-param-siteprop": "반환할 사이트에 관한 정보입니다.",
+	"apihelp-sitematrix-param-limit": "최대 결과 수입니다."
+}

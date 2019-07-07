@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"apihelp-sitematrix-description": "Wikimedia vikide nimekirja hankimine.\n\nKood (code) on kas eriviki ainuline identifikaator või keeleversiooni projektikood.",
+	"apihelp-sitematrix-param-type": "Vikide nimekirja tüübifilter:\n;special: Üksikprojektid või mitmekeelsed Wikimedia projektid.\n;language: Selle keelekoodiga Wikimedia projektid.",
+	"apihelp-sitematrix-param-state": "Vikide nimekirja olekufilter:",
+	"apihelp-sitematrix-param-langprop": "Milline teave keele kohta tagastada.",
+	"apihelp-sitematrix-param-siteprop": "Milline teave viki kohta tagastada.",
+	"apihelp-sitematrix-param-limit": "Tulemuste ülemmäär.",
+	"apihelp-sitematrix-example-1": "Näita vikide nimekirja"
+}

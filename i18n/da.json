@@ -18,6 +18,5 @@
 	"sitematrix-total": "'''I alt $1 wikier'''",
 	"sitematrix-sitetotal": "I alt",
 	"sitematrix-private": "læse- og skriveadgang begrænset",
-	"sitematrix-fishbowl": "redigering begrænset",
-	"apihelp-sitematrix-param-limit": "Højeste antal resultater."
+	"sitematrix-fishbowl": "redigering begrænset"
 }

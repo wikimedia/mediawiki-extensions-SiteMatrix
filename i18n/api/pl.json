@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Woytecr"
+		]
+	},
+	"apihelp-sitematrix-description": "Pobiera listę stron Wikimedia.\n\nKod (technicznie nazwabazy/wikiid) jest albo kodem języka + kod projektu dla projektów z treścią lub subdomena + główna domena dla wszystkich pozostałych.",
+	"apihelp-sitematrix-param-type": "Filtruj Site Matrix według typu:\n;special:Pojedyncze i wielojęzyczne projekty Wikimedia.\n;language:Projekty Wikimedia z tym kodem języka.",
+	"apihelp-sitematrix-param-state": "Filtruj Site Matrix według stanu wiki:",
+	"apihelp-sitematrix-param-langprop": "Jakie informacje o języku zwrócić.",
+	"apihelp-sitematrix-param-siteprop": "Jakie informacje o stronie zwrócić.",
+	"apihelp-sitematrix-param-limit": "Maksymalna liczba wyników.",
+	"apihelp-sitematrix-example-1": "Pokaż site matrix"
+}

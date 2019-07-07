@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"apihelp-sitematrix-param-limit": "Нәтижелердің максимум саны.",
+	"apihelp-sitematrix-example-1": "Сайт матриксін көрсету"
+}

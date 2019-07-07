@@ -20,9 +20,5 @@
 	"sitematrix-total": "'''Totalt antal: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "redigering begränsad",
-	"apihelp-sitematrix-param-langprop": "Vilken information om ett språk att returnera.",
-	"apihelp-sitematrix-param-siteprop": "Vilken information om en webbplats att returnera.",
-	"apihelp-sitematrix-param-limit": "Maximalt antal resultat.",
-	"apihelp-sitematrix-example-1": "Visa webbplatsmatrisen"
+	"sitematrix-fishbowl": "redigering begränsad"
 }

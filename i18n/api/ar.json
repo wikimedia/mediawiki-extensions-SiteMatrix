@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"Maroen1990",
+			"Meno25"
+		]
+	},
+	"apihelp-sitematrix-description": "الحصول على قائمة مواقع ويكيميديا.\n\nالكود (تقنيا dbname/wikiid) هو إما كود اللغة + كود المشروع لمشاريع المحتوى أو النطاق الفرعي + النطاق الرئيسي لكل المشاريع الأخرى.",
+	"apihelp-sitematrix-summary": "الحصول على قائمة بمواقع ويكيميديا.",
+	"apihelp-sitematrix-extended-description": "الكود (من الناحية التقنية dbname/wikiid) هو إما كود اللغة + كود المشروع لمشاريع المحتوى أو النطاق الفرعي + النطاق الرئيسي لكل المشاريع الأخرى.",
+	"apihelp-sitematrix-param-type": "فلتر مصفوفة الموقع حسب النوع:\n;special:مشاريع ويكيميديا متعددة اللغات والمتخصصة.\n;language:مشاريع ويكيميديا تحت كود اللغة هذا.",
+	"apihelp-sitematrix-param-state": "فلتر مصفوفة الموقع حسب حالة الويكي:",
+	"apihelp-sitematrix-param-langprop": "ما هي المعلومات حول اللغة للعودة.",
+	"apihelp-sitematrix-param-siteprop": "ما هي المعلومات حول موقع للعودة.",
+	"apihelp-sitematrix-param-limit": "العدد الأقصى للنتائج.",
+	"apihelp-sitematrix-example-1": "عرض مصفوفة الموقع"
+}

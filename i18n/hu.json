@@ -17,6 +17,5 @@
 	"sitematrix-closed": "nincs írási, teljes olvasási hozzáférés",
 	"sitematrix-private": "írási és olvasási hozzáférés korlátozott",
 	"sitematrix-fishbowl": "a szerkesztés korlátozott, olvasás nem",
-	"sitematrix-nonglobal": "nyilvános, de regisztráció szükséges",
-	"apihelp-sitematrix-description": "Wikimédia-wikik listájának lekérése.\n\nA kód (technikailag adatbázisnév/wikiazonosító) nyelvkód + projektkód (egynyelvű wikik, mint a Wikipédia) vagy altartomány + fő tartomány (többnyelvű wikik, mint a Commons)."
+	"sitematrix-nonglobal": "nyilvános, de regisztráció szükséges"
 }

@@ -20,9 +20,5 @@
 	"sitematrix-closed": "بدون دسترسی نوشتن، دسترسی کامل خواندن",
 	"sitematrix-private": "دسترسی خواندن و نوشتن محدود شده است",
 	"sitematrix-fishbowl": "دارای محدودیت ویرایش، مجدودیت کامل خواندن",
-	"sitematrix-nonglobal": "عمومی ولی عضویت نیاز است",
-	"apihelp-sitematrix-description": "گرفتن فهرست وب‌گاه‌های ویکی‌مدیا",
-	"apihelp-sitematrix-summary": "گرفتن فهرست وب‌گاه‌های ویکی‌مدیا",
-	"apihelp-sitematrix-param-limit": "حداکثر تعداد نتایج",
-	"apihelp-sitematrix-example-1": "نمایش ماتریس وب‌گاه"
+	"sitematrix-nonglobal": "عمومی ولی عضویت نیاز است"
 }

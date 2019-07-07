@@ -14,7 +14,5 @@
 	"sitematrix-total": "'''Барлық саны: $1'''",
 	"sitematrix-sitetotal": "Барлығы",
 	"sitematrix-private": "жеке",
-	"sitematrix-fishbowl": "өңдеу шектелген",
-	"apihelp-sitematrix-param-limit": "Нәтижелердің максимум саны.",
-	"apihelp-sitematrix-example-1": "Сайт матриксін көрсету"
+	"sitematrix-fishbowl": "өңдеу шектелген"
 }

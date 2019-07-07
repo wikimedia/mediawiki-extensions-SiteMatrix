@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"WhitePhosphorus"
+		]
+	},
+	"apihelp-sitematrix-description": "获取维基媒体网站列表。\n\n代码（技术上为dbname/wikiid）既有语言代码+项目代码用于内容项目，又有子域名+主域名用于其他。",
+	"apihelp-sitematrix-summary": "获取维基媒体网站列表。",
+	"apihelp-sitematrix-extended-description": "对于含有内容的项目，代码（技术上为dbname或wikiid）由语言代码与项目代码组成，而对于其他项目，则由子域名和主域名组成。",
+	"apihelp-sitematrix-param-type": "按类型过滤网站矩阵：\n;special:一个关闭的和多语言维基媒体项目。\n;language:此语言代码下的维基媒体项目。",
+	"apihelp-sitematrix-param-state": "按wiki状态过滤网站矩阵：",
+	"apihelp-sitematrix-param-langprop": "要返回的关于一种语言的信息。",
+	"apihelp-sitematrix-param-siteprop": "要返回的关于一个网站的信息。",
+	"apihelp-sitematrix-param-limit": "结果的最大值。",
+	"apihelp-sitematrix-example-1": "显示网站矩阵"
+}

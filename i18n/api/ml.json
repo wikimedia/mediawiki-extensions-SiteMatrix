@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-sitematrix-description": "വിക്കിമീഡിയ സൈറ്റുകളുടെ പട്ടിക എടുക്കുക.\n\nപ്രത്യേകതകൾക്കോ, ഭാഷകൾക്കും പദ്ധതികൾക്കും ഉള്ള കോഡുകൾക്കോ ഉള്ള അനന്യമായ തിരിച്ചറിയലുപാധിയാണ് കോഡ്.",
+	"apihelp-sitematrix-summary": "വിക്കിമീഡിയ സൈറ്റുകളുടെ പട്ടിക എടുക്കുക.",
+	"apihelp-sitematrix-param-langprop": "ഭാഷയെക്കുറിച്ചുള്ള എന്ത് വിവരമാണ് തിരിച്ചുനൽകേണ്ടത്.",
+	"apihelp-sitematrix-param-siteprop": "സൈറ്റിനെക്കുറിച്ചുള്ള എന്ത് വിവരമാണ് തിരിച്ചുനൽകേണ്ടത്.",
+	"apihelp-sitematrix-param-limit": "ഫലങ്ങളുടെ പരമാവധി എണ്ണം."
+}
