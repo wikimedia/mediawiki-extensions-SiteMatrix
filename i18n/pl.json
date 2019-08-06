@@ -5,7 +5,8 @@
 			"Sp5uhe",
 			"Chrumps",
 			"Mateon1",
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"sitematrix": "Lista projektów Wikimedia",
@@ -15,6 +16,7 @@
 	"sitematrix-project": "Nazwa projektu, link do projektu oraz link interwiki",
 	"sitematrix-others": "Inne projekty Wikimedia",
 	"sitematrix-other-projects": "Inne projekty",
+	"sitematrix-other-projects-language": "Język",
 	"sitematrix-total": "'''Ogólna liczba: $1'''",
 	"sitematrix-sitetotal": "Łącznie",
 	"sitematrix-closed": "brak dostępu do zapisu, pełny dostęp do odczytu",
