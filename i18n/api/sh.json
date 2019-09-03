@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"apihelp-sitematrix-summary": "Daje spisak Wikimedijinih wikija.",
+	"apihelp-sitematrix-param-state": "Filtriraj matricu wikija po njegovom stanju:"
+}
