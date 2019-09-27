@@ -8,7 +8,8 @@
 			"Ohgi",
 			"Shirayuki",
 			"לערי ריינהארט",
-			"Otokoume"
+			"Otokoume",
+			"Omotecho"
 		]
 	},
 	"sitematrix": "ウィキメディアのウィキ一覧",
@@ -20,6 +21,6 @@
 	"sitematrix-other-projects": "他のプロジェクト",
 	"sitematrix-total": "'''総計: $1'''",
 	"sitematrix-sitetotal": "合計",
-	"sitematrix-private": "非公開",
-	"sitematrix-fishbowl": "編集は制限されています"
+	"sitematrix-private": "読み書きとも非公開",
+	"sitematrix-fishbowl": "編集は非公開、閲覧は公開"
 }
