@@ -45,14 +45,14 @@ class Hooks {
 	}
 
 	/**
-	 * @param Parser &$parser
+	 * @param Parser $parser
 	 * @param array &$cache
 	 * @param string &$magicWordId
 	 * @param string &$ret
 	 * @param PPFrame|null $frame
 	 */
 	public static function onParserGetVariableValueSwitch(
-		Parser &$parser,
+		Parser $parser,
 		&$cache,
 		&$magicWordId,
 		&$ret,
