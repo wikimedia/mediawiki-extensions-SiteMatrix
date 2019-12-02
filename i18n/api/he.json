@@ -4,9 +4,9 @@
 			"Amire80"
 		]
 	},
-	"apihelp-sitematrix-description": "קבלת רשימת אתרי ויקימדיה.\n\nהקוד (טכנית, dbname/wikiid) הוא או קוד השפה + קוד המיזם למיזמי תוכן או לתת־מתחם + המתחם הראשי עבור כל האחרים.",
+	"apihelp-sitematrix-description": "קבלת רשימת אתרי ויקימדיה.\n\nהקוד (טכנית, dbname/wikiid) הוא או קוד השפה + קוד המיזם למיזמי תוכן או לתת־תחום + התחום הראשי עבור כל האחרים.",
 	"apihelp-sitematrix-summary": "קבלת רשימת אתרי ויקימדיה.",
-	"apihelp-sitematrix-extended-description": "הקוד (טכנית dbname/wikiid) הוא או קוד השפה + קוד המיזם עבור מיזמי תוכן, או תת־מתחם + מתחם ראשי עבור כל האחרים.",
+	"apihelp-sitematrix-extended-description": "הקוד (טכנית dbname/wikiid) הוא או קוד השפה + קוד המיזם עבור מיזמי תוכן, או תת־תחום + תחום ראשי עבור כל האחרים.",
 	"apihelp-sitematrix-param-type": "סינון מטריצת האתרים לפי סוג:\n;special:מיזמי ויקימדיה רב־לשוניים וחד־פעמיים.\n;language:מיזמי ויקימדיה עם קוד השפה הזה.",
 	"apihelp-sitematrix-param-state": "סינון מטריצת האתרים לפי סוג:",
 	"apihelp-sitematrix-param-langprop": "איזה מידע על שפה להחזיר.",

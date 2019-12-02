@@ -5,7 +5,8 @@
 			"Erdemaslancan",
 			"Marmase",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"sitematrix": "Lista wikiyanê Wikimedya",
@@ -18,6 +19,7 @@
 	"sitematrix-other-projects-language": "Zıwan",
 	"sitematrix-total": "'''pêro amari: $1'''",
 	"sitematrix-sitetotal": "Pêro piya",
+	"sitematrix-closed": "Hesabê nuştışi çıniyo, heme hesabê wanayışi",
 	"sitematrix-private": "xısusi",
 	"sitematrix-fishbowl": "vuriyayişi qedexe bı"
 }
