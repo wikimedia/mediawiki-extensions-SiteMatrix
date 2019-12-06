@@ -10,7 +10,8 @@
 			"Arystanbek",
 			"Watermelon juice",
 			"Vito Genovese",
-			"Mirzali"
+			"Mirzali",
+			"BaRaN6161 TURK"
 		]
 	},
 	"sitematrix": "Wikimedia vikilerinin listesi",
@@ -23,6 +24,8 @@
 	"sitematrix-other-projects-language": "Dil",
 	"sitematrix-total": "'''Toplam sayı: $1'''",
 	"sitematrix-sitetotal": "Toplam",
-	"sitematrix-private": "mahrem",
-	"sitematrix-fishbowl": "değiştirmek engellendi"
+	"sitematrix-closed": "yazma erişimi yok, tam okuma erişimi",
+	"sitematrix-private": "okuma ve yazma erişimi kısıtlı",
+	"sitematrix-fishbowl": "sınırlı yazma erişimi, tam okuma erişimi",
+	"sitematrix-nonglobal": "halka açık fakat kayıt gerekli"
 }
