@@ -36,6 +36,7 @@ class ApiSiteMatrix extends ApiBase {
 			? explode( '|', $params['continue'] )
 			: [ 'language', '' ];
 		$this->dieContinueUsageIf( count( $continue ) != 2 );
+		'@phan-var array{string,string} $continue';
 
 		$all = isset( $state['all'] );
 		$closed = isset( $state['closed'] );
