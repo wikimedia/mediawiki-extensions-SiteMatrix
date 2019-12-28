@@ -50,18 +50,27 @@
 		]
 	},
 	"config": {
-		"@SiteMatrixFile": "A file with the list of language codes used by the wikifarm (one per line).",
-		"SiteMatrixFile": null,
-		"@SiteMatrixSites": "Configuration for project families (projects which are multilingual but each language is a separate wiki), in a <family> => [ 'name' => <human-readable name>, 'host' => <domain name>, 'prefix' => <interwiki prefix> ] format.",
+		"SiteMatrixFile": {
+			"description": "A file with the list of language codes used by the wikifarm (one per line).",
+			"value": null
+		},
 		"SiteMatrixSites": {
+			"description": "Configuration for project families (projects which are multilingual but each language is a separate wiki), in a <family> => [ 'name' => <human-readable name>, 'host' => <domain name>, 'prefix' => <interwiki prefix> ] format.",
+			"value": {},
 			"_merge_strategy": "array_plus_2d"
 		},
-		"@SiteMatrixPrivateSites": "dbname list of private wikis.",
-		"SiteMatrixPrivateSites": null,
-		"@SiteMatrixFishbowlSites": "dbname list of fishbowl wikis.",
-		"SiteMatrixFishbowlSites": null,
-		"@SiteMatrixClosedSites": "dbname list of closed wikis.",
-		"SiteMatrixClosedSites": null
+		"SiteMatrixPrivateSites": {
+			"description": "dbname list of private wikis.",
+			"value": null
+		},
+		"SiteMatrixFishbowlSites": {
+			"description": "dbname list of fishbowl wikis.",
+			"value": null
+		},
+		"SiteMatrixClosedSites": {
+			"description": "dbname list of closed wikis.",
+			"value": null
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
