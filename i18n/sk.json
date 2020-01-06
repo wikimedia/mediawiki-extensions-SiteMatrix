@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Luky001"
 		]
 	},
 	"sitematrix": "Zoznam wiki projektov Nadácie Wikimedia",
@@ -13,6 +14,6 @@
 	"sitematrix-other-projects": "Ďalšie projekty",
 	"sitematrix-total": "'''Celkový počet: $1'''",
 	"sitematrix-sitetotal": "Celkom",
-	"sitematrix-private": "súkromné",
-	"sitematrix-fishbowl": "úpravy obmedzené"
+	"sitematrix-private": "čítanie a upravovanie obmedzené",
+	"sitematrix-fishbowl": "upravovanie obmedzené, plný prístup k čítaniu"
 }
