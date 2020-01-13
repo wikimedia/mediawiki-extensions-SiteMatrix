@@ -6,7 +6,8 @@
 			"Marmase",
 			"Mirzali",
 			"Kumkumuk",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Orbot707"
 		]
 	},
 	"sitematrix": "Lista wikiyanê Wikimedya",
@@ -20,6 +21,7 @@
 	"sitematrix-total": "'''pêro amari: $1'''",
 	"sitematrix-sitetotal": "Pêro piya",
 	"sitematrix-closed": "Hesabê nuştışi çıniyo, heme hesabê wanayışi",
-	"sitematrix-private": "xısusi",
-	"sitematrix-fishbowl": "vuriyayişi qedexe bı"
+	"sitematrix-private": "resayışê wendış u nuştışi sindorıno",
+	"sitematrix-fishbowl": "vuriyayişi qedexe bi, tam resayışê wanayışi",
+	"sitematrix-nonglobal": "Şari rê akerdeyo lakin qeyd wazeno"
 }
