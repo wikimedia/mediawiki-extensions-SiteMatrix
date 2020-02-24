@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"NehalDaveND"
+			"NehalDaveND",
+			"हिमाल सुबेदी"
 		]
 	},
 	"sitematrix-language": "भाषा",
+	"sitematrix-other-projects-language": "भाषा",
 	"sitematrix-sitetotal": "कुल",
 	"sitematrix-private": "निजी"
 }
