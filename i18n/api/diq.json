@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kumkumuk",
-			"Orbot707"
+			"Orbot707",
+			"Mirzali"
 		]
 	},
 	"apihelp-sitematrix-summary": "Lista siteyanê Wikimedia bıgêrê",
 	"apihelp-sitematrix-param-state": "Gorey wiki matrisê sitey parzûn kerê",
-	"apihelp-sitematrix-param-limit": "Maksimum amarê neticeyan",
+	"apihelp-sitematrix-param-limit": "Amarê neticeyano zêdeyêr.",
 	"apihelp-sitematrix-example-1": "Metriksa sita bıvin"
 }
