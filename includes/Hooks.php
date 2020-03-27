@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\SiteMatrix;
 
 use ApiQuerySiteinfo;
 use Parser;
-use PPFrame;
 
 /**
  * Hook handlers
@@ -46,21 +45,19 @@ class Hooks {
 
 	/**
 	 * @param Parser $parser
-	 * @param array $variableCache
+	 * @param array &$variableCache
 	 * @param string $magicWordId
 	 * @param string &$ret
-	 * @param PPFrame $frame
 	 */
 	public static function onParserGetVariableValueSwitch(
 		$parser,
-		$variableCache,
+		&$variableCache,
 		$magicWordId,
-		&$ret,
-		$frame
+		&$ret
 	) {
 		if ( $magicWordId === 'numberofwikis' ) {
 			global $wgLocalDatabases;
-			$ret = count( $wgLocalDatabases );
+			$ret = $variableCache[$magicWordId] = count( $wgLocalDatabases );
 		}
 	}
 
