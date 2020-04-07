@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Arystanbek",
-			"Watermelon juice",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Watermelon juice"
 		]
 	},
 	"apihelp-sitematrix-description": "Wikimedia siteleri listesi.N!\nKod (teknik olarak dbname/wikiid) ya da içerik projeler için dil kodu + proje kodu veya diğerleri için alt + ana etki alanı.",
