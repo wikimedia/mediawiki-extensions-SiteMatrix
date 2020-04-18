@@ -1,6 +1,6 @@
 {
 	"name": "SiteMatrix",
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"author": [
 		"Tim Starling",
 		"Brion Vibber",
@@ -31,12 +31,8 @@
 		"SiteMatrixAlias": "SiteMatrix.alias.php",
 		"SiteMatrixMagic": "SiteMatrix.i18n.magic.php"
 	},
-	"AutoloadClasses": {
-		"SiteMatrix": "includes/SiteMatrix.php",
-		"MediaWiki\\Extension\\SiteMatrix\\SiteMatrix": "includes/SiteMatrix.php",
-		"MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix": "includes/SpecialSiteMatrix.php",
-		"MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix": "includes/ApiSiteMatrix.php",
-		"MediaWiki\\Extension\\SiteMatrix\\Hooks": "includes/Hooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SiteMatrix\\": "includes/"
 	},
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": [
