@@ -1,13 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Kumkumuk",
 			"Mirzali",
 			"Orbot707"
 		]
 	},
 	"apihelp-sitematrix-summary": "Lista siteyanê Wikimedia bıgêrê",
+	"apihelp-sitematrix-param-type": "Matrisê site Matrisini gorey tewri parzûn kerê:\n;special:racnaye u zafzıwanın procey Wikimedia.\n;language:Bınê kodê zıwani de procey Wikimedia.",
 	"apihelp-sitematrix-param-state": "Gorey wiki matrisê sitey parzûn kerê",
+	"apihelp-sitematrix-param-langprop": "Serva peyser şiyayışi heqa yû zıwan de melumat",
+	"apihelp-sitematrix-param-siteprop": "Peyser şiyayış de heqa yew site de melumat",
 	"apihelp-sitematrix-param-limit": "Amarê neticeyano zêdeyêr.",
 	"apihelp-sitematrix-example-1": "Metriksa sita bıvin"
 }
