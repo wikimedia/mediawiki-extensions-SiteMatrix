@@ -53,7 +53,7 @@
 		"SiteMatrixSites": {
 			"description": "Configuration for project families (projects which are multilingual but each language is a separate wiki), in a <family> => [ 'name' => <human-readable name>, 'host' => <domain name>, 'prefix' => <interwiki prefix> ] format.",
 			"value": {},
-			"_merge_strategy": "array_plus_2d"
+			"merge_strategy": "array_plus_2d"
 		},
 		"SiteMatrixPrivateSites": {
 			"description": "dbname list of private wikis.",
