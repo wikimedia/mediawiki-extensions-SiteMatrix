@@ -7,6 +7,7 @@
 			"Joseph",
 			"Mach",
 			"Mirzali",
+			"MuratTheTurkish",
 			"Runningfridgesrule",
 			"Suelnur",
 			"Vito Genovese",
@@ -27,5 +28,5 @@
 	"sitematrix-closed": "yazma erişimi yok, tam okuma erişimi",
 	"sitematrix-private": "okuma ve yazma erişimi kısıtlı",
 	"sitematrix-fishbowl": "sınırlı yazma erişimi, tam okuma erişimi",
-	"sitematrix-nonglobal": "halka açık fakat kayıt gerekli"
+	"sitematrix-nonglobal": "herkese açık ancak kayıt gerekli"
 }
