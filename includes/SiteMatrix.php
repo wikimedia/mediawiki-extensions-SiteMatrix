@@ -222,7 +222,7 @@ class SiteMatrix {
 	 * @param string $minor Language
 	 * @param string $major Site
 	 * @param bool $canonical use canonical url.
-	 * @return Mixed
+	 * @return mixed
 	 */
 	public function getUrl( $minor, $major, $canonical = false ) {
 		return $this->getSetting(
@@ -236,7 +236,7 @@ class SiteMatrix {
 	 * Shortcut for getUrl( $minor, $major, true ).
 	 * @param string $minor Language
 	 * @param string $major Site
-	 * @return Mixed
+	 * @return mixed
 	 */
 	public function getCanonicalUrl( $minor, $major ) {
 		return $this->getSetting( 'wgCanonicalServer', $minor, $major );
