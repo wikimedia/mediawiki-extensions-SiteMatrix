@@ -99,14 +99,14 @@ class SpecialSiteMatrix extends SpecialPage {
 			$url = $matrix->getSiteUrl( $site );
 			$count = $matrix->getCountPerSite( $site );
 			$totalCount += $count;
-			$count = $language->formatNum( $count );
+			$count = htmlspecialchars( $language->formatNum( $count ) );
 			$s .= "<th><a href=\"{$url}\">{$count}</a></th>";
 		}
 		$s .= '</tr>';
 
 		$s .= '<tr>';
 		$noProjects = count( $matrix->getNames() );
-		$totalCount = $language->formatNum( $totalCount );
+		$totalCount = htmlspecialchars( $language->formatNum( $totalCount ) );
 		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
 		$s .= '</tr>';
 
