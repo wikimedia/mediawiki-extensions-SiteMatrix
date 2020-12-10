@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abbas dhothar",
 			"Khalid Mahmood"
 		]
 	},
@@ -9,8 +10,8 @@
 	"sitematrix-desc": "وکھاندا اے اک [[Special:SiteMatrix|وکیمیڈیا وکی دی لسٹ]]",
 	"sitematrix-language": "بولی",
 	"sitematrix-project": "ویونت جوڑ، آپسی ویونت جوڑ تے انٹروکی جوڑ",
-	"sitematrix-others": "وکیمیڈیا دے ہور ویونت",
-	"sitematrix-other-projects": "ہور ویونت",
+	"sitematrix-others": "وکیمیڈیا دے ہور منصوبے",
+	"sitematrix-other-projects": "ہور منصوبے",
 	"sitematrix-total": "'''پوری گنتی: $1'''",
 	"sitematrix-sitetotal": "ٹوٹل",
 	"sitematrix-private": "پرائیویٹ",
