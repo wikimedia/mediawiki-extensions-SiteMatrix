@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dakrismeno"
+			"Dakrismeno",
+			"Salvemm el lombard"
 		]
 	},
 	"sitematrix": "Lista di Wiki che fann part de Wikimedia",
-	"sitematrix-desc": "Mustra una [[Special:SiteMatrix|lista di sit de Wikimedia]]",
+	"sitematrix-desc": "Mostra una [[Special:SiteMatrix|lista di sit de Wikimedia]]",
 	"sitematrix-language": "Lengua"
 }
