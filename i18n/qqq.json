@@ -20,7 +20,7 @@
 	"sitematrix-language": "{{Identical|Language}}",
 	"sitematrix-project": "Used as a table column header on \"Special:SiteMatrix\"",
 	"sitematrix-others": "Used as a section header on \"Special:SiteMatrix\"",
-	"sitematrix-other-projects": "{{Identical|Other project}}",
+	"sitematrix-other-projects": "Used as a table column header on \"Special:SiteMatrix\"",
 	"sitematrix-other-projects-language": "{{Identical|Language}}",
 	"sitematrix-total": "Parameters:\n* $1 - number of databases (count of the array <code>$wgLocalDatabases</code>)",
 	"sitematrix-sitetotal": "{{Identical|Total}}",
