@@ -11,12 +11,9 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Wikis da Wikimedia",
-	"sitematrix-summary": "Esta página especial lista todas as wikis Wikimedia.",
 	"sitematrix-desc": "Apresenta uma [[Special:SiteMatrix|lista de wikis Wikimedia]]",
 	"sitematrix-language": "Língua",
 	"sitematrix-project": "Nome do projeto, hiperligação interprojetos e hiperligação interwikis",
-	"sitematrix-others": "Outros projetos Wikimedia",
 	"sitematrix-other-projects": "Outros projetos",
 	"sitematrix-other-projects-language": "Língua",
 	"sitematrix-total": "'''Contagem total: $1'''",

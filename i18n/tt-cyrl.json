@@ -5,12 +5,9 @@
 			"Ильнар"
 		]
 	},
-	"sitematrix": "Викимедиа проектлары исемлеге",
-	"sitematrix-summary": "Бу махсус бит барлык Викимедиа проектларын күрсәтә.",
 	"sitematrix-desc": "[[Special:SiteMatrix|Викимедиа проектлары исемлеген]] күрсәтә",
 	"sitematrix-language": "Тел",
 	"sitematrix-project": "Проект исеме, проектара сылтама һәм викиара сылтама",
-	"sitematrix-others": "Башка Викимедиа проектлары",
 	"sitematrix-other-projects": "Башка проектлар",
 	"sitematrix-other-projects-language": "Тел",
 	"sitematrix-total": "'''Барлыгы: $1'''",

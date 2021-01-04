@@ -5,12 +5,10 @@
 			"Tacsipacsi"
 		]
 	},
-	"sitematrix": "Az összes Wikimédia-wiki listája",
-	"sitematrix-summary": "Wikimedia-wikiket listázó speciális lap",
+	"sitematrix": "Az összes wiki listája",
 	"sitematrix-desc": "A [[Special:SiteMatrix|Wikimedia wikijeinek listája]]",
 	"sitematrix-language": "Nyelv",
 	"sitematrix-project": "A projekt neve, projekt- és nyelvközi link",
-	"sitematrix-others": "Más Wikimedia projektek",
 	"sitematrix-other-projects": "További projektek",
 	"sitematrix-total": "'''Összes: $1'''",
 	"sitematrix-sitetotal": "Összesen",

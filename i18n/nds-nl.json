@@ -4,12 +4,9 @@
 			"Servien"
 		]
 	},
-	"sitematrix": "Lyste van Wikimedia-wikis",
-	"sitematrix-summary": "Disse spesiale zied gif n overzicht van alle wiki's van Wikimedia.",
 	"sitematrix-desc": "Een [[Special:SiteMatrix|lyste van Wikimedia-wikis]]",
 	"sitematrix-language": "Taal",
 	"sitematrix-project": "Naam van t projekt, interprojektverwiezing en interwikiverwiezing",
-	"sitematrix-others": "Aandere projekten van Wikimedia",
 	"sitematrix-other-projects": "Aanere projekten",
 	"sitematrix-total": "'''Totaal antal: $1'''",
 	"sitematrix-sitetotal": "Alles samen",

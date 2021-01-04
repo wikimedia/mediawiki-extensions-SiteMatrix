@@ -10,13 +10,13 @@
 			"Woytecr"
 		]
 	},
-	"sitematrix": "Lista projektów Wikimedia",
-	"sitematrix-summary": "Ta strona specjalna zawiera spis wszystkich wiki Wikimedia.",
-	"sitematrix-desc": "Pokazuje [[Special:SiteMatrix|spis wiki Fundacji Wikimedia]]",
+	"sitematrix": "Spis wiki",
+	"sitematrix-summary": "Ta strona specjalna wymienia wszystkie wiki w obrębie farmy.",
+	"sitematrix-desc": "Pokazuje [[Special:SiteMatrix|spis wiki]]",
 	"sitematrix-language": "Język",
 	"sitematrix-project": "Nazwa projektu, link do projektu oraz link interwiki",
-	"sitematrix-others": "Inne projekty Wikimedia",
-	"sitematrix-other-projects": "Inne projekty",
+	"sitematrix-others": "Inne projekty",
+	"sitematrix-other-projects": "Projekt",
 	"sitematrix-other-projects-language": "Język",
 	"sitematrix-total": "'''Ogólna liczba: $1'''",
 	"sitematrix-sitetotal": "Łącznie",

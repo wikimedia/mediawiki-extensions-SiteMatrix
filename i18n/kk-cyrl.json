@@ -4,12 +4,9 @@
 			"Arystanbek"
 		]
 	},
-	"sitematrix": "Wikimedia уики тізімі",
-	"sitematrix-summary": "Бұл арнайы бетте барлық Уикимедиа уикилері тізімделген.",
 	"sitematrix-desc": "[[Special:SiteMatrix|Уикимедиа уикилерінің тізімін]] көрсетеді",
 	"sitematrix-language": "Тілі",
 	"sitematrix-project": "Жоба атауы, жоба аралық сілтемесі және уики аралық сілтемесі",
-	"sitematrix-others": "Басқа Wikimedia жобалары",
 	"sitematrix-other-projects": "Басқа жобалар",
 	"sitematrix-total": "'''Барлық саны: $1'''",
 	"sitematrix-sitetotal": "Барлығы",

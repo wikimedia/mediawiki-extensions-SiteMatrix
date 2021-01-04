@@ -15,13 +15,13 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Wikimedia vikilerinin listesi",
-	"sitematrix-summary": "Bu özel sayfa tüm Wikimedia vikilerini listeler.",
+	"sitematrix": "Vikilerin listesi",
+	"sitematrix-summary": "Bu özel sayfa, bu viki çiftliğinde ki tüm vikileri listeler.",
 	"sitematrix-desc": "[[Special:SiteMatrix|Wikimedia vikilerinin listesini]] gösterir",
 	"sitematrix-language": "Dil",
 	"sitematrix-project": "Projenin adı, projelerarası bağlantısı ve vikilerarası bağlantısı",
-	"sitematrix-others": "Diğer Wikimedia projeleri",
-	"sitematrix-other-projects": "Diğer projeler",
+	"sitematrix-others": "Diğer projeler",
+	"sitematrix-other-projects": "Proje",
 	"sitematrix-other-projects-language": "Dil",
 	"sitematrix-total": "'''Toplam sayı: $1'''",
 	"sitematrix-sitetotal": "Toplam",

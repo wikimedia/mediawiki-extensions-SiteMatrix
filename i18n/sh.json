@@ -5,12 +5,9 @@
 			"Vlad5250"
 		]
 	},
-	"sitematrix": "Spisak svih wikija",
-	"sitematrix-summary": "Ova posebna strana navodi sve Wikimedijine wikije.",
 	"sitematrix-desc": "Prikazuje spisak [[Special:SiteMatrix|svih Wikimedijinih wikija]]",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Naziv projekta, međuprojektna veza i interwiki veza",
-	"sitematrix-others": "Drugi Wikimedijini projekti",
 	"sitematrix-other-projects": "Ostali projekti",
 	"sitematrix-other-projects-language": "Jezik",
 	"sitematrix-total": "'''Ukupno projekata: $1'''",

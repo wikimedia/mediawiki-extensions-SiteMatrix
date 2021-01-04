@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Teak"
 		]
 	},
-	"sitematrix": "Վիքիմեդիայի վիքիների ցանկ",
 	"sitematrix-language": "Լեզու",
 	"sitematrix-project": "Նախագծի անվանումը, միջ-նախագծային հղումը և ինտերվիքի հղումը",
-	"sitematrix-others": "Վիքիմեդիայի այլ նախագծեր"
+	"sitematrix-others": "Այլ նախագծեր",
+	"sitematrix-other-projects": "Նախագիծ"
 }

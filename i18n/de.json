@@ -11,13 +11,13 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Liste der Wikimedia-Wikis",
-	"sitematrix-summary": "Diese Spezialseite listet alle Wikimedia-Wikis auf.",
-	"sitematrix-desc": "Erweitert das Wiki um eine [[Special:SiteMatrix|Spezialseite]], die eine Liste der Wikis {{int:Centralauth-groupname}} anzeigt",
+	"sitematrix": "Liste der Wikis",
+	"sitematrix-summary": "Diese Spezialseite listet alle Wikis in dieser Wikifarm auf.",
+	"sitematrix-desc": "Zeigt eine [[Special:SiteMatrix|Liste der Wikis]]",
 	"sitematrix-language": "Sprache",
 	"sitematrix-project": "Projektname, Interprojektlink und Interwikilink",
-	"sitematrix-others": "Weitere Wikimedia-Projekte",
-	"sitematrix-other-projects": "Weitere Projekte",
+	"sitematrix-others": "Andere Projekte",
+	"sitematrix-other-projects": "Projekt",
 	"sitematrix-other-projects-language": "Sprache",
 	"sitematrix-total": "'''Gesamtanzahl: $1'''",
 	"sitematrix-sitetotal": "Insgesamt",

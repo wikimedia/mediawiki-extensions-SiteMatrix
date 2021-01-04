@@ -10,12 +10,9 @@
 			"Александр Сигачёв"
 		]
 	},
-	"sitematrix": "Список проектов Викимедиа",
-	"sitematrix-summary": "На этой служебной странице перечислены все вики-проекты Викимедиа.",
 	"sitematrix-desc": "Показывает [[Special:SiteMatrix|список проектов Викимедиа]]",
 	"sitematrix-language": "Язык",
 	"sitematrix-project": "Имя проекта, межпроектная ссылка и интервики",
-	"sitematrix-others": "Другие проекты Викимедиа",
 	"sitematrix-other-projects": "Другие проекты",
 	"sitematrix-other-projects-language": "Язык",
 	"sitematrix-total": "'''Общее количество: $1'''",

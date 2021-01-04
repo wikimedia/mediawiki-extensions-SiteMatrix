@@ -7,12 +7,9 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Liste over Wikimedia-prosjekter",
-	"sitematrix-summary": "Denne spesialsiden lister opp alle Wikimedias wikier.",
 	"sitematrix-desc": "Viser en [[Special:SiteMatrix|liste over Wikimedia-wikier]]",
 	"sitematrix-language": "Språk",
 	"sitematrix-project": "Prosjektets navn, interprosjektlenke og interwikilenke",
-	"sitematrix-others": "Andre Wikimedia-prosjekter",
 	"sitematrix-other-projects": "Andre prosjekt",
 	"sitematrix-other-projects-language": "Språk",
 	"sitematrix-total": "'''Totalt antall: $1'''",

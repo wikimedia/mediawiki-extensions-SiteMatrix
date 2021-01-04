@@ -10,13 +10,12 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Elenco di tutti i progetti Wikimedia nelle varie lingue",
-	"sitematrix-summary": "Questa pagina speciale elenca tutti i progetti Wikimedia",
-	"sitematrix-desc": "Mostra un [[Special:SiteMatrix|elenco dei siti Wikimedia]]",
+	"sitematrix": "Elenco di wiki",
+	"sitematrix-desc": "Mostra un [[Special:SiteMatrix|elenco di wiki]]",
 	"sitematrix-language": "Lingua",
 	"sitematrix-project": "Nome del progetto, collegamento interprogetto e collegamento inter-wiki",
-	"sitematrix-others": "Altri progetti Wikimedia",
-	"sitematrix-other-projects": "Altri progetti",
+	"sitematrix-others": "Altri progetti",
+	"sitematrix-other-projects": "Progetto",
 	"sitematrix-other-projects-language": "Lingua",
 	"sitematrix-total": "'''Conteggio totale: $1'''",
 	"sitematrix-sitetotal": "Totale",

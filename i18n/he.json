@@ -6,13 +6,13 @@
 			"Rotem Liss"
 		]
 	},
-	"sitematrix": "רשימת אתרי ויקי של ויקימדיה",
-	"sitematrix-summary": "דף זה כולל רשימה של כל אתרי קרן ויקימדיה.",
+	"sitematrix": "רשימת אתרי ויקי",
+	"sitematrix-summary": "הדף המיוחד הזה מציג רשימת כל אתרי הוויקי בחוות הוויקי הזאת.",
 	"sitematrix-desc": "הצגת [[Special:SiteMatrix|רשימת אתרי ויקי של ויקימדיה]]",
 	"sitematrix-language": "שפה",
 	"sitematrix-project": "שם המיזם וקישורי הבינוויקי",
-	"sitematrix-others": "מיזמים אחרים של ויקימדיה",
-	"sitematrix-other-projects": "מיזמים אחרים",
+	"sitematrix-others": "מיזמים אחרים",
+	"sitematrix-other-projects": "מיזם",
 	"sitematrix-other-projects-language": "שפה",
 	"sitematrix-total": "'''מספר האתרים: $1'''",
 	"sitematrix-sitetotal": "סך הכול",

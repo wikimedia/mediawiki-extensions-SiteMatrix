@@ -7,13 +7,12 @@
 			"Saederup92"
 		]
 	},
-	"sitematrix": "Alle Wikimedias wikier",
-	"sitematrix-summary": "Denne specialside oplister alle Wikimedias wikier.",
-	"sitematrix-desc": "Viser en [[Special:SiteMatrix|liste med alle Wikimedias wikier]]",
+	"sitematrix": "Liste over wikier",
+	"sitematrix-desc": "Viser en [[Special:SiteMatrix|liste over wikier]]",
 	"sitematrix-language": "Sprog",
 	"sitematrix-project": "Projektnavn, interprojektlink og interwikilink",
-	"sitematrix-others": "Andre projekter under Wikimedia",
-	"sitematrix-other-projects": "Andre projekter",
+	"sitematrix-others": "Andre projekter",
+	"sitematrix-other-projects": "Projekt",
 	"sitematrix-other-projects-language": "Sprog",
 	"sitematrix-total": "'''I alt $1 wikier'''",
 	"sitematrix-sitetotal": "I alt",

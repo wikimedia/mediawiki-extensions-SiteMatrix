@@ -2,11 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"LeighvsOptimvsMaximvs",
+			"Michael5iLVEr",
 			"Omnipaedista",
 			"SPQRobin"
 		]
 	},
+	"sitematrix": "Κατάλογος τῶν βίκι",
 	"sitematrix-language": "Γλῶττα",
+	"sitematrix-others": "Ἕτερα ἐγχειρήματα",
+	"sitematrix-other-projects": "Ἐγχείρημα",
 	"sitematrix-sitetotal": "Συνολικός",
 	"sitematrix-private": "ἰδιωτικός"
 }

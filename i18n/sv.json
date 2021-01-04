@@ -10,12 +10,9 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Lista över Wikimedias wikier",
-	"sitematrix-summary": "Denna specialsida listar alla Wikimedias wikier.",
 	"sitematrix-desc": "Visar en [[Special:SiteMatrix|lista över Wikimedias wikier]]",
 	"sitematrix-language": "Språk",
 	"sitematrix-project": "Projektnamn, interprojektlänk och interwiki-länk",
-	"sitematrix-others": "Andra Wikimediaprojekt",
 	"sitematrix-other-projects": "Andra projekt",
 	"sitematrix-other-projects-language": "Språk",
 	"sitematrix-total": "'''Totalt antal: $1'''",

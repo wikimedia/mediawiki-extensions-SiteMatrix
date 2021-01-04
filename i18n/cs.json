@@ -9,12 +9,9 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix": "Seznam všech wiki nadace Wikimedia",
-	"sitematrix-summary": "Tato speciální stránka obsahuje seznam všech wiki nadace Wikimedia Foundation.",
 	"sitematrix-desc": "Zobrazuje [[Special:SiteMatrix|seznam projektů nadace Wikimedia]]",
 	"sitematrix-language": "Jazyk",
 	"sitematrix-project": "Jméno projektu, meziprojektový odkaz a mezijazykový odkaz",
-	"sitematrix-others": "Ostatní projekty nadace Wikimedia",
 	"sitematrix-other-projects": "Ostatní projekty",
 	"sitematrix-other-projects-language": "Jazyk",
 	"sitematrix-total": "'''Celkový počet: $1'''",
