@@ -5,15 +5,16 @@
 			"Andriy.v",
 			"Base",
 			"Piramidion",
+			"Renamerr",
 			"Vlad5250",
 			"Ата",
 			"Тест"
 		]
 	},
-	"sitematrix-desc": "Показує [[Special:SiteMatrix|список проектів Вікімедіа]]",
+	"sitematrix-desc": "Показує [[Special:SiteMatrix|список вікі]]",
 	"sitematrix-language": "Мова",
 	"sitematrix-project": "Назва проєкту, міжпроектне посилання та інтервікі-посилання",
-	"sitematrix-other-projects": "Інші проекти",
+	"sitematrix-other-projects": "Проект",
 	"sitematrix-other-projects-language": "Мова",
 	"sitematrix-total": "'''Загальна кількість: $1'''",
 	"sitematrix-sitetotal": "Усього",

@@ -6,6 +6,7 @@
 			"Hydra",
 			"Liuxinyu970226",
 			"WhitePhosphorus",
+			"Wuqianye",
 			"Xiaomingyan",
 			"Yfdyh000"
 		]
@@ -13,6 +14,7 @@
 	"sitematrix-desc": "显示[[Special:SiteMatrix|维基媒体所有网站的列表]]",
 	"sitematrix-language": "语言",
 	"sitematrix-project": "计划名称、跨计划链接以及跨维基链接",
+	"sitematrix-others": "其他项目",
 	"sitematrix-other-projects": "其他项目",
 	"sitematrix-other-projects-language": "语言",
 	"sitematrix-total": "'''合计：$1'''",
