@@ -4,10 +4,10 @@
 			"Dbc334"
 		]
 	},
-	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam Wikimedijinih wikijev]]",
+	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam wikijev]]",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Ime projekta, medprojektna povezava in povezava interwiki",
-	"sitematrix-other-projects": "Drugi projekti",
+	"sitematrix-other-projects": "Projekt",
 	"sitematrix-total": "'''Skupno število: $1'''",
 	"sitematrix-sitetotal": "Skupaj",
 	"sitematrix-private": "omejen dostop do branja in pisanja",
