@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aotake",
+			"Foomin10",
 			"Fryed-peach",
 			"JtFuruhata",
 			"Marine-Blue",
@@ -16,7 +17,7 @@
 	"sitematrix-desc": "[[Special:SiteMatrix|ウィキメディアのウィキ一覧]]を表示する",
 	"sitematrix-language": "言語",
 	"sitematrix-project": "プロジェクト名、プロジェクト間リンク、ウィキ間リンク",
-	"sitematrix-other-projects": "他のプロジェクト",
+	"sitematrix-other-projects": "プロジェクト",
 	"sitematrix-total": "'''総計: $1'''",
 	"sitematrix-sitetotal": "合計",
 	"sitematrix-private": "閲覧、書き込みとも制限",
