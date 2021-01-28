@@ -11,9 +11,12 @@
 			"Тест"
 		]
 	},
+	"sitematrix": "Список вікі",
+	"sitematrix-summary": "Ця спеціальна сторінка перелічує всі вікі цієї вікі-ферми.",
 	"sitematrix-desc": "Показує [[Special:SiteMatrix|список вікі]]",
 	"sitematrix-language": "Мова",
 	"sitematrix-project": "Назва проєкту, міжпроектне посилання та інтервікі-посилання",
+	"sitematrix-others": "Інші проекти",
 	"sitematrix-other-projects": "Проект",
 	"sitematrix-other-projects-language": "Мова",
 	"sitematrix-total": "'''Загальна кількість: $1'''",
