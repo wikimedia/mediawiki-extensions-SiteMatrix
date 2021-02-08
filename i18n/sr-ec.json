@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
+			"Kizule",
 			"Millosh",
 			"Nikola Smolenski",
 			"Sasa Stefanovic",
@@ -13,7 +14,7 @@
 	"sitematrix-desc": "Приказује [[Special:SiteMatrix|листу викија Викимедије]].",
 	"sitematrix-language": "Језик",
 	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
-	"sitematrix-other-projects": "Други пројекти",
+	"sitematrix-other-projects": "Пројекат",
 	"sitematrix-total": "'''Укупан збир: $1.'''",
 	"sitematrix-sitetotal": "укупно",
 	"sitematrix-private": "ограничен приступ за читање и писање",
