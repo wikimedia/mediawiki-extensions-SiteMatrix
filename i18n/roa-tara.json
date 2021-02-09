@@ -4,10 +4,13 @@
 			"Joetaras"
 		]
 	},
-	"sitematrix-desc": "Face vedè 'n'[[Special:SiteMatrix|elenghe de le Uicchi de UicchiMedia]]",
+	"sitematrix": "Elenghe de le Uicchi",
+	"sitematrix-summary": "Sta pàgena speciale elenghe tutte le uicchi jndr'à sta fattorie de uicchi.",
+	"sitematrix-desc": "Face 'ndrucà 'n'[[Special:SiteMatrix|elenghe de le Uicchi]]",
 	"sitematrix-language": "Lènghe",
 	"sitematrix-project": "Nome de proggette, collegamende 'mbrà inderproggette e collegamende 'mbrà inderuicchi",
-	"sitematrix-other-projects": "Otre pruggette",
+	"sitematrix-others": "Otre pruggette",
+	"sitematrix-other-projects": "Proggette",
 	"sitematrix-other-projects-language": "Lènghe",
 	"sitematrix-total": "'''Condegge totale: $1'''",
 	"sitematrix-sitetotal": "Totele",
