@@ -4,10 +4,13 @@
 			"Bjankuloski06"
 		]
 	},
-	"sitematrix-desc": "Прикажува [[Special:SiteMatrix|список на Викимедиините викија]]",
+	"sitematrix": "Список на викија",
+	"sitematrix-summary": "На оваа службена страница се наведени сите викија во оваа викифарма.",
+	"sitematrix-desc": "Прикажува [[Special:SiteMatrix|список на викија]]",
 	"sitematrix-language": "Јазик",
 	"sitematrix-project": "Име на проектот, меѓупроектна врска и јазична врска",
-	"sitematrix-other-projects": "Други проекти",
+	"sitematrix-others": "Други проекти",
+	"sitematrix-other-projects": "Проект",
 	"sitematrix-other-projects-language": "Јазик",
 	"sitematrix-total": "'''Севкупно: $1'''",
 	"sitematrix-sitetotal": "Вкупно",

@@ -6,6 +6,7 @@
 			"Cin",
 			"KlaudiuMihaila",
 			"Minisarm",
+			"NGC 54",
 			"Stelistcristi",
 			"לערי ריינהארט"
 		]
@@ -13,7 +14,7 @@
 	"sitematrix-desc": "Afișează o [[Special:SiteMatrix|listă de wikiuri susținute de Wikimedia]]",
 	"sitematrix-language": "Limbă",
 	"sitematrix-project": "Numele proiectului, legătura către interproiect și legăturile interwiki",
-	"sitematrix-other-projects": "Alte proiecte",
+	"sitematrix-other-projects": "Proiect",
 	"sitematrix-total": "'''Număr total: $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-private": "acces restricționat la citire și scriere",
