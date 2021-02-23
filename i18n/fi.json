@@ -8,10 +8,11 @@
 			"Stryn"
 		]
 	},
-	"sitematrix-desc": "Näyttää [[Special:SiteMatrix|luettelon Wikimedian wikeistä]].",
+	"sitematrix-desc": "Näyttää [[Special:SiteMatrix|luettelon wikeistä]].",
 	"sitematrix-language": "Kieli",
 	"sitematrix-project": "Projektin nimi, projektienvälinen linkki ja interwiki-linkki",
 	"sitematrix-other-projects": "Projekti",
+	"sitematrix-other-projects-language": "Kieli",
 	"sitematrix-total": "'''Wikejä yhteensä: $1'''",
 	"sitematrix-sitetotal": "Yhteensä",
 	"sitematrix-closed": "ei kirjoitusoikeutta, täysi lukuoikeus",
