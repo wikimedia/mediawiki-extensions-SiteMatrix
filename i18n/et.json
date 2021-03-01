@@ -4,10 +4,14 @@
 			"Pikne"
 		]
 	},
+	"sitematrix": "Vikide loend",
+	"sitematrix-summary": "See erilehekülg loetleb kõik vikipargi vikid.",
 	"sitematrix-desc": "Kuvab [[Special:SiteMatrix|Wikimedia vikide loendi]].",
 	"sitematrix-language": "Keel",
 	"sitematrix-project": "Projekti nimi, sõsarprojekti link ja interviki link",
-	"sitematrix-other-projects": "Muud projektid",
+	"sitematrix-others": "Muud projektid",
+	"sitematrix-other-projects": "Projekt",
+	"sitematrix-other-projects-language": "Keel",
 	"sitematrix-total": "'''Vikisid kokku: $1'''",
 	"sitematrix-sitetotal": "Kokku",
 	"sitematrix-closed": "kirjutamine keelatud, lugemine igasuguse piiranguta",
