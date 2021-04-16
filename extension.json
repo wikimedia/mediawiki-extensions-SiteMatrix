@@ -13,13 +13,24 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.33.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"SpecialPages": {
-		"SiteMatrix": "MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix"
+		"SiteMatrix": {
+			"class": "MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix",
+			"services": [
+				"LanguageNameUtils"
+			]
+		}
 	},
 	"APIModules": {
-		"sitematrix": "MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix"
+		"sitematrix": {
+			"class": "MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix",
+			"services": [
+				"LanguageNameUtils",
+				"LanguageFactory"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"SiteMatrix": [

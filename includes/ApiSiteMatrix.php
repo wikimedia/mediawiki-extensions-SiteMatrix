@@ -5,7 +5,8 @@ namespace MediaWiki\Extension\SiteMatrix;
 use ApiBase;
 use ApiMain;
 use ApiResult;
-use Language;
+use MediaWiki\Languages\LanguageFactory;
+use MediaWiki\Languages\LanguageNameUtils;
 
 /**
  * Module to get site matrix
@@ -13,18 +14,37 @@ use Language;
  */
 class ApiSiteMatrix extends ApiBase {
 
-	public function __construct( ApiMain $main, $moduleName ) {
+	/** @var LanguageNameUtils */
+	private $languageNameUtils;
+
+	/** @var LanguageFactory */
+	private $languageFactory;
+
+	/**
+	 * @param ApiMain $main
+	 * @param string $moduleName
+	 * @param LanguageNameUtils $languageNameUtils
+	 * @param LanguageFactory $languageFactory
+	 */
+	public function __construct(
+		ApiMain $main,
+		$moduleName,
+		LanguageNameUtils $languageNameUtils,
+		LanguageFactory $languageFactory
+	) {
 		parent::__construct( $main, $moduleName, 'sm' );
+		$this->languageNameUtils = $languageNameUtils;
+		$this->languageFactory = $languageFactory;
 	}
 
 	public function execute() {
 		$result = $this->getResult();
 		$matrix = new SiteMatrix();
-		$langNames = Language::fetchLanguageNames();
+		$langNames = $this->languageNameUtils->getLanguageNames();
 
 		$matrix_out = [ 'count' => $matrix->getCount() ];
 
-		$localLanguageNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
+		$localLanguageNames = $this->languageNameUtils->getLanguageNames( $this->getLanguage()->getCode() );
 
 		$params = $this->extractRequestParams();
 		$type = array_flip( $params['type'] );
@@ -59,7 +79,7 @@ class ApiSiteMatrix extends ApiBase {
 					'code' => $langhost,
 					'name' => $langNames[$lang] ?? null,
 					'site' => [],
-					'dir' => Language::factory( $langhost )->getDir()
+					'dir' => $this->languageFactory->getLanguage( $langhost )->getDir()
 				];
 				if ( isset( $localLanguageNames[$lang] ) ) {
 					$language['localname'] = $localLanguageNames[$lang];

@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\SiteMatrix;
 
-use Language;
 use LanguageCode;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Service to access
@@ -84,7 +84,9 @@ class SiteMatrix {
 			$this->langlist = $this->extractFile( $wgSiteMatrixFile );
 			$hideEmpty = false;
 		} else {
-			$this->langlist = array_keys( Language::fetchLanguageNames() );
+			$this->langlist = array_keys(
+				MediaWikiServices::getInstance()->getLanguageNameUtils()->getLanguageNames()
+			);
 			$hideEmpty = true;
 		}
 
