@@ -3,26 +3,35 @@
 namespace MediaWiki\Extension\SiteMatrix;
 
 use Html;
-use Language;
 use LanguageCode;
+use MediaWiki\Languages\LanguageNameUtils;
 use SpecialPage;
 use Xml;
 
 class SpecialSiteMatrix extends SpecialPage {
 
-	public function __construct() {
+	/** @var LanguageNameUtils */
+	private $languageNameUtils;
+
+	/**
+	 * @param LanguageNameUtils $languageNameUtils
+	 */
+	public function __construct(
+		LanguageNameUtils $languageNameUtils
+	) {
 		parent::__construct( 'SiteMatrix' );
+		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	public function execute( $par ) {
-		$langNames = Language::fetchLanguageNames();
+		$langNames = $this->languageNameUtils->getLanguageNames();
 
 		$this->setHeaders();
 		$this->outputHeader();
 
 		$matrix = new SiteMatrix();
 
-		$localLanguageNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
+		$localLanguageNames = $this->languageNameUtils->getLanguageNames( $this->getLanguage()->getCode() );
 
 		# Construct the HTML
 
