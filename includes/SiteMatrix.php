@@ -137,7 +137,7 @@ class SiteMatrix {
 			}
 		}
 
-		uasort( $this->specials, function ( $a1, $a2 ) {
+		uasort( $this->specials, static function ( $a1, $a2 ) {
 			return strcmp( $a1[0], $a2[0] );
 		} );
 
