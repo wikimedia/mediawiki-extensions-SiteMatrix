@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aleator",
+			"Jmarchn",
 			"Jordi Roqué",
 			"Paucabot",
 			"SMP",
@@ -9,12 +10,12 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix-desc": "Mostra una [[Special:SiteMatrix|llista de wikis de Wikimedia]]",
+	"sitematrix-desc": "Mostra una [[Special:SiteMatrix|llista de wikis]]",
 	"sitematrix-language": "Idioma",
 	"sitematrix-project": "Nom del projecte, enllaç interwiki entre projectes",
-	"sitematrix-other-projects": "Altres projectes",
+	"sitematrix-other-projects": "Projecte",
 	"sitematrix-total": "'''Recompte total: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "modificacions restringides"
+	"sitematrix-private": "accés restringit de lectura i escriptura",
+	"sitematrix-fishbowl": "accés d'escriptura restringit, accés total a la lectura"
 }
