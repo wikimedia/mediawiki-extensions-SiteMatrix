@@ -5,6 +5,7 @@
 			"Angrydog001",
 			"Hydra",
 			"Liuxinyu970226",
+			"Shizhao",
 			"WhitePhosphorus",
 			"Wuqianye",
 			"Xiaomingyan",
@@ -12,6 +13,8 @@
 			"列维劳德"
 		]
 	},
+	"sitematrix": "Wiki列表",
+	"sitematrix-summary": "此特殊页面列出了此wiki农场中的所有wiki。",
 	"sitematrix-desc": "显示[[Special:SiteMatrix|wiki 列表]]",
 	"sitematrix-language": "语言",
 	"sitematrix-project": "计划名称、跨计划链接以及跨维基链接",
