@@ -2,17 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"B20180",
+			"Bebiezaza",
 			"Horus",
 			"Passawuth"
 		]
 	},
-	"sitematrix-desc": "แสดง[[Special:SiteMatrix|รายการวิกิทั้งหมดของวิกิมีเดีย]]",
+	"sitematrix": "รายการวิกิ",
+	"sitematrix-summary": "หน้าพิเศษนี้แสดงรายชื่อวิกิของกลุ่มวิกินี้ทั้งหมด",
+	"sitematrix-desc": "แสดง[[Special:SiteMatrix|รายการวิกิทั้งหมด]]",
 	"sitematrix-language": "ภาษา",
 	"sitematrix-project": "ชื่อโครงการ ลิงก์ข้ามโครงการและลิงก์ข้ามวิกิ",
-	"sitematrix-other-projects": "โครงการอื่น",
+	"sitematrix-others": "โครงการอื่น",
+	"sitematrix-other-projects": "โครงการ",
 	"sitematrix-other-projects-language": "ภาษา",
 	"sitematrix-total": "'''จำนวนทั้งหมด: $1 เว็บไซต์'''",
 	"sitematrix-sitetotal": "รวม",
+	"sitematrix-closed": "อ่านได้ทั้งหมด แต่แก้ไขไม่ได้",
 	"sitematrix-private": "การเข้าถึงอ่านและเขียนถูกจำกัด",
-	"sitematrix-fishbowl": "การแก้ไขถูกจำกัด"
+	"sitematrix-fishbowl": "อ่านได้ทั้งหมด แต่การแก้ไขถูกจำกัด",
+	"sitematrix-nonglobal": "สาธารณะแต่ต้องเข้าสู่ระบบ"
 }
