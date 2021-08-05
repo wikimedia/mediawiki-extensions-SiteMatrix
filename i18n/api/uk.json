@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Base",
+			"DDPAT",
 			"Piramidion",
 			"Ата"
 		]
 	},
-	"apihelp-sitematrix-description": "Отримати список сайтів Вікімедіа.\n\nКод (технічно dbname/wikiid) — це або мовний код + код проекту для контент-проектів, або піддомен + основний домен для всіх інших.",
+	"apihelp-sitematrix-description": "Отримати список сайтів Вікімедіа.\n\nКод (технічно dbname/wikiid) — це або мовний код + код проєкту для контент-проєктів, або піддомен + основний домен для всіх інших.",
 	"apihelp-sitematrix-summary": "Отримати список сайтів Вікімедіа.",
-	"apihelp-sitematrix-extended-description": "Код (технічно — dbname/wikiid) — це або код мови + код проекту для контентних проектів, або піддомен + головний домен для всіх інших.",
-	"apihelp-sitematrix-param-type": "Фільтрувати матрицю сайтів за типом:\n;special:Окремі і багатомовні проекти Вікімедіа.\n;language:Проекти Вікімедіа із цим кодом мови.",
+	"apihelp-sitematrix-extended-description": "Код (технічно — dbname/wikiid) — це або код мови + код проєкту для контентних проєктів, або піддомен + головний домен для всіх інших.",
+	"apihelp-sitematrix-param-type": "Фільтрувати матрицю сайтів за типом:\n;special:Окремі і багатомовні проєкти Вікімедіа.\n;language:Проєкти Вікімедіа із цим кодом мови.",
 	"apihelp-sitematrix-param-state": "Фільтрувати матрицю сайтів за станом вікі:",
 	"apihelp-sitematrix-param-langprop": "Яку інформацію про мову виводити.",
 	"apihelp-sitematrix-param-siteprop": "Яку інформацію про сайт виводити.",
