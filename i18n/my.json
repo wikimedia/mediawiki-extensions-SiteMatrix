@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"sitematrix": "ဝီကီများစာရင်း",
+	"sitematrix-summary": "ဤအထူးစာမျက်နှာသည် ဤဝီကီနယ်ပယ်ရှိ ဝီကီအားလုံးကိုစာရင်းပြုစုထားသည်။",
+	"sitematrix-desc": "[[Special:SiteMatrix|ဝီကီများ၏စာရင်း]]တစ်ခုကို ပြသရန်",
+	"sitematrix-language": "ဘာသာစကား",
+	"sitematrix-project": "ပရောဂျက်အမည်၊ အင်တာပရောဂျက်လင့်ခ်နှင့် အင်တာဝီကီလင့်ခ်",
+	"sitematrix-others": "အခြား ပရောဂျက်များ",
+	"sitematrix-other-projects": "ပရောဂျက်",
+	"sitematrix-other-projects-language": "ဘာသာစကား",
+	"sitematrix-total": "'''စုစုပေါင်းအရေအတွက်: $1'''",
+	"sitematrix-sitetotal": "စုစုပေါင်း",
+	"sitematrix-closed": "ရေးသားခွင့်မရှိ၊ ဖတ်ရှုခွင့်အပြည့်အဝရှိသည်",
+	"sitematrix-private": "ဖတ်ရှုခွင့်နှင့်ရေးသားခွင့်ကို ကန့်သတ်ထားသည်",
+	"sitematrix-fishbowl": "ရေးသားခွင့်ကိုကန့်သတ်ထား၊ ဖတ်ရှုခွင့်အပြည့်အဝရှိသည်",
+	"sitematrix-nonglobal": "အများပိုင်ဖြစ်သည် သို့သော် မှတ်ပုံတင်ရန်လိုအပ်သည်"
+}
