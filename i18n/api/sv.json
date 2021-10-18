@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ayaibrahim",
 			"Lokal Profil"
 		]
 	},
-	"apihelp-sitematrix-param-langprop": "Vilken information om ett språk att returnera.",
-	"apihelp-sitematrix-param-siteprop": "Vilken information om en webbplats att returnera.",
+	"apihelp-sitematrix-description": "Få en lista över Wikimedia webbplatser.\n\nKoden (tekniskt dbname/wikiid) är antingen språkkoden + projektkoden för innehållsprojekt eller underdomänen + huvuddomänen för alla andra.",
+	"apihelp-sitematrix-summary": "Hämta Wikimedia sidlistor.",
+	"apihelp-sitematrix-extended-description": "Koden (tekniskt dbnamn/wikiid) är antingen språkkoden + projektkoden för innehållsprojekt eller underdomänen + huvuddomänen för alla andra.",
+	"apihelp-sitematrix-param-type": "Filtrera sidematrisen efter typ:\n;special:Speciella och flerspråklige Wikimedia projekt.\n;language:Wikimedia projekt under denna språkkod.",
+	"apihelp-sitematrix-param-state": "Filtrera sidematrisen efter wikiens tillstånd:",
+	"apihelp-sitematrix-param-langprop": "Vilken information om ett språk aom ska returneras.",
+	"apihelp-sitematrix-param-siteprop": "Vilken information om en sida som ska återkommas.",
 	"apihelp-sitematrix-param-limit": "Maximalt antal resultat.",
-	"apihelp-sitematrix-example-1": "Visa webbplatsmatrisen"
+	"apihelp-sitematrix-example-1": "Visa webbplats matrisen"
 }
