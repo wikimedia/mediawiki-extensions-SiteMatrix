@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Gmelfi",
 			"Sarvaturi"
 		]
 	},
-	"sitematrix-language": "Lingua"
+	"sitematrix-language": "Lingua",
+	"sitematrix-sitetotal": "Tutali"
 }
