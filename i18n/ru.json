@@ -11,9 +11,11 @@
 			"Александр Сигачёв"
 		]
 	},
+	"sitematrix": "Список вики-проектов",
 	"sitematrix-desc": "Показывает [[Special:SiteMatrix|список вики]]",
 	"sitematrix-language": "Язык",
 	"sitematrix-project": "Имя проекта, межпроектная ссылка и интервики",
+	"sitematrix-others": "Другие проекты",
 	"sitematrix-other-projects": "Проект",
 	"sitematrix-other-projects-language": "Язык",
 	"sitematrix-total": "'''Общее количество: $1'''",
