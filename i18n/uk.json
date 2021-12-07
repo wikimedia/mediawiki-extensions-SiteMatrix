@@ -8,16 +8,17 @@
 			"Renamerr",
 			"Vlad5250",
 			"Ата",
-			"Тест"
+			"Тест",
+			"DDPAT"
 		]
 	},
 	"sitematrix": "Список вікі",
 	"sitematrix-summary": "Ця спеціальна сторінка перелічує всі вікі цієї вікі-ферми.",
 	"sitematrix-desc": "Показує [[Special:SiteMatrix|список вікі]]",
 	"sitematrix-language": "Мова",
-	"sitematrix-project": "Назва проєкту, міжпроектне посилання та інтервікі-посилання",
-	"sitematrix-others": "Інші проекти",
-	"sitematrix-other-projects": "Проект",
+	"sitematrix-project": "Назва проєкту, міжпроєктне посилання та інтервікі-посилання",
+	"sitematrix-others": "Інші проєкти",
+	"sitematrix-other-projects": "Проєкт",
 	"sitematrix-other-projects-language": "Мова",
 	"sitematrix-total": "'''Загальна кількість: $1'''",
 	"sitematrix-sitetotal": "Усього",

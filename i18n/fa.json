@@ -4,13 +4,14 @@
 			"Ebraminio",
 			"Huji",
 			"Ladsgroup",
-			"Wayiran"
+			"Wayiran",
+			"Jeeputer"
 		]
 	},
 	"sitematrix-desc": "[[Special:SiteMatrix|فهرستی]] از ویکی‌های ویکی‌مدیا را نمایش می‌دهد",
 	"sitematrix-language": "زبان",
 	"sitematrix-project": "نام پروژه، پیوند میان‌پروژه و پیوند میان‌ویکی",
-	"sitematrix-other-projects": "دیگر پروژه‌ها",
+	"sitematrix-other-projects": "پروژه",
 	"sitematrix-other-projects-language": "زبان",
 	"sitematrix-total": "'''جمع کل: $1'''",
 	"sitematrix-sitetotal": "کل",

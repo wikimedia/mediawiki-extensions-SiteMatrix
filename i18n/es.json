@@ -9,11 +9,12 @@
 			"MarcoAurelio",
 			"Remember the dot",
 			"Sanbec",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Jakeukalane"
 		]
 	},
 	"sitematrix": "Lista de wikis",
-	"sitematrix-summary": "Esta página especial enumera todos los wikis de este servicio de alojamiento.",
+	"sitematrix-summary": "Esta página especial enumera todas las wikis de este servicio de alojamiento.",
 	"sitematrix-desc": "Muestra una [[Special:SiteMatrix|lista de wikis]]",
 	"sitematrix-language": "Idioma",
 	"sitematrix-project": "Nombre del proyecto, enlace interproyecto y enlace interwiki",

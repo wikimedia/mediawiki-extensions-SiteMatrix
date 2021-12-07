@@ -4,13 +4,14 @@
 			"Arystanbek",
 			"BaRaN6161 TURK",
 			"MuratTheTurkish",
-			"Watermelon juice"
+			"Watermelon juice",
+			"Cobija"
 		]
 	},
 	"apihelp-sitematrix-description": "Wikimedia siteleri listesini alın.\n\nKod (teknik olarak dbname/wikiid), içerik projeleri için dil kodu + proje kodudur veya diğerleri için alt alan adı + ana alan adıdır.",
 	"apihelp-sitematrix-summary": "Wikimedia siteleri listesini alın.",
 	"apihelp-sitematrix-extended-description": "Kod (teknik olarak dbname/wikiid) içerik projeleri için dil kodu + proje kodu veya diğerleri için alt etki alanı + ana etki alanıdır.",
-	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtrele:\n;special:Bir kapalı ve çok dilli Wikimedia projeleri.\n;language:Bu dil kodu altındaki Wikimedia projeleri.",
+	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtrele:\n;special:Bir kapalı ve çokdilli Wikimedia projeleri.\n;language:Bu dil kodu altındaki Wikimedia projeleri.",
 	"apihelp-sitematrix-param-state": "Site Matrisini viki durumuna göre filtreleyin:",
 	"apihelp-sitematrix-param-langprop": "Geri dönmek için bir dil hakkında bilgisi olan.",
 	"apihelp-sitematrix-param-siteprop": "Geri dönmek için bir site hakkında bilgi.",

@@ -11,10 +11,11 @@
 			"Omotecho",
 			"Otokoume",
 			"Shirayuki",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"RYOUMA1117"
 		]
 	},
-	"sitematrix-desc": "[[Special:SiteMatrix|ウィキメディアのウィキ一覧]]を表示する",
+	"sitematrix-desc": "[[Special:SiteMatrix|ウィキ一覧]]を表示する",
 	"sitematrix-language": "言語",
 	"sitematrix-project": "プロジェクト名、プロジェクト間リンク、ウィキ間リンク",
 	"sitematrix-other-projects": "プロジェクト",

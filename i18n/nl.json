@@ -8,10 +8,12 @@
 			"Sjoerddebruin"
 		]
 	},
-	"sitematrix-desc": "Een [[Special:SiteMatrix|lijst van Wikimedia-wiki's]]",
+	"sitematrix": "Lijst met wiki's",
+	"sitematrix-desc": "Toont een [[Special:SiteMatrix|lijst van wiki's]]",
 	"sitematrix-language": "Taal",
 	"sitematrix-project": "Naam van het project, interprojectkoppeling en interwikikoppeling",
-	"sitematrix-other-projects": "Andere projecten",
+	"sitematrix-others": "Andere projecten",
+	"sitematrix-other-projects": "Project",
 	"sitematrix-other-projects-language": "Taal",
 	"sitematrix-total": "'''Totaal aantal: $1'''",
 	"sitematrix-sitetotal": "Totaal",
