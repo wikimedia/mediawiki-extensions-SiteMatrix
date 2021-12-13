@@ -3,16 +3,18 @@
 		"authors": [
 			"Arystanbek",
 			"BaRaN6161 TURK",
-			"Watermelon juice"
+			"Watermelon juice",
+			"Cobija",
+			"MuratTheTurkish"
 		]
 	},
-	"apihelp-sitematrix-description": "Wikimedia siteleri listesi.N!\nKod (teknik olarak dbname/wikiid) ya da içerik projeler için dil kodu + proje kodu veya diğerleri için alt + ana etki alanı.",
+	"apihelp-sitematrix-description": "Wikimedia siteleri listesini alın.\n\nKod (teknik olarak dbname/wikiid), içerik projeleri için dil kodu + proje kodudur veya diğerleri için alt alan adı + ana alan adıdır.",
 	"apihelp-sitematrix-summary": "Wikimedia siteleri listesini alın.",
 	"apihelp-sitematrix-extended-description": "Kod (teknik olarak dbname/wikiid) içerik projeleri için dil kodu + proje kodu veya diğerleri için alt etki alanı + ana etki alanıdır.",
-	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtrele:\n;special:Bir kapalı ve çok dilli Wikimedia projeleri.\n;language:Bu dil kodu altındaki Wikimedia projeleri.",
-	"apihelp-sitematrix-param-state": "Site Matrisini viki durumuna göre filtrele:",
+	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtrele:\n;special:Bir kapalı ve çokdilli Wikimedia projeleri.\n;language:Bu dil kodu altındaki Wikimedia projeleri.",
+	"apihelp-sitematrix-param-state": "Site Matrisini viki durumuna göre filtreleyin:",
 	"apihelp-sitematrix-param-langprop": "Geri dönmek için bir dil hakkında bilgisi olan.",
 	"apihelp-sitematrix-param-siteprop": "Geri dönmek için bir site hakkında bilgi.",
 	"apihelp-sitematrix-param-limit": "Maksimum sonuç sayısı.",
-	"apihelp-sitematrix-example-1": "Haritayı site matris"
+	"apihelp-sitematrix-example-1": "Site matrisini gösterin"
 }

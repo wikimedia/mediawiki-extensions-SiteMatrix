@@ -3,7 +3,8 @@
 		"authors": [
 			"B20180",
 			"Horus",
-			"Passawuth"
+			"Passawuth",
+			"Bebiezaza"
 		]
 	},
 	"sitematrix": "รายชื่อวิกิของมูลนิธิวิกิมีเดีย",
@@ -16,6 +17,8 @@
 	"sitematrix-other-projects-language": "ภาษา",
 	"sitematrix-total": "'''จำนวนทั้งหมด: $1 เว็บไซต์'''",
 	"sitematrix-sitetotal": "รวม",
+	"sitematrix-closed": "อ่านได้ทั้งหมด แต่แก้ไขไม่ได้",
 	"sitematrix-private": "การเข้าถึงอ่านและเขียนถูกจำกัด",
-	"sitematrix-fishbowl": "การแก้ไขถูกจำกัด"
+	"sitematrix-fishbowl": "อ่านได้ทั้งหมด แต่การแก้ไขถูกจำกัด",
+	"sitematrix-nonglobal": "สาธารณะแต่ต้องเข้าสู่ระบบ"
 }

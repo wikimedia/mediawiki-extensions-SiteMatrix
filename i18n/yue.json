@@ -4,13 +4,14 @@
 			"Hello903hello",
 			"Ktchankt",
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"Moon0319"
 		]
 	},
 	"sitematrix": "Wikimedia嘅wiki一覽",
 	"sitematrix-summary": "呢版特別面列示全部 Wikimedia 嘅 wiki。",
 	"sitematrix-desc": "顯示[[Special:SiteMatrix|維基媒體嘅wiki一覽]]",
-	"sitematrix-language": "語言",
+	"sitematrix-language": "話",
 	"sitematrix-project": "計劃名、跨計劃連結同埋跨維基連結",
 	"sitematrix-others": "Wikimedia嘅其它計劃",
 	"sitematrix-other-projects": "第啲項目",

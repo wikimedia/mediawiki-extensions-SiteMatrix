@@ -7,19 +7,22 @@
 			"M.M.S.",
 			"Technic2",
 			"WikiPhoenix",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Ayaibrahim"
 		]
 	},
 	"sitematrix": "Lista över Wikimedias wikier",
 	"sitematrix-summary": "Denna specialsida listar alla Wikimedias wikier.",
 	"sitematrix-desc": "Visar en [[Special:SiteMatrix|lista över Wikimedias wikier]]",
 	"sitematrix-language": "Språk",
-	"sitematrix-project": "Projektnamn, interprojektlänk och interwiki-länk",
+	"sitematrix-project": "Projektnamn, interprojekt länkar och interwikies länkar",
 	"sitematrix-others": "Andra Wikimediaprojekt",
 	"sitematrix-other-projects": "Andra projekt",
 	"sitematrix-other-projects-language": "Språk",
-	"sitematrix-total": "'''Totalt antal: $1'''",
+	"sitematrix-total": "'''Total antal: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "Läs- och skrivåtkomst begränsad",
-	"sitematrix-fishbowl": "begränsad redigeringsåtkomst, full läsningstillgång"
+	"sitematrix-closed": "ingen skrivåtkomst, fullständig läsbehörighet",
+	"sitematrix-private": "Läs- och skrivåtkomst är begränsad",
+	"sitematrix-fishbowl": "begränsad skrivåtkomst, fullständig läsåtkomst",
+	"sitematrix-nonglobal": "offentligt, men registrering krävs"
 }

@@ -20,9 +20,9 @@
 	"sitematrix-others": "Autres projets de Wikimedia Foundation",
 	"sitematrix-other-projects": "Autres projets",
 	"sitematrix-other-projects-language": "Langue",
-	"sitematrix-total": "'''Total du compte : $1'''",
+	"sitematrix-total": "'''Total du compte : $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-closed": "pas d'accès en écriture, accès total en lecture",
+	"sitematrix-closed": "pas d’accès en écriture, accès total en lecture",
 	"sitematrix-private": "accès restreint en lecture et écriture",
 	"sitematrix-fishbowl": "accès restreint en écriture, accès complet en lecture",
 	"sitematrix-nonglobal": "public, mais inscription obligatoire"

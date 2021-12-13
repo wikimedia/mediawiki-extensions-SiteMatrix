@@ -6,14 +6,17 @@
 			"Piramidion",
 			"Vlad5250",
 			"Ата",
-			"Тест"
+			"Тест",
+			"Andriy.v",
+			"DDPAT",
+			"Renamerr"
 		]
 	},
 	"sitematrix": "Список проектів Вікімедіа",
 	"sitematrix-summary": "Ця спеціальна сторінка показує всі вікіпроекти Вікімедіа.",
 	"sitematrix-desc": "Показує [[Special:SiteMatrix|список проектів Вікімедіа]]",
 	"sitematrix-language": "Мова",
-	"sitematrix-project": "Назва проекту, міжпроектне посилання та інтервікі-посилання",
+	"sitematrix-project": "Назва проєкту, міжпроєктне посилання та інтервікі-посилання",
 	"sitematrix-others": "Інші проекти Вікімедіа",
 	"sitematrix-other-projects": "Інші проекти",
 	"sitematrix-other-projects-language": "Мова",

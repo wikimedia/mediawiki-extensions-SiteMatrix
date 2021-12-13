@@ -18,7 +18,7 @@
 	"sitematrix-summary": "Text for the Wikimedia sites special page \"Special:SiteMatrix\"",
 	"sitematrix-desc": "{{desc|name=SiteMatrix|url=https://www.mediawiki.org/wiki/Extension:SiteMatrix}}",
 	"sitematrix-language": "{{Identical|Language}}",
-	"sitematrix-project": "Used as table header on [[wikipedia:meta:Special:SiteMatrix|Special:SiteMatrix]]",
+	"sitematrix-project": "Used as a table column header on \"Special:SiteMatrix\"",
 	"sitematrix-others": "Used as header on [[wikipedia:meta:Special:SiteMatrix|Special:SiteMatrix]]",
 	"sitematrix-other-projects": "{{Identical|Other project}}",
 	"sitematrix-other-projects-language": "{{Identical|Language}}",

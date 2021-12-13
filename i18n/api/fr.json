@@ -3,16 +3,17 @@
 		"authors": [
 			"Framafan",
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
-	"apihelp-sitematrix-description": "Obtenir la liste des sites de Wikimédia.\n\nLe code (techniquement dbname/wikiid) est soit le code de langue + le code projet pour les projets de contenu ou le sous-domaine + le domaine principal pour tous les autres.",
-	"apihelp-sitematrix-summary": "Obtenir la liste des sites Wikimedia.",
-	"apihelp-sitematrix-extended-description": "Le code (techniquement, dbname/wikiid) est soit le code de la langue + le code du projet pour les projets de contenu, ou le sous-domaine + le domaine principal pour tous les autres.",
-	"apihelp-sitematrix-param-type": "Filtrer la Matrice de site par type :\n;special:Projets Wikimédia spécifiques ou multilingues.\n;language:Projets Wikimédia sous ce code de langue.",
-	"apihelp-sitematrix-param-state": "Filtrer la matrice de site selon l'état du wiki :",
-	"apihelp-sitematrix-param-langprop": "Quelle information renvoyer sur une langue.",
-	"apihelp-sitematrix-param-siteprop": "Quelle information renvoyer sur un site.",
+	"apihelp-sitematrix-description": "Obtenir la liste des sites de Wikimédia.\n\nLe code (techniquement dbname/wikiid) est soit le code de langue + le code projet pour les projets de contenu, soit le sous-domaine + le domaine principal pour tous les autres.",
+	"apihelp-sitematrix-summary": "Obtenir la liste des sites de Wikimedia.",
+	"apihelp-sitematrix-extended-description": "Le code (techniquement, dbname/wikiid) est soit le code de la langue + le code du projet pour les projets de contenu, soit le sous-domaine + le domaine principal pour tous les autres.",
+	"apihelp-sitematrix-param-type": "Filtrer la matrice des sites par type :\n; special\n: Projets Wikimedia spécifiques ou multilingues.\n; language\n: Projets Wikimedia sous ce code de langue.",
+	"apihelp-sitematrix-param-state": "Filtrer la matrice des sites selon l’état du wiki :",
+	"apihelp-sitematrix-param-langprop": "Quelles informations renvoyer sur une langue.",
+	"apihelp-sitematrix-param-siteprop": "Quelles informations renvoyer sur un site.",
 	"apihelp-sitematrix-param-limit": "Nombre maximum de résultats.",
-	"apihelp-sitematrix-example-1": "Afficher la matrice de site"
+	"apihelp-sitematrix-example-1": "Afficher la matrice des sites"
 }

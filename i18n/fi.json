@@ -15,6 +15,7 @@
 	"sitematrix-project": "Projektin nimi, projektienvälinen linkki ja interwiki-linkki",
 	"sitematrix-others": "Muut Wikimedia-hankkeet",
 	"sitematrix-other-projects": "Muut projektit",
+	"sitematrix-other-projects-language": "Kieli",
 	"sitematrix-total": "'''Wikejä yhteensä: $1'''",
 	"sitematrix-sitetotal": "Yhteensä",
 	"sitematrix-closed": "ei kirjoitusoikeutta, täysi lukuoikeus",

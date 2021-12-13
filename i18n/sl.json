@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"sitematrix": "Seznam Wikimedijinih wikijev",
@@ -12,7 +13,7 @@
 	"sitematrix-others": "Drugi projekti Wikimedije",
 	"sitematrix-other-projects": "Drugi projekti",
 	"sitematrix-total": "'''Skupno število: $1'''",
-	"sitematrix-sitetotal": "Skupaj",
+	"sitematrix-sitetotal": "Skupno",
 	"sitematrix-private": "omejen dostop do branja in pisanja",
 	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja"
 }

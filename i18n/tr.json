@@ -11,7 +11,8 @@
 			"Suelnur",
 			"Vito Genovese",
 			"Watermelon juice",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"MuratTheTurkish"
 		]
 	},
 	"sitematrix": "Wikimedia vikilerinin listesi",
@@ -27,5 +28,5 @@
 	"sitematrix-closed": "yazma erişimi yok, tam okuma erişimi",
 	"sitematrix-private": "okuma ve yazma erişimi kısıtlı",
 	"sitematrix-fishbowl": "sınırlı yazma erişimi, tam okuma erişimi",
-	"sitematrix-nonglobal": "halka açık fakat kayıt gerekli"
+	"sitematrix-nonglobal": "herkese açık ancak kayıt gerekli"
 }

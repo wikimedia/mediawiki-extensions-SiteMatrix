@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gmelfi",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Ajeje Brazorf"
 		]
 	},
 	"sitematrix": "Elencu di tutti li pruggetti Wikimedia ntê vari lingui",
-	"sitematrix-language": "Lingua"
+	"sitematrix-language": "Lingua",
+	"sitematrix-other-projects-language": "Lingua",
+	"sitematrix-sitetotal": "Tutali"
 }
