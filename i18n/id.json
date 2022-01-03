@@ -4,7 +4,8 @@
 			"Bennylin",
 			"IvanLanin",
 			"Rex",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Daud I.F. Argana"
 		]
 	},
 	"sitematrix": "Daftar wiki Wikimedia (Matriks situs)",
@@ -14,8 +15,11 @@
 	"sitematrix-project": "Nama proyek, pranala interproyek dan pranala interwiki",
 	"sitematrix-others": "Proyek lain Wikimedia",
 	"sitematrix-other-projects": "Proyek lain",
+	"sitematrix-other-projects-language": "Bahasa",
 	"sitematrix-total": "'''Jumlah total: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-private": "privat",
-	"sitematrix-fishbowl": "penyuntingan tidak diperbolehkan"
+	"sitematrix-closed": "tidak bisa ditulis, bisa dibaca sepenuhnya",
+	"sitematrix-private": "membaca dan menulis dibatasi",
+	"sitematrix-fishbowl": "menulis dibatasi, bisa dibaca sepenuhnya",
+	"sitematrix-nonglobal": "publik tetapi wajib mendaftar"
 }
