@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yupik"
+			"Yupik",
+			"Seipinne"
 		]
 	},
-	"sitematrix-language": "Kielâ"
+	"sitematrix-language": "Kielâ",
+	"sitematrix-other-projects-language": "Kielâ"
 }
