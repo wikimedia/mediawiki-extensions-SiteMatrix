@@ -7,6 +7,7 @@ use ApiMain;
 use ApiResult;
 use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
+use Wikimedia\ParamValidator\TypeDef\IntegerDef;
 
 /**
  * Module to get site matrix
@@ -248,9 +249,9 @@ class ApiSiteMatrix extends ApiBase {
 			'limit' => [
 				ApiBase::PARAM_DFLT => 5000,
 				ApiBase::PARAM_TYPE => 'limit',
-				ApiBase::PARAM_MIN => 1,
-				ApiBase::PARAM_MAX => 5000,
-				ApiBase::PARAM_MAX2 => 5000,
+				IntegerDef::PARAM_MIN => 1,
+				IntegerDef::PARAM_MAX => 5000,
+				IntegerDef::PARAM_MAX2 => 5000,
 			],
 			'continue' => [
 				ApiBase::PARAM_HELP_MSG => 'api-help-param-continue',
