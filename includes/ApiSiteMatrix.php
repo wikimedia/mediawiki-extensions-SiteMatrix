@@ -7,6 +7,7 @@ use ApiMain;
 use ApiResult;
 use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
+use Wikimedia\ParamValidator\ParamValidator;
 use Wikimedia\ParamValidator\TypeDef\IntegerDef;
 
 /**
@@ -206,49 +207,49 @@ class ApiSiteMatrix extends ApiBase {
 	public function getAllowedParams() {
 		return [
 			'type' => [
-				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => [
+				ParamValidator::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => [
 					'special',
 					'language'
 				],
-				ApiBase::PARAM_DFLT => 'special|language',
+				ParamValidator::PARAM_DEFAULT => 'special|language',
 			],
 			'state' => [
-				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => [
+				ParamValidator::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => [
 					'all',
 					'closed',
 					'private',
 					'fishbowl',
 					'nonglobal',
 				],
-				ApiBase::PARAM_DFLT => 'all',
+				ParamValidator::PARAM_DEFAULT => 'all',
 			],
 			'langprop' => [
-				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => [
+				ParamValidator::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => [
 					'code',
 					'name',
 					'site',
 					'dir',
 					'localname',
 				],
-				ApiBase::PARAM_DFLT => 'code|name|site|dir|localname',
+				ParamValidator::PARAM_DEFAULT => 'code|name|site|dir|localname',
 			],
 			'siteprop' => [
-				ApiBase::PARAM_ISMULTI => true,
-				ApiBase::PARAM_TYPE => [
+				ParamValidator::PARAM_ISMULTI => true,
+				ParamValidator::PARAM_TYPE => [
 					'url',
 					'dbname',
 					'code',
 					'lang',
 					'sitename',
 				],
-				ApiBase::PARAM_DFLT => 'url|dbname|code|sitename',
+				ParamValidator::PARAM_DEFAULT => 'url|dbname|code|sitename',
 			],
 			'limit' => [
-				ApiBase::PARAM_DFLT => 5000,
-				ApiBase::PARAM_TYPE => 'limit',
+				ParamValidator::PARAM_DEFAULT => 5000,
+				ParamValidator::PARAM_TYPE => 'limit',
 				IntegerDef::PARAM_MIN => 1,
 				IntegerDef::PARAM_MAX => 5000,
 				IntegerDef::PARAM_MAX2 => 5000,
