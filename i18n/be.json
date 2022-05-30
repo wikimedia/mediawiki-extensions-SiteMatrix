@@ -1,11 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chadyka",
 			"Yury Tarasievich",
 			"Дзяніс Тутэйшы",
 			"לערי ריינהארט"
 		]
 	},
+	"sitematrix": "Спіс вікі-пляцовак",
+	"sitematrix-desc": "Паказвае [[Special:SiteMatrix|спіс вікі-пляцовак]]",
 	"sitematrix-language": "Мова",
-	"sitematrix-project": "Назва праекта, спасылка між праектамі і інтэрвікі-спасылка"
+	"sitematrix-project": "Назва праекта, спасылка між праектамі і інтэрвікі-спасылка",
+	"sitematrix-others": "Іншыя праекты",
+	"sitematrix-other-projects": "Праект",
+	"sitematrix-other-projects-language": "Мова",
+	"sitematrix-total": "'''Агульная колькасць: $1'''",
+	"sitematrix-sitetotal": "Усяго",
+	"sitematrix-private": "доступ на чытанне і запіс абмежаваны",
+	"sitematrix-fishbowl": "доступ на запіс абмежаваны, поўны доступ для чытання"
 }
