@@ -3,11 +3,17 @@
 		"authors": [
 			"Yury Tarasievich",
 			"Дзяніс Тутэйшы",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Chadyka"
 		]
 	},
 	"sitematrix": "Усе праекты Фонду Вікімедыя",
 	"sitematrix-language": "Мова",
 	"sitematrix-project": "Назва праекта, спасылка між праектамі і інтэрвікі-спасылка",
-	"sitematrix-others": "Іншыя праекты Фонду Вікімедыя"
+	"sitematrix-others": "Іншыя праекты Фонду Вікімедыя",
+	"sitematrix-other-projects-language": "Мова",
+	"sitematrix-total": "'''Агульная колькасць: $1'''",
+	"sitematrix-sitetotal": "Усяго",
+	"sitematrix-private": "доступ на чытанне і запіс абмежаваны",
+	"sitematrix-fishbowl": "доступ на запіс абмежаваны, поўны доступ для чытання"
 }
