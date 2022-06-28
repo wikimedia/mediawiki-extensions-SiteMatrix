@@ -80,7 +80,7 @@ class SiteMatrix {
 
 		$wgConf->loadFullData();
 
-		if ( file_exists( $wgSiteMatrixFile ) ) {
+		if ( $wgSiteMatrixFile !== null && file_exists( $wgSiteMatrixFile ) ) {
 			$this->langlist = $this->extractFile( $wgSiteMatrixFile );
 			$hideEmpty = false;
 		} else {
