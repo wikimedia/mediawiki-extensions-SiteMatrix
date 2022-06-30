@@ -5,9 +5,11 @@
 			"Huji",
 			"Jeeputer",
 			"Ladsgroup",
-			"Wayiran"
+			"Wayiran",
+			"Beginneruser"
 		]
 	},
+	"sitematrix": "فهرست ویکی‌ها",
 	"sitematrix-desc": "[[Special:SiteMatrix|فهرستی]] از ویکی‌های ویکی‌مدیا را نمایش می‌دهد",
 	"sitematrix-language": "زبان",
 	"sitematrix-project": "نام پروژه، پیوند میان‌پروژه و پیوند میان‌ویکی",
