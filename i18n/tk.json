@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanberke"
+			"Hanberke",
+			"TayfunEt."
 		]
 	},
 	"sitematrix": "Wikimedia wikileriniň sanawy",
@@ -10,8 +11,11 @@
 	"sitematrix-language": "Dil",
 	"sitematrix-project": "Taslamanyň ady, taslama-ara çykgyt we wikiara çykgyt",
 	"sitematrix-others": "Wikimedianyň başga taslamalary",
+	"sitematrix-other-projects-language": "Dil",
 	"sitematrix-total": "'''Jemi sany: $1'''",
 	"sitematrix-sitetotal": "Jemi",
+	"sitematrix-closed": "ýazmaga giriş ýok, doly okamak mümkinçiligi",
 	"sitematrix-private": "hususy",
-	"sitematrix-fishbowl": "redaktirlemek çäklendirildi"
+	"sitematrix-fishbowl": "redaktirlemek çäklendirildi",
+	"sitematrix-nonglobal": "köpçülik, ýöne hasaba alynmagy talap edilýär"
 }
