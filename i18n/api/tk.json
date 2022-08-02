@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"TayfunEt."
+		]
+	},
+	"apihelp-sitematrix-summary": "Wikimedia saýtlarynyň sanawyny alyň.",
+	"apihelp-sitematrix-param-state": "Wiki ýagdaýy boýunça Saýt Matrisasyny süzüň:",
+	"apihelp-sitematrix-param-langprop": "Yzyna gaýdyp boljak dil hakda haýsy maglumatlar.",
+	"apihelp-sitematrix-param-siteprop": "Haýsy sahypa dolanmalydygy barada.",
+	"apihelp-sitematrix-param-limit": "Netijeleriň iň köp sany.",
+	"apihelp-sitematrix-example-1": "Sahypanyň matrisasyny görkeziň"
+}
