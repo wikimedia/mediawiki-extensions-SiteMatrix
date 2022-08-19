@@ -1,15 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aram",
 			"Asoxor",
 			"Calak",
 			"Muhammed taha"
 		]
 	},
-	"sitematrix-desc": "[[Special:SiteMatrix|لیستێکی ویکییەکانی ویکیمیدیا]] نیشان دەدات",
+	"sitematrix": "پێڕستی ویکییەکان",
+	"sitematrix-desc": "[[Special:SiteMatrix|لیستێکی ویکییەکان]] نیشان دەدات",
 	"sitematrix-language": "زمان",
 	"sitematrix-project": "ناوی پرۆژە، بەستەرکانی نێوانپرۆژە و بەستەرەکانی نێوانویکی",
-	"sitematrix-other-projects": "پرۆژەکانی تر",
+	"sitematrix-others": "پرۆژەکانی تر",
+	"sitematrix-other-projects": "پرۆژە",
+	"sitematrix-other-projects-language": "زمان",
 	"sitematrix-total": "'''ژمارەی سەرجەم: $1'''",
 	"sitematrix-sitetotal": "سەرجەم",
 	"sitematrix-private": "تایبەت",
