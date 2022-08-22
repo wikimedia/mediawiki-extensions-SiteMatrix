@@ -3,7 +3,8 @@
 		"authors": [
 			"Asoxor",
 			"Calak",
-			"Muhammed taha"
+			"Muhammed taha",
+			"Aram"
 		]
 	},
 	"sitematrix": "پێرستی ویکییەکانی ویکیمیدیا",
@@ -13,6 +14,7 @@
 	"sitematrix-project": "ناوی پرۆژە، بەستەرکانی نێوانپرۆژە و بەستەرەکانی نێوانویکی",
 	"sitematrix-others": "پرۆژەکانی دیکەی ویکیمیدیا",
 	"sitematrix-other-projects": "پرۆژەکانی تر",
+	"sitematrix-other-projects-language": "زمان",
 	"sitematrix-total": "'''ژمارەی سەرجەم: $1'''",
 	"sitematrix-sitetotal": "سەرجەم",
 	"sitematrix-private": "تایبەت",
