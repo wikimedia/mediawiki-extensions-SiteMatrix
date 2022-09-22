@@ -11,10 +11,13 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix-desc": "Apresenta uma [[Special:SiteMatrix|lista de wikis Wikimedia]]",
+	"sitematrix": "Lista de wikis",
+	"sitematrix-summary": "Esta página especial lista todas as wikis deste serviço de alojamento.",
+	"sitematrix-desc": "Apresenta uma [[Special:SiteMatrix|lista de wikis]]",
 	"sitematrix-language": "Língua",
 	"sitematrix-project": "Nome do projeto, hiperligação interprojetos e hiperligação interwikis",
-	"sitematrix-other-projects": "Outros projetos",
+	"sitematrix-others": "Outros projetos",
+	"sitematrix-other-projects": "Projeto",
 	"sitematrix-other-projects-language": "Língua",
 	"sitematrix-total": "'''Contagem total: $1'''",
 	"sitematrix-sitetotal": "Total",
