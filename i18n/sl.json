@@ -5,12 +5,13 @@
 			"Eleassar"
 		]
 	},
-	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam wikijev]]",
+	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam vikijev]]",
 	"sitematrix-language": "Jezik",
-	"sitematrix-project": "Ime projekta, medprojektna povezava in povezava interwiki",
+	"sitematrix-project": "Ime projekta, medprojektna povezava in interviki povezava",
 	"sitematrix-other-projects": "Projekt",
 	"sitematrix-total": "'''Skupno število: $1'''",
 	"sitematrix-sitetotal": "Skupno",
 	"sitematrix-private": "omejen dostop do branja in pisanja",
-	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja"
+	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja",
+	"sitematrix-nonglobal": "(javno, vendar je potrebna registracija)"
 }
