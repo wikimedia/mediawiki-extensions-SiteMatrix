@@ -9,11 +9,12 @@
 	"sitematrix-summary": "Ta posebna stran navaja vse Wikimedijine wikije.",
 	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam Wikimedijinih wikijev]]",
 	"sitematrix-language": "Jezik",
-	"sitematrix-project": "Ime projekta, medprojektna povezava in povezava interwiki",
+	"sitematrix-project": "Ime projekta, medprojektna povezava in interviki povezava",
 	"sitematrix-others": "Drugi projekti Wikimedije",
 	"sitematrix-other-projects": "Drugi projekti",
 	"sitematrix-total": "'''Skupno število: $1'''",
 	"sitematrix-sitetotal": "Skupno",
 	"sitematrix-private": "omejen dostop do branja in pisanja",
-	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja"
+	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja",
+	"sitematrix-nonglobal": "(javno, vendar je potrebna registracija)"
 }
