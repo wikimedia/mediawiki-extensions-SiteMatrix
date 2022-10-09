@@ -113,7 +113,6 @@ class SiteMatrix {
 		# Tabulate the matrix
 		$this->specials = [];
 		$this->matrix = [];
-		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 		foreach ( $wgLocalDatabases as $db ) {
 			# Find suffix
 			$found = false;
@@ -157,7 +156,6 @@ class SiteMatrix {
 			$this->langlist = array_keys( $xLanglist );
 		}
 
-		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 		$this->count = count( $wgLocalDatabases );
 	}
 
