@@ -21,6 +21,10 @@ class Hooks {
 		$matrix = new SiteMatrix();
 
 		list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );
+		if ( $site === null ) {
+			// No such site
+			return;
+		}
 
 		if ( $matrix->isClosed( $lang, $site ) ) {
 			$results['closed'] = '';

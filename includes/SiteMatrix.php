@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\SiteMatrix;
 
+use InvalidArgumentException;
 use LanguageCode;
 use MediaWiki\MediaWikiServices;
 
@@ -133,7 +134,9 @@ class SiteMatrix {
 			}
 			if ( !$found ) {
 				list( $major, $minor ) = $wgConf->siteFromDB( $db );
-				$this->specials[] = [ str_replace( '-', '_', $minor ), $major ];
+				if ( $major !== null ) {
+					$this->specials[] = [ str_replace( '-', '_', $minor ), $major ];
+				}
 			}
 		}
 
@@ -277,6 +280,9 @@ class SiteMatrix {
 		$dbname = $this->getDBName( $lang, $dbSuffix );
 
 		list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
+		if ( $major === null ) {
+			throw new InvalidArgumentException( "Invalid DB name \"$dbname\"" );
+		}
 		$minor = str_replace( '_', '-', $minor );
 
 		return $wgConf->get(
@@ -323,6 +329,10 @@ class SiteMatrix {
 			global $wgConf;
 
 			list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
+			if ( $major === null ) {
+				// No such suffix
+				return false;
+			}
 
 			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, [ 'site' => $major, 'lang' => $minor ] ) ) {
 				return true;
