@@ -12,8 +12,11 @@
 	"sitematrix-project": "Nomine del projecto, ligamine interprojecto e ligamine interwiki",
 	"sitematrix-others": "Altere projectos de Wikimedia",
 	"sitematrix-other-projects": "Altere projectos",
+	"sitematrix-other-projects-language": "Lingua",
 	"sitematrix-total": "'''Total: $1'''",
 	"sitematrix-sitetotal": "Total",
+	"sitematrix-closed": "sin accesso de scriptura, accesso complete de lectura",
 	"sitematrix-private": "accesso restringite de lectura e scriptura",
-	"sitematrix-fishbowl": "accesso restringite de scriptura, accesso complete de lectura"
+	"sitematrix-fishbowl": "accesso restringite de scriptura, accesso complete de lectura",
+	"sitematrix-nonglobal": "public, ma registration obligatori"
 }

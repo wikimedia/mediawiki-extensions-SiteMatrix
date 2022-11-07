@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-sitematrix-description": "Obtener le lista del sitos de Wikimedia.\n\nLe codice (technicamente dbname/wikiid) es o le codice de lingua + codice de projecto pro le projectos de contento, o le subdominio + dominio principal pro tote le alteres.",
+	"apihelp-sitematrix-summary": "Obtener le lista del sitos de Wikimedia.",
+	"apihelp-sitematrix-extended-description": "Le codice (technicamente dbname/wikiid) es o le codice de lingua + codice de projecto pro le projectos de contento, o le subdominio + dominio principal pro tote le alteres.",
+	"apihelp-sitematrix-param-type": "Filtrar le matrice de sitos per typo:\n;special:Projectos Wikimedia specific o multilingue.\n;language:Projectos Wikimedia sub iste codice de lingua.",
+	"apihelp-sitematrix-param-state": "Filtrar le matrice de sitos per stato del wiki:",
+	"apihelp-sitematrix-param-langprop": "Qual information restituer sur un lingua.",
+	"apihelp-sitematrix-param-siteprop": "Qual information restituer sur un sito.",
+	"apihelp-sitematrix-param-limit": "Numero maxime de resultatos.",
+	"apihelp-sitematrix-example-1": "Monstrar le matrice de sitos"
+}
