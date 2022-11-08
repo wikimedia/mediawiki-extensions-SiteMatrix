@@ -5,13 +5,17 @@
 			"Maroen1990",
 			"Meno25",
 			"بدارين",
-			"ديفيد"
+			"ديفيد",
+			"Ideophagous"
 		]
 	},
-	"sitematrix-desc": "يعرض [[Special:SiteMatrix|قائمة بويكيات ويكيميديا]]",
+	"sitematrix": "قائمة الويكيات",
+	"sitematrix-summary": "تسرد هذه الصفحة الخاصة جميع مواقع الويكي الموجودة في مزرعة الويكي هذه.",
+	"sitematrix-desc": "يعرض [[Special:SiteMatrix|قائمة مواقع الويكي]]",
 	"sitematrix-language": "اللغة",
 	"sitematrix-project": "اسم المشروع، وصلة المشروع الداخلية ووصلة الإنترويكي",
-	"sitematrix-other-projects": "المشاريع الأخرى",
+	"sitematrix-others": "مشاريع أخرى",
+	"sitematrix-other-projects": "المشروع",
 	"sitematrix-other-projects-language": "اللغة",
 	"sitematrix-total": "'''إجمالي العدد: $1'''",
 	"sitematrix-sitetotal": "الإجمالي",
