@@ -74,7 +74,7 @@ class SpecialSiteMatrix extends SpecialPage {
 
 			if ( isset( $localLanguageNames[$lang] ) &&
 				strlen( $localLanguageNames[$lang] ) &&
-				$langDisplay != $localLanguageNames[$lang]
+				$langNames[$lang] !== $localLanguageNames[$lang]
 			) {
 				$langDisplay .= $this->msg( 'word-separator' )->escaped() .
 					$this->msg( 'parentheses', $localLanguageNames[$lang] )->escaped();
