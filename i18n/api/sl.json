@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-sitematrix-summary": "Pridobite seznam spletnih mest Wikipedije.",
+	"apihelp-sitematrix-extended-description": "Koda (tehnično dbnsme/wikiid) je bodisi oznaka jezika + oznaka projekta za vsebinske projekte ali poddomena + glavna domena za vse druge.",
+	"apihelp-sitematrix-param-state": "Filtrirajte matrico spletnih mest po statusu vikija"
+}

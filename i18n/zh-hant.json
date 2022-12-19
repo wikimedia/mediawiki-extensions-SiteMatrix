@@ -7,7 +7,9 @@
 			"Kly",
 			"Mark85296341",
 			"Waihorace",
-			"Wwycheuk"
+			"Wwycheuk",
+			"列维劳德",
+			"捍粵者"
 		]
 	},
 	"sitematrix": "維基媒體的 Wiki 清單",
@@ -21,7 +23,7 @@
 	"sitematrix-total": "'''合計：$1'''",
 	"sitematrix-sitetotal": "總計",
 	"sitematrix-closed": "不能寫入，但能完整讀取",
-	"sitematrix-private": "讀寫權限被限制",
+	"sitematrix-private": "讀寫受限",
 	"sitematrix-fishbowl": "限制寫入，但能完整讀取",
 	"sitematrix-nonglobal": "公開；但需註冊"
 }
