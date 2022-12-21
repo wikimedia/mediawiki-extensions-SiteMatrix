@@ -6,12 +6,12 @@
 			"לערי ריינהארט"
 		]
 	},
-	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|spisak Vikimedijinih vikija]].",
+	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|listu vikija]].",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Ime projekta, međuprojekatska veza i međuviki veza.",
-	"sitematrix-other-projects": "Ostali projekti",
+	"sitematrix-other-projects": "Projekat",
 	"sitematrix-total": "'''Ukupan zbir: $1.'''",
 	"sitematrix-sitetotal": "ukupno",
-	"sitematrix-private": "privatno",
-	"sitematrix-fishbowl": "zabrana menjanja"
+	"sitematrix-private": "ograničen pristup za čitanje i pisanje",
+	"sitematrix-fishbowl": "ograničen pristup za pisanje, omogućeno čitanje"
 }
