@@ -5,12 +5,17 @@
 			"Eleassar"
 		]
 	},
+	"sitematrix": "Seznam vikijev",
+	"sitematrix-summary": "Na tej posebni strani  so navedeni vsi vikiji v tej vikifarmi.",
 	"sitematrix-desc": "Prikaže [[Special:SiteMatrix|seznam vikijev]]",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Ime projekta, medprojektna povezava in interviki povezava",
+	"sitematrix-others": "Drugi projekti",
 	"sitematrix-other-projects": "Projekt",
+	"sitematrix-other-projects-language": "Jezik",
 	"sitematrix-total": "'''Skupno število: $1'''",
 	"sitematrix-sitetotal": "Skupno",
+	"sitematrix-closed": "brez dostopa za pisanje, poln dostop za branje",
 	"sitematrix-private": "omejen dostop do branja in pisanja",
 	"sitematrix-fishbowl": "omejen dostop do pisanja, poln dostop do branja",
 	"sitematrix-nonglobal": "(javno, vendar je potrebna registracija)"
