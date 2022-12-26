@@ -15,6 +15,6 @@
 	"sitematrix-other-projects": "Ostali projekti",
 	"sitematrix-total": "'''Ukupan zbir: $1.'''",
 	"sitematrix-sitetotal": "ukupno",
-	"sitematrix-private": "privatno",
-	"sitematrix-fishbowl": "zabrana menjanja"
+	"sitematrix-private": "ograničen pristup za čitanje i pisanje",
+	"sitematrix-fishbowl": "ograničen pristup za pisanje, omogućeno čitanje"
 }
