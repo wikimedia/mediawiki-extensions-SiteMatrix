@@ -4,7 +4,9 @@
 			"Eleassar"
 		]
 	},
+	"apihelp-sitematrix-description": "Pridobite seznam mest Wikimedie.\n\nKoda (tehnično dbname/wikiid) je oznaka jezika + oznaka projekta za vsebinske projekte ali poddomena + glavna domena za vse preostale.",
 	"apihelp-sitematrix-summary": "Pridobite seznam spletnih mest Wikipedije.",
 	"apihelp-sitematrix-extended-description": "Koda (tehnično dbnsme/wikiid) je bodisi oznaka jezika + oznaka projekta za vsebinske projekte ali poddomena + glavna domena za vse druge.",
-	"apihelp-sitematrix-param-state": "Filtrirajte matriko projektov po statusu vikija:"
+	"apihelp-sitematrix-param-state": "Filtrirajte matriko projektov po statusu vikija:",
+	"apihelp-sitematrix-example-1": "Prikaže matriko mest"
 }
