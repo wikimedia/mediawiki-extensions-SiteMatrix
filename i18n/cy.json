@@ -1,15 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Lloffiwr"
 		]
 	},
-	"sitematrix-desc": "Yn dangos [[Special:SiteMatrix|rhestr wicïau Wikimedia]]",
+	"sitematrix": "Rhestr o wiciau",
+	"sitematrix-desc": "Mae hwn yn dangos [[Special:SiteMatrix|rhestr wicïau]]",
 	"sitematrix-language": "Iaith",
 	"sitematrix-project": "Enw'r prosiect, rhagddodiad cysylltu rhyngprosiect a rhagddodiad cysylltu rhyngwici",
-	"sitematrix-other-projects": "Prosiectau eraill",
+	"sitematrix-others": "Prosiectau eraill",
+	"sitematrix-other-projects": "Prosiect",
+	"sitematrix-other-projects-language": "Iaith",
 	"sitematrix-total": "'''Nifer y cwbl i gyd: $1'''",
 	"sitematrix-sitetotal": "Cyfanswm",
-	"sitematrix-private": "preifat",
-	"sitematrix-fishbowl": "cyfyngiadau ar olygu"
+	"sitematrix-private": "mynediad darllen ac ysgrifennu cyfyngedig",
+	"sitematrix-fishbowl": "mynediad cyfyngedig i ysgrifennu, mynediad darllen llawn"
 }
