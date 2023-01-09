@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Afalau"
 		]
 	},
 	"sitematrix": "Rhestr holl brosiectau Wikimedia",
@@ -11,8 +12,9 @@
 	"sitematrix-project": "Enw'r prosiect, rhagddodiad cysylltu rhyngprosiect a rhagddodiad cysylltu rhyngwici",
 	"sitematrix-others": "Prosiectau eraill Wikimedia",
 	"sitematrix-other-projects": "Prosiectau eraill",
+	"sitematrix-other-projects-language": "Iaith",
 	"sitematrix-total": "'''Nifer y cwbl i gyd: $1'''",
 	"sitematrix-sitetotal": "Cyfanswm",
-	"sitematrix-private": "preifat",
-	"sitematrix-fishbowl": "cyfyngiadau ar olygu"
+	"sitematrix-private": "mynediad darllen ac ysgrifennu cyfyngedig",
+	"sitematrix-fishbowl": "mynediad cyfyngedig i ysgrifennu, mynediad darllen llawn"
 }
