@@ -9,18 +9,19 @@
 			"Seb35",
 			"Sherbrooke",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Pols12"
 		]
 	},
 	"sitematrix": "Liste des wikis",
 	"sitematrix-summary": "Cette page spéciale liste tous les wikis dans cette ferme de serveurs de wiki.",
-	"sitematrix-desc": "Affiche une [[Special:SiteMatrix|liste de wikis]]",
+	"sitematrix-desc": "Affiche une [[Special:SiteMatrix|liste des wikis]]",
 	"sitematrix-language": "Langue",
 	"sitematrix-project": "Nom du projet, lien interprojet et lien interwiki",
 	"sitematrix-others": "Autres projets",
 	"sitematrix-other-projects": "Projet",
 	"sitematrix-other-projects-language": "Langue",
-	"sitematrix-total": "'''Total du compte : $1'''",
+	"sitematrix-total": "'''Nombre total : $1'''",
 	"sitematrix-sitetotal": "Total",
 	"sitematrix-closed": "pas d’accès en écriture, accès total en lecture",
 	"sitematrix-private": "accès restreint en lecture et écriture",
