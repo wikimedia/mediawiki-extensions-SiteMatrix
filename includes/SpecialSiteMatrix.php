@@ -54,10 +54,6 @@ class SpecialSiteMatrix extends SpecialPage {
 
 		# Bulk of table
 		foreach ( $matrix->getLangList() as $lang ) {
-			if ( in_array( $lang, [ 'cz', 'dk', 'epo', 'jp', 'nan', 'nb' ] ) ) {
-				continue;
-			}
-
 			$s .= '<tr>';
 			$attribs = [];
 			if ( isset( $localLanguageNames[$lang] ) ) {
