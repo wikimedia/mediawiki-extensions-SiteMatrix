@@ -3,6 +3,7 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Millosh",
 			"Nikola Smolenski",
 			"Sasa Stefanovic",
@@ -11,12 +12,17 @@
 			"לערי ריינהארט"
 		]
 	},
+	"sitematrix": "Списак свих викија",
 	"sitematrix-desc": "Приказује [[Special:SiteMatrix|листу викија]].",
 	"sitematrix-language": "Језик",
 	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
+	"sitematrix-others": "Други пројекти",
 	"sitematrix-other-projects": "Пројекат",
+	"sitematrix-other-projects-language": "Језик",
 	"sitematrix-total": "'''Укупан збир: $1.'''",
-	"sitematrix-sitetotal": "укупно",
+	"sitematrix-sitetotal": "Укупно",
+	"sitematrix-closed": "само за читање",
 	"sitematrix-private": "ограничен приступ за читање и писање",
-	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање"
+	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање",
+	"sitematrix-nonglobal": "јавно али потребна регистрација"
 }
