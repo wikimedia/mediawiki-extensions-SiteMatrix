@@ -7,7 +7,9 @@
 			"Sasa Stefanovic",
 			"Жељко Тодоровић",
 			"Сербијана",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Kizule",
+			"Milicevic01"
 		]
 	},
 	"sitematrix": "Листа викија Викимедије",
@@ -17,8 +19,11 @@
 	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
 	"sitematrix-others": "Други пројекти Викимедије.",
 	"sitematrix-other-projects": "Други пројекти",
+	"sitematrix-other-projects-language": "Језик",
 	"sitematrix-total": "'''Укупан збир: $1.'''",
-	"sitematrix-sitetotal": "укупно",
+	"sitematrix-sitetotal": "Укупно",
+	"sitematrix-closed": "само за читање",
 	"sitematrix-private": "ограничен приступ за читање и писање",
-	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање"
+	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање",
+	"sitematrix-nonglobal": "јавно али потребна регистрација"
 }
