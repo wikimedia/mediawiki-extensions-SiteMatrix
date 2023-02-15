@@ -9,6 +9,7 @@
 		]
 	},
 	"sitematrix": "Lijst met wiki's",
+	"sitematrix-summary": "Deze speciale pagina geeft een overzicht van alle wiki's in deze wikifarm.",
 	"sitematrix-desc": "Toont een [[Special:SiteMatrix|lijst van wiki's]]",
 	"sitematrix-language": "Taal",
 	"sitematrix-project": "Naam van het project, interprojectkoppeling en interwikikoppeling",
