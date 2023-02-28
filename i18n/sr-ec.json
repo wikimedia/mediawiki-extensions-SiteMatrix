@@ -13,6 +13,7 @@
 		]
 	},
 	"sitematrix": "Списак свих викија",
+	"sitematrix-summary": "Ова посебна страница наводи све викије у овој вики фарми.",
 	"sitematrix-desc": "Приказује [[Special:SiteMatrix|листу викија]].",
 	"sitematrix-language": "Језик",
 	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
