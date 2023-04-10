@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Albertas",
-			"Eitvys200"
+			"Eitvys200",
+			"Nokeoo"
 		]
 	},
 	"apihelp-sitematrix-description": "Gauti Vikimedijos tinklapių sąrašą.\n\nKodas (techniškai dbname/wikiid) yra arba kalbos kodas + turinio projekto kodas arba subdomenas + pagrindinis domenas visiems kitiems.",
