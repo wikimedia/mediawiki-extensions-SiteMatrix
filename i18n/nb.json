@@ -7,9 +7,12 @@
 			"לערי ריינהארט"
 		]
 	},
+	"sitematrix": "Liste over wikier",
+	"sitematrix-summary": "Denne spesialsiden lister opp alle wikier på denne wikifarmen.",
 	"sitematrix-desc": "Viser en [[Special:SiteMatrix|liste over wikier]]",
 	"sitematrix-language": "Språk",
 	"sitematrix-project": "Prosjektets navn, interprosjektlenke og interwikilenke",
+	"sitematrix-others": "Andre prosjekter",
 	"sitematrix-other-projects": "Prosjekt",
 	"sitematrix-other-projects-language": "Språk",
 	"sitematrix-total": "'''Totalt antall: $1'''",
