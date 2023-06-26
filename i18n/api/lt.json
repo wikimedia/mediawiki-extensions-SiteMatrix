@@ -6,7 +6,6 @@
 			"Nokeoo"
 		]
 	},
-	"apihelp-sitematrix-description": "Gauti Vikimedijos tinklapių sąrašą.\n\nKodas (techniškai dbname/wikiid) yra arba kalbos kodas + turinio projekto kodas arba subdomenas + pagrindinis domenas visiems kitiems.",
 	"apihelp-sitematrix-param-type": "Filtruoti tinklapio matricą pagal tipą\n;special:Vienkartiniams ir daugiakalbiams Vikimedijos projektams.\n;language:Vikimedijos projektams su šiuo kalbos kodu.",
 	"apihelp-sitematrix-param-state": "Filtruoti Tinklapio Matricą pagal viki būseną:",
 	"apihelp-sitematrix-param-langprop": "Kurią informaciją apie kalbą grąžinti.",

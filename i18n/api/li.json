@@ -4,7 +4,6 @@
 			"Ooswesthoesbes"
 		]
 	},
-	"apihelp-sitematrix-description": "Haol Wikimedia-siteslies op.\n\nDe code (technisch dbname/wikiid) is of 'n spraokcode + projekcode veur inhawdsprojekte of subdemien + houfdemien veur alle angere.",
 	"apihelp-sitematrix-summary": "Haol de Wikimedia-siteslies op.",
 	"apihelp-sitematrix-extended-description": "De code (technisch dbname/wikiid) is of 'n spraokcode + projekcode veur inhawdsprojekte of subdemien + houfdemien veur alle angere.",
 	"apihelp-sitematrix-param-type": "Filtjer de Sitematrix bie saort:\n;special:Uitzunjerlike en mieëspraokige Wikimediaprojekte.\n;language:Wikimedia-projekte ónger dees spraokcode.",

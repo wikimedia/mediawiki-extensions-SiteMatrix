@@ -7,7 +7,6 @@
 			"Wladek92"
 		]
 	},
-	"apihelp-sitematrix-description": "Obtenir la liste des sites de Wikimédia.\n\nLe code (techniquement dbname/wikiid) est soit le code de langue + le code projet pour les projets de contenu, soit le sous-domaine + le domaine principal pour tous les autres.",
 	"apihelp-sitematrix-summary": "Obtenir la liste des sites de Wikimedia.",
 	"apihelp-sitematrix-extended-description": "Le code (techniquement, dbname/wikiid) est soit le code de la langue + le code du projet pour les projets de contenu, soit le sous-domaine + le domaine principal pour tous les autres.",
 	"apihelp-sitematrix-param-type": "Filtrer la matrice des sites par type :\n; special\n: Projets Wikimedia spécifiques ou multilingues.\n; language\n: Projets Wikimedia sous ce code de langue.",

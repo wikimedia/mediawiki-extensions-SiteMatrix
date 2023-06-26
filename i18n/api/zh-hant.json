@@ -5,7 +5,6 @@
 			"Kly"
 		]
 	},
-	"apihelp-sitematrix-description": "取得維基媒體網站清單。\n\n代碼（技術上是 dbname/wikiid）為語言代碼 + 用於內容專案的專案代碼，或是子網域 + 用於其它的主網域。",
 	"apihelp-sitematrix-summary": "取得維基媒體網站清單。",
 	"apihelp-sitematrix-extended-description": "代碼（技術上是 dbname/wikiid）為語言代碼 + 用於內容專案的專案代碼，或是子網域 + 用於其它的主網域。",
 	"apihelp-sitematrix-param-type": "按類型篩選網站母體：\n;special：特有且多語言的維基媒體專案。\n;language：此語言代碼下的維基媒體專案。",

@@ -4,7 +4,6 @@
 			"Joetaras"
 		]
 	},
-	"apihelp-sitematrix-description": "Pigghie l'elenghe de le site de MediaUicchi.\n\n'U codece (tecnicamende dbname/wikiid) jè 'u codece d'a lènghe + 'u codece d'u proggette pe le pruggette de condenute o le sottodominie + dominie prengepàle pe tutte l'otre.",
 	"apihelp-sitematrix-summary": "Pigghie l'elenghe de le site de Uicchimedie",
 	"apihelp-sitematrix-extended-description": "'U codece (tecnicamende dbname/wikiid) jè 'u codece d'a lènghe + 'u codece d'u proggette pe le pruggette de condenute o le sottodominie + dominie prengepàle pe tutte l'otre.",
 	"apihelp-sitematrix-param-type": "Filtre 'a Matrice de le Site pe tipe\n;special:Pruggette Uicchimedie unece e multilènghe.\n;language:Pruggette Uicchimedie sotte a stu codece de lènghe.",

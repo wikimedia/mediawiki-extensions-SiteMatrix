@@ -4,7 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"apihelp-sitematrix-description": "Obtener le lista del sitos de Wikimedia.\n\nLe codice (technicamente dbname/wikiid) es o le codice de lingua + codice de projecto pro le projectos de contento, o le subdominio + dominio principal pro tote le alteres.",
 	"apihelp-sitematrix-summary": "Obtener le lista del sitos de Wikimedia.",
 	"apihelp-sitematrix-extended-description": "Le codice (technicamente dbname/wikiid) es o le codice de lingua + codice de projecto pro le projectos de contento, o le subdominio + dominio principal pro tote le alteres.",
 	"apihelp-sitematrix-param-type": "Filtrar le matrice de sitos per typo:\n;special:Projectos Wikimedia specific o multilingue.\n;language:Projectos Wikimedia sub iste codice de lingua.",

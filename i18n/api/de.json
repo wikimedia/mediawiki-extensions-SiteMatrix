@@ -8,7 +8,6 @@
 			"Predatorix"
 		]
 	},
-	"apihelp-sitematrix-description": "Rufe eine Liste von Wikimedia-Portalen ab.",
 	"apihelp-sitematrix-summary": "Ruft eine Liste der Wikimedia-Wikis ab.",
 	"apihelp-sitematrix-extended-description": "Der Code (genau genommen, dbname/wikiid) ist entweder der Sprachcode + Projektcode für Inhalts-Projekte oder die Subdomain + Hauptdomain für alle anderen.",
 	"apihelp-sitematrix-param-type": "Die Website-Matrix nach Typ filtern:\n;special:Einmalige und mehrsprachige Wikimedia-Projekte.\n;language:Wikimedia-Projekte unter diesem Sprachcode.",

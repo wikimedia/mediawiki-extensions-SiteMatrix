@@ -4,7 +4,6 @@
 			"Felipe L. Ewald"
 		]
 	},
-	"apihelp-sitematrix-description": "Obtenha a lista de sites da Wikimedia.\n\nO código (tecnicamente dbname/wikiid) é o código de idioma + código do projeto para projetos de conteúdo ou o subdomínio + domínio principal para todos os outros.",
 	"apihelp-sitematrix-summary": "Obter lista de sites da Wikimedia.",
 	"apihelp-sitematrix-extended-description": "O código (tecnicamente dbname/wikiid) é o código de idioma + código de projeto para projetos de conteúdo ou o subdomínio + domínio principal para todos os outros.",
 	"apihelp-sitematrix-param-type": "Filtre a Matriz do Site por tipo:\n;special:One off and multilingual Wikimedia projects.\n;idiomas: projetos Wikimedia sob este código de idioma.",

@@ -7,7 +7,6 @@
 			"Orbot707"
 		]
 	},
-	"apihelp-sitematrix-description": "Lista siteyanê Wikimedia!\nKod (teknik heta dbname/wikiid) ya zi procey zerrey rê kodê zıwani + kodê procey yana seba binan rê bın + cay domaini dana.",
 	"apihelp-sitematrix-summary": "Lista siteyanê Wikimedia bıgêrê",
 	"apihelp-sitematrix-extended-description": "Kod (teknik heta dbname/wikiid) ya zi procey zerrey rê kodê zıwani + kodê procey yana seba binan rê bın + cay domaini dana.",
 	"apihelp-sitematrix-param-type": "Matrisê site Matrisini gorey tewri parzûn kerê:\n;special:racnaye u zafzıwanın procey Wikimedia.\n;language:Bınê kodê zıwani de procey Wikimedia.",

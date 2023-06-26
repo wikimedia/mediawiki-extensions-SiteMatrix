@@ -6,7 +6,6 @@
 			"Woytecr"
 		]
 	},
-	"apihelp-sitematrix-description": "Pobiera listę stron Wikimedia.\n\nKod (technicznie nazwabazy/wikiid) jest albo kodem języka + kod projektu dla projektów z treścią lub subdomena + główna domena dla wszystkich pozostałych.",
 	"apihelp-sitematrix-summary": "Pobiera listę stron Wikimedia.",
 	"apihelp-sitematrix-extended-description": "Kod (technicznie nazwabazy/wikiid) jest albo kodem języka + kod projektu dla projektów z treścią lub subdomena + główna domena dla wszystkich pozostałych.",
 	"apihelp-sitematrix-param-type": "Filtruj Site Matrix według typu:\n;special:Pojedyncze i wielojęzyczne projekty Wikimedia.\n;language:Projekty Wikimedia z tym kodem języka.",

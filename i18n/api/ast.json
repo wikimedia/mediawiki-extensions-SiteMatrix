@@ -4,7 +4,6 @@
 			"Xuacu"
 		]
 	},
-	"apihelp-sitematrix-description": "Algamar la llista de sitios de Wikimedia.\n\nEl códigu (téunicamente dbname/wikiid) ye o'l códigu de llingua + códigu de proyeutu pa proyeutos de conteníu o'l subdominiu + dominiu principal pa tolos demás.",
 	"apihelp-sitematrix-summary": "Obtener la llista de sitios de Wikimedia.",
 	"apihelp-sitematrix-extended-description": "El códigu (téunicamente dbname/wikiid) ye o'l códigu de llingua + códigu de proyeutu pa proyeutos de conteníu o'l subdominiu + dominiu principal pa tolos demás.",
 	"apihelp-sitematrix-param-type": "Filtriar la Matriz de Sitios pol tipu:\n;special:Únicu y proyeutos de Wikimedia multillingües.\n;language:Proyeutos de Wikimedia baxo esti códigu de llingua.",
