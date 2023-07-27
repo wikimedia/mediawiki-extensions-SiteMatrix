@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"sitematrix-desc": "顯示[[Special:SiteMatrix|維基媒體嘅wiki一覽]]",
+	"sitematrix-language": "話",
+	"sitematrix-project": "計劃名、跨計劃連結同埋跨維基連結",
+	"sitematrix-other-projects": "第啲項目",
+	"sitematrix-total": "'''總計: $1'''",
+	"sitematrix-sitetotal": "總數",
+	"sitematrix-closed": "無寫入權限，完全讀取權限",
+	"sitematrix-private": "限住讀取同寫入權限",
+	"sitematrix-fishbowl": "限住寫入權限，完全讀取權限",
+	"sitematrix-nonglobal": "公開但需要註冊"
+}
