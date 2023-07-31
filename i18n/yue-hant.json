@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"sitematrix-language": "話",
+	"sitematrix-project": "計劃名、跨計劃連結同埋跨維基連結",
+	"sitematrix-total": "'''總計: $1'''",
+	"sitematrix-sitetotal": "總數",
+	"sitematrix-closed": "無寫入權限，完全讀取權限",
+	"sitematrix-private": "限住讀取同寫入權限",
+	"sitematrix-fishbowl": "限住寫入權限，完全讀取權限",
+	"sitematrix-nonglobal": "公開但需要註冊"
+}

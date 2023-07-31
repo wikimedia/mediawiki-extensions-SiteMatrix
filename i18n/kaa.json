@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"AlefZet"
+			"AlefZet",
+			"Ajiniyaz Nurniyazov"
 		]
 	},
 	"sitematrix": "Wikimedia wikileri dizimi",
 	"sitematrix-language": "Til",
-	"sitematrix-project": "Proyekt atı, proyekt aralıq sıltewi ha'm til aralıq siltewi",
+	"sitematrix-project": "Joybar atı, joybar aralıq silteme hám wiki aralıq silteme",
 	"sitematrix-others": "Basqa Wikimedia proektleri"
 }
