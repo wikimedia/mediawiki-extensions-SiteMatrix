@@ -213,6 +213,7 @@ class ApiSiteMatrix extends ApiBase {
 					'language'
 				],
 				ParamValidator::PARAM_DEFAULT => 'special|language',
+				ApiBase::PARAM_HELP_MSG_PER_VALUE => [],
 			],
 			'state' => [
 				ParamValidator::PARAM_ISMULTI => true,
