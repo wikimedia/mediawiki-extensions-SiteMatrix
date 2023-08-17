@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
+			"З. ӘЙЛЕ",
 			"Ләйсән",
 			"Янмурза Баки"
 		]
 	},
-	"sitematrix-desc": "[[Special:SiteMatrix|Викимедианың проекттары исемлеген]] күрһәтә",
+	"sitematrix-desc": "[[Special:SiteMatrix|Вики исемлеген]] күрһәтә",
 	"sitematrix-language": "Тел",
 	"sitematrix-project": "Проект исеме, проект-ара һылтанма һәм вики-ара һылтанма",
-	"sitematrix-other-projects": "Башҡа проекттар",
+	"sitematrix-other-projects": "Проект",
 	"sitematrix-total": "'''Барыһы: $1'''",
 	"sitematrix-sitetotal": "Барыһы",
 	"sitematrix-private": "уҡыу һәм яҙыу мөмкинлеге сикләнгән",
