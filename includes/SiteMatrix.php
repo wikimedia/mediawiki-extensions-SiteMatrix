@@ -15,6 +15,7 @@ class SiteMatrix {
 
 	/**
 	 * Sites (aka project families) used by this wikifarm. These will be things like 'wiktionary'.
+	 *
 	 * @var string[]
 	 * @see $wgSiteMatrixSites
 	 */
@@ -22,6 +23,7 @@ class SiteMatrix {
 
 	/**
 	 * Human-readable site names. (Except they aren't...)
+	 *
 	 * @var string[] site => name<br/>iw-prefix
 	 * @see $wgSiteMatrixSites
 	 */
@@ -29,6 +31,7 @@ class SiteMatrix {
 
 	/**
 	 * Wiki family domain names.
+	 *
 	 * @var string[] site => host
 	 * @see $wgSiteMatrixSites
 	 */
@@ -50,22 +53,33 @@ class SiteMatrix {
 	 * Special wikis (which are multilingual or otherwise not split by language),
 	 * partially sorted by language.
 	 * Language codes use _ instead of -.
+	 *
 	 * @var array[] [ <language code>, <family> ]
 	 */
 	protected $specials;
 
 	/**
 	 * A matrix of which wikis exist in which language.
-	 * Language codes use _ instead of -.
+	 * Language codes use - instead of _.
+	 *
 	 * @var array[] site => language => 1
 	 */
 	protected $matrix;
+
+	/**
+	 * A matrix of which wikis' DB name in which language.
+	 * Language codes use - instead of _.
+	 *
+	 * @var array[] site => language => DBname
+	 */
+	protected $matrixDBnames;
 
 	/** @var int Total number of wikis. */
 	protected $count;
 
 	/**
 	 * The number of wikis in each wiki family.
+	 *
 	 * @var int[] site => count
 	 */
 	protected $countPerSite;
@@ -114,19 +128,25 @@ class SiteMatrix {
 		# Tabulate the matrix
 		$this->specials = [];
 		$this->matrix = [];
+		$this->matrixDBnames = [];
 		foreach ( $wgLocalDatabases as $db ) {
 			# Find suffix
 			$found = false;
 			foreach ( $this->sites as $site ) {
 				$m = [];
 				if ( preg_match( "/(.*)$site\$/", $db, $m ) ) {
-					$lang = $m[1];
-					$langhost = str_replace( '_', '-', $lang );
-					if ( isset( $xLanglist[$langhost] ) ) {
-						$this->matrix[$site][$langhost] = 1;
+					$langPrefix = $m[1];
+					# The language code prefix might be deprecated language codes
+					$langCode = LanguageCode::replaceDeprecatedCodes(
+						str_replace( '_', '-', $langPrefix )
+					);
+					# Non-deprecated language codes were already added in the extractFile function
+					if ( isset( $xLanglist[$langCode] ) ) {
+						$this->matrix[$site][$langCode] = 1;
+						$this->matrixDBnames[$site][$langCode] = $db;
 						$this->countPerSite[$site]++;
 					} else {
-						$this->specials[] = [ $lang, $site ];
+						$this->specials[] = [ $langPrefix, $site ];
 					}
 					$found = true;
 					break;
@@ -164,6 +184,7 @@ class SiteMatrix {
 
 	/**
 	 * Get language codes used by this wikifarm (sorted alphabetically).
+	 *
 	 * @return string[]
 	 */
 	public function getLangList() {
@@ -172,6 +193,7 @@ class SiteMatrix {
 
 	/**
 	 * Get family names in an almost-human-readable format (will be something like 'Wikipedia<br/>w').
+	 *
 	 * @return string[] family => name
 	 */
 	public function getNames() {
@@ -180,6 +202,7 @@ class SiteMatrix {
 
 	/**
 	 * Get the list of project families used by this wikifarm.
+	 *
 	 * @return string[]
 	 */
 	public function getSites() {
@@ -190,6 +213,7 @@ class SiteMatrix {
 	 * Get list of special wikis (which are multilingual or otherwise not split by language),
 	 * partially sorted by language.
 	 * Language codes use _ instead of -.
+	 *
 	 * @return array[] [ <language code>, <family> ]
 	 */
 	public function getSpecials() {
@@ -198,6 +222,7 @@ class SiteMatrix {
 
 	/**
 	 * Get the total number of wikis.
+	 *
 	 * @return int
 	 */
 	public function getCount() {
@@ -206,6 +231,7 @@ class SiteMatrix {
 
 	/**
 	 * Get the total number of wikis in a wiki family.
+	 *
 	 * @param string $site
 	 * @return int
 	 */
@@ -215,6 +241,7 @@ class SiteMatrix {
 
 	/**
 	 * Get the base URL of a wiki family (e.g. '//www.wikipedia.org/') with trailing /.
+	 *
 	 * @param string $site
 	 * @return string
 	 */
@@ -224,60 +251,63 @@ class SiteMatrix {
 
 	/**
 	 * Get the base URL of a wiki (as in $wgServer / $wgCanonicalServer).
-	 * @param string $minor Language
-	 * @param string $major Site
+	 *
+	 * @param string $langCode Language code (may not equal to language subdomain)
+	 * @param string $major Site group code
 	 * @param bool $canonical use canonical url.
 	 * @return mixed
 	 */
-	public function getUrl( $minor, $major, $canonical = false ) {
+	public function getUrl( $langCode, $major, $canonical = false ) {
 		return $this->getSetting(
 			$canonical ? 'wgCanonicalServer' : 'wgServer',
-			$minor,
+			$langCode,
 			$major
 		);
 	}
 
 	/**
-	 * Shortcut for getUrl( $minor, $major, true ).
-	 * @param string $minor Language
-	 * @param string $major Site
+	 * Shortcut for getUrl( $langCode, $major, true ).
+	 *
+	 * @param string $langCode Language code (may not equal to language subdomain)
+	 * @param string $major Site group code
 	 * @return mixed
 	 */
-	public function getCanonicalUrl( $minor, $major ) {
-		return $this->getSetting( 'wgCanonicalServer', $minor, $major );
+	public function getCanonicalUrl( $langCode, $major ) {
+		return $this->getSetting( 'wgCanonicalServer', $langCode, $major );
 	}
 
 	/**
 	 * Get human-readable name of a wiki.
-	 * @param string $minor
+	 *
+	 * @param string $langCode Language code (may not equal to language subdomain)
 	 * @param string $major
 	 * @return string
 	 */
-	public function getSitename( $minor, $major ) {
-		return $this->getSetting( 'wgSitename', $minor, $major );
+	public function getSitename( $langCode, $major ) {
+		return $this->getSetting( 'wgSitename', $langCode, $major );
 	}
 
 	/**
 	 * Get the normalised IETF language tag.
 	 *
-	 * @param string $minor
+	 * @param string $langCode
 	 * @param string $major
 	 * @return string
 	 */
-	public function getLanguageCode( $minor, $major ) {
-		return LanguageCode::bcp47( $this->getSetting( 'wgLanguageCode', $minor, $major ) );
+	public function getLanguageCode( $langCode, $major ) {
+		return LanguageCode::bcp47( $this->getSetting( 'wgLanguageCode', $langCode, $major ) );
 	}
 
 	/**
-	 * @param string $setting setting name
-	 * @param string $lang language subdomain
+	 * @param string $setting Setting name
+	 * @param string $langCode Language code (may not equal to language DB name prefix)
 	 * @param string $dbSuffix e.g. 'wiki' for 'enwiki' or 'wikisource' for 'enwikisource'
 	 * @return mixed
 	 */
-	private function getSetting( $setting, $lang, $dbSuffix ) {
+	private function getSetting( $setting, $langCode, $dbSuffix ) {
 		global $wgConf;
 
-		$dbname = $this->getDBName( $lang, $dbSuffix );
+		$dbname = $this->getDBName( $langCode, $dbSuffix );
 
 		list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
 		if ( $major === null ) {
@@ -294,53 +324,58 @@ class SiteMatrix {
 	}
 
 	/**
-	 * @param string $minor
+	 * @param string $langCode Language code (may not equal to language DB name prefix)
 	 * @param string $major
 	 * @return string
 	 */
-	public function getDBName( $minor, $major ) {
-		return str_replace( '-', '_', $minor ) . $major;
+	public function getDBName( $langCode, $major ) {
+		if ( isset( $this->matrix[$major] ) && isset( $this->matrix[$major][$langCode] ) ) {
+			return $this->matrixDBnames[$major][$langCode];
+		}
+		return str_replace( '-', '_', $langCode ) . $major;
 	}
 
 	/**
 	 * Check whether a wiki exists.
-	 * @param string $minor Language
-	 * @param string $major Site
+	 *
+	 * @param string $langCode Language code (may not equal to language DB name prefix)
+	 * @param string $major Site group code
 	 * @return bool
 	 */
-	public function exist( $minor, $major ) {
-		return !empty( $this->matrix[$major][$minor] );
+	public function exist( $langCode, $major ) {
+		return !empty( $this->matrix[$major][$langCode] );
 	}
 
 	/**
 	 * Check whether a wiki is closed (not editable).
-	 * @param string $minor Language
-	 * @param string $major Site
+	 *
+	 * @param string $langCode Language code (may not equal to language DB name prefix)
+	 * @param string $major Site group code
 	 * @return bool
 	 */
-	public function isClosed( $minor, $major ) {
+	public function isClosed( $langCode, $major ) {
 		global $wgSiteMatrixClosedSites;
 
-		$dbname = $this->getDBName( $minor, $major );
+		$dbname = $this->getDBName( $langCode, $major );
 
 		if ( $wgSiteMatrixClosedSites === null ) {
 			// Fallback to old behavior checking read-only settings;
 			// not very reliable.
 			global $wgConf;
 
-			list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
+			list( $major, $langCode ) = $wgConf->siteFromDB( $dbname );
 			if ( $major === null ) {
 				// No such suffix
 				return false;
 			}
 
-			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, [ 'site' => $major, 'lang' => $minor ] ) ) {
+			if ( $wgConf->get( 'wgReadOnly', $dbname, $major, [ 'site' => $major, 'lang' => $langCode ] ) ) {
 				return true;
 			}
 			$readOnlyFile = $wgConf->get( 'wgReadOnlyFile',
 				$dbname,
 				$major,
-				[ 'site' => $major, 'lang' => $minor ]
+				[ 'site' => $major, 'lang' => $langCode ]
 			);
 			if ( $readOnlyFile && file_exists( $readOnlyFile ) ) {
 				return true;
@@ -356,7 +391,8 @@ class SiteMatrix {
 
 	/**
 	 * Check whether a wiki is private (not publicly readable).
-	 * @param string $dbname DatabaseName
+	 *
+	 * @param string $dbname Database name
 	 * @return bool
 	 */
 	public function isPrivate( $dbname ) {
@@ -371,7 +407,8 @@ class SiteMatrix {
 
 	/**
 	 * Check whether a wiki is a fishbowl (publicly readable but not publicly editable).
-	 * @param string $dbname DatabaseName
+	 *
+	 * @param string $dbname Database name
 	 * @return bool
 	 */
 	public function isFishbowl( $dbname ) {
@@ -386,7 +423,8 @@ class SiteMatrix {
 
 	/**
 	 * Check whether a wiki is non-global (not using single sign-on).
-	 * @param string $dbname DatabaseName
+	 *
+	 * @param string $dbname Database name
 	 * @return bool
 	 */
 	public function isNonGlobal( $dbname ) {
@@ -402,7 +440,8 @@ class SiteMatrix {
 	/**
 	 * Check whether a wiki is special (the only wiki in its wiki family; typically this means
 	 * a multilingual wiki).
-	 * @param string $dbname DatabaseName
+	 *
+	 * @param string $dbname Database name
 	 * @return bool
 	 */
 	public function isSpecial( $dbname ) {
@@ -413,7 +452,7 @@ class SiteMatrix {
 	 * Pull a list of dbnames from a given text file, or pass through an array.
 	 * Used for the DB list configuration settings.
 	 *
-	 * @param string[]|string $listOrFilename Array of strings, or string with a filename
+	 * @param string[]|string $listOrFilename Array of strings, or string with a file name
 	 * @return string[]
 	 */
 	private function extractDbList( $listOrFilename ) {
@@ -433,6 +472,13 @@ class SiteMatrix {
 	 * @return string[]
 	 */
 	private function extractFile( $filename ) {
-		return array_map( 'trim', file( $filename ) );
+		$langCodes = array_map( 'trim', file( $filename ) );
+		foreach ( $langCodes as $langCode ) {
+			$nonDeprecatedLangCode = LanguageCode::replaceDeprecatedCodes( $langCode );
+			if ( $langCode !== $nonDeprecatedLangCode ) {
+				array_push( $langCodes, $nonDeprecatedLangCode );
+			}
+		}
+		return array_unique( $langCodes );
 	}
 }
