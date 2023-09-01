@@ -4,8 +4,11 @@
 			"Pikne"
 		]
 	},
-	"apihelp-sitematrix-param-type": "Vikide nimekirja tüübifilter:\n;special: Üksikprojektid või mitmekeelsed Wikimedia projektid.\n;language: Selle keelekoodiga Wikimedia projektid.",
-	"apihelp-sitematrix-param-state": "Vikide nimekirja olekufilter:",
+	"apihelp-sitematrix-summary": "Hangi Wikimedia vikide loend.",
+	"apihelp-sitematrix-param-type": "Vikide nimekirja tüübifilter:",
+	"apihelp-sitematrix-paramvalue-type-special": "Üksikprojektid või mitmekeelsed Wikimedia projektid.",
+	"apihelp-sitematrix-paramvalue-type-language": "Selle keelekoodiga Wikimedia projektid.",
+	"apihelp-sitematrix-param-state": "Vikide nimekirja olekufilter.",
 	"apihelp-sitematrix-param-langprop": "Milline teave keele kohta tagastada.",
 	"apihelp-sitematrix-param-siteprop": "Milline teave viki kohta tagastada.",
 	"apihelp-sitematrix-param-limit": "Tulemuste ülemmäär.",
