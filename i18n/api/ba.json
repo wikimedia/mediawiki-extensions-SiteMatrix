@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"З. ӘЙЛЕ",
 			"Янмурза Баки"
 		]
 	},
-	"apihelp-sitematrix-param-langprop": "Тел тураһында ҡайһы һүҙҙе кире алырға?",
-	"apihelp-sitematrix-param-siteprop": "Сайт тураһында ҡайһы мәғлүмәтте кире алырға?",
+	"apihelp-sitematrix-param-langprop": "Тел тураһында ниндәй мәғлүмәтте кире ҡайтарырға?",
+	"apihelp-sitematrix-param-siteprop": "Сайт тураһында ҡайһы мәғлүмәтте кире ҡайтарырға?",
 	"apihelp-sitematrix-example-1": "Сайттар матрицаһын күрһәтергә?"
 }
