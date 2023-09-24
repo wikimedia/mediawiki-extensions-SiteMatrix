@@ -46,15 +46,14 @@
 		"MediaWiki\\Extension\\SiteMatrix\\": "includes/"
 	},
 	"Hooks": {
-		"APIQuerySiteInfoGeneralInfo": [
-			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onAPIQuerySiteInfoGeneralInfo"
-		],
-		"ParserGetVariableValueSwitch": [
-			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onParserGetVariableValueSwitch"
-		],
-		"MagicWordwgVariableIDs": [
-			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onMagicWordwgVariableIDs"
-		]
+		"APIQuerySiteInfoGeneralInfo": "main",
+		"ParserGetVariableValueSwitch": "main",
+		"MagicWordwgVariableIDs": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\SiteMatrix\\Hooks"
+		}
 	},
 	"config": {
 		"SiteMatrixFile": {

@@ -3,19 +3,27 @@
 namespace MediaWiki\Extension\SiteMatrix;
 
 use ApiQuerySiteinfo;
+use MediaWiki\Api\Hook\APIQuerySiteInfoGeneralInfoHook;
+use MediaWiki\Hook\MagicWordwgVariableIDsHook;
+use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use Parser;
+use PPFrame;
 
 /**
  * Hook handlers
  */
-class Hooks {
+class Hooks implements
+	APIQuerySiteInfoGeneralInfoHook,
+	ParserGetVariableValueSwitchHook,
+	MagicWordwgVariableIDsHook
+{
 	/**
 	 * Handler method for the APISiteInfoGeneralInfo hook
 	 *
 	 * @param ApiQuerySiteinfo $module
 	 * @param array &$results
 	 */
-	public static function onAPIQuerySiteInfoGeneralInfo( $module, &$results ) {
+	public function onAPIQuerySiteInfoGeneralInfo( $module, &$results ) {
 		global $wgDBname, $wgConf;
 
 		$matrix = new SiteMatrix();
@@ -52,12 +60,14 @@ class Hooks {
 	 * @param array &$variableCache
 	 * @param string $magicWordId
 	 * @param string &$ret
+	 * @param PPFrame $frame
 	 */
-	public static function onParserGetVariableValueSwitch(
+	public function onParserGetVariableValueSwitch(
 		$parser,
 		&$variableCache,
 		$magicWordId,
-		&$ret
+		&$ret,
+		$frame
 	) {
 		if ( $magicWordId === 'numberofwikis' ) {
 			global $wgLocalDatabases;
@@ -68,7 +78,7 @@ class Hooks {
 	/**
 	 * @param string[] &$customVariableIds
 	 */
-	public static function onMagicWordwgVariableIDs( &$customVariableIds ) {
+	public function onMagicWordwgVariableIDs( &$customVariableIds ) {
 		$customVariableIds[] = 'numberofwikis';
 	}
 }
