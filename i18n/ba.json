@@ -9,10 +9,10 @@
 	},
 	"sitematrix-desc": "[[Special:SiteMatrix|Вики исемлеген]] күрһәтә",
 	"sitematrix-language": "Тел",
-	"sitematrix-project": "Проект исеме, проект-ара һылтанма һәм вики-ара һылтанма",
+	"sitematrix-project": "Проект исеме, проект-ара һәм вики-ара һылтанма",
 	"sitematrix-other-projects": "Проект",
-	"sitematrix-total": "'''Барыһы: $1'''",
-	"sitematrix-sitetotal": "Барыһы",
+	"sitematrix-total": "'''Дөйөм һан: $1'''",
+	"sitematrix-sitetotal": "Йәмғеһе",
 	"sitematrix-private": "уҡыу һәм яҙыу мөмкинлеге сикләнгән",
 	"sitematrix-fishbowl": "яҙыу сикләнгән, уҡып була"
 }
