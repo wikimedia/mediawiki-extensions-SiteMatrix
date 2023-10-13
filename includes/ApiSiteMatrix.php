@@ -268,4 +268,8 @@ class ApiSiteMatrix extends ApiBase {
 	protected function getExamplesMessages() {
 		return [ 'action=sitematrix' => 'apihelp-sitematrix-example-1', ];
 	}
+
+	public function getHelpUrls() {
+		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/API:Sitematrix';
+	}
 }
