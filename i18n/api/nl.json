@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"McDutchie",
+			"Vistaus"
 		]
 	},
-	"apihelp-sitematrix-param-limit": "Maximum aantal resultaten."
+	"apihelp-sitematrix-summary": "Toon een lijst met Wikimedia-sites.",
+	"apihelp-sitematrix-extended-description": "De code (technisch gezien dbname/wikiid) is ofwel de taalcode + projectcode voor inhoudsprojecten of het subdomein + hoofddomein voor alle andere.",
+	"apihelp-sitematrix-param-type": "De sitematrix op type filteren:",
+	"apihelp-sitematrix-paramvalue-type-special": "Eenmalige en meertalige Wikimedia-projecten.",
+	"apihelp-sitematrix-paramvalue-type-language": "Wikimedia-projecten behorend bij deze taalcode.",
+	"apihelp-sitematrix-param-state": "De sitematrix op wikistatus filteren.",
+	"apihelp-sitematrix-param-langprop": "Welke informatie over een taal moet worden geretourneerd.",
+	"apihelp-sitematrix-param-siteprop": "Welke informatie over een site moet worden geretourneerd.",
+	"apihelp-sitematrix-param-limit": "Maximum aantal resultaten.",
+	"apihelp-sitematrix-example-1": "Toon de sitematrix"
 }
