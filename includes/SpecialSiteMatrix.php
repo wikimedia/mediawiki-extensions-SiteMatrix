@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\SiteMatrix;
 
-use Html;
 use LanguageCode;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
-use SpecialPage;
+use MediaWiki\SpecialPage\SpecialPage;
 use Xml;
 
 class SpecialSiteMatrix extends SpecialPage {
