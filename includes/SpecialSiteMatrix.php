@@ -23,6 +23,9 @@ class SpecialSiteMatrix extends SpecialPage {
 		$this->languageNameUtils = $languageNameUtils;
 	}
 
+	/**
+	 * @param mixed $par
+	 */
 	public function execute( $par ) {
 		$langNames = $this->languageNameUtils->getLanguageNames();
 
@@ -128,7 +131,7 @@ class SpecialSiteMatrix extends SpecialPage {
 			"</tr>";
 
 		foreach ( $matrix->getSpecials() as $special ) {
-			list( $lang, $site ) = $special;
+			[ $lang, $site ] = $special;
 
 			// sanity check
 			if ( !$lang && !$site ) {
@@ -167,6 +170,7 @@ class SpecialSiteMatrix extends SpecialPage {
 		$this->getOutput()->addWikiMsg( 'sitematrix-total', $language->formatNum( $matrix->getCount() ) );
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'wiki';
 	}

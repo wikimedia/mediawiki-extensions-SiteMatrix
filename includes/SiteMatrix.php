@@ -153,7 +153,7 @@ class SiteMatrix {
 				}
 			}
 			if ( !$found ) {
-				list( $major, $minor ) = $wgConf->siteFromDB( $db );
+				[ $major, $minor ] = $wgConf->siteFromDB( $db );
 				if ( $major !== null ) {
 					$this->specials[] = [ str_replace( '-', '_', $minor ), $major ];
 				}
@@ -309,7 +309,7 @@ class SiteMatrix {
 
 		$dbname = $this->getDBName( $langCode, $dbSuffix );
 
-		list( $major, $minor ) = $wgConf->siteFromDB( $dbname );
+		[ $major, $minor ] = $wgConf->siteFromDB( $dbname );
 		if ( $major === null ) {
 			throw new InvalidArgumentException( "Invalid DB name \"$dbname\"" );
 		}
@@ -363,7 +363,7 @@ class SiteMatrix {
 			// not very reliable.
 			global $wgConf;
 
-			list( $major, $langCode ) = $wgConf->siteFromDB( $dbname );
+			[ $major, $langCode ] = $wgConf->siteFromDB( $dbname );
 			if ( $major === null ) {
 				// No such suffix
 				return false;

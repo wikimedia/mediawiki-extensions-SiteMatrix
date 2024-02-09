@@ -28,7 +28,7 @@ class Hooks implements
 
 		$matrix = new SiteMatrix();
 
-		list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );
+		[ $site, $lang ] = $wgConf->siteFromDB( $wgDBname );
 		if ( $site === null ) {
 			// No such site
 			return;

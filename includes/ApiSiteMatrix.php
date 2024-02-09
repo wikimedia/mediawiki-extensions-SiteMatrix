@@ -133,7 +133,7 @@ class ApiSiteMatrix extends ApiBase {
 		if ( isset( $type['special'] ) && $count < $limit ) {
 			$specials = [];
 			foreach ( $matrix->getSpecials() as $special ) {
-				list( $lang, $site ) = $special;
+				[ $lang, $site ] = $special;
 				$dbName = $matrix->getDBName( $lang, $site );
 				if ( $continue[0] == 'special' && $dbName < $continue[1] ) {
 					continue;
@@ -197,6 +197,10 @@ class ApiSiteMatrix extends ApiBase {
 		}
 	}
 
+	/**
+	 * @param string $paramName
+	 * @param string $paramValue
+	 */
 	protected function setContinueEnumParameter( $paramName, $paramValue ) {
 		$paramName = $this->encodeParamName( $paramName );
 		$msg = [ $paramName => $paramValue ];
@@ -204,6 +208,7 @@ class ApiSiteMatrix extends ApiBase {
 		$result->addValue( 'query-continue', $this->getModuleName(), $msg, ApiResult::NO_SIZE_CHECK );
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'type' => [
@@ -261,14 +266,12 @@ class ApiSiteMatrix extends ApiBase {
 		];
 	}
 
-	/**
-	 * @see ApiBase::getExamplesMessages()
-	 * @return array
-	 */
+	/** @inheritDoc */
 	protected function getExamplesMessages() {
 		return [ 'action=sitematrix' => 'apihelp-sitematrix-example-1', ];
 	}
 
+	/** @inheritDoc */
 	public function getHelpUrls() {
 		return 'https://www.mediawiki.org/wiki/Special:MyLanguage/API:Sitematrix';
 	}
