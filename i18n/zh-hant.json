@@ -9,11 +9,12 @@
 			"Waihorace",
 			"Wwycheuk",
 			"列维劳德",
-			"捍粵者"
+			"捍粵者",
+			"Winston Sung"
 		]
 	},
-	"sitematrix": "Wiki 清單",
-	"sitematrix-summary": "此特殊頁面列出在此 Wiki 農場上的所有 Wiki。",
+	"sitematrix": "wiki 清單",
+	"sitematrix-summary": "此特殊頁面列出在此 wiki 農場上的所有 wiki。",
 	"sitematrix-desc": "顯示 [[Special:SiteMatrix|wiki 清單]]",
 	"sitematrix-language": "語言",
 	"sitematrix-project": "專案名稱、跨專案連結與跨 Wiki 連結",
