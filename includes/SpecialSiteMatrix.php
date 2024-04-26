@@ -6,7 +6,6 @@ use LanguageCode;
 use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\SpecialPage\SpecialPage;
-use Xml;
 
 class SpecialSiteMatrix extends SpecialPage {
 
@@ -39,19 +38,19 @@ class SpecialSiteMatrix extends SpecialPage {
 		# Construct the HTML
 
 		# Header row
-		$s = Xml::openElement( 'table', [ 'class' => 'wikitable', 'id' => 'mw-sitematrix-table' ] ) .
+		$s = Html::openElement( 'table', [ 'class' => 'wikitable', 'id' => 'mw-sitematrix-table' ] ) .
 			"<tr>" .
-			Xml::element( 'th',
+			Html::element( 'th',
 				[ 'rowspan' => 2 ],
 				$this->msg( 'sitematrix-language' )->text() ) .
-			Xml::element( 'th',
+			Html::element( 'th',
 				[ 'colspan' => count( $matrix->getSites() ) ],
 				$this->msg( 'sitematrix-project' )->text() ) .
 			"</tr>
 			<tr>";
 		foreach ( $matrix->getNames() as $id => $name ) {
 			$url = $matrix->getSiteUrl( $id );
-			$s .= Xml::tags( 'th', null, "<a href=\"{$url}\">{$name}</a>" );
+			$s .= Html::rawElement( 'th', [], "<a href=\"{$url}\">{$name}</a>" );
 		}
 		$s .= "</tr>\n";
 
@@ -118,16 +117,16 @@ class SpecialSiteMatrix extends SpecialPage {
 		$s .= "<th colspan=\"{$noProjects }\">{$totalCount}</th>";
 		$s .= '</tr>';
 
-		$s .= Xml::closeElement( 'table' ) . "\n";
+		$s .= Html::closeElement( 'table' ) . "\n";
 
 		# Specials
 		$s .= '<h2 id="mw-sitematrix-others">' . $this->msg( 'sitematrix-others' )->escaped() . '</h2>';
 
-		$s .= Xml::openElement( 'table',
+		$s .= Html::openElement( 'table',
 			[ 'class' => 'wikitable', 'id' => 'mw-sitematrix-other-table' ] ) .
 			"<tr>" .
-			Xml::element( 'th', null, $this->msg( 'sitematrix-other-projects' )->text() ) .
-			Xml::element( 'th', null, $this->msg( 'sitematrix-other-projects-language' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'sitematrix-other-projects' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'sitematrix-other-projects-language' )->text() ) .
 			"</tr>";
 
 		foreach ( $matrix->getSpecials() as $special ) {
@@ -164,7 +163,7 @@ class SpecialSiteMatrix extends SpecialPage {
 			$s .= "</tr>\n";
 		}
 
-		$s .= Xml::closeElement( 'table' ) . "\n";
+		$s .= Html::closeElement( 'table' ) . "\n";
 
 		$this->getOutput()->addHTML( $s );
 		$this->getOutput()->addWikiMsg( 'sitematrix-total', $language->formatNum( $matrix->getCount() ) );
