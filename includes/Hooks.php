@@ -6,7 +6,7 @@ use ApiQuerySiteinfo;
 use MediaWiki\Api\Hook\APIQuerySiteInfoGeneralInfoHook;
 use MediaWiki\Hook\MagicWordwgVariableIDsHook;
 use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
-use Parser;
+use MediaWiki\Parser\Parser;
 use PPFrame;
 
 /**
