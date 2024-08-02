@@ -5,13 +5,17 @@
 			"Умар"
 		]
 	},
-	"sitematrix-desc": "Гойту [[Special:SiteMatrix|Викимедиа проектийн магIам]]",
+	"sitematrix": "Вики-проектийн могӀам",
+	"sitematrix-desc": "Гойту [[Special:SiteMatrix|Викийн могӀам]]",
 	"sitematrix-language": "Мотт",
 	"sitematrix-project": "Проектан цӀе, проектийн йуккъера хьажоргаш а, йукъарвикеш а",
-	"sitematrix-other-projects": "Кхин проекташ",
+	"sitematrix-others": "Кхин а проекташ",
+	"sitematrix-other-projects": "Проект",
 	"sitematrix-other-projects-language": "Мотт",
 	"sitematrix-total": "'''Йуккъера дукхалла: $1'''",
 	"sitematrix-sitetotal": "Йерриге",
-	"sitematrix-private": "долара",
-	"sitematrix-fishbowl": "тадарна доза тоьхна"
+	"sitematrix-closed": "дӀайаздаран тӀе ца кхочу, йеша дуьззина тӀе кхачар",
+	"sitematrix-private": "йешар а, дӀайазйар а дихкина ду",
+	"sitematrix-fishbowl": "дӀайаздаран тӀекхачар дехкина ду, йеша дуьззина тӀе кхачар",
+	"sitematrix-nonglobal": "йукъара, амма регистраци йан йеза"
 }
