@@ -6,7 +6,18 @@
 			"Nemoralis"
 		]
 	},
+	"sitematrix": "Vikilərin siyahısı",
+	"sitematrix-summary": "Bu xüsusi səhifə bu vikifermadakı bütün vikilərin siyahısını verir.",
+	"sitematrix-desc": "[[Special:SiteMatrix|Vikilərin siyahısını]] göstərir",
 	"sitematrix-language": "Dil",
+	"sitematrix-project": "Layihənin adı, layihələrarası keçid və vikilərarası keçid",
+	"sitematrix-others": "Digər layihələr",
+	"sitematrix-other-projects": "Layihə",
+	"sitematrix-other-projects-language": "Dil",
+	"sitematrix-total": "'''Ümumi sayı: $1'''",
 	"sitematrix-sitetotal": "Ümumi",
-	"sitematrix-private": "oxumaq və yazmaq hüququ məhdudlaşdırılıb"
+	"sitematrix-closed": "yazma icazəsi yoxdur, tam oxumaq icazəsi var",
+	"sitematrix-private": "oxumaq və yazmaq hüququ məhdudlaşdırılıb",
+	"sitematrix-fishbowl": "məhdud yazmaq icazəsi, tam oxumaq icazəsi",
+	"sitematrix-nonglobal": "ictimai, lakin qeydiyyat tələb olunur"
 }
