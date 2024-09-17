@@ -5,12 +5,16 @@
 			"Nike",
 			"Olli",
 			"Pyscowicz",
+			"Samoasambia",
 			"Stryn"
 		]
 	},
+	"sitematrix": "Wikiluettelo",
+	"sitematrix-summary": "Tämä toimintosivu luettelee kaikki wikit tässä wikistössä",
 	"sitematrix-desc": "Näyttää [[Special:SiteMatrix|luettelon wikeistä]].",
 	"sitematrix-language": "Kieli",
 	"sitematrix-project": "Projektin nimi, projektienvälinen linkki ja interwiki-linkki",
+	"sitematrix-others": "Muut hankkeet",
 	"sitematrix-other-projects": "Projekti",
 	"sitematrix-other-projects-language": "Kieli",
 	"sitematrix-total": "'''Wikejä yhteensä: $1'''",
