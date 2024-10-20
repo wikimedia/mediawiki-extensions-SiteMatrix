@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\SiteMatrix;
 
 use InvalidArgumentException;
-use LanguageCode;
+use MediaWiki\Language\LanguageCode;
 use MediaWiki\MediaWikiServices;
 
 /**

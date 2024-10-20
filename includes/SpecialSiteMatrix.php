@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\SiteMatrix;
 
-use LanguageCode;
 use MediaWiki\Html\Html;
+use MediaWiki\Language\LanguageCode;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 

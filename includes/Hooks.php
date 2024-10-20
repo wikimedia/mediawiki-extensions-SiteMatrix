@@ -2,12 +2,12 @@
 
 namespace MediaWiki\Extension\SiteMatrix;
 
-use ApiQuerySiteinfo;
+use MediaWiki\Api\ApiQuerySiteinfo;
 use MediaWiki\Api\Hook\APIQuerySiteInfoGeneralInfoHook;
 use MediaWiki\Hook\MagicWordwgVariableIDsHook;
 use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Parser\Parser;
-use PPFrame;
+use MediaWiki\Parser\PPFrame;
 
 /**
  * Hook handlers
