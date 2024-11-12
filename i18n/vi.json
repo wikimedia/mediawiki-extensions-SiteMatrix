@@ -5,10 +5,14 @@
 			"Vinhtantran"
 		]
 	},
-	"sitematrix-desc": "Liệt kê [[Special:SiteMatrix|các wiki trực thuộc Wikimedia]]",
+	"sitematrix": "Danh sách wiki",
+	"sitematrix-summary": "Trang này liệt kê các wiki trong cụm wiki này.",
+	"sitematrix-desc": "Liệt kê [[Special:SiteMatrix|danh sách wiki]]",
 	"sitematrix-language": "Ngôn ngữ",
 	"sitematrix-project": "Tên dự án, tiền tố trong liên kết, và liên kết liên wiki",
-	"sitematrix-other-projects": "Các dự án khác",
+	"sitematrix-others": "Dự án khác",
+	"sitematrix-other-projects": "Dự án",
+	"sitematrix-other-projects-language": "Ngôn ngữ",
 	"sitematrix-total": "'''Tổng cộng: $1'''",
 	"sitematrix-sitetotal": "Tổng cộng",
 	"sitematrix-closed": "cấm sửa đổi, hoàn toàn cho phép đọc",
