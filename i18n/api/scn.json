@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
-	"apihelp-sitematrix-summary": "Otteni n'elencu dû siti Wikimedia."
+	"apihelp-sitematrix-summary": "Utteni na lista dî siti Wikimedia."
 }
