@@ -48,7 +48,7 @@
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": "main",
 		"ParserGetVariableValueSwitch": "main",
-		"MagicWordwgVariableIDs": "main"
+		"GetMagicVariableIDs": "main"
 	},
 	"HookHandlers": {
 		"main": {

@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\SiteMatrix;
 
 use MediaWiki\Api\ApiQuerySiteinfo;
 use MediaWiki\Api\Hook\APIQuerySiteInfoGeneralInfoHook;
-use MediaWiki\Hook\MagicWordwgVariableIDsHook;
+use MediaWiki\Hook\GetMagicVariableIDsHook;
 use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
@@ -15,7 +15,7 @@ use MediaWiki\Parser\PPFrame;
 class Hooks implements
 	APIQuerySiteInfoGeneralInfoHook,
 	ParserGetVariableValueSwitchHook,
-	MagicWordwgVariableIDsHook
+	GetMagicVariableIDsHook
 {
 	/**
 	 * Handler method for the APISiteInfoGeneralInfo hook
@@ -76,9 +76,9 @@ class Hooks implements
 	}
 
 	/**
-	 * @param string[] &$customVariableIds
+	 * @param string[] &$variableIDs
 	 */
-	public function onMagicWordwgVariableIDs( &$customVariableIds ) {
-		$customVariableIds[] = 'numberofwikis';
+	public function onGetMagicVariableIDs( &$variableIDs ): void {
+		$variableIDs[] = 'numberofwikis';
 	}
 }
