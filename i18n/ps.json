@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"sitematrix-language": "ژبه",
 	"sitematrix-project": "د پروژې نوم، د پروژو تر مېنځ تړنه او د ويکي-گانو تر مېنځ تړنه",
-	"sitematrix-other-projects": "نورې پروژې",
+	"sitematrix-other-projects": "پروژې",
 	"sitematrix-total": "'''ټولټال شمېر: $1'''",
 	"sitematrix-sitetotal": "ټولټال",
-	"sitematrix-private": "ځاني"
+	"sitematrix-private": "د لوستلو او ليکلو لاسرسی محدود شوی"
 }
