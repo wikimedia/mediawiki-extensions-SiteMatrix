@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Engineer56",
 			"Mouse21",
 			"Okras",
 			"Putnik"
@@ -8,7 +9,9 @@
 	},
 	"apihelp-sitematrix-summary": "Получить список Викимедиа.",
 	"apihelp-sitematrix-extended-description": "Код (технически dbname/wikiid) код языка + код проекта для проектов контента или субдомен + основной домен для всех остальных.",
-	"apihelp-sitematrix-param-type": "Отфильтруйте матрицу сайта по типу:\n;special:Один и многоязычные проекты Викимедиа.\n;language:Проекты Викимедиа в рамках этого языкового кода.",
+	"apihelp-sitematrix-param-type": "Отфильтруйте матрицу сайта по типу:",
+	"apihelp-sitematrix-paramvalue-type-special": "Один отдельный и многоязычный проект Викимедиа.",
+	"apihelp-sitematrix-paramvalue-type-language": "Проекты Викимедиа под этим языковым кодом.",
 	"apihelp-sitematrix-param-state": "Отфильтруйте матрицу сайта по вики-состоянию.",
 	"apihelp-sitematrix-param-langprop": "Какую информацию о языке возвращать.",
 	"apihelp-sitematrix-param-siteprop": "Какую информацию о сайте возвращать.",
