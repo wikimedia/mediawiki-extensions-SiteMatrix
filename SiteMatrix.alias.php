@@ -201,8 +201,11 @@ $specialPageAliases['yi'] = [ 'SiteMatrix' => [ 'וויקימעדיע_וויקי
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = [ 'SiteMatrix' => [ '站點一覽' ], ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [ 'SiteMatrix' => [ '网站矩阵', '维基媒体Wiki' ], ];
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [ 'SiteMatrix' => [ 'SiteMatrix' ], ];
 
-/** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = [ 'SiteMatrix' => [ '站點矩陣', '站點列表' ], ];
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [ 'SiteMatrix' => [ '网站矩阵', '维基媒体wiki' ], ];
+
+/** Traditional Chinese (中文（繁體）) */
+$specialPageAliases['zh-hant'] = [ 'SiteMatrix' => [ '站點矩陣', '維基媒體wiki', '站點列表' ], ];
