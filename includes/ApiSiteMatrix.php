@@ -16,18 +16,13 @@ use Wikimedia\ParamValidator\TypeDef\IntegerDef;
  */
 class ApiSiteMatrix extends ApiBase {
 
-	private LanguageNameUtils $languageNameUtils;
-	private LanguageFactory $languageFactory;
-
 	public function __construct(
 		ApiMain $main,
 		string $moduleName,
-		LanguageNameUtils $languageNameUtils,
-		LanguageFactory $languageFactory
+		private readonly LanguageNameUtils $languageNameUtils,
+		private readonly LanguageFactory $languageFactory,
 	) {
 		parent::__construct( $main, $moduleName, 'sm' );
-		$this->languageNameUtils = $languageNameUtils;
-		$this->languageFactory = $languageFactory;
 	}
 
 	public function execute() {

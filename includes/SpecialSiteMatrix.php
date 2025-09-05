@@ -9,17 +9,10 @@ use MediaWiki\SpecialPage\SpecialPage;
 
 class SpecialSiteMatrix extends SpecialPage {
 
-	/** @var LanguageNameUtils */
-	private $languageNameUtils;
-
-	/**
-	 * @param LanguageNameUtils $languageNameUtils
-	 */
 	public function __construct(
-		LanguageNameUtils $languageNameUtils
+		private readonly LanguageNameUtils $languageNameUtils,
 	) {
 		parent::__construct( 'SiteMatrix' );
-		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**
