@@ -5,10 +5,18 @@
 			"شاه زمان پټان"
 		]
 	},
+	"sitematrix": "ويکي‌گانو لړليک",
+	"sitematrix-summary": "دا ځانگړی مخ د دې ويکي فارم ټولې ويکي‌گانې لړليکوي.",
+	"sitematrix-desc": "د [[Special:SiteMatrix|ويکي‌گانو لړليک]] ښيي.",
 	"sitematrix-language": "ژبه",
-	"sitematrix-project": "د پروژې نوم، د پروژو تر مېنځ تړنه او د ويکي-گانو تر مېنځ تړنه",
+	"sitematrix-project": "د پروژې نوم، پروژې‌خپلمنځي تړونی او ويکي‌خپلمنځي تړونی",
+	"sitematrix-others": "نورې پروژې",
 	"sitematrix-other-projects": "پروژې",
+	"sitematrix-other-projects-language": "ژبه",
 	"sitematrix-total": "'''ټولټال شمېر: $1'''",
 	"sitematrix-sitetotal": "ټولټال",
-	"sitematrix-private": "د لوستلو او ليکلو لاسرسی محدود شوی"
+	"sitematrix-closed": "ليکلو لاسرسی نشته، بشپړ لوستلو لاسرسی",
+	"sitematrix-private": "د لوستلو او ليکلو لاسرسی محدود شوی",
+	"sitematrix-fishbowl": "ليکلو محدود لاسرسی، بشپړ لوستلو لاسرسی",
+	"sitematrix-nonglobal": "ټولگړی دی؛ خو نوم‌ليکنه اړينه ده"
 }
