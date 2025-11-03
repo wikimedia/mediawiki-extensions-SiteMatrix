@@ -5,13 +5,14 @@
 			"BaRaN6161 TURK",
 			"Cobija",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"Watermelon juice"
 		]
 	},
 	"apihelp-sitematrix-summary": "Wikimedia siteleri listesini alın.",
 	"apihelp-sitematrix-extended-description": "Kod (teknik olarak dbname/wikiid) içerik projeleri için dil kodu + proje kodu veya diğerleri için alt etki alanı + ana etki alanıdır.",
-	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtrele:\n;special:Bir kapalı ve çokdilli Wikimedia projeleri.\n;language:Bu dil kodu altındaki Wikimedia projeleri.",
-	"apihelp-sitematrix-param-state": "Site Matrisini viki durumuna göre filtreleyin:",
+	"apihelp-sitematrix-param-type": "Site Matrisini türe göre filtreleyin:",
+	"apihelp-sitematrix-param-state": "Site Matrisini viki durumuna göre filtreleyin.",
 	"apihelp-sitematrix-param-langprop": "Geri dönmek için bir dil hakkında bilgisi olan.",
 	"apihelp-sitematrix-param-siteprop": "Geri dönmek için bir site hakkında bilgi.",
 	"apihelp-sitematrix-param-limit": "Maksimum sonuç sayısı.",
