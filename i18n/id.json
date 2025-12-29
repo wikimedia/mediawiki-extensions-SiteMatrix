@@ -5,14 +5,15 @@
 			"Daud I.F. Argana",
 			"IvanLanin",
 			"Rex",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Penyuwangi"
 		]
 	},
 	"sitematrix": "Daftar wiki",
 	"sitematrix-summary": "Halaman istimewa ini mencantumkan semua wiki di dalam keluarga wiki ini.",
 	"sitematrix-desc": "Menampilkan [[Special:SiteMatrix|daftar wiki]]",
 	"sitematrix-language": "Bahasa",
-	"sitematrix-project": "Nama proyek, pranala interproyek dan pranala interwiki",
+	"sitematrix-project": "Nama proyek, pranala antarproyek dan pranala antarwiki",
 	"sitematrix-others": "Proyek lain",
 	"sitematrix-other-projects": "Proyek",
 	"sitematrix-other-projects-language": "Bahasa",
