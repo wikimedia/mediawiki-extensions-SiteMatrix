@@ -3,13 +3,14 @@
 		"authors": [
 			"Ayaibrahim",
 			"Lokal Profil",
-			"Skalman"
+			"Skalman",
+			"Stefan2255"
 		]
 	},
 	"apihelp-sitematrix-summary": "Hämta Wikimedia sidlistor.",
 	"apihelp-sitematrix-extended-description": "Koden (tekniskt dbnamn/wikiid) är antingen språkkoden + projektkoden för innehållsprojekt eller underdomänen + huvuddomänen för alla andra.",
-	"apihelp-sitematrix-param-type": "Filtrera sidmatrisen efter typ:\n;special:Engångs- och flerspråkliga Wikimedia-projekt.\n;language:Wikimedia-projekt under denna språkkod.",
-	"apihelp-sitematrix-param-state": "Filtrera sidematrisen efter wikiens tillstånd:",
+	"apihelp-sitematrix-param-type": "Filtrera webbplatsmatrisen efter typ:",
+	"apihelp-sitematrix-param-state": "Filtrera webbplatsmatrisen efter wikistatus.",
 	"apihelp-sitematrix-param-langprop": "Vilken information om ett språk aom ska returneras.",
 	"apihelp-sitematrix-param-siteprop": "Vilken information om en sida som ska återkommas.",
 	"apihelp-sitematrix-param-limit": "Maximalt antal resultat.",
