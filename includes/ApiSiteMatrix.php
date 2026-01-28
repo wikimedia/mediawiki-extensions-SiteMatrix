@@ -79,10 +79,6 @@ class ApiSiteMatrix extends ApiBase {
 						if ( $matrix->exist( $lang, $site ) ) {
 							$skip = true;
 
-							if ( $all ) {
-								$skip = false;
-							}
-
 							$url = $matrix->getCanonicalUrl( $lang, $site );
 							$site_out = [
 								'url' => $url,
@@ -92,6 +88,7 @@ class ApiSiteMatrix extends ApiBase {
 								'sitename' => $matrix->getSitename( $lang, $site ),
 							];
 							$site_out = array_intersect_key( $site_out, $siteProp );
+
 							if ( $matrix->isClosed( $lang, $site ) ) {
 								$site_out['closed'] = true;
 								if ( $closed ) {
@@ -99,10 +96,9 @@ class ApiSiteMatrix extends ApiBase {
 								}
 							}
 
-							if ( $skip ) {
-								continue;
+							if ( !$skip || $all ) {
+								$language['site'][] = $site_out;
 							}
-							$language['site'][] = $site_out;
 						}
 					}
 					$result->setIndexedTagName( $language['site'], 'site' );
@@ -118,8 +114,7 @@ class ApiSiteMatrix extends ApiBase {
 
 		if ( isset( $type['special'] ) && $count < $limit ) {
 			$specials = [];
-			foreach ( $matrix->getSpecials() as $special ) {
-				[ $lang, $site ] = $special;
+			foreach ( $matrix->getSpecials() as [ $lang, $site ] ) {
 				$dbName = $matrix->getDBName( $lang, $site );
 				if ( $continue[0] == 'special' && $dbName < $continue[1] ) {
 					continue;
@@ -130,52 +125,44 @@ class ApiSiteMatrix extends ApiBase {
 				}
 				$url = $matrix->getCanonicalUrl( $lang, $site );
 
-				$wiki = [];
-				$wiki['url'] = $url;
-				$wiki['dbname'] = $dbName;
-				$wiki['code'] = str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' );
-				$wiki['lang'] = $matrix->getLanguageCode( $lang, $site );
-				$wiki['sitename'] = $matrix->getSitename( $lang, $site );
+				$wiki = [
+					'url' => $url,
+					'dbname' => $dbName,
+					'code' => str_replace( '_', '-', $lang ) . ( $site != 'wiki' ? $site : '' ),
+					'lang' => $matrix->getLanguageCode( $lang, $site ),
+					'sitename' => $matrix->getSitename( $lang, $site ),
+				];
 
 				$skip = true;
 
-				if ( $all ) {
-					$skip = false;
-				}
 				if ( $matrix->isPrivate( $lang . $site ) ) {
 					$wiki['private'] = true;
-
 					if ( $private ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isFishbowl( $lang . $site ) ) {
 					$wiki['fishbowl'] = true;
-
 					if ( $fishbowl ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isNonGlobal( $lang . $site ) ) {
 					$wiki['nonglobal'] = true;
-
 					if ( $nonglobal ) {
 						$skip = false;
 					}
 				}
 				if ( $matrix->isClosed( $lang, $site ) ) {
 					$wiki['closed'] = true;
-
 					if ( $closed ) {
 						$skip = false;
 					}
 				}
 
-				if ( $skip ) {
-					continue;
+				if ( !$skip || $all ) {
+					$specials[] = $wiki;
 				}
-
-				$specials[] = $wiki;
 			}
 
 			$result->setIndexedTagName( $specials, 'special' );

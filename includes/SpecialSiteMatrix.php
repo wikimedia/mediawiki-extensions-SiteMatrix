@@ -15,9 +15,7 @@ class SpecialSiteMatrix extends SpecialPage {
 		parent::__construct( 'SiteMatrix' );
 	}
 
-	/**
-	 * @param mixed $par
-	 */
+	/** @inheritDoc */
 	public function execute( $par ) {
 		$langNames = $this->languageNameUtils->getLanguageNames();
 
@@ -122,9 +120,7 @@ class SpecialSiteMatrix extends SpecialPage {
 			Html::element( 'th', [], $this->msg( 'sitematrix-other-projects-language' )->text() ) .
 			"</tr>";
 
-		foreach ( $matrix->getSpecials() as $special ) {
-			[ $lang, $site ] = $special;
-
+		foreach ( $matrix->getSpecials() as [ $lang, $site ] ) {
 			// sanity check
 			if ( !$lang && !$site ) {
 				continue;
