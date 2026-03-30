@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
-	"apihelp-sitematrix-summary": "Daje spisak Wikimedijinih wikija.",
+	"apihelp-sitematrix-summary": "Daje listu Wikimedijinih wikija.",
 	"apihelp-sitematrix-param-state": "Filtriraj matricu wikija po njegovom stanju:"
 }
