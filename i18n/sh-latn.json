@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
-	"sitematrix": "Spisak wikija",
-	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|spisak wikija]]",
+	"sitematrix": "Lista wikija",
+	"sitematrix-desc": "Prikazuje [[Special:SiteMatrix|listu wikija]]",
 	"sitematrix-language": "Jezik",
 	"sitematrix-project": "Naziv projekta, međuprojektna veza i interwiki veza",
 	"sitematrix-others": "Ostali projekti",
