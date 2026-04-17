@@ -4,8 +4,8 @@ namespace MediaWiki\Extension\SiteMatrix;
 
 use MediaWiki\Api\ApiQuerySiteinfo;
 use MediaWiki\Api\Hook\APIQuerySiteInfoGeneralInfoHook;
-use MediaWiki\Hook\GetMagicVariableIDsHook;
-use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
+use MediaWiki\Parser\Hook\GetMagicVariableIDsHook;
+use MediaWiki\Parser\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\PPFrame;
 

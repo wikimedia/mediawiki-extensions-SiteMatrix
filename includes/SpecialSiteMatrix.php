@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\SiteMatrix;
 
 use MediaWiki\Html\Html;
 use MediaWiki\Language\LanguageCode;
-use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Language\LanguageNameUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 
 class SpecialSiteMatrix extends SpecialPage {
