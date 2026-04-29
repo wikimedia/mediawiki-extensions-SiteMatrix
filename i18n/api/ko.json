@@ -1,12 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
 	"apihelp-sitematrix-summary": "위키미디어 사이트 목록을 가져옵니다.",
 	"apihelp-sitematrix-extended-description": "코드(기술적으로 dbname/wikiid)는 콘텐츠 프로젝트의 경우 언어 코드 + 프로젝트 코드이며 그 밖의 경우 서브도메인 + 주 도메인입니다.",
+	"apihelp-sitematrix-param-type": "사이트 매트릭스를 유형별로 필터링:",
+	"apihelp-sitematrix-paramvalue-type-special": "일회성 및 다국어 위키미디어 프로젝트입니다.",
+	"apihelp-sitematrix-paramvalue-type-language": "이 언어 코드의 위키미디어 프로젝트입니다.",
+	"apihelp-sitematrix-param-state": "사이트 매트릭스를 위키 상태별로 필터링합니다.",
 	"apihelp-sitematrix-param-langprop": "반환할 언어에 관한 정보입니다.",
 	"apihelp-sitematrix-param-siteprop": "반환할 사이트에 관한 정보입니다.",
-	"apihelp-sitematrix-param-limit": "최대 결과 수입니다."
+	"apihelp-sitematrix-param-limit": "최대 결과 수입니다.",
+	"apihelp-sitematrix-example-1": "사이트 매트릭스를 표시"
 }
