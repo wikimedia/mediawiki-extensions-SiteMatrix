@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"sitematrix": "Liiska wiki-yada",
+	"sitematrix-summary": "Boggan gaarka ah wuxuu taxayaa dhammaan wiki-yada ku jira farm-kan wiki.",
+	"sitematrix-desc": "Waxay muujisaa [[Special:SiteMatrix|liiska wiki-yada]]",
+	"sitematrix-language": "Luqada",
+	"sitematrix-project": "Magaca mashruuca, xiriir interproject iyo xiriir interwiki",
+	"sitematrix-others": "Mashruucyo kale",
+	"sitematrix-other-projects": "Mashruuc",
+	"sitematrix-other-projects-language": "Luqad",
+	"sitematrix-total": "'''Wadarta tirada: $1 '''",
+	"sitematrix-sitetotal": "Wadarta",
+	"sitematrix-closed": "Ma jiro oggolaansho wax-qoris, laakiin waxaa jira oggolaansho buuxa oo wax akhris",
+	"sitematrix-private": "Oggolaanshaha wax akhris iyo wax qoris waa xaddidan yihiin",
+	"sitematrix-fishbowl": "Oggolaansho xaddidan oo wax qoris ah, oggolaansho buuxa oo wax akhris ah",
+	"sitematrix-nonglobal": "Dadweynaha ayaa heli kara, laakiin diiwaangelin ayaa loo baahan yahay"
+}
