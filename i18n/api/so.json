@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-sitematrix-summary": "Hel liiska bogagga Wikimedia",
+	"apihelp-sitematrix-extended-description": "Koodhka (si farsamo ahaan dbname/wikiid) waa mid ka kooban koodhka luqadda + koodhka mashruuca ee mashaariicda nuxurka ah ama subdomain + domain-ka ugu weyn ee kuwa kale oo dhan.",
+	"apihelp-sitematrix-param-type": "Kala shaandhee Goobta Matrix-ka nooc ahaan:",
+	"apihelp-sitematrix-paramvalue-type-special": "Mashaariicda Wikimedia ee hal mar ah iyo kuwa luqado badan leh",
+	"apihelp-sitematrix-paramvalue-type-language": "Mashaariicda Wikimedia ee hoos yimaada koodhkan luqadda.",
+	"apihelp-sitematrix-param-state": "Kala shaandhee Goobta Matrix-ka xaaladda wiki-ga.",
+	"apihelp-sitematrix-param-langprop": "Macluumaadka ku saabsan luqadkee la soo celinayo.",
+	"apihelp-sitematrix-param-siteprop": "Macluumaadka ku saabsan goobtee la soo celinayo.",
+	"apihelp-sitematrix-param-limit": "Tirada ugu badan ee natiijooyinka.",
+	"apihelp-sitematrix-example-1": "Muuji Site Matrix-ka"
+}
