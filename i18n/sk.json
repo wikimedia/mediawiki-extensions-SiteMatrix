@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Luky001"
+			"Luky001",
+			"Wizzard"
 		]
 	},
-	"sitematrix-desc": "Zobrazenie [[Special:SiteMatrix|zoznamu wiki projektov Wikimedia]]",
+	"sitematrix-desc": "Zobrazuje [[Special:SiteMatrix|zoznam wiki]]",
 	"sitematrix-language": "Jazyk",
 	"sitematrix-project": "Názov projektu, medziprojektový odkaz a interwiki odkaz",
-	"sitematrix-other-projects": "Ďalšie projekty",
+	"sitematrix-other-projects": "Projekt",
 	"sitematrix-total": "'''Celkový počet: $1'''",
 	"sitematrix-sitetotal": "Celkom",
 	"sitematrix-private": "čítanie a upravovanie obmedzené",
