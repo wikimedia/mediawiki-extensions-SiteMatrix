@@ -12,15 +12,21 @@
 			"Otokoume",
 			"RYOUMA1117",
 			"Shirayuki",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Kokage si"
 		]
 	},
+	"sitematrix": "ウィキの一覧",
+	"sitematrix-summary": "この特別ページはこのウィキファーム内のすべてのウィキを一覧にします。",
 	"sitematrix-desc": "[[Special:SiteMatrix|ウィキ一覧]]を表示する",
 	"sitematrix-language": "言語",
 	"sitematrix-project": "プロジェクト名、プロジェクト間リンク、ウィキ間リンク",
+	"sitematrix-others": "その他のプロジェクト",
 	"sitematrix-other-projects": "プロジェクト",
+	"sitematrix-other-projects-language": "言語",
 	"sitematrix-total": "'''総計: $1'''",
 	"sitematrix-sitetotal": "合計",
+	"sitematrix-closed": "書き込み権限なし、閲覧は全員に許可",
 	"sitematrix-private": "閲覧、書き込みとも制限",
 	"sitematrix-fishbowl": "編集は制限、閲覧は全員に許可",
 	"sitematrix-nonglobal": "公開されているが利用者登録に制限あり"
