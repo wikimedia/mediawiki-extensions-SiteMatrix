@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"sitematrix": "Spisok vikiprojektov",
+	"sitematrix-summary": "Tuta specialna stranica pokazyvaje spisok vsih viki v tutoj viki-farmě.",
+	"sitematrix-desc": "Pokazyvaje [[Special:SiteMatrix|spisok viki]]",
+	"sitematrix-language": "Jezyk",
+	"sitematrix-project": "Nazva projekta, medžuprojektny link i medžujezyčny link",
+	"sitematrix-others": "Druge projekty",
+	"sitematrix-other-projects": "Projekt",
+	"sitematrix-other-projects-language": "Jezyk",
+	"sitematrix-total": "'''Vkupno čislo: $1'''",
+	"sitematrix-sitetotal": "Vsego",
+	"sitematrix-closed": "bez dostupa za pisanje, polny dostup za čitanje",
+	"sitematrix-private": "ograničeny dostup za čitanje i pisanje",
+	"sitematrix-fishbowl": "ograničeny dostup za pisanje, polny dostup za čitanje",
+	"sitematrix-nonglobal": "publična, ale potrěbna jest registracija"
+}

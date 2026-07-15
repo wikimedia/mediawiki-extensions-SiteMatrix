@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"apihelp-sitematrix-summary": "Dobyti spisok Wikimedia-sajtov",
+	"apihelp-sitematrix-extended-description": "Kod (tehnično: dbname/wikiid) jest ili jezyčny kod + projektny kod za projekty s kontentom, ili poddomen + glavny domen za vse ostale projekty.",
+	"apihelp-sitematrix-param-type": "Filtrovati matricu sajtov po tipu:",
+	"apihelp-sitematrix-paramvalue-type-special": "Specializovane/kratkotrvale i mnogojezyčne Wikimedia-projekty.",
+	"apihelp-sitematrix-paramvalue-type-language": "Wikimedia-projekty pod tutym jezyčnym kodom.",
+	"apihelp-sitematrix-param-state": "Filtrovati matricu sajtov po stanju viki:",
+	"apihelp-sitematrix-param-langprop": "Kake informacije povratiti o jezyku.",
+	"apihelp-sitematrix-param-siteprop": "Kake informacije povratiti o sajtu.",
+	"apihelp-sitematrix-param-limit": "Maksimalna kolikost rezultatov.",
+	"apihelp-sitematrix-example-1": "Pokazati matricu sajtov"
+}
