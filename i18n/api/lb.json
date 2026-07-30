@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
+	"apihelp-sitematrix-paramvalue-type-language": "Wikimedia-Projeten ënner dësem Sproochcode.",
 	"apihelp-sitematrix-param-limit": "Maximal Zuel vu Resultater."
 }
