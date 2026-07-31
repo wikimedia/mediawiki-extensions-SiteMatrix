@@ -2,18 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"sitematrix-desc": "Weis eng [[Special:SiteMatrix|Lëscht vun de Wikien]]",
+	"sitematrix": "Lëscht vun de Wikien",
+	"sitematrix-summary": "Dës Spezialsäit lëscht all d'Wikien an dëser Wiki-Farm op.",
+	"sitematrix-desc": "Weist eng [[Special:SiteMatrix|Lëscht vun de Wikien]]",
 	"sitematrix-language": "Sprooch",
 	"sitematrix-project": "Numm vum Projet, Interprojet-Link an Interwiki-Link",
 	"sitematrix-others": "Aner Projeten",
 	"sitematrix-other-projects": "Projet",
 	"sitematrix-other-projects-language": "Sprooch",
-	"sitematrix-total": "'''Total vum Kont: $1'''",
+	"sitematrix-total": "'''Gesamtzuel: $1'''",
 	"sitematrix-sitetotal": "Total",
-	"sitematrix-closed": "keng Schreiwrechter, komplett Liesrechter",
-	"sitematrix-private": "limitéiert Lies- a Schreiwrechter",
-	"sitematrix-fishbowl": "limitéiert Schreifrechter, komplett Liesrechter"
+	"sitematrix-closed": "kee Schreifzougrëff, vollstännege Lieszougrëff",
+	"sitematrix-private": "limitéierte Lies- a Schreifzougrëff",
+	"sitematrix-fishbowl": "limitéierte Schreifzougrëff, vollstännege Lieszougrëff",
+	"sitematrix-nonglobal": "ëffentlech, mee Registréierung néideg"
 }
