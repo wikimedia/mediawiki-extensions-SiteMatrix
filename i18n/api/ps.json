@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-sitematrix-summary": "د ويکي‌رسنۍ د وېبپاڼو لړليک ترلاسه کړئ.",
+	"apihelp-sitematrix-paramvalue-type-special": "د ويکي‌رسنۍ يوازېنۍ او څوژبيزه پروژې.",
+	"apihelp-sitematrix-paramvalue-type-language": "د دې ژبکوډ لاندې د ويکي‌رسنۍ پروژې.",
+	"apihelp-sitematrix-param-langprop": "د ژبې په اړه کوم مالومات بېرته راگرځول کېږي.",
+	"apihelp-sitematrix-param-siteprop": "د وېبپاڼې په اړه بايد کوم مالومات بېرته راوگرځول شي.",
+	"apihelp-sitematrix-param-limit": "د پايلو ډېر شمېر."
+}
