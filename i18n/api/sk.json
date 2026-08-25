@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-sitematrix-summary": "Získať zoznam stránok Wikimedia.",
+	"apihelp-sitematrix-extended-description": "Kód (technicky dbname/wikiid) je pri obsahových projektoch kód jazyka + kód projektu, pri ostatných subdoména + hlavná doména.",
+	"apihelp-sitematrix-param-type": "Filtrovať maticu stránok podľa typu:",
+	"apihelp-sitematrix-paramvalue-type-special": "Jednorazové a viacjazyčné projekty Wikimedia.",
+	"apihelp-sitematrix-paramvalue-type-language": "Projekty Wikimedia pod týmto kódom jazyka.",
+	"apihelp-sitematrix-param-state": "Filtrovať maticu stránok podľa stavu wiki.",
+	"apihelp-sitematrix-param-langprop": "Ktoré informácie o jazyku sa majú vrátiť.",
+	"apihelp-sitematrix-param-siteprop": "Ktoré informácie o stránke sa majú vrátiť.",
+	"apihelp-sitematrix-param-limit": "Maximálny počet výsledkov.",
+	"apihelp-sitematrix-example-1": "Zobraziť maticu stránok"
+}
