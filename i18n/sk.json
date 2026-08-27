@@ -6,12 +6,18 @@
 			"Wizzard"
 		]
 	},
+	"sitematrix": "Zoznam wiki",
+	"sitematrix-summary": "Táto špeciálna stránka vypisuje všetky wiki v tejto wiki farme.",
 	"sitematrix-desc": "Zobrazuje [[Special:SiteMatrix|zoznam wiki]]",
 	"sitematrix-language": "Jazyk",
 	"sitematrix-project": "Názov projektu, medziprojektový odkaz a interwiki odkaz",
+	"sitematrix-others": "Ostatné projekty",
 	"sitematrix-other-projects": "Projekt",
+	"sitematrix-other-projects-language": "Jazyk",
 	"sitematrix-total": "'''Celkový počet: $1'''",
 	"sitematrix-sitetotal": "Celkom",
+	"sitematrix-closed": "bez práva zápisu, plný prístup na čítanie",
 	"sitematrix-private": "čítanie a upravovanie obmedzené",
-	"sitematrix-fishbowl": "upravovanie obmedzené, plný prístup k čítaniu"
+	"sitematrix-fishbowl": "upravovanie obmedzené, plný prístup k čítaniu",
+	"sitematrix-nonglobal": "verejná, ale vyžaduje sa registrácia"
 }
