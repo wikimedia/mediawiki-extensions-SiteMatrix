@@ -32,6 +32,9 @@
 			]
 		}
 	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
 	"MessagesDirs": {
 		"SiteMatrix": [
 			"i18n",
