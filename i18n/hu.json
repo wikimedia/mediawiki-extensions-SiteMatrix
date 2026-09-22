@@ -7,7 +7,7 @@
 	},
 	"sitematrix": "Az összes wiki listája",
 	"sitematrix-summary": "Ez a speciális lap listázza ezen wikifarm összes wikijét.",
-	"sitematrix-desc": "A [[Special:SiteMatrix|Wikimedia wikijeinek listája]]",
+	"sitematrix-desc": "Megjelenít egy [[Special:SiteMatrix|wikilistát]]",
 	"sitematrix-language": "Nyelv",
 	"sitematrix-project": "A projekt neve, projekt- és nyelvközi link",
 	"sitematrix-others": "További projektek",
