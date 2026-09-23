@@ -71,7 +71,10 @@ class SiteMatrixLookup implements SiteLookup {
 			$langHost = str_replace( '_', '-', $langCode );
 			$site->setLanguageCode( $langHost );
 
-			if ( $group === $this->localGroup ) {
+			// FIXME: would be nice to avoid this inconsistency
+			$dbSuffix = ( $this->localGroup === 'wikipedia' ? 'wiki' : $this->localGroup );
+
+			if ( $group === $dbSuffix ) {
 				$site->addNavigationId( $langHost );
 				$site->addInterwikiId( $langHost );
 			}
