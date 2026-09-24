@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\SiteMatrix;
 /**
  * @covers \MediaWiki\Extension\SiteMatrix\SiteMatrixLookup
  */
-class SiteMatrixLookupTest extends \MediaWikiIntegrationTestCase {
+class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 
 	public function testGetEmptySiteMatrix() {
 		$siteMatrix = $this->getMockBuilder( SiteMatrix::class )
