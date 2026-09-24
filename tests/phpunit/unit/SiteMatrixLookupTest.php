@@ -17,7 +17,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 
 		$lookup = new SiteMatrixLookup(
 			$siteMatrix,
-			'wiki'
+			'wikipedia'
 		);
 
 		$this->assertCount( 0, $lookup->getSites() );
@@ -52,7 +52,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 
 		$lookup = new SiteMatrixLookup(
 			$siteMatrix,
-			'wiki'
+			'wikipedia'
 		);
 
 		$sites = $lookup->getSites();
@@ -61,7 +61,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'enwiki',
 				'type' => 'mediawiki',
-				'group' => 'wiki',
+				'group' => 'wikipedia',
 				'source' => 'local',
 				'language' => 'en',
 				'localids' => [
@@ -84,7 +84,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'dewiki',
 				'type' => 'mediawiki',
-				'group' => 'wiki',
+				'group' => 'wikipedia',
 				'source' => 'local',
 				'language' => 'de',
 				'localids' => [
@@ -166,7 +166,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 
 		$lookup = new SiteMatrixLookup(
 			$siteMatrix,
-			'wiki'
+			'wikipedia'
 		);
 
 		$sites = $lookup->getSites();
@@ -174,7 +174,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'metawiki',
 				'type' => 'mediawiki',
-				'group' => 'wiki',
+				'group' => 'meta',
 				'source' => 'local',
 				'language' => 'meta',
 				'localids' => [
@@ -196,7 +196,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'arbcom_nlwiki',
 				'type' => 'mediawiki',
-				'group' => 'wiki',
+				'group' => 'arbcom-nl',
 				'source' => 'local',
 				'language' => 'nl',
 				'localids' => [
@@ -218,7 +218,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'aewikimedia',
 				'type' => 'mediawiki',
-				'group' => 'wikimedia',
+				'group' => 'aewikimedia',
 				'source' => 'local',
 				'language' => 'en',
 				'localids' => [
@@ -257,7 +257,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 
 		$lookup = new SiteMatrixLookup(
 			$siteMatrix,
-			'wiki'
+			'wikipedia'
 		);
 
 		$sites = $lookup->getSites();
@@ -266,7 +266,7 @@ class SiteMatrixLookupTest extends \MediaWikiUnitTestCase {
 			[
 				'globalid' => 'be_x_oldwiki',
 				'type' => 'mediawiki',
-				'group' => 'wiki',
+				'group' => 'wikipedia',
 				'source' => 'local',
 				'language' => 'be-tarask',
 				'localids' => [

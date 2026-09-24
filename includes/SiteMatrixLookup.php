@@ -58,23 +58,24 @@ class SiteMatrixLookup implements SiteLookup {
 	private function buildSite( string $lang, string $group, bool $isSpecial = false ): MediaWikiSite {
 		$site = new MediaWikiSite();
 		$site->setGlobalId( $this->siteMatrix->getDBName( $lang, $group ) );
-		$site->setGroup( $group );
+
 		$url = $this->siteMatrix->getCanonicalUrl( $lang, $group );
 		$site->setFilePath( $url . self::SCRIPT_PATH );
 		$site->setPagePath( $url . self::ARTICLE_PATH );
 		$langCode = $this->siteMatrix->getLanguageCode( $lang, $group );
 
 		if ( $isSpecial ) {
+			$dashMinor = str_replace( '_', '-', $lang );
+			$site->setGroup( $dashMinor . ( $group != 'wiki' ? $group : '' ) );
 			$site->setLanguageCode( $langCode );
-			$site->addInterwikiId( str_replace( '_', '-', $lang ) . ( $group != 'wiki' ? $group : '' ) );
+			$site->addInterwikiId( $dashMinor . ( $group != 'wiki' ? $group : '' ) );
 		} else {
 			$langHost = str_replace( '_', '-', $langCode );
+			$longGroup = ( $group === 'wiki' ? 'wikipedia' : $group );
+			$site->setGroup( $longGroup );
 			$site->setLanguageCode( $langHost );
 
-			// FIXME: would be nice to avoid this inconsistency
-			$dbSuffix = ( $this->localGroup === 'wikipedia' ? 'wiki' : $this->localGroup );
-
-			if ( $group === $dbSuffix ) {
+			if ( $longGroup === $this->localGroup ) {
 				$site->addNavigationId( $langHost );
 				$site->addInterwikiId( $langHost );
 			}
