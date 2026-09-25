@@ -295,7 +295,12 @@ class SiteMatrix {
 	 * @return string
 	 */
 	public function getLanguageCode( $langCode, $major ) {
-		return LanguageCode::bcp47( $this->getSetting( 'wgLanguageCode', $langCode, $major ) );
+		$lang = $this->getSetting( 'wgLanguageCode', $langCode, $major );
+		if ( !array_key_exists( $lang, $this->langlist ) ) {
+			return 'en';
+		} else {
+			return LanguageCode::bcp47( $lang );
+		}
 	}
 
 	/**
