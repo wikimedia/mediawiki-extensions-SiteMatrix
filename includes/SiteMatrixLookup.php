@@ -37,6 +37,8 @@ class SiteMatrixLookup implements SiteLookup {
 
 	/**
 	 * Build all sites available in SiteMatrix
+	 *
+	 * @return Generator<MediaWikiSite>
 	 */
 	private function enumerateSites(): Generator {
 		foreach ( $this->siteMatrix->getLangList() as $lang ) {
