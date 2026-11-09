@@ -296,7 +296,7 @@ class SiteMatrix {
 	 */
 	public function getLanguageCode( $langCode, $major ) {
 		$lang = $this->getSetting( 'wgLanguageCode', $langCode, $major );
-		if ( !array_key_exists( $lang, $this->langlist ) ) {
+		if ( !in_array( $lang, $this->langlist ) ) {
 			return 'en';
 		} else {
 			return LanguageCode::bcp47( $lang );
