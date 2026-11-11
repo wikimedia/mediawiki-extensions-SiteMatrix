@@ -51,11 +51,20 @@
 	"Hooks": {
 		"APIQuerySiteInfoGeneralInfo": "main",
 		"ParserGetVariableValueSwitch": "main",
-		"GetMagicVariableIDs": "main"
+		"GetMagicVariableIDs": "main",
+		"BeforePageDisplay": "specialPageLanguageLinks"
 	},
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\SiteMatrix\\Hooks"
+		},
+		"specialPageLanguageLinks": {
+			"class": "MediaWiki\\Extension\\SiteMatrix\\SpecialPageLanguageLinksHookHandler",
+			"services": [
+				"MainConfig",
+				"SpecialPageFactory",
+				"InterwikiLookup"
+			]
 		}
 	},
 	"config": {
@@ -79,6 +88,10 @@
 		"SiteMatrixClosedSites": {
 			"description": "dbname list of closed wikis.",
 			"value": null
+		},
+		"SiteMatrixSpecialPageLanguageLinks": {
+			"description": "Whether special pages show language links to the same special page on the other open wikis of the same project family.",
+			"value": false
 		}
 	},
 	"manifest_version": 2
