@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\SiteMatrix;
 
 use MediaWiki\Config\Config;
 use MediaWiki\Interwiki\InterwikiLookup;
+use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
@@ -18,6 +19,7 @@ class SpecialPageLanguageLinksHookHandler implements BeforePageDisplayHook {
 		private readonly Config $config,
 		private readonly SpecialPageFactory $specialPageFactory,
 		private readonly InterwikiLookup $interwikiLookup,
+		private readonly LanguageFactory $languageFactory,
 	) {
 	}
 
@@ -37,6 +39,10 @@ class SpecialPageLanguageLinksHookHandler implements BeforePageDisplayHook {
 			return;
 		}
 
+		// Use the preferred English name, as the canonical name can differ in case and cause a redirect
+		$aliases = $this->languageFactory->getLanguage( 'en' )->getSpecialPageAliases();
+		$name = $aliases[$canonicalName][0] ?? $canonicalName;
+
 		$existingTargets = [];
 		foreach ( $out->getLanguageLinks() as $link ) {
 			$existingTargets[] = $this->getLinkTarget( $link );
@@ -49,7 +55,7 @@ class SpecialPageLanguageLinksHookHandler implements BeforePageDisplayHook {
 			$this->config->get( MainConfigNames::DBname )
 		);
 
-		$newLinks = $languageLinks->getLinks( $canonicalName );
+		$newLinks = $languageLinks->getLinks( $name );
 		if ( $existingTargets ) {
 			$newLinks = array_filter(
 				$newLinks,

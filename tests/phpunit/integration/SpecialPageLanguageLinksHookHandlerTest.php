@@ -52,7 +52,8 @@ class SpecialPageLanguageLinksHookHandlerTest extends MediaWikiIntegrationTestCa
 		$handler = new SpecialPageLanguageLinksHookHandler(
 			$this->getServiceContainer()->getMainConfig(),
 			$this->getServiceContainer()->getSpecialPageFactory(),
-			$interwikiLookup
+			$interwikiLookup,
+			$this->getServiceContainer()->getLanguageFactory()
 		);
 		$handler->onBeforePageDisplay( $out, $context->getSkin() );
 
@@ -100,6 +101,13 @@ class SpecialPageLanguageLinksHookHandlerTest extends MediaWikiIntegrationTestCa
 		$this->overrideConfigValue( 'SiteMatrixSpecialPageLanguageLinks', false );
 
 		$this->assertSame( [], $this->runHook( 'Special:Watchlist' ) );
+	}
+
+	public function testUsesPreferredEnglishName() {
+		$this->assertSame(
+			[ 'de:Special:RecentChanges', 'fi:Special:RecentChanges' ],
+			$this->runHook( 'Special:RecentChanges' )
+		);
 	}
 
 	public function testNoLinksOnOtherPages() {

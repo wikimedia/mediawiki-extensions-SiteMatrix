@@ -63,7 +63,8 @@
 			"services": [
 				"MainConfig",
 				"SpecialPageFactory",
-				"InterwikiLookup"
+				"InterwikiLookup",
+				"LanguageFactory"
 			]
 		}
 	},
